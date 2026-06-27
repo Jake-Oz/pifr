@@ -4,7 +4,7 @@ import re
 import sys
 from pathlib import Path
 
-from generate_pifr_phase1 import CROSS_REFERENCE_FIELDS, ROOT, iter_objectives
+from generate_pifr_phase1 import CROSS_REFERENCE_FIELDS, ROOT, iter_objectives, module_payload, load_reference_map
 
 
 def fail(message):
@@ -29,6 +29,10 @@ def roadmap_ids(path):
     return re.findall(r"\b(PIFR-\d{3})\b", read(path))
 
 
+def objective_ids(path):
+    return re.findall(r"\b(PIFR-\d{3})\b", read(path))
+
+
 def main():
     objs = list(iter_objectives())
     ids = [obj["id"] for obj in objs]
@@ -48,8 +52,7 @@ def main():
     if cross_ref_ids != ids:
         return fail("cross-reference objective IDs do not match generator order")
 
-    reference_map_path = ROOT / "data/pifr-reference-map.json"
-    reference_map = json.loads(read(reference_map_path))
+    reference_map = load_reference_map()
     if not isinstance(reference_map, dict):
         return fail("reference map must be a JSON object")
     allowed_fields = set(CROSS_REFERENCE_FIELDS)
@@ -67,6 +70,30 @@ def main():
     roadmap = roadmap_ids(ROOT / "docs/09-study-guide/learning-roadmap.md")
     if sorted(roadmap) != sorted(ids) or len(roadmap) != len(ids):
         return fail("learning roadmap does not reference every objective exactly once")
+
+    expected_modules = module_payload(objs, reference_map)
+    modules_payload = json.loads(read(ROOT / "data/pifr-modules.json"))
+    if modules_payload != expected_modules:
+        return fail("module JSON does not match generator")
+
+    modules_overview = ROOT / "docs/09-study-guide/modules.md"
+    if not modules_overview.exists():
+        return fail("missing study modules overview")
+    for module in expected_modules["modules"]:
+        module_path = ROOT / "docs/09-study-guide/modules" / f"{module['slug']}.md"
+        if not module_path.exists():
+            return fail(f"missing study module {module_path.relative_to(ROOT)}")
+        module_ids = set(objective_ids(module_path))
+        expected_module_ids = {obj["id"] for obj in module["objectives"]}
+        if module_ids != expected_module_ids:
+            return fail(f"study module objective mismatch for {module['title']}")
+
+    exam_index_path = ROOT / "docs/14-exam-index/exam-index.md"
+    if not exam_index_path.exists():
+        return fail("missing exam index")
+    exam_index_ids = ids_from_markdown_table(exam_index_path)
+    if exam_index_ids != ids:
+        return fail("exam index objective IDs do not match generator order")
 
     for obj in objs:
         path = ROOT / "docs/09-study-guide" / f"{obj['id']}.md"
