@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.4: State conditions and causes under 
 
 ## Why it matters
 
-TODO
+Visual illusions are explicitly listed in the MOS, but the current verified sources only support visual-function medical relevance.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR Part 67 medical standard 2 criteria, including visual-function table items, provide the mapped medical relevance hooks.
+- CASR 91.520 provides the crew fitness for duty reference.
+- False horizons, visual-cue illusions, relative motion, flicker effect, black-hole illusion and autokinesis remain a source gap for verified public official theory material.
 
 ## Common CASA traps
 
-TODO
+- Do not fill visual-illusion causes from unsupported memory.
+- Do not treat visual acuity/colour/field requirements as a theory explanation of visual illusions.
+- Do not merge visual illusions with vestibular illusions.
 
 ## Worked examples
 
-TODO
+TODO: Add visual-illusion examples only after verifying a public official source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR Part 67 and CASR 91.520 for legal/medical hooks.
+- Treat detailed visual-illusion theory as unresolved until sourced.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.5: Be aware of the human factors limi
 
 ## Why it matters
 
-TODO
+GNSS human factors link approved navigation equipment with practical error management and situational awareness, but the current verified sources cover operational GNSS checks more strongly than human-factors theory.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07, 14.02 and 14.05 to 14.07 provide verified references for approved GNSS, navigation databases, data checking, procedure loading and GNSS operational constraints.
+- AIP GEN 1.5 section 2, AIP ENR 1.1 sections 4.4, 4.8 and 6.3 and AIP ENR 4.3 provide mapped AIP GNSS operational locators.
+- Mode errors, data-entry errors, automation complacency, receiver non-standardisation, human information processing and situational awareness remain a source gap for verified public official human-factors theory.
 
 ## Common CASA traps
 
-TODO
+- Do not treat a valid database as proof that the pilot selected the correct procedure or waypoint.
+- Do not skip independent cross-checking where the MOS/AIP requires data checking.
+- Do not add automation-complacency theory without clearly separating it from verified operational references.
 
 ## Worked examples
 
-TODO
+TODO: Add GNSS human-factors examples only after verifying public official theory material or clearly labelling operational GNSS check scenarios.
 
 ## Cross references
 
@@ -61,4 +65,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 14.05 to 14.07 for operational GNSS data-checking and use constraints.
+- Use AIP ENR 1.1 section 4.8 for operational GNSS procedure.
+- Use the source-gap register before adding broader GNSS human-factors theory.

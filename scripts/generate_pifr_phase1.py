@@ -225,6 +225,44 @@ ROADMAP = [
 ]
 
 STUDY_CONTENT = {
+    "PIFR-001": {
+        "why": "IFR fitness is a legal go/no-go item: the pilot must meet medical and crew-fitness requirements before acting as pilot in command.",
+        "notes": [
+            "CASR 61.410 and 61.420 provide the Part 61 licence/medical certificate hooks.",
+            "CASR Part 67 Subparts 67.C and 67.E, including 67.145, 67.155, 67.265 and 67.270, provide the mapped medical standard and reporting context.",
+            "CASR 91.520 is the Part 91 crew fitness for duty reference.",
+            "The verified source status also includes carriage of licence/medical documents, medically significant condition disclosure and impairment offences.",
+        ],
+        "traps": [
+            "Do not treat a valid licence as enough if the medical/fitness requirement is not met.",
+            "Do not ignore changes in medical condition after the certificate was issued.",
+            "Fitness for duty is broader than holding a medical certificate; check fatigue, impairment and substance issues where relevant.",
+        ],
+        "examples": "TODO: Add pilot-fitness scenarios after selecting exact medical/fitness fact patterns.",
+        "exam_use": [
+            "Use CASR 91.520 for crew fitness for duty.",
+            "Use CASR Part 67 for medical standard and reporting obligations.",
+            "Use CASR 61.410/61.420 for licence and medical-certificate hooks.",
+        ],
+    },
+    "PIFR-002": {
+        "why": "This objective turns the legal fitness rules into a self-assessment chain before IFR flight.",
+        "notes": [
+            "CASR 67.015, 67.145, 67.155, 67.265 and 67.270 are the mapped Part 67 locators for medical standards, safety-relevant medical conditions and reporting.",
+            "CASR 91.520 is the mapped crew fitness for duty reference.",
+            "The verified source status supports checking safety-relevant medical condition, Class 2 standard, change in medical condition, impaired efficiency, fatigue, alcohol and psychoactive substance limits.",
+        ],
+        "traps": [
+            "Do not reduce fitness assessment to a single IMSAFE-style memory aid unless the legal conditions are still checked.",
+            "Do not ignore medication or a changed condition just because the underlying illness seems minor.",
+            "Do not treat fatigue, alcohol and psychoactive substance rules as separate from IFR fitness for duty.",
+        ],
+        "examples": "TODO: Add self-assessment examples after selecting source-backed medical/fatigue/substance fact patterns.",
+        "exam_use": [
+            "Start with CASR 91.520 for the operational fitness rule.",
+            "Use CASR Part 67 sections in the reference table when the question turns on medical certificate status or medical condition reporting.",
+        ],
+    },
     "PIFR-003": {
         "why": "This is the legal starting point for PIFR privileges: the exam can test whether a pilot is authorised for the specific IFR operation, endorsement and recency context.",
         "notes": [
@@ -1411,6 +1449,64 @@ STUDY_CONTENT = {
             "Use Part 91 MOS Table 26.69(7A) for transponder emergency codes.",
         ],
     },
+    "PIFR-067": {
+        "why": "The MOS requires weather-phenomenon knowledge for IFR decision-making, but the verified CASA/Airservices sources mainly identify products and services rather than the full BoM theory content.",
+        "notes": [
+            "CASR 91.230 is the regulation hook for weather assessment before flight.",
+            "Part 91 MOS 7.02 to 7.03 and 8.02 provide the mapped operational forecast, report and alternate-weather context.",
+            "AIP GEN 3.5 sections 1.3, 3, 4, 6 and 8 and AIP ENR 1.10 section 1.2.4 identify weather briefing, forecast/report, SIGWX, GAF, TAF, SIGMET, AIRMET, AIREP Special and hazardous-weather services.",
+            "The MOS expressly requires Bureau of Meteorology Manual of Meteorology Part 2 theory; that source remains a current source dependency under the project rules.",
+        ],
+        "traps": [
+            "Do not treat AIP product descriptions as complete meteorological theory.",
+            "Do not fill phenomenon-specific flying conditions from memory or commercial notes.",
+            "Keep BoM Manual of Meteorology content as a source-gap item until the official source strategy is verified.",
+        ],
+        "examples": "TODO: Add weather-phenomenon examples only after verifying the allowed BoM Manual of Meteorology source material.",
+        "exam_use": [
+            "Use Part 91 MOS 7.02 and AIP GEN 3.5 for required weather products and services.",
+            "Use the source-gap register before adding Manual of Meteorology theory detail.",
+        ],
+    },
+    "PIFR-068": {
+        "why": "Australian climatology affects seasonal IFR hazards and avoidance decisions, but the MOS source requirement points beyond the currently verified CASA/Airservices cache.",
+        "notes": [
+            "CASR 91.230 and Part 91 MOS 7.02 to 7.03 and 8.02 provide the operational weather assessment and alternate planning context.",
+            "AIP GEN 3.5 sections 1.3, 4.7, 4.10 to 4.14 and 8 identify aviation weather services including tropical cyclone, wind shear, microburst, SIGMET and AIRMET context.",
+            "AIP ENR 1.10 section 1.2.4 supports the flight planning weather-information context.",
+            "The full Australian climatology theory from BoM Manual of Meteorology Parts 1 and 2 remains a source gap.",
+        ],
+        "traps": [
+            "Do not substitute broad seasonal general knowledge for the MOS-specified BoM Manual content.",
+            "Do not describe penetration or avoidance techniques unless the source is verified.",
+            "Do not merge this climatology objective with the separate hazardous-weather prediction objective.",
+        ],
+        "examples": "TODO: Add climatology and seasonal hazard examples only after verifying the allowed BoM source material.",
+        "exam_use": [
+            "Use AIP GEN 3.5 to locate weather services/products.",
+            "Treat Australian climatology theory as unresolved until the BoM Manual source is verified and indexed.",
+        ],
+    },
+    "PIFR-069": {
+        "why": "Icing, hail, microburst, wind shear and turbulence prediction is exam-critical, but the current verified sources support hazard products and reporting rather than full probability/duration/extent theory.",
+        "notes": [
+            "CASR 91.230 and Part 91 MOS 7.02 to 7.03 and 8.02 provide the operational weather assessment and alternate-weather context.",
+            "AIP GEN 3.5 sections 4.4, 4.7, 4.10 to 4.11, 6.2 to 6.3 and 8 identify hazardous-weather products and reporting services.",
+            "AIP ENR 1.10 section 1.2.4 supports pre-flight weather-information use.",
+            "Predicting probability, duration and extent from cloud type, precipitation, temperature and turbulence remains a source gap for verified official theory material.",
+        ],
+        "traps": [
+            "Do not invent icing or microburst prediction rules from memory.",
+            "Do not treat a SIGMET/AIRMET product description as complete hazard-prediction theory.",
+            "Do not omit alternate-weather effects when thunderstorms, severe turbulence or related triggers are part of the question.",
+        ],
+        "examples": "TODO: Add hazardous-weather prediction examples only after verifying official theory source material.",
+        "exam_use": [
+            "Use AIP GEN 3.5 for hazardous-weather products and reporting services.",
+            "Use Part 91 MOS 7.02/8.02 for weather assessment and alternate-trigger context.",
+            "Keep detailed prediction theory marked as a source gap until verified.",
+        ],
+    },
     "PIFR-070": {
         "why": "VOR indications are high-value exam material, but the current verified sources support only operational use and deviation reporting, not the detailed cockpit indication theory.",
         "notes": [
@@ -1756,6 +1852,97 @@ STUDY_CONTENT = {
         "exam_use": [
             "Use Part 91 MOS 26.08/26.12 for required instrument/equipment carriage only.",
             "Use the source-gap register before adding attitude-indicator theory content.",
+        ],
+    },
+    "PIFR-089": {
+        "why": "Vestibular orientation is central to IFR human factors, but the verified sources currently support medical relevance rather than the detailed physiology.",
+        "notes": [
+            "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31 to 2.34, provide the mapped medical relevance hooks.",
+            "CASR 91.520 provides the crew fitness for duty reference.",
+            "The current verified sources recognise nervous-system, vestibular-apparatus and visual-function relevance but do not explain semicircular canal or otolith function.",
+        ],
+        "traps": [
+            "Do not fill vestibular physiology from unsupported memory.",
+            "Do not treat medical fitness hooks as a full explanation of orientation mechanisms.",
+            "Do not merge this objective with the illusion/aggravating-circumstances objectives.",
+        ],
+        "examples": "TODO: Add vestibular-system explanations only after verifying a public official source for the physiology.",
+        "exam_use": [
+            "Use CASR 91.520 and CASR Part 67 for legal/medical hooks.",
+            "Use the source-gap register before adding semicircular canal or otolith theory.",
+        ],
+    },
+    "PIFR-090": {
+        "why": "Vestibular-disorientation aggravating factors and recovery technique are critical IFR knowledge, but the detailed theory is not in the current verified source cache.",
+        "notes": [
+            "CASR Part 67 medical standard 2 criteria provide verified hooks for functional incapacity, medication side effects, mental fitness, nervous-system issues, vestibular disturbance and visual function.",
+            "CASR 91.520 provides the crew fitness for duty reference.",
+            "Circumstances aggravating vestibular disorientation and recovery techniques remain a source gap until a public official source is verified.",
+        ],
+        "traps": [
+            "Do not invent recovery technique from memory or commercial training notes.",
+            "Do not treat medication/fatigue/medical fitness references as a complete vestibular-disorientation lesson.",
+            "Keep this objective separate from specific named illusion causes in PIFR-091.",
+        ],
+        "examples": "TODO: Add disorientation aggravation/recovery examples only after verifying a public official source.",
+        "exam_use": [
+            "Use CASR 91.520/Part 67 for fitness and medical relevance.",
+            "Treat detailed disorientation prevention/recovery theory as unresolved until sourced.",
+        ],
+    },
+    "PIFR-091": {
+        "why": "Named vestibular illusions are high-value IFR human-factors items, but the verified CASA/CASR references only establish safety relevance, not the detailed causes.",
+        "notes": [
+            "CASR Part 67 medical standard 2 criteria and CASR 91.520 provide the mapped medical and fitness hooks.",
+            "The current verified sources support relevance of nervous-system, vestibular and visual function.",
+            "Somatogravic illusions, somatogyral illusions, graveyard spiral, coriolis effect and leans remain a source gap for verified public official theory material.",
+        ],
+        "traps": [
+            "Do not define named illusions from unsupported memory.",
+            "Do not use broad vestibular medical criteria as if they explain each named illusion.",
+            "Do not merge visual illusions from PIFR-092 into this vestibular-illusion objective.",
+        ],
+        "examples": "TODO: Add named vestibular illusion examples only after verifying a public official source.",
+        "exam_use": [
+            "Use mapped CASR references for medical/fitness relevance only.",
+            "Use the source-gap register before adding named illusion theory.",
+        ],
+    },
+    "PIFR-092": {
+        "why": "Visual illusions are explicitly listed in the MOS, but the current verified sources only support visual-function medical relevance.",
+        "notes": [
+            "CASR Part 67 medical standard 2 criteria, including visual-function table items, provide the mapped medical relevance hooks.",
+            "CASR 91.520 provides the crew fitness for duty reference.",
+            "False horizons, visual-cue illusions, relative motion, flicker effect, black-hole illusion and autokinesis remain a source gap for verified public official theory material.",
+        ],
+        "traps": [
+            "Do not fill visual-illusion causes from unsupported memory.",
+            "Do not treat visual acuity/colour/field requirements as a theory explanation of visual illusions.",
+            "Do not merge visual illusions with vestibular illusions.",
+        ],
+        "examples": "TODO: Add visual-illusion examples only after verifying a public official source.",
+        "exam_use": [
+            "Use CASR Part 67 and CASR 91.520 for legal/medical hooks.",
+            "Treat detailed visual-illusion theory as unresolved until sourced.",
+        ],
+    },
+    "PIFR-093": {
+        "why": "GNSS human factors link approved navigation equipment with practical error management and situational awareness, but the current verified sources cover operational GNSS checks more strongly than human-factors theory.",
+        "notes": [
+            "Part 91 MOS 1.07, 14.02 and 14.05 to 14.07 provide verified references for approved GNSS, navigation databases, data checking, procedure loading and GNSS operational constraints.",
+            "AIP GEN 1.5 section 2, AIP ENR 1.1 sections 4.4, 4.8 and 6.3 and AIP ENR 4.3 provide mapped AIP GNSS operational locators.",
+            "Mode errors, data-entry errors, automation complacency, receiver non-standardisation, human information processing and situational awareness remain a source gap for verified public official human-factors theory.",
+        ],
+        "traps": [
+            "Do not treat a valid database as proof that the pilot selected the correct procedure or waypoint.",
+            "Do not skip independent cross-checking where the MOS/AIP requires data checking.",
+            "Do not add automation-complacency theory without clearly separating it from verified operational references.",
+        ],
+        "examples": "TODO: Add GNSS human-factors examples only after verifying public official theory material or clearly labelling operational GNSS check scenarios.",
+        "exam_use": [
+            "Use Part 91 MOS 14.05 to 14.07 for operational GNSS data-checking and use constraints.",
+            "Use AIP ENR 1.1 section 4.8 for operational GNSS procedure.",
+            "Use the source-gap register before adding broader GNSS human-factors theory.",
         ],
     },
 }

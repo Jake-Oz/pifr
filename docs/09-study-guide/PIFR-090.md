@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.2: State what circumstances aggravate
 
 ## Why it matters
 
-TODO
+Vestibular-disorientation aggravating factors and recovery technique are critical IFR knowledge, but the detailed theory is not in the current verified source cache.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR Part 67 medical standard 2 criteria provide verified hooks for functional incapacity, medication side effects, mental fitness, nervous-system issues, vestibular disturbance and visual function.
+- CASR 91.520 provides the crew fitness for duty reference.
+- Circumstances aggravating vestibular disorientation and recovery techniques remain a source gap until a public official source is verified.
 
 ## Common CASA traps
 
-TODO
+- Do not invent recovery technique from memory or commercial training notes.
+- Do not treat medication/fatigue/medical fitness references as a complete vestibular-disorientation lesson.
+- Keep this objective separate from specific named illusion causes in PIFR-091.
 
 ## Worked examples
 
-TODO
+TODO: Add disorientation aggravation/recovery examples only after verifying a public official source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR 91.520/Part 67 for fitness and medical relevance.
+- Treat detailed disorientation prevention/recovery theory as unresolved until sourced.

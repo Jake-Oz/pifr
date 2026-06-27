@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 2.1.1: State requirements for pilot fitnes
 
 ## Why it matters
 
-TODO
+IFR fitness is a legal go/no-go item: the pilot must meet medical and crew-fitness requirements before acting as pilot in command.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 61.410 and 61.420 provide the Part 61 licence/medical certificate hooks.
+- CASR Part 67 Subparts 67.C and 67.E, including 67.145, 67.155, 67.265 and 67.270, provide the mapped medical standard and reporting context.
+- CASR 91.520 is the Part 91 crew fitness for duty reference.
+- The verified source status also includes carriage of licence/medical documents, medically significant condition disclosure and impairment offences.
 
 ## Common CASA traps
 
-TODO
+- Do not treat a valid licence as enough if the medical/fitness requirement is not met.
+- Do not ignore changes in medical condition after the certificate was issued.
+- Fitness for duty is broader than holding a medical certificate; check fatigue, impairment and substance issues where relevant.
 
 ## Worked examples
 
-TODO
+TODO: Add pilot-fitness scenarios after selecting exact medical/fitness fact patterns.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR 91.520 for crew fitness for duty.
+- Use CASR Part 67 for medical standard and reporting obligations.
+- Use CASR 61.410/61.420 for licence and medical-certificate hooks.

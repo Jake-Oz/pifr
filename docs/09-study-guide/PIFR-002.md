@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 2.1.2: Describe how a pilot determines whe
 
 ## Why it matters
 
-TODO
+This objective turns the legal fitness rules into a self-assessment chain before IFR flight.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 67.015, 67.145, 67.155, 67.265 and 67.270 are the mapped Part 67 locators for medical standards, safety-relevant medical conditions and reporting.
+- CASR 91.520 is the mapped crew fitness for duty reference.
+- The verified source status supports checking safety-relevant medical condition, Class 2 standard, change in medical condition, impaired efficiency, fatigue, alcohol and psychoactive substance limits.
 
 ## Common CASA traps
 
-TODO
+- Do not reduce fitness assessment to a single IMSAFE-style memory aid unless the legal conditions are still checked.
+- Do not ignore medication or a changed condition just because the underlying illness seems minor.
+- Do not treat fatigue, alcohol and psychoactive substance rules as separate from IFR fitness for duty.
 
 ## Worked examples
 
-TODO
+TODO: Add self-assessment examples after selecting source-backed medical/fatigue/substance fact patterns.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Start with CASR 91.520 for the operational fitness rule.
+- Use CASR Part 67 sections in the reference table when the question turns on medical certificate status or medical condition reporting.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.3: State what causes, and may aggrava
 
 ## Why it matters
 
-TODO
+Named vestibular illusions are high-value IFR human-factors items, but the verified CASA/CASR references only establish safety relevance, not the detailed causes.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR Part 67 medical standard 2 criteria and CASR 91.520 provide the mapped medical and fitness hooks.
+- The current verified sources support relevance of nervous-system, vestibular and visual function.
+- Somatogravic illusions, somatogyral illusions, graveyard spiral, coriolis effect and leans remain a source gap for verified public official theory material.
 
 ## Common CASA traps
 
-TODO
+- Do not define named illusions from unsupported memory.
+- Do not use broad vestibular medical criteria as if they explain each named illusion.
+- Do not merge visual illusions from PIFR-092 into this vestibular-illusion objective.
 
 ## Worked examples
 
-TODO
+TODO: Add named vestibular illusion examples only after verifying a public official source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped CASR references for medical/fitness relevance only.
+- Use the source-gap register before adding named illusion theory.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.1: State the part played by the vesti
 
 ## Why it matters
 
-TODO
+Vestibular orientation is central to IFR human factors, but the verified sources currently support medical relevance rather than the detailed physiology.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31 to 2.34, provide the mapped medical relevance hooks.
+- CASR 91.520 provides the crew fitness for duty reference.
+- The current verified sources recognise nervous-system, vestibular-apparatus and visual-function relevance but do not explain semicircular canal or otolith function.
 
 ## Common CASA traps
 
-TODO
+- Do not fill vestibular physiology from unsupported memory.
+- Do not treat medical fitness hooks as a full explanation of orientation mechanisms.
+- Do not merge this objective with the illusion/aggravating-circumstances objectives.
 
 ## Worked examples
 
-TODO
+TODO: Add vestibular-system explanations only after verifying a public official source for the physiology.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR 91.520 and CASR Part 67 for legal/medical hooks.
+- Use the source-gap register before adding semicircular canal or otolith theory.
