@@ -757,6 +757,39 @@ def project_docs():
 - URL: https://www.airservicesaustralia.com/aip/aip.asp
 - Local cache: `tmp/source/aip/aip-general-19MAR2026.pdf`, `tmp/source/aip/aip-enroute-19MAR2026.pdf`, `tmp/source/aip/aip-cover-19MAR2026.pdf`
 - Notes: Verified on 2026-06-27. The Airservices AIP page listed the 19 MAR 2026 AIP Book as current and the 09 JUL 2026 AIP Book as pending.
+
+### En Route Supplement Australia
+
+- Publisher: Airservices Australia
+- Product: En Route Supplement Australia (ERSA)
+- Effective: 2026-03-19
+- Next cycle shown by Airservices: 2026-07-09
+- URL: https://www.airservicesaustralia.com/aip/aip.asp
+- Local index cache: `tmp/source/ersa/ersa-19MAR2026-index.html`
+- Local PDF/text cache:
+  - `tmp/source/ersa/GEN-FPR_19MAR2026.pdf` and `.txt`
+  - `tmp/source/ersa/GEN-FIS_19MAR2026.pdf` and `.txt`
+  - `tmp/source/ersa/NAVCOMM_19MAR2026.pdf` and `.txt`
+  - `tmp/source/ersa/EMERG_19MAR2026.pdf` and `.txt`
+- Notes: Verified on 2026-06-27. The Airservices AIP page listed the 19 MAR 2026 ERSA as current and the 09 JUL 2026 ERSA as pending.
+
+### AIP Charts
+
+- Publisher: Airservices Australia
+- Product: AIP Charts
+- Current chart date: 2025-11-27
+- Next cycle shown by Airservices: 2026-07-09
+- URL: https://www.airservicesaustralia.com/aip/aip.asp
+- Local index cache:
+  - `tmp/source/charts/charts-27NOV2025-index.html`
+  - `tmp/source/charts/erc-low-27NOV2025-index.html`
+  - `tmp/source/charts/pca-27NOV2025-index.html`
+  - `tmp/source/charts/tac-27NOV2025-index.html`
+- Verified chart products:
+  - ERC Low 1-8
+  - PCA Front and PCA Back
+  - TAC 1-8
+- Notes: Verified on 2026-06-27. The Airservices AIP page listed the 27 NOV 2025 AIP Charts as current and the 09 JUL 2026 AIP Charts as pending.
 """)
     write(ROOT / "docs/00-project/data-model.md", """# Data Model
 
