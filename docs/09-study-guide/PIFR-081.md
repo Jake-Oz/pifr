@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.6: Calculate heading to steer to inte
 
 ## Why it matters
 
-TODO
+Intercepting the desired inbound track before reaching an NDB is a specific technique task that is not explained in the verified operational references.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance, positive fixing and deviation reporting context.
+- Intercept-heading calculation before reaching the NDB remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not add timing or intercept methods without a verified source.
+- Do not treat this as the same objective as general NDB tracking.
+- Do not create worked examples until exact technique source and route assumptions are selected.
 
 ## Worked examples
 
-TODO
+TODO: Add inbound NDB intercept examples only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped references for operational NDB use.
+- Use the source-gap register before adding intercept-heading calculations.

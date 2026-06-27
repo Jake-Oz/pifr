@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.1: State how NDB indications or range
 
 ## Why it matters
 
-TODO
+NDB range and indication errors are listed by the MOS, but current verified sources only cover NDB operational use, tracking precision and position-line use.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify NDB as a navigation aid, NDB tracking precision and NDB position-line use.
+- Coastal refraction, night error, thunderstorms, mountainous areas, terrain effects and altitude effects remain a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not add NDB propagation-error explanations from unsupported memory.
+- Do not treat NDB tracking precision as a description of all NDB errors.
+- Keep error theory clearly separated from verified operational references.
 
 ## Worked examples
 
-TODO
+TODO: Add NDB error/range examples only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped MOS/AIP references for NDB operational use and tolerance.
+- Use the source-gap register before adding NDB propagation or range theory.

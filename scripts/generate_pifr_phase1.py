@@ -1411,6 +1411,258 @@ STUDY_CONTENT = {
             "Use Part 91 MOS Table 26.69(7A) for transponder emergency codes.",
         ],
     },
+    "PIFR-070": {
+        "why": "VOR indications are high-value exam material, but the current verified sources support only operational use and deviation reporting, not the detailed cockpit indication theory.",
+        "notes": [
+            "Part 91 MOS 1.07 defines VOR, DME and navigational tolerance; sections 14.02, 14.04 and 14.05 support IFR navigation and GNSS/DME distance reporting context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 and 6.3 are the verified AIP locators for track keeping, position fixing, deviation reporting and related procedures.",
+            "Specific cockpit indications for scalloping, VOR station passage, abeam position, radial identification, track error and drift remain a source gap.",
+        ],
+        "traps": [
+            "Do not fill VOR cockpit indication theory from unsupported memory.",
+            "Do not treat operational deviation reporting as a complete explanation of VOR instrument indications.",
+            "Keep VOR technique notes separate from official CASA/Airservices references until an official technique source is verified.",
+        ],
+        "examples": "TODO: Add VOR indication examples only after verifying a public official technique source.",
+        "exam_use": [
+            "Use AIP ENR 1.1 sections 4.4 to 4.6 for operational track keeping and position-fixing rules.",
+            "Use the source-gap register before adding detailed VOR indication theory.",
+        ],
+    },
+    "PIFR-071": {
+        "why": "Off-track distance from VOR/DME indications is explicitly examinable, but the verified references currently support the operational context rather than the calculation method.",
+        "notes": [
+            "Part 91 MOS 1.07 defines VOR, DME and navigational tolerance; sections 14.02 and 14.05 support navigation and distance-reporting context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 and 6.3 provide verified locators for track keeping, position fixing, VOR/DME deviation thresholds and DME/GNSS distance reporting.",
+            "The mathematical off-track distance method from cockpit indications remains a source gap until a public official technique source is verified.",
+        ],
+        "traps": [
+            "Do not invent a formula or worked result without an approved source.",
+            "Do not confuse deviation-reporting thresholds with off-track distance calculation technique.",
+            "Do not assume DME distance equals cross-track error.",
+        ],
+        "examples": "TODO: Add off-track distance calculations only after verifying a public official technique source.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4 for operational tolerance and deviation context.",
+            "Treat calculation technique as a source-gap item until verified.",
+        ],
+    },
+    "PIFR-072": {
+        "why": "OBS command indications are practical VOR technique material, but the current verified sources do not explain the to/from setting method.",
+        "notes": [
+            "Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 provide operational navigation context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify VOR track guidance, precision order and CDI deviation thresholds.",
+            "OBS settings required for command indications to and from a VOR remain a source gap.",
+        ],
+        "traps": [
+            "Do not add OBS setting rules from memory.",
+            "Do not conflate VOR operational legality with cockpit technique.",
+            "Do not merge this objective with intercept-heading objectives; the MOS keeps them separate.",
+        ],
+        "examples": "TODO: Add OBS command-indication examples only after verifying a public official technique source.",
+        "exam_use": [
+            "Use mapped AIP/MOS references for VOR operational use.",
+            "Use the source-gap register for OBS technique before adding examples.",
+        ],
+    },
+    "PIFR-073": {
+        "why": "VOR intercept heading calculation is exam-relevant, but the current verified public sources only support the requirement to regain track and the use of VOR as a navigation aid.",
+        "notes": [
+            "Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 provide verified track-keeping and positive-action-to-regain-track context.",
+            "The heading-to-steer and intercept calculation method remains a source gap until a public official technique source is verified.",
+        ],
+        "traps": [
+            "Do not invent intercept arithmetic or rules of thumb.",
+            "Do not treat `positive action to regain track` as a worked intercept method.",
+            "Keep calculations out of official-reference sections unless sourced.",
+        ],
+        "examples": "TODO: Add VOR intercept-heading calculations only after verifying a public official technique source.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4 for the operational duty to maintain/regain track.",
+            "Treat the specific intercept arithmetic as unresolved source material.",
+        ],
+    },
+    "PIFR-074": {
+        "why": "Two-VOR position fixing connects the official positive-fix rule with cockpit plotting technique; only the positive-fix rule is currently verified.",
+        "notes": [
+            "Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support IFR navigation context.",
+            "AIP ENR 1.1 section 4.5 verifies that a positive fix may be determined by intersecting two or more position lines from VOR, localiser, NDB or DME in combination.",
+            "The cockpit-indication plotting method using two VORs remains a source gap.",
+        ],
+        "traps": [
+            "Do not confuse the legal positive-fix allowance with an explained plotting method.",
+            "Do not assume any two indications are valid without rated coverage and usable geometry.",
+            "Do not create chart examples without exact chart/source inputs.",
+        ],
+        "examples": "TODO: Add two-VOR fixing examples only after selecting chart data and verifying technique source material.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4.5 for positive-fix authority.",
+            "Use Part 91 MOS 14.02 for IFR navigation method requirements.",
+        ],
+    },
+    "PIFR-075": {
+        "why": "Mixed VOR/NDB/DME fixing is operationally important because positive fixes can use multiple position-line types, but cockpit construction details still need a verified technique source.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, DME, NDB, VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.",
+            "AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, including NDB range limits for NDB-only fixes.",
+            "Detailed cockpit-indication fixing methods remain a source gap.",
+        ],
+        "traps": [
+            "Do not ignore NDB-only positive-fix limits.",
+            "Do not assume every aid combination gives a reliable fix; check geometry, rated coverage and source limitations.",
+            "Do not fill plotting examples without a verified technique source.",
+        ],
+        "examples": "TODO: Add mixed-aid fixing examples after verifying technique source material and selecting exact aid/chart inputs.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4.5 for positive-fix combinations.",
+            "Use Part 91 MOS 14.02 for route navigation requirements.",
+        ],
+    },
+    "PIFR-076": {
+        "why": "NDB range and indication errors are listed by the MOS, but current verified sources only cover NDB operational use, tracking precision and position-line use.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify NDB as a navigation aid, NDB tracking precision and NDB position-line use.",
+            "Coastal refraction, night error, thunderstorms, mountainous areas, terrain effects and altitude effects remain a source gap.",
+        ],
+        "traps": [
+            "Do not add NDB propagation-error explanations from unsupported memory.",
+            "Do not treat NDB tracking precision as a description of all NDB errors.",
+            "Keep error theory clearly separated from verified operational references.",
+        ],
+        "examples": "TODO: Add NDB error/range examples only after verifying a public official technique source.",
+        "exam_use": [
+            "Use mapped MOS/AIP references for NDB operational use and tolerance.",
+            "Use the source-gap register before adding NDB propagation or range theory.",
+        ],
+    },
+    "PIFR-077": {
+        "why": "Choosing the appropriate NDB for tracking is an operational decision, but the verified sources only provide aid hierarchy, NDB identity and positive-fix limits.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 support IFR navigation use.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify that NDB sits below localiser, GNSS and VOR in track-guidance precision and is subject to NDB position-line limitations.",
+            "The method for selecting the most appropriate NDB for tracking remains a source gap.",
+        ],
+        "traps": [
+            "Do not assume an NDB is the best source merely because it is available.",
+            "Do not ignore the more precise track-guidance hierarchy.",
+            "Do not add NDB selection heuristics without a verified source.",
+        ],
+        "examples": "TODO: Add NDB selection examples only after verifying a public official technique source and selecting route/aids.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4.4.3 for track-guidance precision order.",
+            "Use AIP ENR 1.1 section 4.5 for NDB positive-fix limits.",
+        ],
+    },
+    "PIFR-078": {
+        "why": "ADF relative-bearing interpretation is examinable cockpit technique, but current verified references only support NDB operational use and positive fixing.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational navigation context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify NDB tracking, NDB deviation thresholds and positive fixing by NDB passage or position lines.",
+            "Determining station passage, abeam position, bearing, track error and drift from ADF relative bearing remains a source gap.",
+        ],
+        "traps": [
+            "Do not add relative-bearing interpretation rules without a verified source.",
+            "Do not treat NDB station passage as equivalent to every ADF indication change.",
+            "Do not merge this objective with NDB intercept or track-calculation objectives.",
+        ],
+        "examples": "TODO: Add ADF relative-bearing interpretation examples only after verifying a public official technique source.",
+        "exam_use": [
+            "Use mapped references for operational NDB use and position fixing.",
+            "Treat cockpit relative-bearing interpretation as unresolved source material.",
+        ],
+    },
+    "PIFR-079": {
+        "why": "Track calculation from heading and relative bearing is a specific ADF arithmetic task; the current verified sources do not supply the calculation method.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance and NDB-based position lines.",
+            "Calculating track to or from an NDB from heading and relative bearing remains a source gap.",
+        ],
+        "traps": [
+            "Do not invent bearing arithmetic examples without a verified source.",
+            "Do not confuse aircraft heading, relative bearing, magnetic bearing and track in unsupported notes.",
+            "Keep arithmetic examples out until the source strategy is settled.",
+        ],
+        "examples": "TODO: Add NDB track calculations only after verifying a public official technique source.",
+        "exam_use": [
+            "Use mapped references for NDB operational context.",
+            "Use the source-gap register before adding ADF bearing arithmetic.",
+        ],
+    },
+    "PIFR-080": {
+        "why": "NDB intercept heading calculation is a cockpit technique objective; verified sources currently support the operational duty to regain track and the use of NDB as a permitted aid.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 provide verified track-keeping and NDB operational context.",
+            "Heading-to-steer and NDB intercept calculation method remains a source gap.",
+        ],
+        "traps": [
+            "Do not add intercept-angle rules from memory.",
+            "Do not imply NDB intercept technique is covered by general track-keeping text.",
+            "Do not reuse VOR technique as if it directly applies to ADF/NDB without a source.",
+        ],
+        "examples": "TODO: Add NDB intercept-heading examples only after verifying a public official technique source.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4 for operational track-keeping context.",
+            "Treat NDB intercept arithmetic as a source-gap item.",
+        ],
+    },
+    "PIFR-081": {
+        "why": "Intercepting the desired inbound track before reaching an NDB is a specific technique task that is not explained in the verified operational references.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance, positive fixing and deviation reporting context.",
+            "Intercept-heading calculation before reaching the NDB remains a source gap.",
+        ],
+        "traps": [
+            "Do not add timing or intercept methods without a verified source.",
+            "Do not treat this as the same objective as general NDB tracking.",
+            "Do not create worked examples until exact technique source and route assumptions are selected.",
+        ],
+        "examples": "TODO: Add inbound NDB intercept examples only after verifying a public official technique source.",
+        "exam_use": [
+            "Use mapped references for operational NDB use.",
+            "Use the source-gap register before adding intercept-heading calculations.",
+        ],
+    },
+    "PIFR-082": {
+        "why": "Relative bearing at NDB track interception is a calculation objective, but the verified references only cover NDB guidance and deviation threshold context.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.",
+            "AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance and the NDB navigational/deviation threshold context.",
+            "The relative-bearing calculation that indicates desired NDB track interception remains a source gap.",
+        ],
+        "traps": [
+            "Do not add relative-bearing formulas from unsupported memory.",
+            "Do not confuse deviation threshold with an interception indication.",
+            "Do not merge this with the inbound intercept-heading objective.",
+        ],
+        "examples": "TODO: Add relative-bearing interception calculations only after verifying a public official technique source.",
+        "exam_use": [
+            "Use mapped references for NDB operational limits and tolerance.",
+            "Treat the relative-bearing calculation as unresolved until sourced.",
+        ],
+    },
+    "PIFR-083": {
+        "why": "Fixing position from two NDB relative bearings links the official positive-fix rule with ADF plotting technique; only the positive-fix rule is currently verified.",
+        "notes": [
+            "Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.",
+            "AIP ENR 1.1 section 4.5 supports positive fixing from intersections of NDB position lines and limits NDB-only position lines to 30 NM from each NDB.",
+            "Fix construction from two ADF relative bearings remains a source gap.",
+        ],
+        "traps": [
+            "Do not ignore the NDB-only 30 NM positive-fix limit.",
+            "Do not assume two relative bearings produce an acceptable fix without geometry and range checks.",
+            "Do not add plotting method examples without a verified source and exact chart/aids.",
+        ],
+        "examples": "TODO: Add two-NDB fixing examples only after verifying technique source material and selecting exact NDB/chart inputs.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4.5 for positive-fix authority and NDB limits.",
+            "Use Part 91 MOS 14.02 for IFR route navigation requirements.",
+        ],
+    },
     "PIFR-084": {
         "why": "GNSS is central to modern IFR navigation and the PIFR exam can test both operational approval and the basic system concepts behind integrity, databases, WGS-84 and RAIM.",
         "notes": [

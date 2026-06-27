@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.2: Determine off-track distance exper
 
 ## Why it matters
 
-TODO
+Off-track distance from VOR/DME indications is explicitly examinable, but the verified references currently support the operational context rather than the calculation method.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines VOR, DME and navigational tolerance; sections 14.02 and 14.05 support navigation and distance-reporting context.
+- AIP ENR 1.1 sections 4.4 to 4.6 and 6.3 provide verified locators for track keeping, position fixing, VOR/DME deviation thresholds and DME/GNSS distance reporting.
+- The mathematical off-track distance method from cockpit indications remains a source gap until a public official technique source is verified.
 
 ## Common CASA traps
 
-TODO
+- Do not invent a formula or worked result without an approved source.
+- Do not confuse deviation-reporting thresholds with off-track distance calculation technique.
+- Do not assume DME distance equals cross-track error.
 
 ## Worked examples
 
-TODO
+TODO: Add off-track distance calculations only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4 for operational tolerance and deviation context.
+- Treat calculation technique as a source-gap item until verified.

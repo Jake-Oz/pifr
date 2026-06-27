@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.5: Calculate heading to steer to inte
 
 ## Why it matters
 
-TODO
+NDB intercept heading calculation is a cockpit technique objective; verified sources currently support the operational duty to regain track and the use of NDB as a permitted aid.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.
+- AIP ENR 1.1 sections 4.4 to 4.6 provide verified track-keeping and NDB operational context.
+- Heading-to-steer and NDB intercept calculation method remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not add intercept-angle rules from memory.
+- Do not imply NDB intercept technique is covered by general track-keeping text.
+- Do not reuse VOR technique as if it directly applies to ADF/NDB without a source.
 
 ## Worked examples
 
-TODO
+TODO: Add NDB intercept-heading examples only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4 for operational track-keeping context.
+- Treat NDB intercept arithmetic as a source-gap item.

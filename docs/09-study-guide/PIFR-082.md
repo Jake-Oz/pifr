@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.7: Calculate relative bearing which w
 
 ## Why it matters
 
-TODO
+Relative bearing at NDB track interception is a calculation objective, but the verified references only cover NDB guidance and deviation threshold context.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance and the NDB navigational/deviation threshold context.
+- The relative-bearing calculation that indicates desired NDB track interception remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not add relative-bearing formulas from unsupported memory.
+- Do not confuse deviation threshold with an interception indication.
+- Do not merge this with the inbound intercept-heading objective.
 
 ## Worked examples
 
-TODO
+TODO: Add relative-bearing interception calculations only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped references for NDB operational limits and tolerance.
+- Treat the relative-bearing calculation as unresolved until sourced.

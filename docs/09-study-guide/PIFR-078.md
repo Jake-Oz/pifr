@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.3: Describe how the following are det
 
 ## Why it matters
 
-TODO
+ADF relative-bearing interpretation is examinable cockpit technique, but current verified references only support NDB operational use and positive fixing.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational navigation context.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify NDB tracking, NDB deviation thresholds and positive fixing by NDB passage or position lines.
+- Determining station passage, abeam position, bearing, track error and drift from ADF relative bearing remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not add relative-bearing interpretation rules without a verified source.
+- Do not treat NDB station passage as equivalent to every ADF indication change.
+- Do not merge this objective with NDB intercept or track-calculation objectives.
 
 ## Worked examples
 
-TODO
+TODO: Add ADF relative-bearing interpretation examples only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped references for operational NDB use and position fixing.
+- Treat cockpit relative-bearing interpretation as unresolved source material.

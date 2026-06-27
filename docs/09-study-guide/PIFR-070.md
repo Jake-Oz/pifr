@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.1: Describe the instrument indication
 
 ## Why it matters
 
-TODO
+VOR indications are high-value exam material, but the current verified sources support only operational use and deviation reporting, not the detailed cockpit indication theory.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines VOR, DME and navigational tolerance; sections 14.02, 14.04 and 14.05 support IFR navigation and GNSS/DME distance reporting context.
+- AIP ENR 1.1 sections 4.4 to 4.6 and 6.3 are the verified AIP locators for track keeping, position fixing, deviation reporting and related procedures.
+- Specific cockpit indications for scalloping, VOR station passage, abeam position, radial identification, track error and drift remain a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not fill VOR cockpit indication theory from unsupported memory.
+- Do not treat operational deviation reporting as a complete explanation of VOR instrument indications.
+- Keep VOR technique notes separate from official CASA/Airservices references until an official technique source is verified.
 
 ## Worked examples
 
-TODO
+TODO: Add VOR indication examples only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 sections 4.4 to 4.6 for operational track keeping and position-fixing rules.
+- Use the source-gap register before adding detailed VOR indication theory.

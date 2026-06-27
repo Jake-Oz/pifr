@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.2: State the method of using the most
 
 ## Why it matters
 
-TODO
+Choosing the appropriate NDB for tracking is an operational decision, but the verified sources only provide aid hierarchy, NDB identity and positive-fix limits.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 support IFR navigation use.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify that NDB sits below localiser, GNSS and VOR in track-guidance precision and is subject to NDB position-line limitations.
+- The method for selecting the most appropriate NDB for tracking remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not assume an NDB is the best source merely because it is available.
+- Do not ignore the more precise track-guidance hierarchy.
+- Do not add NDB selection heuristics without a verified source.
 
 ## Worked examples
 
-TODO
+TODO: Add NDB selection examples only after verifying a public official technique source and selecting route/aids.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4.4.3 for track-guidance precision order.
+- Use AIP ENR 1.1 section 4.5 for NDB positive-fix limits.

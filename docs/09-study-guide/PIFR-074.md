@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.5: Fix position, given cockpit instru
 
 ## Why it matters
 
-TODO
+Two-VOR position fixing connects the official positive-fix rule with cockpit plotting technique; only the positive-fix rule is currently verified.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support IFR navigation context.
+- AIP ENR 1.1 section 4.5 verifies that a positive fix may be determined by intersecting two or more position lines from VOR, localiser, NDB or DME in combination.
+- The cockpit-indication plotting method using two VORs remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse the legal positive-fix allowance with an explained plotting method.
+- Do not assume any two indications are valid without rated coverage and usable geometry.
+- Do not create chart examples without exact chart/source inputs.
 
 ## Worked examples
 
-TODO
+TODO: Add two-VOR fixing examples only after selecting chart data and verifying technique source material.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4.5 for positive-fix authority.
+- Use Part 91 MOS 14.02 for IFR navigation method requirements.

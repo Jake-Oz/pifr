@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.4: Calculate the heading to steer to 
 
 ## Why it matters
 
-TODO
+VOR intercept heading calculation is exam-relevant, but the current verified public sources only support the requirement to regain track and the use of VOR as a navigation aid.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.
+- AIP ENR 1.1 sections 4.4 to 4.6 provide verified track-keeping and positive-action-to-regain-track context.
+- The heading-to-steer and intercept calculation method remains a source gap until a public official technique source is verified.
 
 ## Common CASA traps
 
-TODO
+- Do not invent intercept arithmetic or rules of thumb.
+- Do not treat `positive action to regain track` as a worked intercept method.
+- Keep calculations out of official-reference sections unless sourced.
 
 ## Worked examples
 
-TODO
+TODO: Add VOR intercept-heading calculations only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4 for the operational duty to maintain/regain track.
+- Treat the specific intercept arithmetic as unresolved source material.

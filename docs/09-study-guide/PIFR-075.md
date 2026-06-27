@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.6: Fix position, given instrument ind
 
 ## Why it matters
 
-TODO
+Mixed VOR/NDB/DME fixing is operationally important because positive fixes can use multiple position-line types, but cockpit construction details still need a verified technique source.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, DME, NDB, VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.
+- AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, including NDB range limits for NDB-only fixes.
+- Detailed cockpit-indication fixing methods remain a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not ignore NDB-only positive-fix limits.
+- Do not assume every aid combination gives a reliable fix; check geometry, rated coverage and source limitations.
+- Do not fill plotting examples without a verified technique source.
 
 ## Worked examples
 
-TODO
+TODO: Add mixed-aid fixing examples after verifying technique source material and selecting exact aid/chart inputs.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4.5 for positive-fix combinations.
+- Use Part 91 MOS 14.02 for route navigation requirements.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.4: Calculate track to and from the ND
 
 ## Why it matters
 
-TODO
+Track calculation from heading and relative bearing is a specific ADF arithmetic task; the current verified sources do not supply the calculation method.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance and NDB-based position lines.
+- Calculating track to or from an NDB from heading and relative bearing remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not invent bearing arithmetic examples without a verified source.
+- Do not confuse aircraft heading, relative bearing, magnetic bearing and track in unsupported notes.
+- Keep arithmetic examples out until the source strategy is settled.
 
 ## Worked examples
 
-TODO
+TODO: Add NDB track calculations only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped references for NDB operational context.
+- Use the source-gap register before adding ADF bearing arithmetic.

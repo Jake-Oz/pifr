@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.8: Fix position, given relative beari
 
 ## Why it matters
 
-TODO
+Fixing position from two NDB relative bearings links the official positive-fix rule with ADF plotting technique; only the positive-fix rule is currently verified.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
+- AIP ENR 1.1 section 4.5 supports positive fixing from intersections of NDB position lines and limits NDB-only position lines to 30 NM from each NDB.
+- Fix construction from two ADF relative bearings remains a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not ignore the NDB-only 30 NM positive-fix limit.
+- Do not assume two relative bearings produce an acceptable fix without geometry and range checks.
+- Do not add plotting method examples without a verified source and exact chart/aids.
 
 ## Worked examples
 
-TODO
+TODO: Add two-NDB fixing examples only after verifying technique source material and selecting exact NDB/chart inputs.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4.5 for positive-fix authority and NDB limits.
+- Use Part 91 MOS 14.02 for IFR route navigation requirements.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.3: State VOR omni-bearing selector (O
 
 ## Why it matters
 
-TODO
+OBS command indications are practical VOR technique material, but the current verified sources do not explain the to/from setting method.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 provide operational navigation context.
+- AIP ENR 1.1 sections 4.4 to 4.6 verify VOR track guidance, precision order and CDI deviation thresholds.
+- OBS settings required for command indications to and from a VOR remain a source gap.
 
 ## Common CASA traps
 
-TODO
+- Do not add OBS setting rules from memory.
+- Do not conflate VOR operational legality with cockpit technique.
+- Do not merge this objective with intercept-heading objectives; the MOS keeps them separate.
 
 ## Worked examples
 
-TODO
+TODO: Add OBS command-indication examples only after verifying a public official technique source.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use mapped AIP/MOS references for VOR operational use.
+- Use the source-gap register for OBS technique before adding examples.
