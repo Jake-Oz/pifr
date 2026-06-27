@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 9.1.5: Determine whether a flight may proc
 
 ## Why it matters
 
-TODO
+Proceed/no-proceed fuel decisions combine alternate requirements, holding fuel and actual usable fuel capacity, so a single missing component can make the flight non-compliant.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.235 and 91.455 provide the alternate and fuel regulation hooks.
+- Part 91 MOS sections 8.04 to 8.08 determine whether an alternate or holding is required and whether the nominated alternate is suitable.
+- Part 91 MOS sections 19.03 to 19.06 determine usable fuel requirements, replanning, continuation, diversion and fuel-state decisions.
+- AIP ENR 1.1 sections 10.7 and 10.9 provide the operational alternate and fuel planning locators.
 
 ## Common CASA traps
 
-TODO
+- Do not proceed just because destination weather is acceptable if another alternate trigger applies.
+- Do not compare required fuel with total tank capacity; use usable fuel and aircraft-specific fuel information.
+- Do not defer a known fuel shortfall to in-flight replanning unless the MOS conditions for replanning/continuation are met.
 
 ## Worked examples
 
-TODO
+TODO: Add proceed/no-proceed fuel examples after selecting aircraft fuel capacity, route, forecast and alternate assumptions.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Build the decision chain: alternate required, alternate suitable, holding required, required fuel calculated, usable fuel available.
+- Use Part 91 MOS Division 8.2 and Chapter 19 as the primary exam lookup pair.

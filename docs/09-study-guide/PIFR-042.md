@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 9.1.4: Calculate the minimum fuel required
 
 ## Why it matters
 
-TODO
+Minimum fuel calculation is both a legal requirement and an exam arithmetic workflow; each component must come from the permitted source, not memory.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.455 is the regulation hook for fuel requirements.
+- Part 91 MOS Chapter 19, especially sections 19.01 to 19.06 and Table 19.02(2), is the verified enforceable source for fuel planning and in-flight fuel management.
+- AIP ENR 1.1 section 10.9 provides operational fuel planning and fuel-state procedure context.
+- AIP ENR 1.1 section 10.9.1 identifies CASA AC 91-15 as guidance material, but the current official AC URL remains unverified in this repository and must stay as a source gap until directly checked.
 
 ## Common CASA traps
 
-TODO
+- Do not calculate fuel from a single trip-fuel number; identify taxi, trip, alternate, holding, fixed reserve and any other MOS-required components.
+- Do not use an unverified AC 91-15 copy as the source of truth.
+- Do not ignore in-flight replanning, continuation, minimum fuel and emergency fuel decision points.
 
 ## Worked examples
 
-TODO
+TODO: Add minimum-fuel calculations after verifying aircraft fuel burn assumptions, route timing, alternate/holding triggers and the official AC 91-15 source.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS Chapter 19 first for the calculation framework.
+- Use Table 19.02(2) for fixed reserve lookup.
+- Use AIP ENR 1.1 section 10.9 for fuel-state terminology and operational procedures.

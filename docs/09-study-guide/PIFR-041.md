@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 9.1.3: Describe the holding requirements d
 
 ## Why it matters
 
-TODO
+Holding requirements affect both dispatch legality and fuel capacity, and the exam can frame them as weather, traffic, advisory or procedure problems.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.235 and 91.455 provide the alternate and fuel regulation hooks.
+- Part 91 MOS 8.04(5) to 8.04(8) and 8.06(4) to 8.06(5) cover holding in alternate/weather contexts.
+- Part 91 MOS 19.02 to 19.06 covers the fuel planning and in-flight fuel management consequences.
+- AIP ENR 1.1 sections 10.7.2.3 to 10.7.2.9, 10.7.4.4 to 10.7.4.5 and 10.9.1 to 10.9.3 are the verified operational locators.
 
 ## Common CASA traps
 
-TODO
+- Do not treat INTER, TEMPO, lighting/PAL and traffic holding as the same trigger.
+- Do not add multiple holding requirements cumulatively unless the source rule requires it.
+- Do not plan holding without carrying the corresponding fuel required by the MOS fuel rules.
 
 ## Worked examples
 
-TODO
+TODO: Add holding fuel examples after selecting forecast change groups, aerodrome lighting status and route assumptions.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS Division 8.2 for why holding is required.
+- Use Part 91 MOS Chapter 19 and AIP ENR 1.1 section 10.9 for the fuel decision.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 9.1.2: Determine the suitability of a spec
 
 ## Why it matters
 
-TODO
+A nominated alternate only solves the planning problem if it is itself suitable for the aircraft, weather, navigation, lighting and NOTAM conditions.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.235 provides the regulation context for alternate aerodrome planning.
+- Part 91 MOS sections 8.04 to 8.08 are the primary source for determining alternate suitability.
+- Part 91 MOS 8.07 and Table 8.08(1) are key locators for suitability and alternate minima.
+- AIP ENR 1.1 sections 10.7.1 to 10.7.4 provide the operational alternate planning context.
 
 ## Common CASA traps
 
-TODO
+- Do not nominate an aerodrome that itself requires an alternate under the applicable conditions.
+- Check NOTAM, forecast and lighting information before treating the alternate as available.
+- Do not use destination minima or comfort margins where the MOS alternate minima table applies.
 
 ## Worked examples
 
-TODO
+TODO: Add alternate suitability examples after selecting aerodrome forecasts, NOTAM and instrument approach availability.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 8.07 and Table 8.08(1) for the suitability/minima decision.
+- Use AIP ENR 1.1 section 10.7 to follow the operational alternate-planning sequence.

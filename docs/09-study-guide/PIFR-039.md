@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 9.1.1: State the alternate aerodrome requi
 
 ## Why it matters
 
-TODO
+Alternate requirements are a core IFR exam topic because destination suitability can change with weather, navigation aid status, lighting, NOTAM and fuel consequences.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.235 is the regulation hook for alternate aerodrome requirements.
+- Part 91 MOS Division 8.2, especially sections 8.04 to 8.09, is the primary enforceable source for IFR alternate requirements.
+- AIP ENR 1.1 section 10.7 provides the operational alternate planning locator, including weather, navigation, lighting and NOTAM-related cases.
+- Part 91 MOS Chapter 19 and AIP ENR 1.1 section 10.9 connect alternate and holding requirements to fuel planning.
 
 ## Common CASA traps
 
-TODO
+- Do not decide alternate requirements from weather alone; check navigation, lighting, NOTAM and suitability restrictions.
+- Do not ignore holding fuel when holding is used instead of, or as part of, alternate planning.
+- Do not assume an alternate is suitable just because it is nearby.
 
 ## Worked examples
 
-TODO
+TODO: Add alternate requirement examples after selecting exact destination/alternate aerodromes, forecasts and NOTAM.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Start with Part 91 MOS sections 8.04 to 8.09.
+- Use AIP ENR 1.1 section 10.7 for exam lookup wording and planning context.
+- Then check Part 91 MOS Chapter 19 for fuel effects.

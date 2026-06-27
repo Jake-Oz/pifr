@@ -794,6 +794,103 @@ STUDY_CONTENT = {
             "Then calculate using the obstacle/terrain rules in AIP GEN 3.3 section 4.",
         ],
     },
+    "PIFR-039": {
+        "why": "Alternate requirements are a core IFR exam topic because destination suitability can change with weather, navigation aid status, lighting, NOTAM and fuel consequences.",
+        "notes": [
+            "CASR 91.235 is the regulation hook for alternate aerodrome requirements.",
+            "Part 91 MOS Division 8.2, especially sections 8.04 to 8.09, is the primary enforceable source for IFR alternate requirements.",
+            "AIP ENR 1.1 section 10.7 provides the operational alternate planning locator, including weather, navigation, lighting and NOTAM-related cases.",
+            "Part 91 MOS Chapter 19 and AIP ENR 1.1 section 10.9 connect alternate and holding requirements to fuel planning.",
+        ],
+        "traps": [
+            "Do not decide alternate requirements from weather alone; check navigation, lighting, NOTAM and suitability restrictions.",
+            "Do not ignore holding fuel when holding is used instead of, or as part of, alternate planning.",
+            "Do not assume an alternate is suitable just because it is nearby.",
+        ],
+        "examples": "TODO: Add alternate requirement examples after selecting exact destination/alternate aerodromes, forecasts and NOTAM.",
+        "exam_use": [
+            "Start with Part 91 MOS sections 8.04 to 8.09.",
+            "Use AIP ENR 1.1 section 10.7 for exam lookup wording and planning context.",
+            "Then check Part 91 MOS Chapter 19 for fuel effects.",
+        ],
+    },
+    "PIFR-040": {
+        "why": "A nominated alternate only solves the planning problem if it is itself suitable for the aircraft, weather, navigation, lighting and NOTAM conditions.",
+        "notes": [
+            "CASR 91.235 provides the regulation context for alternate aerodrome planning.",
+            "Part 91 MOS sections 8.04 to 8.08 are the primary source for determining alternate suitability.",
+            "Part 91 MOS 8.07 and Table 8.08(1) are key locators for suitability and alternate minima.",
+            "AIP ENR 1.1 sections 10.7.1 to 10.7.4 provide the operational alternate planning context.",
+        ],
+        "traps": [
+            "Do not nominate an aerodrome that itself requires an alternate under the applicable conditions.",
+            "Check NOTAM, forecast and lighting information before treating the alternate as available.",
+            "Do not use destination minima or comfort margins where the MOS alternate minima table applies.",
+        ],
+        "examples": "TODO: Add alternate suitability examples after selecting aerodrome forecasts, NOTAM and instrument approach availability.",
+        "exam_use": [
+            "Use Part 91 MOS 8.07 and Table 8.08(1) for the suitability/minima decision.",
+            "Use AIP ENR 1.1 section 10.7 to follow the operational alternate-planning sequence.",
+        ],
+    },
+    "PIFR-041": {
+        "why": "Holding requirements affect both dispatch legality and fuel capacity, and the exam can frame them as weather, traffic, advisory or procedure problems.",
+        "notes": [
+            "CASR 91.235 and 91.455 provide the alternate and fuel regulation hooks.",
+            "Part 91 MOS 8.04(5) to 8.04(8) and 8.06(4) to 8.06(5) cover holding in alternate/weather contexts.",
+            "Part 91 MOS 19.02 to 19.06 covers the fuel planning and in-flight fuel management consequences.",
+            "AIP ENR 1.1 sections 10.7.2.3 to 10.7.2.9, 10.7.4.4 to 10.7.4.5 and 10.9.1 to 10.9.3 are the verified operational locators.",
+        ],
+        "traps": [
+            "Do not treat INTER, TEMPO, lighting/PAL and traffic holding as the same trigger.",
+            "Do not add multiple holding requirements cumulatively unless the source rule requires it.",
+            "Do not plan holding without carrying the corresponding fuel required by the MOS fuel rules.",
+        ],
+        "examples": "TODO: Add holding fuel examples after selecting forecast change groups, aerodrome lighting status and route assumptions.",
+        "exam_use": [
+            "Use Part 91 MOS Division 8.2 for why holding is required.",
+            "Use Part 91 MOS Chapter 19 and AIP ENR 1.1 section 10.9 for the fuel decision.",
+        ],
+    },
+    "PIFR-042": {
+        "why": "Minimum fuel calculation is both a legal requirement and an exam arithmetic workflow; each component must come from the permitted source, not memory.",
+        "notes": [
+            "CASR 91.455 is the regulation hook for fuel requirements.",
+            "Part 91 MOS Chapter 19, especially sections 19.01 to 19.06 and Table 19.02(2), is the verified enforceable source for fuel planning and in-flight fuel management.",
+            "AIP ENR 1.1 section 10.9 provides operational fuel planning and fuel-state procedure context.",
+            "AIP ENR 1.1 section 10.9.1 identifies CASA AC 91-15 as guidance material, but the current official AC URL remains unverified in this repository and must stay as a source gap until directly checked.",
+        ],
+        "traps": [
+            "Do not calculate fuel from a single trip-fuel number; identify taxi, trip, alternate, holding, fixed reserve and any other MOS-required components.",
+            "Do not use an unverified AC 91-15 copy as the source of truth.",
+            "Do not ignore in-flight replanning, continuation, minimum fuel and emergency fuel decision points.",
+        ],
+        "examples": "TODO: Add minimum-fuel calculations after verifying aircraft fuel burn assumptions, route timing, alternate/holding triggers and the official AC 91-15 source.",
+        "exam_use": [
+            "Use Part 91 MOS Chapter 19 first for the calculation framework.",
+            "Use Table 19.02(2) for fixed reserve lookup.",
+            "Use AIP ENR 1.1 section 10.9 for fuel-state terminology and operational procedures.",
+        ],
+    },
+    "PIFR-043": {
+        "why": "Proceed/no-proceed fuel decisions combine alternate requirements, holding fuel and actual usable fuel capacity, so a single missing component can make the flight non-compliant.",
+        "notes": [
+            "CASR 91.235 and 91.455 provide the alternate and fuel regulation hooks.",
+            "Part 91 MOS sections 8.04 to 8.08 determine whether an alternate or holding is required and whether the nominated alternate is suitable.",
+            "Part 91 MOS sections 19.03 to 19.06 determine usable fuel requirements, replanning, continuation, diversion and fuel-state decisions.",
+            "AIP ENR 1.1 sections 10.7 and 10.9 provide the operational alternate and fuel planning locators.",
+        ],
+        "traps": [
+            "Do not proceed just because destination weather is acceptable if another alternate trigger applies.",
+            "Do not compare required fuel with total tank capacity; use usable fuel and aircraft-specific fuel information.",
+            "Do not defer a known fuel shortfall to in-flight replanning unless the MOS conditions for replanning/continuation are met.",
+        ],
+        "examples": "TODO: Add proceed/no-proceed fuel examples after selecting aircraft fuel capacity, route, forecast and alternate assumptions.",
+        "exam_use": [
+            "Build the decision chain: alternate required, alternate suitable, holding required, required fuel calculated, usable fuel available.",
+            "Use Part 91 MOS Division 8.2 and Chapter 19 as the primary exam lookup pair.",
+        ],
+    },
     "PIFR-004": {
         "why": "Mandatory IFR flight instruments are direct exam material and are also the baseline for deciding whether an IFR flight may proceed.",
         "notes": [
