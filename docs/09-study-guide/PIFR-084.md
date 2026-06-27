@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.3.1: GNSS system components and princip
 
 ## Why it matters
 
-TODO
+GNSS is central to modern IFR navigation and the PIFR exam can test both operational approval and the basic system concepts behind integrity, databases, WGS-84 and RAIM.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 61.935 table item 10 is relevant to the private IFR GNSS navigation endorsement context.
+- Part 91 MOS 1.07 supplies key definitions including approved GNSS, FDE, GNSS, navigation database, RNAV/RNP specifications, requisite GNSS satellites and SBAS.
+- Part 91 MOS 14.01 to 14.07 and AIP ENR 1.1 section 4.8 provide the operational GNSS navigation, integrity, substitute-use and reporting rules.
+- AIP GEN 1.5 section 2, AIP GEN 2.2 sections 3.11 to 3.12, AIP ENR 4.3 and AIP ENR 3.3 provide the mapped AIP locators for approved equipment, WGS-84/GPS context, navigation aids and route use.
 
 ## Common CASA traps
 
-TODO
+- Do not treat GNSS capability as IFR approval; check approved GNSS equipment and database requirements.
+- Do not ignore RAIM/FDE or receiver integrity messages.
+- Do not use a GNSS position without checking whether the operation, route or procedure requires approved equipment and a valid database.
 
 ## Worked examples
 
-TODO
+TODO: Add GNSS operating-mode examples after selecting approved receiver types and route/procedure scenarios.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 1.07 first for definitions.
+- Use Part 91 MOS 14.01 to 14.07 and AIP ENR 1.1 section 4.8 for operational GNSS requirements.
+- Use AIP GEN 2.2 sections 3.11 to 3.12 for WGS-84/GPS locator context.

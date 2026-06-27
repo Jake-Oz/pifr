@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 16.1.1: State how the compass is affected 
 
 ## Why it matters
 
-TODO
+Compass turning, acceleration and deceleration errors are explicitly in the MOS, but current verified sources only support equipment carriage, not the theory explanation.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 26.08 and 26.12 are verified equipment locators for heading display and direct-reading or remote-indicating magnetic compass requirements.
+- The current verified CASA/Airservices source cache does not explain compass turning, acceleration or deceleration errors.
+- Keep the MOS objective in scope and leave detailed compass-error theory as TODO until a current public official source is identified.
 
 ## Common CASA traps
 
-TODO
+- Do not fill compass-error theory from unsupported memory or commercial material.
+- Do not treat equipment-carriage requirements as an explanation of instrument behaviour.
+- Do not remove the objective because the source coverage is weak; the MOS remains the scope source.
 
 ## Worked examples
 
-TODO
+TODO: Add compass-error explanations and examples only after verifying a public official source for the theory.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use the current file to identify the source gap and the MOS scope.
+- Use Part 91 MOS 26.08/26.12 only for equipment requirements, not for the compass-error theory answer.

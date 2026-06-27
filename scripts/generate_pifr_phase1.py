@@ -1411,6 +1411,101 @@ STUDY_CONTENT = {
             "Use Part 91 MOS Table 26.69(7A) for transponder emergency codes.",
         ],
     },
+    "PIFR-084": {
+        "why": "GNSS is central to modern IFR navigation and the PIFR exam can test both operational approval and the basic system concepts behind integrity, databases, WGS-84 and RAIM.",
+        "notes": [
+            "CASR 61.935 table item 10 is relevant to the private IFR GNSS navigation endorsement context.",
+            "Part 91 MOS 1.07 supplies key definitions including approved GNSS, FDE, GNSS, navigation database, RNAV/RNP specifications, requisite GNSS satellites and SBAS.",
+            "Part 91 MOS 14.01 to 14.07 and AIP ENR 1.1 section 4.8 provide the operational GNSS navigation, integrity, substitute-use and reporting rules.",
+            "AIP GEN 1.5 section 2, AIP GEN 2.2 sections 3.11 to 3.12, AIP ENR 4.3 and AIP ENR 3.3 provide the mapped AIP locators for approved equipment, WGS-84/GPS context, navigation aids and route use.",
+        ],
+        "traps": [
+            "Do not treat GNSS capability as IFR approval; check approved GNSS equipment and database requirements.",
+            "Do not ignore RAIM/FDE or receiver integrity messages.",
+            "Do not use a GNSS position without checking whether the operation, route or procedure requires approved equipment and a valid database.",
+        ],
+        "examples": "TODO: Add GNSS operating-mode examples after selecting approved receiver types and route/procedure scenarios.",
+        "exam_use": [
+            "Use Part 91 MOS 1.07 first for definitions.",
+            "Use Part 91 MOS 14.01 to 14.07 and AIP ENR 1.1 section 4.8 for operational GNSS requirements.",
+            "Use AIP GEN 2.2 sections 3.11 to 3.12 for WGS-84/GPS locator context.",
+        ],
+    },
+    "PIFR-085": {
+        "why": "GNSS error and integrity questions are operationally important because the correct action depends on whether the issue is database validity, integrity/RAIM, dead reckoning, distance reporting, SBAS status or space weather.",
+        "notes": [
+            "Part 91 MOS 11.04 to 11.05, 14.02 and 14.05 to 14.07 are the verified MOS locators for GNSS integrity, distance information and navigation operations.",
+            "Part 91 MOS Chapter 26 definitions cover surveillance-related GNSS/GPS terms such as HPL, NACp, NIC, NUCp, SA and SIL.",
+            "AIP ENR 1.1 sections 4.8 and 6.3 provide operational GNSS and radio-failure/GNSS context.",
+            "AIP GEN 3.5 section 4.13 is the verified locator for space weather effects on GNSS.",
+        ],
+        "traps": [
+            "Do not continue normal GNSS navigation after integrity loss without checking the AIP/MOS action.",
+            "Do not assume a database is valid just because the receiver is functioning.",
+            "Do not treat SBAS, RAIM, FDE and dead-reckoning mode as interchangeable concepts.",
+        ],
+        "examples": "TODO: Add GNSS error/integrity scenarios after selecting receiver messages, route phase and available alternate navigation sources.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4.8 for operational GNSS procedure.",
+            "Use Part 91 MOS 11.04 to 11.05 for GNSS distance and integrity requirements.",
+            "Use AIP GEN 3.5 section 4.13 for space-weather-related GNSS effects.",
+        ],
+    },
+    "PIFR-086": {
+        "why": "This objective asks for detailed GNSS error causes and magnitudes, but the current verified sources mainly support operational handling and selected defined terms rather than a complete theory treatment.",
+        "notes": [
+            "Part 91 MOS 1.07, 11.03 to 11.05, 14.02 and 14.06 to 14.07 provide verified operational GNSS, FDE, requisite satellite, RNAV/RNP and integrity references.",
+            "Part 91 MOS Chapter 26 definitions provide selected GNSS/GPS surveillance terms including HPL, NACp, NIC, NUCp, SA and SIL.",
+            "AIP GEN 2.2, AIP GEN 3.5 section 4.13, AIP ENR 1.1 sections 4.8 and 6.3 and AIP ENR 4.3 provide the verified AIP locators.",
+            "Detailed explanations for ephemeris, clock, receiver, multipath, DOP and typical C/A-code total-error magnitude remain a source gap until a suitable public official source is verified.",
+        ],
+        "traps": [
+            "Do not invent numeric error magnitudes from memory.",
+            "Do not treat operational GNSS integrity rules as a complete explanation of every MOS-listed error source.",
+            "Keep any later theory notes clearly separated from official CASA/Airservices material unless an official source is verified.",
+        ],
+        "examples": "TODO: Add detailed GNSS error examples only after verifying a public official source for the specific error-source theory and magnitudes.",
+        "exam_use": [
+            "Use the mapped MOS/AIP references for operational actions, integrity and defined terms.",
+            "Use the source-gap register before adding or relying on detailed GNSS error theory.",
+        ],
+    },
+    "PIFR-087": {
+        "why": "Compass turning, acceleration and deceleration errors are explicitly in the MOS, but current verified sources only support equipment carriage, not the theory explanation.",
+        "notes": [
+            "Part 91 MOS 26.08 and 26.12 are verified equipment locators for heading display and direct-reading or remote-indicating magnetic compass requirements.",
+            "The current verified CASA/Airservices source cache does not explain compass turning, acceleration or deceleration errors.",
+            "Keep the MOS objective in scope and leave detailed compass-error theory as TODO until a current public official source is identified.",
+        ],
+        "traps": [
+            "Do not fill compass-error theory from unsupported memory or commercial material.",
+            "Do not treat equipment-carriage requirements as an explanation of instrument behaviour.",
+            "Do not remove the objective because the source coverage is weak; the MOS remains the scope source.",
+        ],
+        "examples": "TODO: Add compass-error explanations and examples only after verifying a public official source for the theory.",
+        "exam_use": [
+            "Use the current file to identify the source gap and the MOS scope.",
+            "Use Part 91 MOS 26.08/26.12 only for equipment requirements, not for the compass-error theory answer.",
+        ],
+    },
+    "PIFR-088": {
+        "why": "Attitude-indicator power-source, acceleration/deceleration and pitch/bank-limit errors are MOS objectives, but the verified public source cache only supports equipment requirements.",
+        "notes": [
+            "Part 91 MOS 26.08 and 26.12 are verified equipment locators for attitude information, standby attitude/turn indication and gyroscopic power-supply requirements.",
+            "The current verified CASA/Airservices source cache does not explain attitude-indicator acceleration/deceleration errors or pitch/bank limits.",
+            "Keep detailed instrument-error theory as TODO until a current public official source is identified.",
+        ],
+        "traps": [
+            "Do not infer attitude-indicator error theory from equipment-carriage rules.",
+            "Do not fill pitch/bank limit detail from aircraft manuals unless the aircraft source is selected and clearly separated as aircraft-specific material.",
+            "Do not remove or merge the objective; it remains separately traceable to the MOS.",
+        ],
+        "examples": "TODO: Add attitude-indicator error examples only after verifying a public official source or selecting aircraft-specific AFM/POH material for a clearly labelled aircraft example.",
+        "exam_use": [
+            "Use Part 91 MOS 26.08/26.12 for required instrument/equipment carriage only.",
+            "Use the source-gap register before adding attitude-indicator theory content.",
+        ],
+    },
 }
 
 

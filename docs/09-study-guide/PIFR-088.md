@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 16.1.2: State how the attitude indicator i
 
 ## Why it matters
 
-TODO
+Attitude-indicator power-source, acceleration/deceleration and pitch/bank-limit errors are MOS objectives, but the verified public source cache only supports equipment requirements.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 26.08 and 26.12 are verified equipment locators for attitude information, standby attitude/turn indication and gyroscopic power-supply requirements.
+- The current verified CASA/Airservices source cache does not explain attitude-indicator acceleration/deceleration errors or pitch/bank limits.
+- Keep detailed instrument-error theory as TODO until a current public official source is identified.
 
 ## Common CASA traps
 
-TODO
+- Do not infer attitude-indicator error theory from equipment-carriage rules.
+- Do not fill pitch/bank limit detail from aircraft manuals unless the aircraft source is selected and clearly separated as aircraft-specific material.
+- Do not remove or merge the objective; it remains separately traceable to the MOS.
 
 ## Worked examples
 
-TODO
+TODO: Add attitude-indicator error examples only after verifying a public official source or selecting aircraft-specific AFM/POH material for a clearly labelled aircraft example.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 26.08/26.12 for required instrument/equipment carriage only.
+- Use the source-gap register before adding attitude-indicator theory content.

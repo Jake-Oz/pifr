@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.3.3: Describe the cause and magnitude o
 
 ## Why it matters
 
-TODO
+This objective asks for detailed GNSS error causes and magnitudes, but the current verified sources mainly support operational handling and selected defined terms rather than a complete theory treatment.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07, 11.03 to 11.05, 14.02 and 14.06 to 14.07 provide verified operational GNSS, FDE, requisite satellite, RNAV/RNP and integrity references.
+- Part 91 MOS Chapter 26 definitions provide selected GNSS/GPS surveillance terms including HPL, NACp, NIC, NUCp, SA and SIL.
+- AIP GEN 2.2, AIP GEN 3.5 section 4.13, AIP ENR 1.1 sections 4.8 and 6.3 and AIP ENR 4.3 provide the verified AIP locators.
+- Detailed explanations for ephemeris, clock, receiver, multipath, DOP and typical C/A-code total-error magnitude remain a source gap until a suitable public official source is verified.
 
 ## Common CASA traps
 
-TODO
+- Do not invent numeric error magnitudes from memory.
+- Do not treat operational GNSS integrity rules as a complete explanation of every MOS-listed error source.
+- Keep any later theory notes clearly separated from official CASA/Airservices material unless an official source is verified.
 
 ## Worked examples
 
-TODO
+TODO: Add detailed GNSS error examples only after verifying a public official source for the specific error-source theory and magnitudes.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use the mapped MOS/AIP references for operational actions, integrity and defined terms.
+- Use the source-gap register before adding or relying on detailed GNSS error theory.

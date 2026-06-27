@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.3.2: GNSS errors.
 
 ## Why it matters
 
-TODO
+GNSS error and integrity questions are operationally important because the correct action depends on whether the issue is database validity, integrity/RAIM, dead reckoning, distance reporting, SBAS status or space weather.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 11.04 to 11.05, 14.02 and 14.05 to 14.07 are the verified MOS locators for GNSS integrity, distance information and navigation operations.
+- Part 91 MOS Chapter 26 definitions cover surveillance-related GNSS/GPS terms such as HPL, NACp, NIC, NUCp, SA and SIL.
+- AIP ENR 1.1 sections 4.8 and 6.3 provide operational GNSS and radio-failure/GNSS context.
+- AIP GEN 3.5 section 4.13 is the verified locator for space weather effects on GNSS.
 
 ## Common CASA traps
 
-TODO
+- Do not continue normal GNSS navigation after integrity loss without checking the AIP/MOS action.
+- Do not assume a database is valid just because the receiver is functioning.
+- Do not treat SBAS, RAIM, FDE and dead-reckoning mode as interchangeable concepts.
 
 ## Worked examples
 
-TODO
+TODO: Add GNSS error/integrity scenarios after selecting receiver messages, route phase and available alternate navigation sources.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4.8 for operational GNSS procedure.
+- Use Part 91 MOS 11.04 to 11.05 for GNSS distance and integrity requirements.
+- Use AIP GEN 3.5 section 4.13 for space-weather-related GNSS effects.
