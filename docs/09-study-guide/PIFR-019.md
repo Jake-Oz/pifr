@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.6: State what meteorological broadcast
 
 ## Why it matters
 
-TODO
+Weather broadcast services are practical exam-index topics: the answer is usually found by knowing whether to look in AIP GEN 3.4, AIP GEN 3.5, ERSA GEN FIS or ERSA NAV/COMM.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS section 1.07 defines ATIS and AWIS, and section 14.03 identifies QNH sources for instrument approaches.
+- AIP GEN 3.4 covers communication services such as AAIS/CA-GRS, UNICOM context and ATIS-related services.
+- AIP GEN 3.5 covers VOLMET and meteorological services.
+- ERSA GEN FIS and ERSA NAV/COMM provide current service and frequency lookup context.
 
 ## Common CASA traps
 
-TODO
+- Do not assume every aerodrome has the same weather broadcast services.
+- Use ERSA for current frequencies/locations rather than relying on AIP service descriptions alone.
 
 ## Worked examples
 
-TODO
+TODO: Add service-lookup examples for ATIS, AWIS/WATIR and VOLMET.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP GEN 3.4/3.5 to identify the type of service.
+- Use ERSA GEN FIS and NAV/COMM to locate current availability and frequencies.

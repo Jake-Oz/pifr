@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.3: Describe the meteorological forecas
 
 ## Why it matters
 
-TODO
+Forecast requirements are high-value exam material because IFR planning requires the correct forecast type for the route, destination and alternates.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 7.02 is the primary source for forecasts required before flight.
+- For route weather, identify whether the operation is at or below 10,000 ft, above 10,000 ft, or requires a flight forecast.
+- For IFR destination and alternate planning, check whether the planned destination has an IAP the pilot can conduct.
+- The MOS validity rule for destination and alternate aerodrome forecasts is separate from the general route-forecast requirement.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse route forecast requirements with destination aerodrome forecast requirements.
+- Do not ignore the 30 minutes before and 60 minutes after ETA validity window for IFR destination and alternate forecasts.
+- If briefing was obtained more than 1 hour before departure, check the MOS update requirement.
 
 ## Worked examples
 
-TODO
+TODO: Add forecast-selection examples for GAF/TAF/ICAO landing forecast scenarios.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go directly to Part 91 MOS 7.02.
+- Use AIP GEN 3.5 for product names and availability context after the MOS requirement is identified.

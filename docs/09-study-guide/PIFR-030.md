@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 7.1.2: Determine whether the flight may pr
 
 ## Why it matters
 
-TODO
+Proceed/no-proceed questions test whether all route, equipment and IFR navigation requirements have been brought together, not just whether the weather looks acceptable.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Use Part 91 MOS 10.02 for pre-takeoff checks and the broader MOS chain for weather, alternates, notification, PRD/MOA, navigation and equipment.
+- Part 91 MOS 14.02 is the key IFR navigation method reference.
+- Part 91 MOS Chapter 26 supports communication/navigation equipment serviceability.
+- AIP, ERSA and current charts provide the operational route and publication context needed to apply the MOS rules.
 
 ## Common CASA traps
 
-TODO
+- Do not decide proceed/no-proceed from a single factor unless the question explicitly isolates that factor.
+- Check aircraft equipment, pilot capability, route requirements, alternates, NOTAM and GNSS integrity where applicable.
 
 ## Worked examples
 
-TODO
+TODO: Add proceed/no-proceed checklist example after selecting aircraft and route assumptions.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Build the answer as a chain: weather, alternate, notification, route/airspace, navigation, equipment, NOTAM, fuel.
+- Use the reference locator to jump to the first failed condition in that chain.

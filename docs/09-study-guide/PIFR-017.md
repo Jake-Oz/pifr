@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.4: State sources of, and actions to ob
 
 ## Why it matters
 
-TODO
+The exam can ask both what forecast sources exist and what action the pilot must take to obtain or update them.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 7.02 requires the pilot in command to study authorised forecasts/reports and other reasonably available relevant weather information.
+- Part 91 MOS 7.03 deals with the limited case where an authorised forecast or report is not available before departure.
+- AIP GEN 3.5 identifies BoM aviation weather resources, meteorological offices, Airservices briefing pathways and routine/non-routine product availability.
 
 ## Common CASA traps
 
-TODO
+- Do not treat a source list as satisfying the legal study/update requirement by itself.
+- If the question says a forecast was unavailable before departure, check MOS 7.03 rather than guessing.
 
 ## Worked examples
 
-TODO
+TODO: Add pre-flight weather-source workflow using NAIPS/AIP/BoM references.
 
 ## Cross references
 
@@ -61,4 +64,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 7.02 for required pilot action.
+- Use AIP GEN 3.5 for where the products and services are described.

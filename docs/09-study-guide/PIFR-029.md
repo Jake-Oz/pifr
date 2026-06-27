@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 1.1.1: Determine the compulsory reporting 
 
 ## Why it matters
 
-TODO
+Compulsory reporting points are a route-specific lookup task that connects flight notification, route data and in-flight reporting requirements.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 9 covers flight notification requirements and route information submitted for the flight.
+- Part 91 MOS Chapter 21 contains the prescribed reports and position-report triggers.
+- AIP ENR 1.1 explains reporting point and position report context, including off-route reporting logic.
+- AIP ENR 1.10 supports flight notification route detail.
 
 ## Common CASA traps
 
-TODO
+- Do not assume every waypoint on a planned route is a compulsory reporting point.
+- Check whether the report is required by route requirements, ATC instruction, SARWATCH, or Class G IFR procedures.
 
 ## Worked examples
 
-TODO
+TODO: Add route reporting point example after selecting a sample route.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use the route/chart to identify candidate reporting points.
+- Use Part 91 MOS Chapter 21 and AIP ENR 1.1 to determine which reports are compulsory.

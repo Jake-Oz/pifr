@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 7.1.1: Select a route for IFR flight with 
 
 ## Why it matters
 
-TODO
+Route selection is a combined planning problem: weather, airspace, PRDs, route limitations, alternates, navigation aids, rated coverage and communications all have to be checked before the flight is viable.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Use Part 91 MOS Chapters 7, 8, 9, 10, 11, 14, 21 and 26 as the regulation/MOS planning chain.
+- AIP ENR 1.1, ENR 1.10, ENR 5.1 and GEN 1.5/3.2 provide route, flight notification, PRD/MOA, navigation equipment and chart-product context.
+- ERSA GEN FPR adds route-specific flight-planning requirements.
+- Current ERC Low, TAC and PCA chart product availability has been verified from Airservices AIP Charts.
 
 ## Common CASA traps
 
-TODO
+- Do not select a route from a line on a chart without checking PRD/MOA, route limitations and navigation/communication requirements.
+- Do not treat chart product availability as a route-specific worked example; exact panel work still needs a selected route.
+- Engine-out performance for multi-engine aircraft must come from aircraft-specific material, not generic AIP text.
 
 ## Worked examples
 
-TODO
+TODO: Add route-selection worked examples after selecting exact ERC Low/TAC/PCA panels.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use the MOS chapters for the legal proceed/no-proceed chain.
+- Use AIP/ERSA/charts for operational route data and current publication lookup.

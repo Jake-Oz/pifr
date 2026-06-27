@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.5: Determine the validity of a meteoro
 
 ## Why it matters
 
-TODO
+Forecast validity questions are usually solved by applying a specific timing rule rather than interpreting the weather content.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 7.02 contains the forecast validity rules for whole flight coverage and destination/alternate ETA windows.
+- A forecast studied more than 1 hour before flight requires an update before the flight begins.
+- Part 91 MOS 7.03 provides the rule set for flights unable to obtain an authorised forecast before departure.
+- AIP GEN 3.5 describes TAF, GAF and related product validity context.
 
 ## Common CASA traps
 
-TODO
+- Do not use issue time alone; check the validity period against the flight or ETA requirement.
+- Do not apply the aerodrome forecast ETA window to every route forecast product.
 
 ## Worked examples
 
-TODO
+TODO: Add validity-window calculations for destination and alternate forecasts.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- For validity, use Part 91 MOS 7.02 before checking AIP product descriptions.
+- For no-forecast-before-departure scenarios, use Part 91 MOS 7.03.

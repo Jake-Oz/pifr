@@ -350,6 +350,151 @@ STUDY_CONTENT = {
             "Use AIP ENR 1.10 section 5 for chart and operational information carriage context.",
         ],
     },
+    "PIFR-015": {
+        "why": "This objective turns the permitted documents into a practical pre-flight workflow: weather, NOTAM, aerodrome, route, chart, aircraft and flight notification information all have to be extracted from the correct source.",
+        "notes": [
+            "Use CASR 91.095 to 91.110 for document and authorised aeronautical information requirements.",
+            "Use CASR 91.230, 91.235 and 91.240 for weather, alternate and flight notification legal hooks.",
+            "Part 91 MOS Chapters 7, 8, 9 and 19 are the main pre-flight planning chapters for weather, alternates, flight notification and fuel.",
+            "AIP ENR 1.10 and AIP GEN 3.1/3.2 identify operational information, chart products and briefing/publication sources.",
+        ],
+        "traps": [
+            "Do not use one document type to answer every planning question; identify whether the question is about weather, NOTAM, route, chart, fuel, aircraft documents or flight notification.",
+            "Do not treat extracted operational information as current unless the source cycle and validity are checked.",
+        ],
+        "examples": "TODO: Add a document-extraction checklist for a sample IFR trip.",
+        "exam_use": [
+            "Start with the question noun: forecast, NOTAM, chart, flight plan, alternate, fuel or aircraft document.",
+            "Then move to the matching MOS chapter or AIP section from the official reference table.",
+        ],
+    },
+    "PIFR-016": {
+        "why": "Forecast requirements are high-value exam material because IFR planning requires the correct forecast type for the route, destination and alternates.",
+        "notes": [
+            "Part 91 MOS 7.02 is the primary source for forecasts required before flight.",
+            "For route weather, identify whether the operation is at or below 10,000 ft, above 10,000 ft, or requires a flight forecast.",
+            "For IFR destination and alternate planning, check whether the planned destination has an IAP the pilot can conduct.",
+            "The MOS validity rule for destination and alternate aerodrome forecasts is separate from the general route-forecast requirement.",
+        ],
+        "traps": [
+            "Do not confuse route forecast requirements with destination aerodrome forecast requirements.",
+            "Do not ignore the 30 minutes before and 60 minutes after ETA validity window for IFR destination and alternate forecasts.",
+            "If briefing was obtained more than 1 hour before departure, check the MOS update requirement.",
+        ],
+        "examples": "TODO: Add forecast-selection examples for GAF/TAF/ICAO landing forecast scenarios.",
+        "exam_use": [
+            "Go directly to Part 91 MOS 7.02.",
+            "Use AIP GEN 3.5 for product names and availability context after the MOS requirement is identified.",
+        ],
+    },
+    "PIFR-017": {
+        "why": "The exam can ask both what forecast sources exist and what action the pilot must take to obtain or update them.",
+        "notes": [
+            "Part 91 MOS 7.02 requires the pilot in command to study authorised forecasts/reports and other reasonably available relevant weather information.",
+            "Part 91 MOS 7.03 deals with the limited case where an authorised forecast or report is not available before departure.",
+            "AIP GEN 3.5 identifies BoM aviation weather resources, meteorological offices, Airservices briefing pathways and routine/non-routine product availability.",
+        ],
+        "traps": [
+            "Do not treat a source list as satisfying the legal study/update requirement by itself.",
+            "If the question says a forecast was unavailable before departure, check MOS 7.03 rather than guessing.",
+        ],
+        "examples": "TODO: Add pre-flight weather-source workflow using NAIPS/AIP/BoM references.",
+        "exam_use": [
+            "Use Part 91 MOS 7.02 for required pilot action.",
+            "Use AIP GEN 3.5 for where the products and services are described.",
+        ],
+    },
+    "PIFR-018": {
+        "why": "Forecast validity questions are usually solved by applying a specific timing rule rather than interpreting the weather content.",
+        "notes": [
+            "Part 91 MOS 7.02 contains the forecast validity rules for whole flight coverage and destination/alternate ETA windows.",
+            "A forecast studied more than 1 hour before flight requires an update before the flight begins.",
+            "Part 91 MOS 7.03 provides the rule set for flights unable to obtain an authorised forecast before departure.",
+            "AIP GEN 3.5 describes TAF, GAF and related product validity context.",
+        ],
+        "traps": [
+            "Do not use issue time alone; check the validity period against the flight or ETA requirement.",
+            "Do not apply the aerodrome forecast ETA window to every route forecast product.",
+        ],
+        "examples": "TODO: Add validity-window calculations for destination and alternate forecasts.",
+        "exam_use": [
+            "For validity, use Part 91 MOS 7.02 before checking AIP product descriptions.",
+            "For no-forecast-before-departure scenarios, use Part 91 MOS 7.03.",
+        ],
+    },
+    "PIFR-019": {
+        "why": "Weather broadcast services are practical exam-index topics: the answer is usually found by knowing whether to look in AIP GEN 3.4, AIP GEN 3.5, ERSA GEN FIS or ERSA NAV/COMM.",
+        "notes": [
+            "Part 91 MOS section 1.07 defines ATIS and AWIS, and section 14.03 identifies QNH sources for instrument approaches.",
+            "AIP GEN 3.4 covers communication services such as AAIS/CA-GRS, UNICOM context and ATIS-related services.",
+            "AIP GEN 3.5 covers VOLMET and meteorological services.",
+            "ERSA GEN FIS and ERSA NAV/COMM provide current service and frequency lookup context.",
+        ],
+        "traps": [
+            "Do not assume every aerodrome has the same weather broadcast services.",
+            "Use ERSA for current frequencies/locations rather than relying on AIP service descriptions alone.",
+        ],
+        "examples": "TODO: Add service-lookup examples for ATIS, AWIS/WATIR and VOLMET.",
+        "exam_use": [
+            "Use AIP GEN 3.4/3.5 to identify the type of service.",
+            "Use ERSA GEN FIS and NAV/COMM to locate current availability and frequencies.",
+        ],
+    },
+    "PIFR-028": {
+        "why": "Route selection is a combined planning problem: weather, airspace, PRDs, route limitations, alternates, navigation aids, rated coverage and communications all have to be checked before the flight is viable.",
+        "notes": [
+            "Use Part 91 MOS Chapters 7, 8, 9, 10, 11, 14, 21 and 26 as the regulation/MOS planning chain.",
+            "AIP ENR 1.1, ENR 1.10, ENR 5.1 and GEN 1.5/3.2 provide route, flight notification, PRD/MOA, navigation equipment and chart-product context.",
+            "ERSA GEN FPR adds route-specific flight-planning requirements.",
+            "Current ERC Low, TAC and PCA chart product availability has been verified from Airservices AIP Charts.",
+        ],
+        "traps": [
+            "Do not select a route from a line on a chart without checking PRD/MOA, route limitations and navigation/communication requirements.",
+            "Do not treat chart product availability as a route-specific worked example; exact panel work still needs a selected route.",
+            "Engine-out performance for multi-engine aircraft must come from aircraft-specific material, not generic AIP text.",
+        ],
+        "examples": "TODO: Add route-selection worked examples after selecting exact ERC Low/TAC/PCA panels.",
+        "exam_use": [
+            "Use the MOS chapters for the legal proceed/no-proceed chain.",
+            "Use AIP/ERSA/charts for operational route data and current publication lookup.",
+        ],
+    },
+    "PIFR-029": {
+        "why": "Compulsory reporting points are a route-specific lookup task that connects flight notification, route data and in-flight reporting requirements.",
+        "notes": [
+            "Part 91 MOS Chapter 9 covers flight notification requirements and route information submitted for the flight.",
+            "Part 91 MOS Chapter 21 contains the prescribed reports and position-report triggers.",
+            "AIP ENR 1.1 explains reporting point and position report context, including off-route reporting logic.",
+            "AIP ENR 1.10 supports flight notification route detail.",
+        ],
+        "traps": [
+            "Do not assume every waypoint on a planned route is a compulsory reporting point.",
+            "Check whether the report is required by route requirements, ATC instruction, SARWATCH, or Class G IFR procedures.",
+        ],
+        "examples": "TODO: Add route reporting point example after selecting a sample route.",
+        "exam_use": [
+            "Use the route/chart to identify candidate reporting points.",
+            "Use Part 91 MOS Chapter 21 and AIP ENR 1.1 to determine which reports are compulsory.",
+        ],
+    },
+    "PIFR-030": {
+        "why": "Proceed/no-proceed questions test whether all route, equipment and IFR navigation requirements have been brought together, not just whether the weather looks acceptable.",
+        "notes": [
+            "Use Part 91 MOS 10.02 for pre-takeoff checks and the broader MOS chain for weather, alternates, notification, PRD/MOA, navigation and equipment.",
+            "Part 91 MOS 14.02 is the key IFR navigation method reference.",
+            "Part 91 MOS Chapter 26 supports communication/navigation equipment serviceability.",
+            "AIP, ERSA and current charts provide the operational route and publication context needed to apply the MOS rules.",
+        ],
+        "traps": [
+            "Do not decide proceed/no-proceed from a single factor unless the question explicitly isolates that factor.",
+            "Check aircraft equipment, pilot capability, route requirements, alternates, NOTAM and GNSS integrity where applicable.",
+        ],
+        "examples": "TODO: Add proceed/no-proceed checklist example after selecting aircraft and route assumptions.",
+        "exam_use": [
+            "Build the answer as a chain: weather, alternate, notification, route/airspace, navigation, equipment, NOTAM, fuel.",
+            "Use the reference locator to jump to the first failed condition in that chain.",
+        ],
+    },
 }
 
 
