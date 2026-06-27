@@ -1,3 +1,5 @@
+import csv
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -229,6 +231,36 @@ def write(path, text):
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
 
 
+def write_objective_data(objs):
+    data_dir = ROOT / "data"
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    payload = {
+        "source": SOURCE,
+        "objective_count": len(objs),
+        "objectives": objs,
+    }
+    write(
+        data_dir / "pifr-objectives.json",
+        json.dumps(payload, indent=2, ensure_ascii=False),
+    )
+
+    fields = [
+        "id",
+        "mos_ref",
+        "section_no",
+        "section_title",
+        "element_no",
+        "element_title",
+        "objective",
+    ]
+    csv_path = data_dir / "pifr-objectives.csv"
+    with csv_path.open("w", encoding="utf-8", newline="") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows({field: obj[field] for field in fields} for obj in objs)
+
+
 def syllabus():
     lines = [
         "# CASA PIFR Syllabus - MOS Master Reference",
@@ -437,11 +469,39 @@ def project_docs():
 - Source text extraction used locally: `tmp/source/part61-mos-vol3.txt`.
 - `tmp/` is ignored and should be treated as a working cache, not project source.
 """)
+    write(ROOT / "docs/00-project/data-model.md", """# Data Model
+
+The MOS objective list is maintained in `scripts/generate_pifr_phase1.py` and emitted into Markdown and structured data.
+
+## Generated Files
+
+- `docs/01-mos/syllabus.md` is the MOS master reference.
+- `docs/08-cross-reference/master-cross-reference.md` is the MOS-indexed reference matrix.
+- `docs/09-study-guide/PIFR-001.md` through `docs/09-study-guide/PIFR-093.md` are per-objective study placeholders.
+- `docs/09-study-guide/learning-roadmap.md` is an editorial grouping of MOS objectives.
+- `data/pifr-objectives.json` is the structured objective dataset for future website, retrieval, flashcard and exam-index generation.
+- `data/pifr-objectives.csv` is a spreadsheet-friendly export of the same objective dataset.
+- `data/pifr-objectives-count.txt` records the current objective count.
+
+## Validation
+
+Run `python3 scripts/validate_traceability.py` after generated files are edited or regenerated.
+
+The validation checks that:
+
+- all objective IDs are unique and sequential;
+- the syllabus contains every MOS objective;
+- the cross-reference contains every objective once;
+- every per-objective study file exists and contains the correct MOS objective;
+- the learning roadmap references every objective once;
+- structured JSON and CSV exports match the generator objective list.
+""")
 
 
 def main():
     objs = list(iter_objectives())
     project_docs()
+    write_objective_data(objs)
     syllabus()
     cross_reference(objs)
     roadmap(objs)

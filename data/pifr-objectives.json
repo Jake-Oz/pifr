@@ -1,0 +1,856 @@
+{
+  "source": {
+    "title": "Part 61 Manual of Standards Instrument 2014",
+    "title_id": "F2014L01102",
+    "register_id": "F2025C00050",
+    "compilation": "Compilation No. 6",
+    "effective": "2024-11-19",
+    "registered": "2025-01-14",
+    "rectified": "2025-03-14",
+    "volume": "Volume 3",
+    "schedule": "Schedule 3 Aeronautical knowledge standards",
+    "section": "Section 2.2 Private IFR Rating",
+    "unit": "Unit 2.2.1 PIFR: Private IFR rating",
+    "url": "https://www.legislation.gov.au/F2014L01102/latest"
+  },
+  "objective_count": 93,
+  "objectives": [
+    {
+      "id": "PIFR-001",
+      "section_no": "2",
+      "section_title": "Pilot's fitness and qualifications",
+      "element_no": "2.1",
+      "element_title": "Pilot medical fitness for IFR flight",
+      "mos_ref": "2.1.1",
+      "objective": "State requirements for pilot fitness to conduct an IFR flight."
+    },
+    {
+      "id": "PIFR-002",
+      "section_no": "2",
+      "section_title": "Pilot's fitness and qualifications",
+      "element_no": "2.1",
+      "element_title": "Pilot medical fitness for IFR flight",
+      "mos_ref": "2.1.2",
+      "objective": "Describe how a pilot determines whether they are fit to conduct an IFR flight."
+    },
+    {
+      "id": "PIFR-003",
+      "section_no": "2",
+      "section_title": "Pilot's fitness and qualifications",
+      "element_no": "2.1",
+      "element_title": "Pilot medical fitness for IFR flight",
+      "mos_ref": "2.1.3",
+      "objective": "State what qualifications a pilot must have to be authorised to conduct an IFR flight."
+    },
+    {
+      "id": "PIFR-004",
+      "section_no": "3",
+      "section_title": "Aircraft instruments, radios and equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "3.1.1",
+      "objective": "List the mandatory flight instruments that must be installed and serviceable for conducting an IFR flight."
+    },
+    {
+      "id": "PIFR-005",
+      "section_no": "3",
+      "section_title": "Aircraft instruments, radios and equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "3.1.2",
+      "objective": "List the mandatory electrical lighting equipment that must be installed and serviceable for conducting an IFR flight."
+    },
+    {
+      "id": "PIFR-006",
+      "section_no": "3",
+      "section_title": "Aircraft instruments, radios and equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "3.1.3",
+      "objective": "List the mandatory aircraft radio communications equipment that must be installed and serviceable for conducting an IFR flight."
+    },
+    {
+      "id": "PIFR-007",
+      "section_no": "3",
+      "section_title": "Aircraft instruments, radios and equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "3.1.4",
+      "objective": "List the mandatory radio navigation equipment that must be installed and serviceable for conducting an IFR flight."
+    },
+    {
+      "id": "PIFR-008",
+      "section_no": "3",
+      "section_title": "Aircraft instruments, radios and equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "3.1.5",
+      "objective": "Extract from an aircraft flight manual information about the limitations that are specified for operating a particular type of aircraft under the IFR."
+    },
+    {
+      "id": "PIFR-009",
+      "section_no": "4",
+      "section_title": "IFR operations - general",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "4.1.1",
+      "objective": "State the IFR operations a single-engine aircraft is limited to."
+    },
+    {
+      "id": "PIFR-010",
+      "section_no": "4",
+      "section_title": "IFR operations - general",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "4.1.2",
+      "objective": "State the requirements for submission of flight notification and SARWATCH for conducting an IFR operation."
+    },
+    {
+      "id": "PIFR-011",
+      "section_no": "4",
+      "section_title": "IFR operations - general",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "4.1.3",
+      "objective": "State the speed restrictions an IFR flight must operate to."
+    },
+    {
+      "id": "PIFR-012",
+      "section_no": "4",
+      "section_title": "IFR operations - general",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "4.1.4",
+      "objective": "State the requirements for inflight progress reports for IFR flights."
+    },
+    {
+      "id": "PIFR-013",
+      "section_no": "4",
+      "section_title": "IFR operations - general",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "4.1.5",
+      "objective": "State the requirements and procedures for flight plan amendments and advising revised estimates."
+    },
+    {
+      "id": "PIFR-014",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "5.1.1",
+      "objective": "State the documents required to be carried on an IFR flight."
+    },
+    {
+      "id": "PIFR-015",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "5.1.2",
+      "objective": "Extract relevant information from operational documents for an IFR flight."
+    },
+    {
+      "id": "PIFR-016",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "5.1.3",
+      "objective": "Describe the meteorological forecasts required for conducting an IFR flight."
+    },
+    {
+      "id": "PIFR-017",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "5.1.4",
+      "objective": "State sources of, and actions to obtain, meteorological forecasts for IFR flights."
+    },
+    {
+      "id": "PIFR-018",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "5.1.5",
+      "objective": "Determine the validity of a meteorological forecast for an IFR flight."
+    },
+    {
+      "id": "PIFR-019",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "5.1.6",
+      "objective": "State what meteorological broadcast services are available in Australia for the flight."
+    },
+    {
+      "id": "PIFR-020",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.1",
+      "objective": "Describe the navigation requirements for an IFR flight using radio navigation systems."
+    },
+    {
+      "id": "PIFR-021",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.2",
+      "objective": "State the navigation requirements for an IFR flight using self-contained or long-range navigation systems."
+    },
+    {
+      "id": "PIFR-022",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.3",
+      "objective": "Describe the navigation requirements for an IFR flight using visual reference to ground and water."
+    },
+    {
+      "id": "PIFR-023",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.4",
+      "objective": "State the navigation tolerance for an IFR flight avoiding CTA."
+    },
+    {
+      "id": "PIFR-024",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.5",
+      "objective": "State the requirements for positive radio fixing."
+    },
+    {
+      "id": "PIFR-025",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.6",
+      "objective": "Determine the requirements for the most precise track guidance."
+    },
+    {
+      "id": "PIFR-026",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.7",
+      "objective": "Apply the navigation requirements of IFR flight with respect to time interval between fixes, accuracy of time reference, accuracy and procedures in track keeping."
+    },
+    {
+      "id": "PIFR-027",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "6.1.8",
+      "objective": "Apply the procedures of IFR flight in all classes of airspace when diverting from track due navigation or weather."
+    },
+    {
+      "id": "PIFR-028",
+      "section_no": "7",
+      "section_title": "Selection of IFR routes",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "7.1.1",
+      "objective": "Select a route for IFR flight with respect to the following: (a) forecast weather; (b) controlled airspace; (c) PRDs; (d) engine out performance for multi-engine aircraft; (e) specified route limitations; (f) airways operational requirements; (g) the availability of the following: (i) published routes; (ii) en route alternate aerodromes; (iii) navigation aids; (iv) rated coverage of navigation aids; (v) radio communication."
+    },
+    {
+      "id": "PIFR-029",
+      "section_no": "7",
+      "section_title": "Selection of IFR routes",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "1.1.1",
+      "objective": "Determine the compulsory reporting points for a route selected."
+    },
+    {
+      "id": "PIFR-030",
+      "section_no": "7",
+      "section_title": "Selection of IFR routes",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "7.1.2",
+      "objective": "Determine whether the flight may proceed based on route, aircraft equipment and IFR navigation requirements."
+    },
+    {
+      "id": "PIFR-031",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.1",
+      "element_title": "LSALT",
+      "mos_ref": "8.1.1",
+      "objective": "Determine LSALT for an IFR flight for a route published on a chart."
+    },
+    {
+      "id": "PIFR-032",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.1",
+      "element_title": "LSALT",
+      "mos_ref": "8.1.2",
+      "objective": "Determine the dimensions of the significant safety sector when calculating LSALT for a route not published on a chart."
+    },
+    {
+      "id": "PIFR-033",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.1",
+      "element_title": "LSALT",
+      "mos_ref": "8.1.3",
+      "objective": "Determine methods of calculating LSALT for a route not published on a chart."
+    },
+    {
+      "id": "PIFR-034",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.1",
+      "element_title": "LSALT",
+      "mos_ref": "8.1.4",
+      "objective": "Calculate LSALT for non-published route."
+    },
+    {
+      "id": "PIFR-035",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.1",
+      "element_title": "LSALT",
+      "mos_ref": "8.1.5",
+      "objective": "State the requirements for descent below LSALT."
+    },
+    {
+      "id": "PIFR-036",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.2",
+      "element_title": "Select cruising altitude or level",
+      "mos_ref": "8.2.1",
+      "objective": "Select an appropriate cruising altitude/level after assessing the following: (a) LSALT; (b) forecast freezing level; (c) engine out performance for multi-engine aircraft; (d) CTA and PRDs; (e) table of IFR cruising levels; (f) availability of published routes; (g) availability of navigation aids; (h) rated coverage of navigation aids; (i) specified route limitations; (j) airways operational requirements."
+    },
+    {
+      "id": "PIFR-037",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.3",
+      "element_title": "Determining when flight may proceed - uncertain position",
+      "mos_ref": "8.3.1",
+      "objective": "Determine whether a flight may proceed based on the following: (a) altitude; (b) aircraft equipment; (c) IFR navigation requirements."
+    },
+    {
+      "id": "PIFR-038",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "element_no": "8.3",
+      "element_title": "Determining when flight may proceed - uncertain position",
+      "mos_ref": "8.3.2",
+      "objective": "Determine an appropriate LSALT when uncertain of position."
+    },
+    {
+      "id": "PIFR-039",
+      "section_no": "9",
+      "section_title": "IFR alternate aerodrome requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "9.1.1",
+      "objective": "State the alternate aerodrome requirements for an IFR flight to a specified destination, given relevant information, including NOTAM."
+    },
+    {
+      "id": "PIFR-040",
+      "section_no": "9",
+      "section_title": "IFR alternate aerodrome requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "9.1.2",
+      "objective": "Determine the suitability of a specified alternate aerodrome for an IFR flight given relevant information, including NOTAM."
+    },
+    {
+      "id": "PIFR-041",
+      "section_no": "9",
+      "section_title": "IFR alternate aerodrome requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "9.1.3",
+      "objective": "Describe the holding requirements due to weather, traffic, traffic advisory, and procedures."
+    },
+    {
+      "id": "PIFR-042",
+      "section_no": "9",
+      "section_title": "IFR alternate aerodrome requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "9.1.4",
+      "objective": "Calculate the minimum fuel required for an IFR flight in accordance with CASA fuel policy guidance material."
+    },
+    {
+      "id": "PIFR-043",
+      "section_no": "9",
+      "section_title": "IFR alternate aerodrome requirements",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "9.1.5",
+      "objective": "Determine whether a flight may proceed based on alternate or holding requirements and fuel capacity."
+    },
+    {
+      "id": "PIFR-044",
+      "section_no": "10",
+      "section_title": "Operation of aircraft equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "10.1.1",
+      "objective": "State the safety precautions that must be observed when operating aircraft radar equipment on the ground."
+    },
+    {
+      "id": "PIFR-045",
+      "section_no": "10",
+      "section_title": "Operation of aircraft equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "10.1.2",
+      "objective": "State the pre-flight altimeter accuracy check for an IFR flight."
+    },
+    {
+      "id": "PIFR-046",
+      "section_no": "10",
+      "section_title": "Operation of aircraft equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "10.1.3",
+      "objective": "Apply altimetry procedures to all stages of an IFR flight."
+    },
+    {
+      "id": "PIFR-047",
+      "section_no": "10",
+      "section_title": "Operation of aircraft equipment",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "10.1.4",
+      "objective": "Describe the correct use of a transponder, and the associated radio phraseology, in all classes of airspace."
+    },
+    {
+      "id": "PIFR-048",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "11.1.1",
+      "objective": "State airways clearance requirements for operating in all classes of airspace, including lead time required for flight plan submission, contents, 'clearance void time', and 'read back' requirement."
+    },
+    {
+      "id": "PIFR-049",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "11.1.2",
+      "objective": "State airways clearance requirements for entering, operating in and departing CTA and CTR, including what details to provide to ATC, and what details to expect from ATC."
+    },
+    {
+      "id": "PIFR-050",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "11.1.3",
+      "objective": "State what is 'controlled area protection'."
+    },
+    {
+      "id": "PIFR-051",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "11.1.4",
+      "objective": "State ATC requirements for a change of level in CTA, including in an emergency situation."
+    },
+    {
+      "id": "PIFR-052",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "11.1.5",
+      "objective": "State the procedures for the following components of a flight profile for day and night operations in CTA and CTR: (a) departure; (b) climb; (c) transition to cruise (levelling out); (d) cruise; (e) change of levels; (f) descent and visual approach."
+    },
+    {
+      "id": "PIFR-053",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": "11.2",
+      "element_title": "Separation standards",
+      "mos_ref": "11.2.1",
+      "objective": "State the provision of separation between IFR flights, and IFR and VFR flights in the various classes of CTA."
+    },
+    {
+      "id": "PIFR-054",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": "11.2",
+      "element_title": "Separation standards",
+      "mos_ref": "11.2.2",
+      "objective": "State the provision of separation between IFR flights, and IFR and VFR flights in Class D airspace."
+    },
+    {
+      "id": "PIFR-055",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": "11.3",
+      "element_title": "Radio procedures",
+      "mos_ref": "11.3.1",
+      "objective": "Demonstrate knowledge of radio procedures in CTA and CTR."
+    },
+    {
+      "id": "PIFR-056",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": "11.3",
+      "element_title": "Radio procedures",
+      "mos_ref": "11.3.2",
+      "objective": "Determine procedures for loss of radio communication in CTA and CTR."
+    },
+    {
+      "id": "PIFR-057",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "element_no": "11.3",
+      "element_title": "Radio procedures",
+      "mos_ref": "11.3.3",
+      "objective": "Determine procedures for abnormal operations and/or emergencies in CTA and CTR."
+    },
+    {
+      "id": "PIFR-058",
+      "section_no": "12",
+      "section_title": "Radar services",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "12.1.1",
+      "objective": "State what radar services are provided by ATC."
+    },
+    {
+      "id": "PIFR-059",
+      "section_no": "12",
+      "section_title": "Radar services",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "12.1.2",
+      "objective": "Demonstrate knowledge of radar vectoring procedures, including radio procedures and phraseologies."
+    },
+    {
+      "id": "PIFR-060",
+      "section_no": "12",
+      "section_title": "Radar services",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "12.1.3",
+      "objective": "State the permissible intervals between ATC transmissions during radar vectoring."
+    },
+    {
+      "id": "PIFR-061",
+      "section_no": "12",
+      "section_title": "Radar services",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "12.1.4",
+      "objective": "Demonstrate knowledge of radar emergency procedures, including loss of radio communication, radar failure, transponder emergency codes, and aircraft emergencies."
+    },
+    {
+      "id": "PIFR-062",
+      "section_no": "13",
+      "section_title": "OCTA operations",
+      "element_no": "13.1",
+      "element_title": "Flight profile procedures - OCTA",
+      "mos_ref": "13.1.1",
+      "objective": "State the procedures for the following components of a flight profile for day and night operations in Class G airspace and at non-controlled aerodromes: (a) departure; (b) climb; (c) transition to cruise (levelling out); (d) cruise; (e) change of levels; (f) descent, and arrival."
+    },
+    {
+      "id": "PIFR-063",
+      "section_no": "13",
+      "section_title": "OCTA operations",
+      "element_no": "13.2",
+      "element_title": "Visual approach procedures",
+      "mos_ref": "13.2.1",
+      "objective": "State visual approach procedures, day and night, in Class G airspace and at non-controlled aerodromes, including the following: (a) landing manoeuvres; (b) cancellation of SARWATCH; (c) operation of VHF aerodrome lighting (PAL)."
+    },
+    {
+      "id": "PIFR-064",
+      "section_no": "13",
+      "section_title": "OCTA operations",
+      "element_no": "13.3",
+      "element_title": "Radio and abnormal procedures",
+      "mos_ref": "13.3.1",
+      "objective": "Demonstrate knowledge of radio procedures in Class G airspace and at non-controlled aerodromes."
+    },
+    {
+      "id": "PIFR-065",
+      "section_no": "13",
+      "section_title": "OCTA operations",
+      "element_no": "13.3",
+      "element_title": "Radio and abnormal procedures",
+      "mos_ref": "13.3.2",
+      "objective": "Determine procedures for loss of radio communication in Class G airspace and at non-controlled aerodromes."
+    },
+    {
+      "id": "PIFR-066",
+      "section_no": "13",
+      "section_title": "OCTA operations",
+      "element_no": "13.3",
+      "element_title": "Radio and abnormal procedures",
+      "mos_ref": "13.3.3",
+      "objective": "Determine procedures for abnormal operations and/or emergencies Class G airspace and at non-controlled aerodromes."
+    },
+    {
+      "id": "PIFR-067",
+      "section_no": "14",
+      "section_title": "Meteorology relevant to IFR operations:",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "14.1.1",
+      "objective": "Demonstrate knowledge of flying conditions likely to be associated with any phenomenon listed in AIP documents and the Bureau of Meteorology publication, Manual of Meteorology, Part 2."
+    },
+    {
+      "id": "PIFR-068",
+      "section_no": "14",
+      "section_title": "Meteorology relevant to IFR operations:",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "14.1.2",
+      "objective": "Demonstrate knowledge of Australian climatology as enumerated in Manual of Meteorology Parts 1 and 2, with emphasis on the seasonal variations in the location and frequency of frontal weather, tropical cyclones, dust devils, thunderstorms, fog, and the associated penetration and/or avoidance techniques."
+    },
+    {
+      "id": "PIFR-069",
+      "section_no": "14",
+      "section_title": "Meteorology relevant to IFR operations:",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "14.1.3",
+      "objective": "Predict probability and likely duration and extent of airframe icing, hail, microbursts, wind shear, turbulence en route, when experiencing and/or observing certain cloud types, precipitation, temperature and/or turbulence."
+    },
+    {
+      "id": "PIFR-070",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.1",
+      "element_title": "VOR",
+      "mos_ref": "15.1.1",
+      "objective": "Describe the instrument indications that would indicate the following: (a) scalloping; (b) VOR station passage; (c) abeam VOR station; (d) VOR radial the aircraft is on; (e) track error and/or drift experienced."
+    },
+    {
+      "id": "PIFR-071",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.1",
+      "element_title": "VOR",
+      "mos_ref": "15.1.2",
+      "objective": "Determine off-track distance experienced from VOR and DME cockpit indications."
+    },
+    {
+      "id": "PIFR-072",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.1",
+      "element_title": "VOR",
+      "mos_ref": "15.1.3",
+      "objective": "State VOR omni-bearing selector (OBS) settings required to provide command indications when flying on given tracks both to and from the VOR."
+    },
+    {
+      "id": "PIFR-073",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.1",
+      "element_title": "VOR",
+      "mos_ref": "15.1.4",
+      "objective": "Calculate the heading to steer to intercept a new or original track to, or from, a VOR."
+    },
+    {
+      "id": "PIFR-074",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.1",
+      "element_title": "VOR",
+      "mos_ref": "15.1.5",
+      "objective": "Fix position, given cockpit instrument indications utilising 2 VOR stations."
+    },
+    {
+      "id": "PIFR-075",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.1",
+      "element_title": "VOR",
+      "mos_ref": "15.1.6",
+      "objective": "Fix position, given instrument indications utilising combinations of VOR, NDB and DME."
+    },
+    {
+      "id": "PIFR-076",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.1",
+      "objective": "State how NDB indications or range may be affected by the following: (a) coastal refraction; (b) night error; (c) thunderstorms; (d) mountainous areas; (e) types of terrain; (f) altitude of aircraft."
+    },
+    {
+      "id": "PIFR-077",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.2",
+      "objective": "State the method of using the most appropriate NDB for tracking during navigation."
+    },
+    {
+      "id": "PIFR-078",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.3",
+      "objective": "Describe how the following are determined using an ADF relative bearing indication: (a) NDB station passage; (b) abeam NDB station; (c) NDB bearing the aircraft is on; (d) track error and/or drift experienced."
+    },
+    {
+      "id": "PIFR-079",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.4",
+      "objective": "Calculate track to and from the NDB, given heading and relative bearings."
+    },
+    {
+      "id": "PIFR-080",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.5",
+      "objective": "Calculate heading to steer to intercept a new or original track to or from an NDB."
+    },
+    {
+      "id": "PIFR-081",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.6",
+      "objective": "Calculate heading to steer to intercept desired inbound track before reaching the NDB."
+    },
+    {
+      "id": "PIFR-082",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.7",
+      "objective": "Calculate relative bearing which will indicate that a desired track to or from an NDB has been intercepted, given the intercept heading."
+    },
+    {
+      "id": "PIFR-083",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.2",
+      "element_title": "NDB",
+      "mos_ref": "15.2.8",
+      "objective": "Fix position, given relative bearing indications utilising 2 NDB stations."
+    },
+    {
+      "id": "PIFR-084",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.3",
+      "element_title": "GNSS",
+      "mos_ref": "15.3.1",
+      "objective": "GNSS system components and principle of operation: (a) Describe the GNSS system and its principles of operation, including the following: (i) GNSS system components; (ii) space segment; (iii) GNSS Satellite signal; (iv) pseudo random code (C/A course acquisition code); (v) control segment; (vi) user segment (the GNSS receiver); (vii) pseudo ranging; (viii) principle of position fixing/minimum satellites required for navigation functions; (ix) TSO/performance limitations of various equipment types; (x) RAIM; (xi) masking function; (xii) receiver displays of system integrity; (xiii) operating modes - navigation with and without RAIM, DR. (b) Explain why GNSS uses the WGS84 coordinate system."
+    },
+    {
+      "id": "PIFR-085",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.3",
+      "element_title": "GNSS",
+      "mos_ref": "15.3.2",
+      "objective": "GNSS errors."
+    },
+    {
+      "id": "PIFR-086",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "element_no": "15.3",
+      "element_title": "GNSS",
+      "mos_ref": "15.3.3",
+      "objective": "Describe the cause and magnitude of typical GNSS errors: (a) ephemeris; (b) clock; (c) receiver; (d) atmospheric and ionospheric; (e) multipath; (f) SA; (g) typical total error associated with C/A code; (h) effect of PDOP/GDOP on position accuracy; (i) susceptibility to interference; (j) comparison of vertical and horizontal errors; (k) tracking accuracy and collision avoidance."
+    },
+    {
+      "id": "PIFR-087",
+      "section_no": "16",
+      "section_title": "Flight instrument errors",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "16.1.1",
+      "objective": "State how the compass is affected by turning error, acceleration and deceleration error."
+    },
+    {
+      "id": "PIFR-088",
+      "section_no": "16",
+      "section_title": "Flight instrument errors",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "16.1.2",
+      "objective": "State how the attitude indicator is affected by power source output, acceleration and deceleration error, and bank and pitch limits."
+    },
+    {
+      "id": "PIFR-089",
+      "section_no": "17",
+      "section_title": "Human factors relevant to IFR operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "17.1.1",
+      "objective": "State the part played by the vestibular systems, namely the semicircular canals and otiliths, in helping the pilot maintain orientation."
+    },
+    {
+      "id": "PIFR-090",
+      "section_no": "17",
+      "section_title": "Human factors relevant to IFR operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "17.1.2",
+      "objective": "State what circumstances aggravate vestibular disorientation, and how to overcome this problem."
+    },
+    {
+      "id": "PIFR-091",
+      "section_no": "17",
+      "section_title": "Human factors relevant to IFR operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "17.1.3",
+      "objective": "State what causes, and may aggravate, vestibular disorientation such as somatogravic illusions, somatogyral illusions and 'graveyard spiral', coriolis effect, and 'leans'."
+    },
+    {
+      "id": "PIFR-092",
+      "section_no": "17",
+      "section_title": "Human factors relevant to IFR operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "17.1.4",
+      "objective": "State conditions and causes under which visual illusions, such as 'false horizons', visual-cue illusions, relative motion illusions, 'flicker' effect', black hole' illusion, and autokinesis may occur."
+    },
+    {
+      "id": "PIFR-093",
+      "section_no": "17",
+      "section_title": "Human factors relevant to IFR operations",
+      "element_no": null,
+      "element_title": null,
+      "mos_ref": "17.1.5",
+      "objective": "Be aware of the human factors limitations associated with the use of GNSS equipment to provide safeguards against navigational errors and loss of situational awareness because of the following: (a) mode errors; (b) data entry errors; (c) data validation and checking, including independent cross-checking procedures; (d) automation induced complacency; (e) non-standardisation of the GNSS receiver units; (f) human information processing and situational awareness."
+    }
+  ]
+}
