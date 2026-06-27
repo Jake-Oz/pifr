@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CASA PIFR Companion</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">CASA Private IFR Companion</p>
+        <h1>PIFR exam reference workspace</h1>
+      </div>
+      <div class="header-stats" aria-label="Coverage summary">
+        <div><span id="stat-objectives">93</span><small>Objectives</small></div>
+        <div><span id="stat-mapped">0</span><small>Mapped</small></div>
+        <div><span id="stat-partial">0</span><small>Partial</small></div>
+        <div><span id="stat-mos">0</span><small>MOS only</small></div>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Filters">
+        <label class="search-label" for="search">Search</label>
+        <input id="search" type="search" placeholder="Objective, reference, topic">
+
+        <label for="module-filter">Module</label>
+        <select id="module-filter"></select>
+
+        <label for="status-filter">Source status</label>
+        <select id="status-filter">
+          <option value="">All statuses</option>
+          <option value="Mapped">Mapped</option>
+          <option value="Partial">Partial</option>
+          <option value="MOS only">MOS only</option>
+        </select>
+
+        <label for="importance-filter">Exam importance</label>
+        <select id="importance-filter">
+          <option value="">All importance</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="TODO">TODO</option>
+        </select>
+
+        <section class="source-gaps">
+          <h2>Source Gaps</h2>
+          <ul id="gap-list"></ul>
+        </section>
+      </aside>
+
+      <section class="results-pane" aria-live="polite">
+        <div class="results-toolbar">
+          <h2 id="result-count">0 objectives</h2>
+          <button id="clear-filters" type="button">Clear</button>
+        </div>
+        <div id="results" class="results"></div>
+      </section>
+
+      <section class="detail-pane" aria-label="Objective detail">
+        <div id="detail-empty" class="empty-state">Select an objective to view MOS traceability and official reference locators.</div>
+        <article id="detail" class="detail" hidden></article>
+      </section>
+    </main>
+
+    <script src="app-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
