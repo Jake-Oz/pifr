@@ -1,4 +1,16 @@
 {
+  "PIFR-001": {
+    "Part 61": "CASR 61.410, 61.420; CASR Part 67 Subpart 67.C and Subpart 67.E, including 67.145, 67.155, 67.265, 67.270",
+    "Part 91": "CASR 91.520",
+    "Exam importance": "High",
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers PPL medical certificate requirements, carriage of licence/medical documents, Class 2 medical standards, obligations to disclose medically significant conditions, impairment offences, and Part 91 crew fitness for duty."
+  },
+  "PIFR-002": {
+    "Part 61": "CASR 67.015, 67.145, 67.155, 67.265, 67.270",
+    "Part 91": "CASR 91.520",
+    "Exam importance": "High",
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Use this for the legal self-assessment chain: safety-relevant medical condition, Class 2 standard, change in medical condition reporting, impaired-efficiency prohibition, fatigue, alcohol and psychoactive substance fitness limits."
+  },
   "PIFR-003": {
     "Part 61": "CASR 61.910, 61.915, 61.920, 61.925, 61.930, 61.935, 61.940, 61.950",
     "Exam importance": "High",
