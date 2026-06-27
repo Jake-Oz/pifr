@@ -52,5 +52,24 @@
     "AIP reference": "AIP ENR 1.10 section 5; Airservices AIP copyright notice statutory obligations",
     "Exam importance": "High",
     "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers electronic documents, flight crew/aircraft documents, authorised aeronautical information and maintenance release/log carriage. AIP ENR 1.10 explains carriage of relevant latest editions of aeronautical maps, charts and information."
+  },
+  "PIFR-084": {
+    "Part 61": "CASR 61.935 table 61.935 item 10",
+    "Part 91 MOS": "Part 91 MOS section 1.07 definitions of approved GNSS, FDE, GNSS, navigation database, RNAV specification, RNP specification, requisite GNSS satellites and SBAS; sections 14.01-14.07; Chapter 26 GNSS/GPS surveillance definitions including GPS, HPL and SA",
+    "AIP reference": "AIP GEN 1.5 section 2; AIP GEN 2.2 sections 3.11-3.12; AIP ENR 1.1 section 4.8; AIP ENR 1.1 section 6.3; AIP ENR 4.3; AIP ENR 3.3",
+    "Exam importance": "High",
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers approved GNSS equipment, GPS/WGS-84, integrity monitoring, RAIM/FDE, database use, RNP/RNAV context, substitute use and operational GNSS reporting."
+  },
+  "PIFR-085": {
+    "Part 91 MOS": "Part 91 MOS sections 11.04-11.05, 14.02, 14.05-14.07; Chapter 26 GNSS/GPS surveillance definitions including HPL, NACp, NIC, NUCp, SA and SIL",
+    "AIP reference": "AIP GEN 2.2 sections 3.11-3.12; AIP GEN 3.5 section 4.13; AIP ENR 1.1 section 4.8; AIP ENR 1.1 section 6.3; AIP ENR 4.3",
+    "Exam importance": "High",
+    "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Use these references for GNSS integrity/RAIM loss, valid database, dead-reckoning mode, GNSS distance reporting, SBAS status, WGS-84/GPS context and space weather effects on GNSS."
+  },
+  "PIFR-086": {
+    "Part 91 MOS": "Part 91 MOS section 1.07 definitions of approved GNSS, FDE, requisite GNSS satellites, RNAV specification and RNP specification; sections 11.03-11.05, 14.02 and 14.06-14.07; Chapter 26 GNSS/GPS surveillance definitions including HPL, NACp, NIC, NUCp, SA and SIL",
+    "AIP reference": "AIP GEN 2.2 sections 3.11-3.12; AIP GEN 3.5 section 4.13; AIP ENR 1.1 sections 4.8 and 6.3; AIP ENR 4.3",
+    "Exam importance": "High",
+    "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official references cover the operational handling of GNSS error/integrity conditions and selected defined terms, but do not enumerate every MOS-listed error source; leave detailed ephemeris, clock, receiver, multipath and DOP explanations for later explanatory study notes with official source separation."
   }
 }
