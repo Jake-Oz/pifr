@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.1: Describe the navigation requirement
 
 ## Why it matters
 
-TODO
+Radio navigation requirements decide whether an IFR route is legally navigable and whether the aircraft can remain within required tolerances between fixes.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.287 is the regulation hook for IFR navigation requirements.
+- Part 91 MOS 14.02(1)(b) requires the route to allow positive position fixing using ground-based radio navigation aids within rated coverage.
+- Part 91 MOS 14.02(6) requires positive position fixing at intervals not exceeding 2 hours when using radio navigation systems.
+- AIP ENR 1.1 sections 4.1 and 4.3 to 4.6 provide the operational track keeping, navigation-aid, tolerance and fixing context.
 
 ## Common CASA traps
 
-TODO
+- Do not assume a radio aid is usable beyond rated coverage.
+- Do not plan an IFR radio-navigation route without checking positive fixing and track keeping.
+- The 2-hour maximum between positive fixes is a limit, not a target for good route design.
 
 ## Worked examples
 
-TODO
+TODO: Add a radio-navigation route example after selecting exact ERC Low/TAC panels and aid coverage.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 14.02 first for the legal requirement.
+- Use AIP ENR 1.1 section 4 to resolve track keeping, tolerance and positive-fix wording.

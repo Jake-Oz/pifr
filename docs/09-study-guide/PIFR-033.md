@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.1.3: Determine methods of calculating LS
 
 ## Why it matters
 
-TODO
+CASA can test the method as well as the arithmetic: grid LSALT, published LSALT and calculated LSALT are not interchangeable.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- AIP GEN 3.3 sections 4.1 to 4.8 are the primary method locator for non-charted-route LSALT.
+- The verified source set covers Grid LSALT use, obstacle and terrain allowances, and tolerance areas for radio navigation/DR, RNP 2 and other area navigation operations.
+- CASR 91.305 supplies the legal minimum-height context for applying the result.
 
 ## Common CASA traps
 
-TODO
+- Do not use Grid LSALT when the question requires calculated route LSALT.
+- Do not omit unreported-obstacle allowance where the AIP calculation method requires it.
+- Do not mix terrain-only and obstacle-based rules.
 
 ## Worked examples
 
-TODO
+TODO: Add calculation-method comparisons after selecting a charted route and unpublished-route example.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP GEN 3.3 section 4 as the main exam lookup.
+- Read the whole LSALT method block before choosing a formula or value.

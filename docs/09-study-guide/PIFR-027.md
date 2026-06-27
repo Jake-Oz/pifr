@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.8: Apply the procedures of IFR flight 
 
 ## Why it matters
 
-TODO
+Diversion from track due weather or navigation problems is a practical IFR safety topic and an exam trigger for ATC notification and alternate navigation actions.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 14.02(4) covers actions when a navigation system is inaccurate, unreliable or inoperative.
+- Part 91 MOS 11.04 and 11.05 support GNSS integrity and GNSS-derived distance information cases.
+- AIP ENR 1.1 sections 4.4 and 4.6 to 4.8 cover track keeping, deviation advice, GNSS and related navigation procedures.
+- AIP ENR 2.2 section 2.4 is the verified weather-deviation locator.
 
 ## Common CASA traps
 
-TODO
+- Do not deviate in controlled airspace without considering clearance, ATC advice and separation responsibilities.
+- Do not treat weather deviation and navigation-system failure as the same procedure; use the source matching the cause.
+- If GNSS integrity is lost, check the GNSS-specific AIP/MOS action rather than continuing as normal.
 
 ## Worked examples
 
-TODO
+TODO: Add weather-deviation and navigation-failure scenarios after selecting airspace and route examples.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 14.02(4) for navigation-system failure/unreliability.
+- Use AIP ENR 2.2 section 2.4 for weather-deviation procedure.

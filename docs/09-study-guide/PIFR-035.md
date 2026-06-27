@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.1.5: State the requirements for descent 
 
 ## Why it matters
 
-TODO
+Descent below LSALT is a legal permission question; the safest exam approach is to find the listed exception rather than reason from convenience.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.305 is the primary legal reference for IFR minimum heights.
+- AIP GEN 3.3 section 4.4 restates the published/calculated LSALT rule and points back to civil aviation legislation permissions.
+- The verified source status identifies the permitted contexts: taking off or landing, applicable published visual approach/departure procedures, authorised instrument departure or approach procedures, ATC clearance, or VMC by day.
+- AIP ENR 1.1 references may be relevant where the descent occurs within approach, route or GNSS procedure context.
 
 ## Common CASA traps
 
-TODO
+- Do not descend below LSALT merely because visual contact is expected later.
+- Do not confuse LSALT with an instrument-procedure minimum altitude.
+- Check the exact exception named in CASR 91.305 before selecting an answer.
 
 ## Worked examples
 
-TODO
+TODO: Add descent-below-LSALT scenarios after verifying each scenario against CASR 91.305 and the relevant AIP procedure.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR 91.305 for the allowed exception list.
+- Use AIP GEN 3.3 section 4.4 to connect the charted or calculated LSALT to the legal rule.

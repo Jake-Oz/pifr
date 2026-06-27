@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.4: State the navigation tolerance for 
 
 ## Why it matters
 
-TODO
+Avoiding CTA depends on staying within navigation tolerance; this is an exam boundary between planned clearance avoidance and accidental controlled-airspace infringement.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 1.07 defines navigational tolerance.
+- Part 91 MOS 14.02(6) links IFR radio-navigation operations to tolerance and positive fixing.
+- AIP ENR 1.1 sections 4.4 and 4.6 provide operational guidance for track keeping and when ATC must be advised.
 
 ## Common CASA traps
 
-TODO
+- Do not plan to skim a CTA boundary without allowing for navigational tolerance.
+- A tolerance is not permission to operate outside the planned route or clearance.
+- Use the navigation method in the question; GNSS, VOR, NDB and visual navigation tolerances are not interchangeable.
 
 ## Worked examples
 
-TODO
+TODO: Add CTA-avoidance examples after selecting charted boundaries and route tracks.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Find the navigation method first.
+- Use Part 91 MOS 1.07 and AIP ENR 1.1 sections 4.4/4.6 to locate the applicable tolerance and ATC advice threshold.

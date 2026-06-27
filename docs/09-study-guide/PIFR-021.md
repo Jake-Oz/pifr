@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.2: State the navigation requirements f
 
 ## Why it matters
 
-TODO
+Self-contained and long-range navigation questions test whether the planned IFR route can be flown with approved area navigation equipment and the required integrity checks.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.287 is the regulation hook; Part 91 MOS 14.02 is the primary navigation requirement.
+- Part 91 MOS 1.07 defines area navigation, LRNS, RNAV specification and RNP specification.
+- Part 91 MOS 14.02(1)(a) and 14.02(2) to 14.02(7) set the requirements for approved area navigation systems, route suitability, tracking and GNSS-related checks.
+- Part 91 MOS 11.03 is relevant for FDE and long-range/oceanic navigation contexts where applicable.
 
 ## Common CASA traps
 
-TODO
+- Do not treat any moving map as an approved IFR area navigation system.
+- Check route requirements, navigation specification and GNSS integrity rather than relying on equipment capability alone.
+- Long-range navigation requirements may add checks that are not relevant to short domestic routes.
 
 ## Worked examples
 
-TODO
+TODO: Add approved GNSS/LRNS examples after selecting aircraft avionics and route assumptions.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Start with Part 91 MOS 14.02 for IFR navigation method.
+- Use Part 91 MOS 1.07 definitions when the question turns on RNAV/RNP/LRNS terminology.
+- Use AIP ENR 1.1 section 4.8 for GNSS operational procedure context.

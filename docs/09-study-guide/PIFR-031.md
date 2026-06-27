@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.1.1: Determine LSALT for an IFR flight f
 
 ## Why it matters
 
-TODO
+Published-route LSALT is one of the fastest exam marks when the charted value and the legal minimum-height rule are located correctly.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.305 is the legal minimum-height reference for IFR flight.
+- Part 91 MOS 1.07 defines LSALT.
+- AIP GEN 3.2 identifies the relevant chart products; current ERC Low and TAC panel availability is verified.
+- AIP GEN 3.3 sections 4.1 to 4.4 explain published LSALT, calculated LSALT and when IFR flight must not be below them.
 
 ## Common CASA traps
 
-TODO
+- Do not calculate your own LSALT where the route has a published value unless the question asks for calculation.
+- Check whether the question asks for route LSALT, grid LSALT, sector altitude or instrument-procedure altitude.
+- Do not descend below LSALT unless a specific CASR/AIP permission applies.
 
 ## Worked examples
 
-TODO
+TODO: Add published-route LSALT lookup examples after selecting exact ERC Low/TAC panels and route segments.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use the current chart first for a published route LSALT.
+- Use AIP GEN 3.3 section 4 to resolve whether published or calculated LSALT applies.

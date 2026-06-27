@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.3: Describe the navigation requirement
 
 ## Why it matters
 
-TODO
+Visual-reference IFR navigation is a narrow exception, so exam questions often test the limits rather than the general VFR idea.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.273 and 91.287 provide the regulation context for VMC/day and IFR navigation requirements.
+- Part 91 MOS 14.02(1)(c) allows visual-reference navigation only in the specified IFR circumstances.
+- Part 91 MOS 13.02 supports the visual meteorological conditions requirement.
+- AIP ENR 1.1 sections 4.1.1(c) and 4.2.1(b) to 4.2.1(c) provide the operational visual-reference navigation context.
 
 ## Common CASA traps
 
-TODO
+- Do not treat visual-reference IFR navigation as a night or IMC option.
+- Do not use visual reference if area navigation or ground-based navigation is available and required for the route.
+- Position fixing by visual reference still has prescribed interval requirements.
 
 ## Worked examples
 
-TODO
+TODO: Add day/VMC visual-reference navigation examples after selecting route conditions.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go to Part 91 MOS 14.02(1)(c) to test whether visual-reference IFR navigation is available.
+- Use Part 91 MOS 13.02 to verify VMC conditions.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.2.1: Select an appropriate cruising alti
 
 ## Why it matters
 
-TODO
+Cruising level selection pulls together LSALT, weather, airspace, PRDs, route limitations, navigation aid coverage and aircraft performance.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Use CASR 91.230 to 91.300, Part 91 MOS Chapters 2, 7, 9, 10, 11 and 14, and the mapped AIP references as the planning chain.
+- AIP ENR 1.7 sections 3.2 to 3.3 and AIP ENR 1.1 sections 5.1 to 5.1.5 support cruising-level and altimetry context.
+- AIP ENR 5.1 is the PRD/MOA locator; ERSA and current chart products support route-specific lookup.
+- Engine-out performance for multi-engine aircraft is aircraft-specific and must be taken from AFM/POH or approved performance material, not inferred from general IFR references.
 
 ## Common CASA traps
 
-TODO
+- Do not select a legal cruising level that is below LSALT.
+- Do not ignore freezing level, PRDs/MOAs, controlled-airspace steps or route limitations.
+- Do not use generic multi-engine performance assumptions for engine-out capability.
 
 ## Worked examples
 
-TODO
+TODO: Add cruising-level selection examples after choosing a route, forecast package, chart panels and aircraft performance source.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Build the lookup chain in order: LSALT, weather/freezing level, airspace/PRD, cruising level table, route/nav aid availability, aircraft performance.
+- Use ERSA and charts only for route-specific facts after the MOS/AIP rule is identified.

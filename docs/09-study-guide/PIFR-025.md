@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.6: Determine the requirements for the 
 
 ## Why it matters
 
-TODO
+Track-guidance priority is a quick exam lookup, but it only applies if the equipment and pilot qualification support that method.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 14.02 provides the route and navigation system legality chain.
+- AIP ENR 1.1 section 4.4.3 gives the verified order of track-guidance precision: Localiser, GNSS, VOR, then NDB.
+- The most precise available guidance must still be compatible with the route, equipment and pilot qualification.
 
 ## Common CASA traps
 
-TODO
+- Do not choose a more precise aid if the aircraft is not equipped or the pilot is not authorised to use it.
+- Do not use the precision order to bypass route or procedure limitations.
 
 ## Worked examples
 
-TODO
+TODO: Add route segments showing localiser/GNSS/VOR/NDB priority after selecting chart examples.
 
 ## Cross references
 
@@ -61,4 +64,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go directly to AIP ENR 1.1 section 4.4.3 for the precision order.
+- Confirm route legality in Part 91 MOS 14.02 if the question asks whether the flight may proceed.

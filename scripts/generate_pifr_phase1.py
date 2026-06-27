@@ -440,6 +440,156 @@ STUDY_CONTENT = {
             "Use ERSA GEN FIS and NAV/COMM to locate current availability and frequencies.",
         ],
     },
+    "PIFR-020": {
+        "why": "Radio navigation requirements decide whether an IFR route is legally navigable and whether the aircraft can remain within required tolerances between fixes.",
+        "notes": [
+            "CASR 91.287 is the regulation hook for IFR navigation requirements.",
+            "Part 91 MOS 14.02(1)(b) requires the route to allow positive position fixing using ground-based radio navigation aids within rated coverage.",
+            "Part 91 MOS 14.02(6) requires positive position fixing at intervals not exceeding 2 hours when using radio navigation systems.",
+            "AIP ENR 1.1 sections 4.1 and 4.3 to 4.6 provide the operational track keeping, navigation-aid, tolerance and fixing context.",
+        ],
+        "traps": [
+            "Do not assume a radio aid is usable beyond rated coverage.",
+            "Do not plan an IFR radio-navigation route without checking positive fixing and track keeping.",
+            "The 2-hour maximum between positive fixes is a limit, not a target for good route design.",
+        ],
+        "examples": "TODO: Add a radio-navigation route example after selecting exact ERC Low/TAC panels and aid coverage.",
+        "exam_use": [
+            "Use Part 91 MOS 14.02 first for the legal requirement.",
+            "Use AIP ENR 1.1 section 4 to resolve track keeping, tolerance and positive-fix wording.",
+        ],
+    },
+    "PIFR-021": {
+        "why": "Self-contained and long-range navigation questions test whether the planned IFR route can be flown with approved area navigation equipment and the required integrity checks.",
+        "notes": [
+            "CASR 91.287 is the regulation hook; Part 91 MOS 14.02 is the primary navigation requirement.",
+            "Part 91 MOS 1.07 defines area navigation, LRNS, RNAV specification and RNP specification.",
+            "Part 91 MOS 14.02(1)(a) and 14.02(2) to 14.02(7) set the requirements for approved area navigation systems, route suitability, tracking and GNSS-related checks.",
+            "Part 91 MOS 11.03 is relevant for FDE and long-range/oceanic navigation contexts where applicable.",
+        ],
+        "traps": [
+            "Do not treat any moving map as an approved IFR area navigation system.",
+            "Check route requirements, navigation specification and GNSS integrity rather than relying on equipment capability alone.",
+            "Long-range navigation requirements may add checks that are not relevant to short domestic routes.",
+        ],
+        "examples": "TODO: Add approved GNSS/LRNS examples after selecting aircraft avionics and route assumptions.",
+        "exam_use": [
+            "Start with Part 91 MOS 14.02 for IFR navigation method.",
+            "Use Part 91 MOS 1.07 definitions when the question turns on RNAV/RNP/LRNS terminology.",
+            "Use AIP ENR 1.1 section 4.8 for GNSS operational procedure context.",
+        ],
+    },
+    "PIFR-022": {
+        "why": "Visual-reference IFR navigation is a narrow exception, so exam questions often test the limits rather than the general VFR idea.",
+        "notes": [
+            "CASR 91.273 and 91.287 provide the regulation context for VMC/day and IFR navigation requirements.",
+            "Part 91 MOS 14.02(1)(c) allows visual-reference navigation only in the specified IFR circumstances.",
+            "Part 91 MOS 13.02 supports the visual meteorological conditions requirement.",
+            "AIP ENR 1.1 sections 4.1.1(c) and 4.2.1(b) to 4.2.1(c) provide the operational visual-reference navigation context.",
+        ],
+        "traps": [
+            "Do not treat visual-reference IFR navigation as a night or IMC option.",
+            "Do not use visual reference if area navigation or ground-based navigation is available and required for the route.",
+            "Position fixing by visual reference still has prescribed interval requirements.",
+        ],
+        "examples": "TODO: Add day/VMC visual-reference navigation examples after selecting route conditions.",
+        "exam_use": [
+            "Go to Part 91 MOS 14.02(1)(c) to test whether visual-reference IFR navigation is available.",
+            "Use Part 91 MOS 13.02 to verify VMC conditions.",
+        ],
+    },
+    "PIFR-023": {
+        "why": "Avoiding CTA depends on staying within navigation tolerance; this is an exam boundary between planned clearance avoidance and accidental controlled-airspace infringement.",
+        "notes": [
+            "Part 91 MOS 1.07 defines navigational tolerance.",
+            "Part 91 MOS 14.02(6) links IFR radio-navigation operations to tolerance and positive fixing.",
+            "AIP ENR 1.1 sections 4.4 and 4.6 provide operational guidance for track keeping and when ATC must be advised.",
+        ],
+        "traps": [
+            "Do not plan to skim a CTA boundary without allowing for navigational tolerance.",
+            "A tolerance is not permission to operate outside the planned route or clearance.",
+            "Use the navigation method in the question; GNSS, VOR, NDB and visual navigation tolerances are not interchangeable.",
+        ],
+        "examples": "TODO: Add CTA-avoidance examples after selecting charted boundaries and route tracks.",
+        "exam_use": [
+            "Find the navigation method first.",
+            "Use Part 91 MOS 1.07 and AIP ENR 1.1 sections 4.4/4.6 to locate the applicable tolerance and ATC advice threshold.",
+        ],
+    },
+    "PIFR-024": {
+        "why": "Positive fixing is central to IFR track keeping, LSALT, uncertainty handling and route legality.",
+        "notes": [
+            "Part 91 MOS 14.02(1)(b) and 14.02(6) are the primary requirements for positive position fixing using radio navigation systems.",
+            "AIP ENR 1.1 sections 4.1.1(b), 4.2.1(e) and 4.5 describe positive-fix methods and limitations.",
+            "The verified source notes include the NDB-only positive-fix limitation and the 2-hour maximum interval between positive fixes.",
+            "GNSS fixes must satisfy the applicable equipment and procedure requirements rather than being assumed from display position alone.",
+        ],
+        "traps": [
+            "Do not accept a single bearing or vague estimate as a positive fix.",
+            "Do not ignore NDB limitations when an all-NDB fix is proposed.",
+            "Do not let the route exceed the maximum interval between positive fixes.",
+        ],
+        "examples": "TODO: Add positive-fix examples using actual aid geometry from a current chart panel.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4.5 for positive-fix wording.",
+            "Use Part 91 MOS 14.02(6) for the time-interval rule.",
+        ],
+    },
+    "PIFR-025": {
+        "why": "Track-guidance priority is a quick exam lookup, but it only applies if the equipment and pilot qualification support that method.",
+        "notes": [
+            "Part 91 MOS 14.02 provides the route and navigation system legality chain.",
+            "AIP ENR 1.1 section 4.4.3 gives the verified order of track-guidance precision: Localiser, GNSS, VOR, then NDB.",
+            "The most precise available guidance must still be compatible with the route, equipment and pilot qualification.",
+        ],
+        "traps": [
+            "Do not choose a more precise aid if the aircraft is not equipped or the pilot is not authorised to use it.",
+            "Do not use the precision order to bypass route or procedure limitations.",
+        ],
+        "examples": "TODO: Add route segments showing localiser/GNSS/VOR/NDB priority after selecting chart examples.",
+        "exam_use": [
+            "Go directly to AIP ENR 1.1 section 4.4.3 for the precision order.",
+            "Confirm route legality in Part 91 MOS 14.02 if the question asks whether the flight may proceed.",
+        ],
+    },
+    "PIFR-026": {
+        "why": "This objective combines the small procedural details CASA can test: fix interval, time reference accuracy and corrective track-keeping action.",
+        "notes": [
+            "Part 91 MOS 14.02 contains the legal navigation requirements for fixing, system reliability and route suitability.",
+            "AIP ENR 1.1 sections 4.1, 4.3, 4.4, 4.5 and 4.8 provide the operational track-keeping, timing, positive-fix and GNSS context.",
+            "The verified source status identifies plus/minus 30 seconds for time reference accuracy and a maximum 2 hours between positive fixes.",
+            "If navigation system accuracy, reliability or serviceability becomes doubtful, Part 91 MOS 14.02(4) triggers monitoring, safety procedures and ATS notification actions.",
+        ],
+        "traps": [
+            "Do not confuse the time-reference accuracy requirement with the maximum positive-fix interval.",
+            "Do not continue passively when off track; the AIP procedure requires positive action to regain track.",
+            "GNSS integrity loss is a navigation problem, not just an avionics message to ignore.",
+        ],
+        "examples": "TODO: Add timing and track-error examples after selecting a route leg and groundspeed.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 4 for operational values.",
+            "Use Part 91 MOS 14.02(4) when the question says a navigation system is inaccurate, unreliable or inoperative.",
+        ],
+    },
+    "PIFR-027": {
+        "why": "Diversion from track due weather or navigation problems is a practical IFR safety topic and an exam trigger for ATC notification and alternate navigation actions.",
+        "notes": [
+            "Part 91 MOS 14.02(4) covers actions when a navigation system is inaccurate, unreliable or inoperative.",
+            "Part 91 MOS 11.04 and 11.05 support GNSS integrity and GNSS-derived distance information cases.",
+            "AIP ENR 1.1 sections 4.4 and 4.6 to 4.8 cover track keeping, deviation advice, GNSS and related navigation procedures.",
+            "AIP ENR 2.2 section 2.4 is the verified weather-deviation locator.",
+        ],
+        "traps": [
+            "Do not deviate in controlled airspace without considering clearance, ATC advice and separation responsibilities.",
+            "Do not treat weather deviation and navigation-system failure as the same procedure; use the source matching the cause.",
+            "If GNSS integrity is lost, check the GNSS-specific AIP/MOS action rather than continuing as normal.",
+        ],
+        "examples": "TODO: Add weather-deviation and navigation-failure scenarios after selecting airspace and route examples.",
+        "exam_use": [
+            "Use Part 91 MOS 14.02(4) for navigation-system failure/unreliability.",
+            "Use AIP ENR 2.2 section 2.4 for weather-deviation procedure.",
+        ],
+    },
     "PIFR-028": {
         "why": "Route selection is a combined planning problem: weather, airspace, PRDs, route limitations, alternates, navigation aids, rated coverage and communications all have to be checked before the flight is viable.",
         "notes": [
@@ -493,6 +643,155 @@ STUDY_CONTENT = {
         "exam_use": [
             "Build the answer as a chain: weather, alternate, notification, route/airspace, navigation, equipment, NOTAM, fuel.",
             "Use the reference locator to jump to the first failed condition in that chain.",
+        ],
+    },
+    "PIFR-031": {
+        "why": "Published-route LSALT is one of the fastest exam marks when the charted value and the legal minimum-height rule are located correctly.",
+        "notes": [
+            "CASR 91.305 is the legal minimum-height reference for IFR flight.",
+            "Part 91 MOS 1.07 defines LSALT.",
+            "AIP GEN 3.2 identifies the relevant chart products; current ERC Low and TAC panel availability is verified.",
+            "AIP GEN 3.3 sections 4.1 to 4.4 explain published LSALT, calculated LSALT and when IFR flight must not be below them.",
+        ],
+        "traps": [
+            "Do not calculate your own LSALT where the route has a published value unless the question asks for calculation.",
+            "Check whether the question asks for route LSALT, grid LSALT, sector altitude or instrument-procedure altitude.",
+            "Do not descend below LSALT unless a specific CASR/AIP permission applies.",
+        ],
+        "examples": "TODO: Add published-route LSALT lookup examples after selecting exact ERC Low/TAC panels and route segments.",
+        "exam_use": [
+            "Use the current chart first for a published route LSALT.",
+            "Use AIP GEN 3.3 section 4 to resolve whether published or calculated LSALT applies.",
+        ],
+    },
+    "PIFR-032": {
+        "why": "For unpublished routes, the LSALT answer depends on selecting the correct tolerance area before doing any height calculation.",
+        "notes": [
+            "CASR 91.305 remains the legal minimum-height hook.",
+            "AIP GEN 3.3 sections 4.2 and 4.5 to 4.8 define the significant safety sector/tolerance area cases.",
+            "The applicable area changes with the navigation situation: inaccurate navigation or off-track/radio-aid failure, radio-navigation or DR routes, RNP 2 routes, and other area navigation operations.",
+        ],
+        "traps": [
+            "Do not start with obstacle height before identifying the correct tolerance area.",
+            "Do not use an RNP 2 tolerance area for a non-RNP route.",
+            "If position is uncertain, use the uncertainty case rather than the normal planned-route corridor.",
+        ],
+        "examples": "TODO: Add tolerance-area diagrams only after selecting source-backed route examples and chart extracts.",
+        "exam_use": [
+            "Go to AIP GEN 3.3 section 4.5 to 4.8 and match the route/navigation case.",
+            "Then apply the LSALT calculation method from the adjacent AIP GEN 3.3 text.",
+        ],
+    },
+    "PIFR-033": {
+        "why": "CASA can test the method as well as the arithmetic: grid LSALT, published LSALT and calculated LSALT are not interchangeable.",
+        "notes": [
+            "AIP GEN 3.3 sections 4.1 to 4.8 are the primary method locator for non-charted-route LSALT.",
+            "The verified source set covers Grid LSALT use, obstacle and terrain allowances, and tolerance areas for radio navigation/DR, RNP 2 and other area navigation operations.",
+            "CASR 91.305 supplies the legal minimum-height context for applying the result.",
+        ],
+        "traps": [
+            "Do not use Grid LSALT when the question requires calculated route LSALT.",
+            "Do not omit unreported-obstacle allowance where the AIP calculation method requires it.",
+            "Do not mix terrain-only and obstacle-based rules.",
+        ],
+        "examples": "TODO: Add calculation-method comparisons after selecting a charted route and unpublished-route example.",
+        "exam_use": [
+            "Use AIP GEN 3.3 section 4 as the main exam lookup.",
+            "Read the whole LSALT method block before choosing a formula or value.",
+        ],
+    },
+    "PIFR-034": {
+        "why": "Non-published-route LSALT calculation is a procedural arithmetic task where the wrong area or allowance gives the wrong answer.",
+        "notes": [
+            "AIP GEN 3.3 sections 4.2 to 4.8 provide the verified calculation references for non-published routes.",
+            "The verified notes identify the relevant allowances: unreported-obstacle allowance, 1,000 ft above highest obstacle where applicable, 1,360 ft above terrain where applicable, the 1,500 ft floor in the specified case, and the applicable tolerance area.",
+            "CASR 91.305 supplies the legal context for applying the calculated minimum height.",
+        ],
+        "traps": [
+            "Do not calculate against the centreline only; use the applicable tolerance area.",
+            "Do not round or add allowances from memory; use the AIP wording.",
+            "Do not invent a worked result without the exact route, terrain and obstacle data.",
+        ],
+        "examples": "TODO: Add full LSALT calculations after selecting exact chart panels, route coordinates and obstacle/terrain source data.",
+        "exam_use": [
+            "First identify the applicable AIP GEN 3.3 tolerance area.",
+            "Then apply the relevant terrain/obstacle allowance from the same AIP section.",
+        ],
+    },
+    "PIFR-035": {
+        "why": "Descent below LSALT is a legal permission question; the safest exam approach is to find the listed exception rather than reason from convenience.",
+        "notes": [
+            "CASR 91.305 is the primary legal reference for IFR minimum heights.",
+            "AIP GEN 3.3 section 4.4 restates the published/calculated LSALT rule and points back to civil aviation legislation permissions.",
+            "The verified source status identifies the permitted contexts: taking off or landing, applicable published visual approach/departure procedures, authorised instrument departure or approach procedures, ATC clearance, or VMC by day.",
+            "AIP ENR 1.1 references may be relevant where the descent occurs within approach, route or GNSS procedure context.",
+        ],
+        "traps": [
+            "Do not descend below LSALT merely because visual contact is expected later.",
+            "Do not confuse LSALT with an instrument-procedure minimum altitude.",
+            "Check the exact exception named in CASR 91.305 before selecting an answer.",
+        ],
+        "examples": "TODO: Add descent-below-LSALT scenarios after verifying each scenario against CASR 91.305 and the relevant AIP procedure.",
+        "exam_use": [
+            "Use CASR 91.305 for the allowed exception list.",
+            "Use AIP GEN 3.3 section 4.4 to connect the charted or calculated LSALT to the legal rule.",
+        ],
+    },
+    "PIFR-036": {
+        "why": "Cruising level selection pulls together LSALT, weather, airspace, PRDs, route limitations, navigation aid coverage and aircraft performance.",
+        "notes": [
+            "Use CASR 91.230 to 91.300, Part 91 MOS Chapters 2, 7, 9, 10, 11 and 14, and the mapped AIP references as the planning chain.",
+            "AIP ENR 1.7 sections 3.2 to 3.3 and AIP ENR 1.1 sections 5.1 to 5.1.5 support cruising-level and altimetry context.",
+            "AIP ENR 5.1 is the PRD/MOA locator; ERSA and current chart products support route-specific lookup.",
+            "Engine-out performance for multi-engine aircraft is aircraft-specific and must be taken from AFM/POH or approved performance material, not inferred from general IFR references.",
+        ],
+        "traps": [
+            "Do not select a legal cruising level that is below LSALT.",
+            "Do not ignore freezing level, PRDs/MOAs, controlled-airspace steps or route limitations.",
+            "Do not use generic multi-engine performance assumptions for engine-out capability.",
+        ],
+        "examples": "TODO: Add cruising-level selection examples after choosing a route, forecast package, chart panels and aircraft performance source.",
+        "exam_use": [
+            "Build the lookup chain in order: LSALT, weather/freezing level, airspace/PRD, cruising level table, route/nav aid availability, aircraft performance.",
+            "Use ERSA and charts only for route-specific facts after the MOS/AIP rule is identified.",
+        ],
+    },
+    "PIFR-037": {
+        "why": "This is a proceed/no-proceed decision under uncertainty: the aircraft must still satisfy altitude, equipment and IFR navigation requirements.",
+        "notes": [
+            "CASR 91.245, 91.287, 91.305 and 91.810 form the regulation chain for equipment, IFR navigation, minimum height and required equipment.",
+            "Part 91 MOS 10.02, 14.02 and Chapter 26 provide the pre-takeoff, navigation and equipment detail.",
+            "AIP GEN 3.3 sections 4.4 to 4.8 and AIP ENR 1.1 sections 4.1 and 4.4 to 4.8 provide the LSALT, tolerance, positive-fix and GNSS context.",
+            "If the necessary altitude, equipment or navigation condition is not satisfied, record the failed condition rather than forcing a proceed answer.",
+        ],
+        "traps": [
+            "Do not let a serviceable aircraft-equipment answer override an LSALT or navigation-position problem.",
+            "Do not treat uncertain position as a normal en route navigation case.",
+            "Check GNSS integrity and positive fixing before relying on a displayed position.",
+        ],
+        "examples": "TODO: Add proceed/no-proceed uncertain-position examples after selecting exact navigation and equipment scenarios.",
+        "exam_use": [
+            "Check altitude/LSALT first, then aircraft equipment, then IFR navigation method and position certainty.",
+            "Use AIP GEN 3.3 section 4.5 if the question says navigation is inaccurate or position is uncertain.",
+        ],
+    },
+    "PIFR-038": {
+        "why": "When position is uncertain, the LSALT area expands; using the normal planned-route corridor can understate terrain clearance.",
+        "notes": [
+            "CASR 91.305 provides the legal minimum-height context.",
+            "AIP GEN 3.3 sections 4.2 to 4.8 are the primary LSALT locator.",
+            "The verified source status identifies the uncertain-position case as a circle centred on the DR position with radius 5 NM plus 20 percent of the air distance flown from the last positive fix.",
+            "Calculate the LSALT for that uncertainty area using the AIP GEN 3.3 section 4 method.",
+        ],
+        "traps": [
+            "Do not calculate from the intended track alone once position is uncertain.",
+            "Do not ignore distance flown since the last positive fix.",
+            "Do not use a DR position as if it were a positive fix.",
+        ],
+        "examples": "TODO: Add uncertain-position LSALT calculations after selecting a route leg, last positive fix, elapsed distance and chart source.",
+        "exam_use": [
+            "Go to AIP GEN 3.3 section 4.5 for the uncertainty area.",
+            "Then calculate using the obstacle/terrain rules in AIP GEN 3.3 section 4.",
         ],
     },
     "PIFR-004": {

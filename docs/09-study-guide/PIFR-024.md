@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.5: State the requirements for positive
 
 ## Why it matters
 
-TODO
+Positive fixing is central to IFR track keeping, LSALT, uncertainty handling and route legality.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 14.02(1)(b) and 14.02(6) are the primary requirements for positive position fixing using radio navigation systems.
+- AIP ENR 1.1 sections 4.1.1(b), 4.2.1(e) and 4.5 describe positive-fix methods and limitations.
+- The verified source notes include the NDB-only positive-fix limitation and the 2-hour maximum interval between positive fixes.
+- GNSS fixes must satisfy the applicable equipment and procedure requirements rather than being assumed from display position alone.
 
 ## Common CASA traps
 
-TODO
+- Do not accept a single bearing or vague estimate as a positive fix.
+- Do not ignore NDB limitations when an all-NDB fix is proposed.
+- Do not let the route exceed the maximum interval between positive fixes.
 
 ## Worked examples
 
-TODO
+TODO: Add positive-fix examples using actual aid geometry from a current chart panel.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4.5 for positive-fix wording.
+- Use Part 91 MOS 14.02(6) for the time-interval rule.

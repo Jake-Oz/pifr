@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.3.2: Determine an appropriate LSALT when
 
 ## Why it matters
 
-TODO
+When position is uncertain, the LSALT area expands; using the normal planned-route corridor can understate terrain clearance.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.305 provides the legal minimum-height context.
+- AIP GEN 3.3 sections 4.2 to 4.8 are the primary LSALT locator.
+- The verified source status identifies the uncertain-position case as a circle centred on the DR position with radius 5 NM plus 20 percent of the air distance flown from the last positive fix.
+- Calculate the LSALT for that uncertainty area using the AIP GEN 3.3 section 4 method.
 
 ## Common CASA traps
 
-TODO
+- Do not calculate from the intended track alone once position is uncertain.
+- Do not ignore distance flown since the last positive fix.
+- Do not use a DR position as if it were a positive fix.
 
 ## Worked examples
 
-TODO
+TODO: Add uncertain-position LSALT calculations after selecting a route leg, last positive fix, elapsed distance and chart source.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go to AIP GEN 3.3 section 4.5 for the uncertainty area.
+- Then calculate using the obstacle/terrain rules in AIP GEN 3.3 section 4.

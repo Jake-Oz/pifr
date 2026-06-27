@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.3.1: Determine whether a flight may proc
 
 ## Why it matters
 
-TODO
+This is a proceed/no-proceed decision under uncertainty: the aircraft must still satisfy altitude, equipment and IFR navigation requirements.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.245, 91.287, 91.305 and 91.810 form the regulation chain for equipment, IFR navigation, minimum height and required equipment.
+- Part 91 MOS 10.02, 14.02 and Chapter 26 provide the pre-takeoff, navigation and equipment detail.
+- AIP GEN 3.3 sections 4.4 to 4.8 and AIP ENR 1.1 sections 4.1 and 4.4 to 4.8 provide the LSALT, tolerance, positive-fix and GNSS context.
+- If the necessary altitude, equipment or navigation condition is not satisfied, record the failed condition rather than forcing a proceed answer.
 
 ## Common CASA traps
 
-TODO
+- Do not let a serviceable aircraft-equipment answer override an LSALT or navigation-position problem.
+- Do not treat uncertain position as a normal en route navigation case.
+- Check GNSS integrity and positive fixing before relying on a displayed position.
 
 ## Worked examples
 
-TODO
+TODO: Add proceed/no-proceed uncertain-position examples after selecting exact navigation and equipment scenarios.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Check altitude/LSALT first, then aircraft equipment, then IFR navigation method and position certainty.
+- Use AIP GEN 3.3 section 4.5 if the question says navigation is inaccurate or position is uncertain.

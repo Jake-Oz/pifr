@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.1.4: Calculate LSALT for non-published r
 
 ## Why it matters
 
-TODO
+Non-published-route LSALT calculation is a procedural arithmetic task where the wrong area or allowance gives the wrong answer.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- AIP GEN 3.3 sections 4.2 to 4.8 provide the verified calculation references for non-published routes.
+- The verified notes identify the relevant allowances: unreported-obstacle allowance, 1,000 ft above highest obstacle where applicable, 1,360 ft above terrain where applicable, the 1,500 ft floor in the specified case, and the applicable tolerance area.
+- CASR 91.305 supplies the legal context for applying the calculated minimum height.
 
 ## Common CASA traps
 
-TODO
+- Do not calculate against the centreline only; use the applicable tolerance area.
+- Do not round or add allowances from memory; use the AIP wording.
+- Do not invent a worked result without the exact route, terrain and obstacle data.
 
 ## Worked examples
 
-TODO
+TODO: Add full LSALT calculations after selecting exact chart panels, route coordinates and obstacle/terrain source data.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- First identify the applicable AIP GEN 3.3 tolerance area.
+- Then apply the relevant terrain/obstacle allowance from the same AIP section.

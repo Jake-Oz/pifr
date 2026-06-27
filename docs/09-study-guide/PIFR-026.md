@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 6.1.7: Apply the navigation requirements o
 
 ## Why it matters
 
-TODO
+This objective combines the small procedural details CASA can test: fix interval, time reference accuracy and corrective track-keeping action.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 14.02 contains the legal navigation requirements for fixing, system reliability and route suitability.
+- AIP ENR 1.1 sections 4.1, 4.3, 4.4, 4.5 and 4.8 provide the operational track-keeping, timing, positive-fix and GNSS context.
+- The verified source status identifies plus/minus 30 seconds for time reference accuracy and a maximum 2 hours between positive fixes.
+- If navigation system accuracy, reliability or serviceability becomes doubtful, Part 91 MOS 14.02(4) triggers monitoring, safety procedures and ATS notification actions.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse the time-reference accuracy requirement with the maximum positive-fix interval.
+- Do not continue passively when off track; the AIP procedure requires positive action to regain track.
+- GNSS integrity loss is a navigation problem, not just an avionics message to ignore.
 
 ## Worked examples
 
-TODO
+TODO: Add timing and track-error examples after selecting a route leg and groundspeed.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 4 for operational values.
+- Use Part 91 MOS 14.02(4) when the question says a navigation system is inaccurate, unreliable or inoperative.

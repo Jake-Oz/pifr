@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 8.1.2: Determine the dimensions of the sig
 
 ## Why it matters
 
-TODO
+For unpublished routes, the LSALT answer depends on selecting the correct tolerance area before doing any height calculation.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.305 remains the legal minimum-height hook.
+- AIP GEN 3.3 sections 4.2 and 4.5 to 4.8 define the significant safety sector/tolerance area cases.
+- The applicable area changes with the navigation situation: inaccurate navigation or off-track/radio-aid failure, radio-navigation or DR routes, RNP 2 routes, and other area navigation operations.
 
 ## Common CASA traps
 
-TODO
+- Do not start with obstacle height before identifying the correct tolerance area.
+- Do not use an RNP 2 tolerance area for a non-RNP route.
+- If position is uncertain, use the uncertainty case rather than the normal planned-route corridor.
 
 ## Worked examples
 
-TODO
+TODO: Add tolerance-area diagrams only after selecting source-backed route examples and chart extracts.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go to AIP GEN 3.3 section 4.5 to 4.8 and match the route/navigation case.
+- Then apply the LSALT calculation method from the adjacent AIP GEN 3.3 text.
