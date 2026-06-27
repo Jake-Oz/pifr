@@ -621,13 +621,54 @@ def exam_index(objs, reference_map):
     write(ROOT / "docs/14-exam-index/exam-index.md", "\n".join(lines))
 
 
-def study_files(objs):
+def study_file_status(mapped):
+    official_refs = {
+        field: mapped.get(field, "TODO")
+        for field in [
+            "CAR",
+            "Part 61",
+            "Part 91",
+            "Part 91 MOS",
+            "AIP reference",
+            "ERSA reference",
+            "ERC LOW reference",
+            "TAC reference",
+            "PCA reference",
+        ]
+    }
+    if not [value for value in official_refs.values() if value != "TODO"]:
+        return "MOS only"
+    notes = mapped.get("Notes", "").lower()
+    gap_markers = ["todo", "not yet", "partial", "does not", "only against"]
+    if any(marker in notes for marker in gap_markers):
+        return "Partial"
+    return "Mapped"
+
+
+def study_files(objs, reference_map):
+    module_data = module_payload(objs, reference_map)
+    module_by_objective = {}
+    for module in module_data["modules"]:
+        for module_obj in module["objectives"]:
+            module_by_objective[module_obj["id"]] = module
+
     for obj in objs:
+        mapped = reference_map.get(obj["id"], {})
+        module = module_by_objective[obj["id"]]
+        official_rows = []
+        for field in CROSS_REFERENCE_FIELDS:
+            if field in ["Exam importance", "Notes", "Aircraft example"]:
+                continue
+            official_rows.append(f"|{field}|{mapped.get(field, 'TODO')}|")
+
+        source_note = mapped.get("Notes", "TODO")
+        exam_importance = mapped.get("Exam importance", "TODO")
+        aircraft_example = mapped.get("Aircraft example", "TODO")
         text = f"""# {obj['id']}
 
 ## Objective
 
-MOS Schedule 3 Section 2.2 Unit 2.2.1 {obj['mos_ref']}: {obj['objective']}
+{mos_reference(obj)}: {obj['objective']}
 
 ## Why it matters
 
@@ -635,7 +676,15 @@ TODO
 
 ## Official references
 
-TODO
+|Reference type|Locator|
+|---|---|
+{chr(10).join(official_rows)}
+
+## Official reference status
+
+- Status: {study_file_status(mapped)}
+- Exam importance: {exam_importance}
+- Source status notes: {source_note}
 
 ## Study notes
 
@@ -651,11 +700,14 @@ TODO
 
 ## Cross references
 
-TODO
+- Module: [docs/09-study-guide/modules/{module['slug']}.md](modules/{module['slug']}.md)
+- Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
+- Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
+- Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)
 
 ## Aircraft examples
 
-TODO
+{aircraft_example}
 
 ## Flashcards
 
@@ -837,7 +889,7 @@ def main():
     roadmap(objs)
     study_modules(objs, reference_map)
     exam_index(objs, reference_map)
-    study_files(objs)
+    study_files(objs, reference_map)
     write(ROOT / "data/pifr-objectives-count.txt", str(len(objs)))
 
 

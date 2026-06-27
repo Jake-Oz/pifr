@@ -10,7 +10,23 @@ TODO
 
 ## Official references
 
-TODO
+|Reference type|Locator|
+|---|---|
+|CAR|TODO|
+|Part 61|TODO|
+|Part 91|CASR 91.255, 91.257|
+|Part 91 MOS|Part 91 MOS sections 11.15-11.17 and 21.05|
+|AIP reference|AIP ENR 1.4 section 2.1.3 and 2.2; AIP ENR 1.1 sections 2.2.7, 2.6.2-2.6.3 and 2.8|
+|ERSA reference|TODO|
+|ERC LOW reference|TODO|
+|TAC reference|TODO|
+|PCA reference|TODO|
+
+## Official reference status
+
+- Status: Mapped
+- Exam importance: High
+- Source status notes: Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. In Class D, IFR flights are separated from other IFR and Special VFR flights and receive traffic information on VFR flights; VFR flights receive traffic information on all other flights. The map also flags Class D pilot responsibility during VFR departure by an IFR-planned flight and VFR climb/descent.
 
 ## Study notes
 
@@ -26,7 +42,10 @@ TODO
 
 ## Cross references
 
-TODO
+- Module: [docs/09-study-guide/modules/airspace-and-radio-procedures.md](modules/airspace-and-radio-procedures.md)
+- Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
+- Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
+- Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)
 
 ## Aircraft examples
 

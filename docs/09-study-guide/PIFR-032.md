@@ -10,7 +10,23 @@ TODO
 
 ## Official references
 
-TODO
+|Reference type|Locator|
+|---|---|
+|CAR|TODO|
+|Part 61|TODO|
+|Part 91|CASR 91.305|
+|Part 91 MOS|TODO|
+|AIP reference|AIP GEN 3.3 sections 4.2 and 4.5-4.8|
+|ERSA reference|TODO|
+|ERC LOW reference|TODO|
+|TAC reference|TODO|
+|PCA reference|TODO|
+
+## Official reference status
+
+- Status: Mapped
+- Exam importance: High
+- Source status notes: Verified against current CASR 1998 compilation 101 (F2026C00286) and AIP Book Amendment 126 current 19 MAR 2026. Covers the tolerance-area dimensions for routes not shown on AIP aeronautical charts, including inaccurate navigation/off-track/radio-aid failure, radio-navigation or DR routes, RNP 2 routes, and other area navigation operations.
 
 ## Study notes
 
@@ -26,7 +42,10 @@ TODO
 
 ## Cross references
 
-TODO
+- Module: [docs/09-study-guide/modules/navigation-and-lsalt.md](modules/navigation-and-lsalt.md)
+- Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
+- Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
+- Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)
 
 ## Aircraft examples
 

@@ -10,7 +10,23 @@ TODO
 
 ## Official references
 
-TODO
+|Reference type|Locator|
+|---|---|
+|CAR|TODO|
+|Part 61|CASR 61.910, 61.915, 61.920, 61.925, 61.930, 61.935, 61.940, 61.950|
+|Part 91|TODO|
+|Part 91 MOS|TODO|
+|AIP reference|TODO|
+|ERSA reference|TODO|
+|ERC LOW reference|TODO|
+|TAC reference|TODO|
+|PCA reference|TODO|
+
+## Official reference status
+
+- Status: Mapped
+- Exam importance: High
+- Source status notes: Verified against current CASR 1998 compilation 101 (F2026C00286). Covers PIFR privileges, limitations, recency, flight review, grant requirements and endorsements.
 
 ## Study notes
 
@@ -26,7 +42,10 @@ TODO
 
 ## Cross references
 
-TODO
+- Module: [docs/09-study-guide/modules/ifr-legislation.md](modules/ifr-legislation.md)
+- Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
+- Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
+- Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)
 
 ## Aircraft examples
 
