@@ -1049,6 +1049,196 @@ STUDY_CONTENT = {
             "Use AIP ENR 1.6 and AIP GEN 3.4 for surveillance operational context and phraseology.",
         ],
     },
+    "PIFR-048": {
+        "why": "Airways clearance requirements determine whether an IFR flight can enter or operate in controlled airspace, and the exam often tests timing, readback and clearance validity details.",
+        "notes": [
+            "CASR 91.240, 91.255 and 91.257 provide the regulation hooks for flight notification and controlled-airspace operation.",
+            "Part 91 MOS 9.02 to 9.03 cover IFR flight-plan submission and changes.",
+            "Part 91 MOS 11.12 to 11.13 and 21.05 cover controlled-airspace clearances and prescribed reports.",
+            "AIP ENR 1.1, AIP ENR 1.10 and AIP GEN 3.4 provide the operational locators for clearance issue, expiry, PDC timing and readback.",
+        ],
+        "traps": [
+            "Do not use the older phrase `clearance void time` without checking the current AIP wording; the verified source notes flag `clearance expiry time`.",
+            "Do not treat flight-plan submission as the same thing as receiving an airways clearance.",
+            "Readback requirements are not optional when the AIP/MOS requires them.",
+        ],
+        "examples": "TODO: Add clearance request and readback examples after selecting exact route/airspace scenarios.",
+        "exam_use": [
+            "Use Part 91 MOS 9.02 to 9.03 for flight-plan submission and amendment requirements.",
+            "Use AIP ENR 1.1 section 2.2 and AIP GEN 3.4 section 5 for clearance/readback details.",
+        ],
+    },
+    "PIFR-049": {
+        "why": "CTA and CTR entry/departure questions test what information must be given to ATC and what clearance details the pilot must expect, read back and comply with.",
+        "notes": [
+            "CASR 91.255 and 91.257 are the regulation hooks for controlled-airspace operation and ATC clearance compliance.",
+            "Part 91 MOS 11.12 to 11.13 and 21.05 are the primary MOS locators.",
+            "AIP ENR 1.1 sections 2.2.1, 2.2.6 to 2.2.7 and 2.3 to 2.6 provide controlled-airspace operating context.",
+            "AIP GEN 3.4 sections 5.4 to 5.7 provide radio communication and readback procedure context.",
+        ],
+        "traps": [
+            "Do not enter CTA or CTR on expectation; identify the clearance or entry communication rule that applies.",
+            "Do not omit POB advice where required for non-air-transport IFR flights.",
+            "Do not ignore route, level or frequency details embedded in the clearance.",
+        ],
+        "examples": "TODO: Add CTA/CTR entry and departure call examples after selecting controlled-aerodrome and en route scenarios.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 2 for controlled-airspace procedures.",
+            "Use AIP GEN 3.4 section 5 for the communication and readback layer.",
+        ],
+    },
+    "PIFR-050": {
+        "why": "The MOS lists controlled area protection as an objective, but the exact current public-source definition has not yet been verified.",
+        "notes": [
+            "The verified AIP material supports an operational 500 ft buffer above the lower limit of CTA during specified visual departure and visual approach/descent contexts.",
+            "AIP ENR 1.1 section 2.5.3.3 and AIP ENR 1.5 sections 1.15 to 1.16 are the current partial locators.",
+            "The exact term `controlled area protection` remains a source gap until a current public CASA or Airservices definition is verified.",
+        ],
+        "traps": [
+            "Do not invent a definition from training memory.",
+            "Do not expand the concept beyond the verified AIP operational references.",
+            "Treat this as partial support, not a fully mapped definition.",
+        ],
+        "examples": "TODO: Add examples only after verifying a current official definition of controlled area protection.",
+        "exam_use": [
+            "Use the verified AIP references for the current operational 500 ft CTA buffer context.",
+            "Check the source-gap register before adding any broader explanatory definition.",
+        ],
+    },
+    "PIFR-051": {
+        "why": "Level changes in CTA are clearance-controlled, and emergency deviations have specific reporting and transponder implications.",
+        "notes": [
+            "CASR 91.257 is the regulation hook for complying with ATC clearances and instructions.",
+            "Part 91 MOS 11.06, 11.12 and Table 21.05(1) items 8 to 9 are the key MOS locators.",
+            "AIP ENR 1.1 sections 2.2.2 to 2.2.5 and AIP ENR 1.7 section 4.1 provide level-change and altimetry context.",
+            "AIP GEN 3.4 sections 5.4 and 5.7 provide communication and readback context.",
+        ],
+        "traps": [
+            "Do not change level in CTA without clearance unless an emergency/safety rule applies.",
+            "If unable to comply, advise ATC immediately rather than silently deviating.",
+            "ACAS RA and emergency action may override ATC instructions, but the pilot must follow the required reporting actions.",
+        ],
+        "examples": "TODO: Add CTA level-change and emergency-deviation examples after selecting airspace and clearance scenarios.",
+        "exam_use": [
+            "Use CASR 91.257 and Part 91 MOS 11.12 for clearance compliance.",
+            "Use Part 91 MOS Table 21.05(1) for leaving/reaching level reports.",
+        ],
+    },
+    "PIFR-052": {
+        "why": "CTA/CTR flight-profile questions combine several smaller rules across departure, climb, cruise, level change, descent and visual approach.",
+        "notes": [
+            "CASR 91.255, 91.257, 91.287 and 91.305 provide the regulation hooks for controlled airspace, navigation and minimum height.",
+            "Part 91 MOS 11.12 to 11.13, 14.02, 21.05 and 21.06 provide the MOS operating and reporting framework.",
+            "AIP ENR 1.1 sections 2.2 to 2.6 and AIP ENR 1.5 sections 1.15 to 1.16, 8.2 and 10.2 are the main operational locators.",
+            "AIP ENR 1.7 section 4.1 and AIP GEN 3.4 sections 5.4 to 5.7 support level and communication procedure lookup.",
+        ],
+        "traps": [
+            "Do not apply a departure rule to descent or visual approach without checking the flight phase.",
+            "Do not ignore day/night differences where visual departure or visual approach is involved.",
+            "Do not let a SID/STAR or ATC level/speed instruction conflict go unresolved; use the current AIP/MOS procedure.",
+        ],
+        "examples": "TODO: Add staged CTA/CTR flight-profile examples after selecting a controlled aerodrome and route.",
+        "exam_use": [
+            "Break the question into phase of flight first.",
+            "Use AIP ENR 1.1 section 2 for controlled-airspace operation and AIP GEN 3.4 section 5 for the radio layer.",
+        ],
+    },
+    "PIFR-053": {
+        "why": "Separation provision changes by airspace class, so the exam answer depends on identifying both flight rules and class of CTA.",
+        "notes": [
+            "CASR 91.255 and 91.257 provide the controlled-airspace operation and clearance compliance hooks.",
+            "Part 91 MOS 11.15 to 11.17 and 21.05 are the key MOS locators for ATC service and reporting context.",
+            "AIP ENR 1.4 sections 1.1 and 2.1 to 2.4 identify the controlled airspace classes and service provision.",
+            "AIP ENR 1.1 sections 2.6.3, 2.8 and 2.9 support separation, pilot-assigned separation and VFR effects on separation responsibility.",
+        ],
+        "traps": [
+            "Do not assume IFR is separated from every VFR flight in every class.",
+            "Do not ignore VFR climb/descent or VFR-on-top effects where the AIP changes responsibility.",
+            "Class D has its own service pattern and should not be answered from Class C assumptions.",
+        ],
+        "examples": "TODO: Add airspace-class separation examples after selecting class A/C/D/E scenarios.",
+        "exam_use": [
+            "Use AIP ENR 1.4 first to identify service provision by class.",
+            "Use AIP ENR 1.1 section 2 for special separation and traffic-information cases.",
+        ],
+    },
+    "PIFR-054": {
+        "why": "Class D is a frequent exam trap because IFR separation and VFR traffic information are not the same service.",
+        "notes": [
+            "CASR 91.255 and 91.257 provide the controlled-airspace regulation context.",
+            "Part 91 MOS 11.15 to 11.17 and 21.05 support the ATC service and reporting framework.",
+            "AIP ENR 1.4 sections 2.1.3 and 2.2 identify Class D service provision.",
+            "AIP ENR 1.1 sections 2.2.7, 2.6.2 to 2.6.3 and 2.8 support Class D operational detail.",
+        ],
+        "traps": [
+            "Do not state that IFR receives separation from all VFR flights in Class D.",
+            "Separate `separation` from `traffic information` in the answer.",
+            "Check whether a planned IFR flight is operating under VFR departure or VFR climb/descent provisions.",
+        ],
+        "examples": "TODO: Add Class D separation and traffic-information examples after selecting a Class D aerodrome scenario.",
+        "exam_use": [
+            "Go to AIP ENR 1.4 section 2 for the class-service table.",
+            "Use AIP ENR 1.1 section 2.6 for Class D operating detail.",
+        ],
+    },
+    "PIFR-055": {
+        "why": "Radio procedures in CTA/CTR are examined through clearance, readback, call sign, frequency-change, traffic-information and report requirements.",
+        "notes": [
+            "CASR 91.255, 91.257 and 91.810 provide the controlled-airspace, clearance and equipment hooks.",
+            "Part 91 MOS 11.12 to 11.18, 21.05 and 26.18 to 26.19 are the MOS locators for clearances, reports and radio equipment capability.",
+            "AIP GEN 3.4 sections 4.1, 5.1 to 5.7, 5.19, 6.8, 6.11 and 6.12 provide radiotelephony, readback and phraseology context.",
+            "AIP ENR 1.1 sections 2.2.6 to 2.2.9, 2.3 to 2.7 and 2.10.3 support controlled-airspace radio procedure context.",
+        ],
+        "traps": [
+            "Do not paraphrase mandatory readbacks where exact readback is required.",
+            "Do not change frequency until authorised or required by the applicable procedure.",
+            "Do not omit amended clearance or recleared route/level readback requirements.",
+        ],
+        "examples": "TODO: Add CTA/CTR radio call examples after selecting route, clearance and frequency-change scenarios.",
+        "exam_use": [
+            "Use AIP GEN 3.4 section 5 for radio procedure and readback.",
+            "Use AIP ENR 1.1 section 2 for the controlled-airspace operating context.",
+        ],
+    },
+    "PIFR-056": {
+        "why": "Radio failure in CTA/CTR is a high-risk procedural memory item, but the exam answer should still be located from the AIP/MOS sequence.",
+        "notes": [
+            "CASR 91.257 and 91.810 provide the clearance compliance and equipment regulation hooks.",
+            "Part 91 MOS 11.10, 11.18 and Table 26.69(7A) are the MOS locators for radio failure and transponder code context.",
+            "AIP ENR 1.1 section 6.2 is the main radio-failure procedure locator.",
+            "AIP ENR 1.6 sections 6.2 and 6.4.3 to 6.4.4 and AIP GEN 3.4 section 6.17.6 support surveillance, 7600 and IDENT handling.",
+        ],
+        "traps": [
+            "Do not use the VMC option when the question states IMC conditions.",
+            "Do not skip the squawk 7600 and broadcast/assumed-broadcast steps.",
+            "Do not treat receive-only instructions as normal two-way communications.",
+        ],
+        "examples": "TODO: Add CTA/CTR radio-failure scenarios after selecting VMC/IMC, clearance and vectoring contexts.",
+        "exam_use": [
+            "Go directly to AIP ENR 1.1 section 6.2 for the procedural sequence.",
+            "Use Part 91 MOS Table 26.69(7A) for the transponder code lookup.",
+        ],
+    },
+    "PIFR-057": {
+        "why": "Abnormal and emergency operations in CTA/CTR require quick identification of the correct safety deviation, communication, fuel or transponder action.",
+        "notes": [
+            "CASR 91.257, 91.455 and 91.810 provide the clearance, fuel and equipment regulation hooks.",
+            "Part 91 MOS 11.06, 11.10, 19.05 to 19.06, Table 21.05(1) item 9 and Table 26.69(7A) are the key MOS locators.",
+            "AIP ENR 1.1 sections 2.2.2 to 2.2.4, 8.4 to 8.7 and 10.9.2 to 10.9.3 cover clearance deviation, emergency communications and fuel-state procedures.",
+            "AIP ENR 1.6 section 6 and AIP GEN 3.4 sections 5.4, 6.8 and 6.17.6 support surveillance/emergency code and phraseology lookup.",
+        ],
+        "traps": [
+            "Do not delay an immediate safety action while waiting for a clearance, but follow the required ATC advice afterward.",
+            "Do not confuse minimum fuel with emergency fuel.",
+            "Use the correct transponder code for unlawful interference, radio failure or emergency rather than a generic emergency answer.",
+        ],
+        "examples": "TODO: Add CTA/CTR abnormal and emergency scenarios after selecting fuel-state, ACAS, radio and transponder cases.",
+        "exam_use": [
+            "Use Part 91 MOS 11.06 and AIP ENR 1.1 section 8 for emergency/urgency actions.",
+            "Use AIP ENR 1.1 section 10.9 for fuel-state declarations.",
+            "Use Part 91 MOS Table 26.69(7A) for transponder codes.",
+        ],
+    },
 }
 
 

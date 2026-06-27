@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 11.1.1: State airways clearance requiremen
 
 ## Why it matters
 
-TODO
+Airways clearance requirements determine whether an IFR flight can enter or operate in controlled airspace, and the exam often tests timing, readback and clearance validity details.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.240, 91.255 and 91.257 provide the regulation hooks for flight notification and controlled-airspace operation.
+- Part 91 MOS 9.02 to 9.03 cover IFR flight-plan submission and changes.
+- Part 91 MOS 11.12 to 11.13 and 21.05 cover controlled-airspace clearances and prescribed reports.
+- AIP ENR 1.1, AIP ENR 1.10 and AIP GEN 3.4 provide the operational locators for clearance issue, expiry, PDC timing and readback.
 
 ## Common CASA traps
 
-TODO
+- Do not use the older phrase `clearance void time` without checking the current AIP wording; the verified source notes flag `clearance expiry time`.
+- Do not treat flight-plan submission as the same thing as receiving an airways clearance.
+- Readback requirements are not optional when the AIP/MOS requires them.
 
 ## Worked examples
 
-TODO
+TODO: Add clearance request and readback examples after selecting exact route/airspace scenarios.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 9.02 to 9.03 for flight-plan submission and amendment requirements.
+- Use AIP ENR 1.1 section 2.2 and AIP GEN 3.4 section 5 for clearance/readback details.

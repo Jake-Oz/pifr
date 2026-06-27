@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 11.2.1: State the provision of separation 
 
 ## Why it matters
 
-TODO
+Separation provision changes by airspace class, so the exam answer depends on identifying both flight rules and class of CTA.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.255 and 91.257 provide the controlled-airspace operation and clearance compliance hooks.
+- Part 91 MOS 11.15 to 11.17 and 21.05 are the key MOS locators for ATC service and reporting context.
+- AIP ENR 1.4 sections 1.1 and 2.1 to 2.4 identify the controlled airspace classes and service provision.
+- AIP ENR 1.1 sections 2.6.3, 2.8 and 2.9 support separation, pilot-assigned separation and VFR effects on separation responsibility.
 
 ## Common CASA traps
 
-TODO
+- Do not assume IFR is separated from every VFR flight in every class.
+- Do not ignore VFR climb/descent or VFR-on-top effects where the AIP changes responsibility.
+- Class D has its own service pattern and should not be answered from Class C assumptions.
 
 ## Worked examples
 
-TODO
+TODO: Add airspace-class separation examples after selecting class A/C/D/E scenarios.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.4 first to identify service provision by class.
+- Use AIP ENR 1.1 section 2 for special separation and traffic-information cases.

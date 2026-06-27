@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 11.2.2: State the provision of separation 
 
 ## Why it matters
 
-TODO
+Class D is a frequent exam trap because IFR separation and VFR traffic information are not the same service.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.255 and 91.257 provide the controlled-airspace regulation context.
+- Part 91 MOS 11.15 to 11.17 and 21.05 support the ATC service and reporting framework.
+- AIP ENR 1.4 sections 2.1.3 and 2.2 identify Class D service provision.
+- AIP ENR 1.1 sections 2.2.7, 2.6.2 to 2.6.3 and 2.8 support Class D operational detail.
 
 ## Common CASA traps
 
-TODO
+- Do not state that IFR receives separation from all VFR flights in Class D.
+- Separate `separation` from `traffic information` in the answer.
+- Check whether a planned IFR flight is operating under VFR departure or VFR climb/descent provisions.
 
 ## Worked examples
 
-TODO
+TODO: Add Class D separation and traffic-information examples after selecting a Class D aerodrome scenario.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go to AIP ENR 1.4 section 2 for the class-service table.
+- Use AIP ENR 1.1 section 2.6 for Class D operating detail.

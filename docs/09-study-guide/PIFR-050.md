@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 11.1.3: State what is 'controlled area pro
 
 ## Why it matters
 
-TODO
+The MOS lists controlled area protection as an objective, but the exact current public-source definition has not yet been verified.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- The verified AIP material supports an operational 500 ft buffer above the lower limit of CTA during specified visual departure and visual approach/descent contexts.
+- AIP ENR 1.1 section 2.5.3.3 and AIP ENR 1.5 sections 1.15 to 1.16 are the current partial locators.
+- The exact term `controlled area protection` remains a source gap until a current public CASA or Airservices definition is verified.
 
 ## Common CASA traps
 
-TODO
+- Do not invent a definition from training memory.
+- Do not expand the concept beyond the verified AIP operational references.
+- Treat this as partial support, not a fully mapped definition.
 
 ## Worked examples
 
-TODO
+TODO: Add examples only after verifying a current official definition of controlled area protection.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use the verified AIP references for the current operational 500 ft CTA buffer context.
+- Check the source-gap register before adding any broader explanatory definition.

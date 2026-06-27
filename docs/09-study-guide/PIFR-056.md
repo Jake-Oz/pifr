@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 11.3.2: Determine procedures for loss of r
 
 ## Why it matters
 
-TODO
+Radio failure in CTA/CTR is a high-risk procedural memory item, but the exam answer should still be located from the AIP/MOS sequence.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.257 and 91.810 provide the clearance compliance and equipment regulation hooks.
+- Part 91 MOS 11.10, 11.18 and Table 26.69(7A) are the MOS locators for radio failure and transponder code context.
+- AIP ENR 1.1 section 6.2 is the main radio-failure procedure locator.
+- AIP ENR 1.6 sections 6.2 and 6.4.3 to 6.4.4 and AIP GEN 3.4 section 6.17.6 support surveillance, 7600 and IDENT handling.
 
 ## Common CASA traps
 
-TODO
+- Do not use the VMC option when the question states IMC conditions.
+- Do not skip the squawk 7600 and broadcast/assumed-broadcast steps.
+- Do not treat receive-only instructions as normal two-way communications.
 
 ## Worked examples
 
-TODO
+TODO: Add CTA/CTR radio-failure scenarios after selecting VMC/IMC, clearance and vectoring contexts.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go directly to AIP ENR 1.1 section 6.2 for the procedural sequence.
+- Use Part 91 MOS Table 26.69(7A) for the transponder code lookup.

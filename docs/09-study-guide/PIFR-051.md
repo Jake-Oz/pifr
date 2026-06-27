@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 11.1.4: State ATC requirements for a chang
 
 ## Why it matters
 
-TODO
+Level changes in CTA are clearance-controlled, and emergency deviations have specific reporting and transponder implications.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.257 is the regulation hook for complying with ATC clearances and instructions.
+- Part 91 MOS 11.06, 11.12 and Table 21.05(1) items 8 to 9 are the key MOS locators.
+- AIP ENR 1.1 sections 2.2.2 to 2.2.5 and AIP ENR 1.7 section 4.1 provide level-change and altimetry context.
+- AIP GEN 3.4 sections 5.4 and 5.7 provide communication and readback context.
 
 ## Common CASA traps
 
-TODO
+- Do not change level in CTA without clearance unless an emergency/safety rule applies.
+- If unable to comply, advise ATC immediately rather than silently deviating.
+- ACAS RA and emergency action may override ATC instructions, but the pilot must follow the required reporting actions.
 
 ## Worked examples
 
-TODO
+TODO: Add CTA level-change and emergency-deviation examples after selecting airspace and clearance scenarios.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR 91.257 and Part 91 MOS 11.12 for clearance compliance.
+- Use Part 91 MOS Table 21.05(1) for leaving/reaching level reports.
