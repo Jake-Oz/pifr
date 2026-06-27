@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.1: State the IFR operations a single-e
 
 ## Why it matters
 
-TODO
+Single-engine IFR privileges are a common exam boundary issue because the answer depends on PIFR endorsement limits rather than broad IFR assumptions.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Use CASR 61.915 and CASR 61.935 to identify which PIFR operations and endorsements are available.
+- CASR 61.940 and 61.942 support the operational limitation chain for private IFR rating holders and endorsement-specific authorisations.
+- The mapped references intentionally avoid adding operational limits that are not expressed in the regulation text.
 
 ## Common CASA traps
 
-TODO
+- Do not import multi-engine or instrument-rating assumptions into a PIFR single-engine question.
+- Do not assume a navigation aid, approach, holding or night operation is permitted unless the relevant endorsement supports it.
 
 ## Worked examples
 
-TODO
+TODO: Add aircraft and endorsement examples after the aircraft example set is selected.
 
 ## Cross references
 
@@ -58,3 +61,8 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- Use CASR 61.935 table items first when the question turns on a specific activity.
+- Then confirm any general private IFR rating limitation in the surrounding Part 61 provisions.

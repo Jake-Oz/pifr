@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.4: State the requirements for inflight
 
 ## Why it matters
 
-TODO
+Progress-reporting questions test whether the pilot knows which reports are prescribed in controlled/Class E/Class G contexts and when SARWATCH cancellation is required.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 21 is the primary source for prescribed reports.
+- Use section 21.05 and Table 21.05(1) for controlled and Class E reporting contexts.
+- Use section 21.06 and Table 21.06(1) for IFR aircraft in Class G.
+- AIP ENR 1.1 and ENR 1.10 provide operational position-report and flight-notification context.
 
 ## Common CASA traps
 
-TODO
+- Do not assume the same report list applies in CTA and Class G.
+- Look for route reporting requirements, ATC requirements and SARWATCH cancellation triggers separately.
 
 ## Worked examples
 
-TODO
+TODO: Add report-sequence examples for CTA, Class E and Class G.
 
 ## Cross references
 
@@ -58,3 +62,8 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- Identify the airspace first.
+- Then use Part 91 MOS Table 21.05(1) or Table 21.06(1) as the primary lookup.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.5: State the requirements and procedur
 
 ## Why it matters
 
-TODO
+Flight plan amendments and revised estimates are procedural exam topics where small timing or wording details matter.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS 9.03 covers change notification for submitted flight notifications.
+- Part 91 MOS Tables 21.05(1) and 21.06(1) contain prescribed reporting triggers for corrected estimates and speed variation.
+- AIP ENR 1.10 section 4 is the operational locator for flight notification amendment phraseology and process.
+- AIP ENR 1.1 supports in-flight route, level and estimate amendment procedures.
 
 ## Common CASA traps
 
-TODO
+- Do not treat every small ETA change as a revised-estimate report; check the AIP/MOS threshold.
+- Separate pre-flight plan amendment from in-flight corrected estimate reporting.
 
 ## Worked examples
 
-TODO
+TODO: Add revised-estimate examples using a sample IFR route.
 
 ## Cross references
 
@@ -58,3 +62,8 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- For submitted flight notification changes, start with Part 91 MOS 9.03.
+- For in-flight revised estimates, go to the Chapter 21 report tables and AIP ENR 1.1.

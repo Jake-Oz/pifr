@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.1: State the documents required to be 
 
 ## Why it matters
 
-TODO
+Document-carriage questions are usually solved by locating the exact Part 91 regulation and then checking AIP carriage guidance for maps, charts and aeronautical information.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.100, 91.105 and 91.110 are the primary legal references for documents and authorised aeronautical information.
+- AIP ENR 1.10 section 5 supports the operational requirement to carry relevant current aeronautical maps, charts and information.
+- The reference map separates document carriage from later study tasks about extracting information from those documents.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse documents required to be carried with documents merely useful for planning.
+- Check whether the question asks about flight crew documents, aircraft documents or aeronautical information.
 
 ## Worked examples
 
-TODO
+TODO: Add pre-flight document checklist example after the aircraft example set is selected.
 
 ## Cross references
 
@@ -58,3 +61,8 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- Use CASR 91.100 to 91.110 for legal document-carriage wording.
+- Use AIP ENR 1.10 section 5 for chart and operational information carriage context.

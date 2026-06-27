@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 2.1.3: State what qualifications a pilot m
 
 ## Why it matters
 
-TODO
+This is the legal starting point for PIFR privileges: the exam can test whether a pilot is authorised for the specific IFR operation, endorsement and recency context.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Start in CASR Part 61 Subpart 61.M for private instrument flight rating privileges and limitations.
+- Use CASR 61.910 for the private IFR rating privilege framework, then follow the related PIFR provisions through grant, endorsement, recency and flight review requirements.
+- CASR 61.935 table entries are important because PIFR operations depend on the endorsements held, not merely possession of the rating.
 
 ## Common CASA traps
 
-TODO
+- Do not treat a private IFR rating as an unrestricted instrument rating.
+- Check the relevant endorsement before assuming the operation is authorised.
+- Separate rating privileges, endorsement privileges, recency and flight review requirements.
 
 ## Worked examples
 
-TODO
+TODO: Add scenarios only after selecting exact endorsement combinations from CASR 61.935.
 
 ## Cross references
 
@@ -58,3 +62,8 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- Search Part 61 for `private IFR rating` and then use the surrounding regulation numbers in the reference locator.
+- For endorsement questions, go directly to CASR 61.935 and read the table item rather than relying on memory.

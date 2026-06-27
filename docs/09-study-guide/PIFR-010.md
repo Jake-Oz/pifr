@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.2: State the requirements for submissi
 
 ## Why it matters
 
-TODO
+Flight notification and SARWATCH are exam-critical because they combine regulation, MOS requirements, AIP procedures and ERSA route details.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.240 is the legal hook for flight notification requirements prescribed by the Part 91 MOS.
+- Part 91 MOS Chapter 9 contains the core flight notification rules, including IFR flight plan submission, changes, SARTIME and responsible-person requirements.
+- AIP ENR 1.10 provides operational flight notification procedures and AIP ENR 1.1 supports SARWATCH cancellation context.
+- ERSA GEN FPR provides route and flight-plan requirement detail for current operational lookup.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse lodging flight notification with cancelling SARWATCH.
+- If a question mentions SARTIME, responsible person or amendment, check MOS Chapter 9 and AIP ENR 1.10 together.
+- Route-specific flight planning details may sit in ERSA GEN FPR rather than the AIP Book.
 
 ## Worked examples
 
-TODO
+TODO: Add worked flight-notification examples after selecting a sample route.
 
 ## Cross references
 
@@ -58,3 +63,9 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- For legal requirement wording, go to Part 91 MOS Chapter 9.
+- For practical form/procedure wording, go to AIP ENR 1.10.
+- For route-specific planning constraints, check ERSA GEN FPR.

@@ -224,6 +224,134 @@ ROADMAP = [
     ("GNSS And Instrument Errors", ["15.3.1", "15.3.2", "15.3.3", "16.1.1", "16.1.2"]),
 ]
 
+STUDY_CONTENT = {
+    "PIFR-003": {
+        "why": "This is the legal starting point for PIFR privileges: the exam can test whether a pilot is authorised for the specific IFR operation, endorsement and recency context.",
+        "notes": [
+            "Start in CASR Part 61 Subpart 61.M for private instrument flight rating privileges and limitations.",
+            "Use CASR 61.910 for the private IFR rating privilege framework, then follow the related PIFR provisions through grant, endorsement, recency and flight review requirements.",
+            "CASR 61.935 table entries are important because PIFR operations depend on the endorsements held, not merely possession of the rating.",
+        ],
+        "traps": [
+            "Do not treat a private IFR rating as an unrestricted instrument rating.",
+            "Check the relevant endorsement before assuming the operation is authorised.",
+            "Separate rating privileges, endorsement privileges, recency and flight review requirements.",
+        ],
+        "examples": "TODO: Add scenarios only after selecting exact endorsement combinations from CASR 61.935.",
+        "exam_use": [
+            "Search Part 61 for `private IFR rating` and then use the surrounding regulation numbers in the reference locator.",
+            "For endorsement questions, go directly to CASR 61.935 and read the table item rather than relying on memory.",
+        ],
+    },
+    "PIFR-009": {
+        "why": "Single-engine IFR privileges are a common exam boundary issue because the answer depends on PIFR endorsement limits rather than broad IFR assumptions.",
+        "notes": [
+            "Use CASR 61.915 and CASR 61.935 to identify which PIFR operations and endorsements are available.",
+            "CASR 61.940 and 61.942 support the operational limitation chain for private IFR rating holders and endorsement-specific authorisations.",
+            "The mapped references intentionally avoid adding operational limits that are not expressed in the regulation text.",
+        ],
+        "traps": [
+            "Do not import multi-engine or instrument-rating assumptions into a PIFR single-engine question.",
+            "Do not assume a navigation aid, approach, holding or night operation is permitted unless the relevant endorsement supports it.",
+        ],
+        "examples": "TODO: Add aircraft and endorsement examples after the aircraft example set is selected.",
+        "exam_use": [
+            "Use CASR 61.935 table items first when the question turns on a specific activity.",
+            "Then confirm any general private IFR rating limitation in the surrounding Part 61 provisions.",
+        ],
+    },
+    "PIFR-010": {
+        "why": "Flight notification and SARWATCH are exam-critical because they combine regulation, MOS requirements, AIP procedures and ERSA route details.",
+        "notes": [
+            "CASR 91.240 is the legal hook for flight notification requirements prescribed by the Part 91 MOS.",
+            "Part 91 MOS Chapter 9 contains the core flight notification rules, including IFR flight plan submission, changes, SARTIME and responsible-person requirements.",
+            "AIP ENR 1.10 provides operational flight notification procedures and AIP ENR 1.1 supports SARWATCH cancellation context.",
+            "ERSA GEN FPR provides route and flight-plan requirement detail for current operational lookup.",
+        ],
+        "traps": [
+            "Do not confuse lodging flight notification with cancelling SARWATCH.",
+            "If a question mentions SARTIME, responsible person or amendment, check MOS Chapter 9 and AIP ENR 1.10 together.",
+            "Route-specific flight planning details may sit in ERSA GEN FPR rather than the AIP Book.",
+        ],
+        "examples": "TODO: Add worked flight-notification examples after selecting a sample route.",
+        "exam_use": [
+            "For legal requirement wording, go to Part 91 MOS Chapter 9.",
+            "For practical form/procedure wording, go to AIP ENR 1.10.",
+            "For route-specific planning constraints, check ERSA GEN FPR.",
+        ],
+    },
+    "PIFR-011": {
+        "why": "Speed restrictions are quick marks when the correct table is found, but easy to miss if the question changes airspace or altitude context.",
+        "notes": [
+            "Part 91 MOS Chapter 4 is the primary source for speed limits.",
+            "Table 4.02(1) is the key lookup point for IFR/VFR speed restrictions by airspace and circumstance.",
+            "AIP ENR 1.4 provides an operational airspace summary, but the MOS table is the stronger legal locator.",
+        ],
+        "traps": [
+            "Read the airspace class and altitude before selecting a speed limit.",
+            "Do not use AIP summary material when the MOS table gives the precise rule.",
+        ],
+        "examples": "TODO: Add speed-limit lookup examples by airspace class.",
+        "exam_use": [
+            "Go straight to Part 91 MOS Table 4.02(1).",
+            "Use AIP ENR 1.4 as a quick cross-check if the question is framed as an airspace question.",
+        ],
+    },
+    "PIFR-012": {
+        "why": "Progress-reporting questions test whether the pilot knows which reports are prescribed in controlled/Class E/Class G contexts and when SARWATCH cancellation is required.",
+        "notes": [
+            "Part 91 MOS Chapter 21 is the primary source for prescribed reports.",
+            "Use section 21.05 and Table 21.05(1) for controlled and Class E reporting contexts.",
+            "Use section 21.06 and Table 21.06(1) for IFR aircraft in Class G.",
+            "AIP ENR 1.1 and ENR 1.10 provide operational position-report and flight-notification context.",
+        ],
+        "traps": [
+            "Do not assume the same report list applies in CTA and Class G.",
+            "Look for route reporting requirements, ATC requirements and SARWATCH cancellation triggers separately.",
+        ],
+        "examples": "TODO: Add report-sequence examples for CTA, Class E and Class G.",
+        "exam_use": [
+            "Identify the airspace first.",
+            "Then use Part 91 MOS Table 21.05(1) or Table 21.06(1) as the primary lookup.",
+        ],
+    },
+    "PIFR-013": {
+        "why": "Flight plan amendments and revised estimates are procedural exam topics where small timing or wording details matter.",
+        "notes": [
+            "Part 91 MOS 9.03 covers change notification for submitted flight notifications.",
+            "Part 91 MOS Tables 21.05(1) and 21.06(1) contain prescribed reporting triggers for corrected estimates and speed variation.",
+            "AIP ENR 1.10 section 4 is the operational locator for flight notification amendment phraseology and process.",
+            "AIP ENR 1.1 supports in-flight route, level and estimate amendment procedures.",
+        ],
+        "traps": [
+            "Do not treat every small ETA change as a revised-estimate report; check the AIP/MOS threshold.",
+            "Separate pre-flight plan amendment from in-flight corrected estimate reporting.",
+        ],
+        "examples": "TODO: Add revised-estimate examples using a sample IFR route.",
+        "exam_use": [
+            "For submitted flight notification changes, start with Part 91 MOS 9.03.",
+            "For in-flight revised estimates, go to the Chapter 21 report tables and AIP ENR 1.1.",
+        ],
+    },
+    "PIFR-014": {
+        "why": "Document-carriage questions are usually solved by locating the exact Part 91 regulation and then checking AIP carriage guidance for maps, charts and aeronautical information.",
+        "notes": [
+            "CASR 91.100, 91.105 and 91.110 are the primary legal references for documents and authorised aeronautical information.",
+            "AIP ENR 1.10 section 5 supports the operational requirement to carry relevant current aeronautical maps, charts and information.",
+            "The reference map separates document carriage from later study tasks about extracting information from those documents.",
+        ],
+        "traps": [
+            "Do not confuse documents required to be carried with documents merely useful for planning.",
+            "Check whether the question asks about flight crew documents, aircraft documents or aeronautical information.",
+        ],
+        "examples": "TODO: Add pre-flight document checklist example after the aircraft example set is selected.",
+        "exam_use": [
+            "Use CASR 91.100 to 91.110 for legal document-carriage wording.",
+            "Use AIP ENR 1.10 section 5 for chart and operational information carriage context.",
+        ],
+    },
+}
+
 
 def iter_objectives():
     idx = 1
@@ -655,6 +783,7 @@ def study_files(objs, reference_map):
     for obj in objs:
         mapped = reference_map.get(obj["id"], {})
         module = module_by_objective[obj["id"]]
+        content = STUDY_CONTENT.get(obj["id"], {})
         official_rows = []
         for field in CROSS_REFERENCE_FIELDS:
             if field in ["Exam importance", "Notes", "Aircraft example"]:
@@ -664,6 +793,17 @@ def study_files(objs, reference_map):
         source_note = mapped.get("Notes", "TODO")
         exam_importance = mapped.get("Exam importance", "TODO")
         aircraft_example = mapped.get("Aircraft example", "TODO")
+        why = content.get("why", "TODO")
+        notes = content.get("notes", "TODO")
+        traps = content.get("traps", "TODO")
+        examples = content.get("examples", "TODO")
+        exam_use = content.get("exam_use", "TODO")
+
+        def render_list(value):
+            if isinstance(value, list):
+                return "\n".join(f"- {item}" for item in value)
+            return value
+
         text = f"""# {obj['id']}
 
 ## Objective
@@ -672,7 +812,7 @@ def study_files(objs, reference_map):
 
 ## Why it matters
 
-TODO
+{why}
 
 ## Official references
 
@@ -688,15 +828,15 @@ TODO
 
 ## Study notes
 
-TODO
+{render_list(notes)}
 
 ## Common CASA traps
 
-TODO
+{render_list(traps)}
 
 ## Worked examples
 
-TODO
+{examples}
 
 ## Cross references
 
@@ -716,6 +856,10 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+{render_list(exam_use)}
 """
         write(ROOT / "docs/09-study-guide" / f"{obj['id']}.md", text)
 

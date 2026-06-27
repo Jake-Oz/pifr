@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.3: State the speed restrictions an IFR
 
 ## Why it matters
 
-TODO
+Speed restrictions are quick marks when the correct table is found, but easy to miss if the question changes airspace or altitude context.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 4 is the primary source for speed limits.
+- Table 4.02(1) is the key lookup point for IFR/VFR speed restrictions by airspace and circumstance.
+- AIP ENR 1.4 provides an operational airspace summary, but the MOS table is the stronger legal locator.
 
 ## Common CASA traps
 
-TODO
+- Read the airspace class and altitude before selecting a speed limit.
+- Do not use AIP summary material when the MOS table gives the precise rule.
 
 ## Worked examples
 
-TODO
+TODO: Add speed-limit lookup examples by airspace class.
 
 ## Cross references
 
@@ -58,3 +61,8 @@ TODO
 ## Question bank references
 
 TODO
+
+## Exam use
+
+- Go straight to Part 91 MOS Table 4.02(1).
+- Use AIP ENR 1.4 as a quick cross-check if the question is framed as an airspace question.
