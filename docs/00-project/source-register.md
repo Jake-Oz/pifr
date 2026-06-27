@@ -39,3 +39,16 @@
 - Registered: 2026-03-18
 - URL: https://www.legislation.gov.au/F2020L01514/latest
 - Local cache: `tmp/source/regulations/part91-mos-current.pdf`
+
+## Current Airservices Sources Verified
+
+### AIP Book
+
+- Publisher: Airservices Australia
+- Product: Aeronautical Information Publication Australia
+- Amendment: AIP Book Amendment No. 126
+- Effective: 2026-03-19
+- Next cycle shown by Airservices: 2026-07-09
+- URL: https://www.airservicesaustralia.com/aip/aip.asp
+- Local cache: `tmp/source/aip/aip-general-19MAR2026.pdf`, `tmp/source/aip/aip-enroute-19MAR2026.pdf`, `tmp/source/aip/aip-cover-19MAR2026.pdf`
+- Notes: Verified on 2026-06-27. The Airservices AIP page listed the 19 MAR 2026 AIP Book as current and the 09 JUL 2026 AIP Book as pending.

@@ -12,31 +12,33 @@
   "PIFR-010": {
     "Part 91": "CASR 91.240",
     "Part 91 MOS": "Part 91 MOS Chapter 9, sections 9.01-9.05",
-    "AIP reference": "TODO: verify current authorised aeronautical information procedures for flight plan submission and SARWATCH.",
+    "AIP reference": "AIP ENR 1.10 sections 2.1-2.22, 3.1-3.5; AIP ENR 1.1 section 10.2",
     "Exam importance": "High",
-    "Notes": "Verified legal requirement chain: CASR 91.240 authorises Part 91 MOS flight notification requirements; MOS 9.02 requires IFR flight plan submission and MOS 9.03-9.05 covers changes, SARTIME and responsible persons."
+    "Notes": "Verified legal requirement chain: CASR 91.240 authorises Part 91 MOS flight notification requirements; MOS 9.02 requires IFR flight plan submission and MOS 9.03-9.05 covers changes, SARTIME and responsible persons. AIP Book Amendment 126 current 19 MAR 2026 confirms IFR flight notification, SARWATCH basis, SARTIME and PIFR notification procedures."
   },
   "PIFR-011": {
     "Part 91": "CASR 91.090",
     "Part 91 MOS": "Part 91 MOS Chapter 4, sections 4.01-4.02 and Table 4.02(1)",
+    "AIP reference": "AIP ENR 1.4 section 4.1",
     "Exam importance": "High",
-    "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214). Applies to all flights; table includes IFR/VFR limits in Class D and Class G/E."
+    "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214). Applies to all flights; table includes IFR/VFR limits in Class D and Class G/E. AIP ENR 1.4 summarises Australian airspace speed limitations."
   },
   "PIFR-012": {
     "Part 91 MOS": "Part 91 MOS Chapter 21, sections 21.05-21.06 and Tables 21.05(1), 21.06(1)",
-    "AIP reference": "TODO: verify current AIP reporting procedures and route reporting requirements.",
+    "AIP reference": "AIP ENR 1.1 sections 5.1.4-5.1.5, 6.1, 9.7-9.10, 10.2; AIP ENR 1.10 section 2.2",
     "Exam importance": "High",
-    "Notes": "Verified Part 91 MOS controlled/Class E and Class G IFR prescribed reports, including position reports and SARWATCH cancellation reporting exceptions."
+    "Notes": "Verified Part 91 MOS controlled/Class E and Class G IFR prescribed reports, including position reports and SARWATCH cancellation reporting exceptions. AIP Book Amendment 126 current 19 MAR 2026 confirms route reporting point guidance and IFR in-flight progress/position reporting."
   },
   "PIFR-013": {
     "Part 91 MOS": "Part 91 MOS sections 9.03, 21.05 Table 21.05(1) items 5-6, 21.06 Table 21.06(1) item 5",
-    "AIP reference": "TODO: verify current AIP flight plan amendment and revised estimate procedures.",
+    "AIP reference": "AIP ENR 1.1 sections 9.7.1, 9.8; AIP ENR 1.10 section 4",
     "Exam importance": "High",
-    "Notes": "Verified Part 91 MOS change-notification requirements and prescribed reporting triggers for corrected position estimates and speed variation."
+    "Notes": "Verified Part 91 MOS change-notification requirements and prescribed reporting triggers for corrected position estimates and speed variation. AIP Book Amendment 126 current 19 MAR 2026 confirms route/track/level amendment advice, revised estimates greater than 2 minutes, and flight notification amendment phraseology."
   },
   "PIFR-014": {
-    "Part 91": "CASR 91.100, 91.105",
+    "Part 91": "CASR 91.100, 91.105, 91.110",
+    "AIP reference": "AIP ENR 1.10 section 5; Airservices AIP copyright notice statutory obligations",
     "Exam importance": "High",
-    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers electronic documents and documents carried at the beginning of a flight."
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers electronic documents, flight crew/aircraft documents, authorised aeronautical information and maintenance release/log carriage. AIP ENR 1.10 explains carriage of relevant latest editions of aeronautical maps, charts and information."
   }
 }
