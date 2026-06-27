@@ -4,7 +4,7 @@ import re
 import sys
 from pathlib import Path
 
-from generate_pifr_phase1 import ROOT, iter_objectives
+from generate_pifr_phase1 import CROSS_REFERENCE_FIELDS, ROOT, iter_objectives
 
 
 def fail(message):
@@ -32,6 +32,7 @@ def roadmap_ids(path):
 def main():
     objs = list(iter_objectives())
     ids = [obj["id"] for obj in objs]
+    id_set = set(ids)
     expected_ids = [f"PIFR-{idx:03d}" for idx in range(1, len(objs) + 1)]
 
     if ids != expected_ids:
@@ -46,6 +47,22 @@ def main():
     cross_ref_ids = ids_from_markdown_table(ROOT / "docs/08-cross-reference/master-cross-reference.md")
     if cross_ref_ids != ids:
         return fail("cross-reference objective IDs do not match generator order")
+
+    reference_map_path = ROOT / "data/pifr-reference-map.json"
+    reference_map = json.loads(read(reference_map_path))
+    if not isinstance(reference_map, dict):
+        return fail("reference map must be a JSON object")
+    allowed_fields = set(CROSS_REFERENCE_FIELDS)
+    for objective_id, fields in reference_map.items():
+        if objective_id not in id_set:
+            return fail(f"reference map uses unknown objective ID {objective_id}")
+        if not isinstance(fields, dict):
+            return fail(f"reference map entry for {objective_id} must be an object")
+        for field_name, value in fields.items():
+            if field_name not in allowed_fields:
+                return fail(f"reference map field {objective_id}.{field_name} is not allowed")
+            if not isinstance(value, str) or not value.strip():
+                return fail(f"reference map field {objective_id}.{field_name} must be a non-empty string")
 
     roadmap = roadmap_ids(ROOT / "docs/09-study-guide/learning-roadmap.md")
     if sorted(roadmap) != sorted(ids) or len(roadmap) != len(ids):

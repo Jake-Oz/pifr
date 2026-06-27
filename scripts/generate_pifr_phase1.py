@@ -19,6 +19,21 @@ SOURCE = {
     "url": "https://www.legislation.gov.au/F2014L01102/latest",
 }
 
+CROSS_REFERENCE_FIELDS = [
+    "CAR",
+    "Part 61",
+    "Part 91",
+    "Part 91 MOS",
+    "AIP reference",
+    "ERSA reference",
+    "ERC LOW reference",
+    "TAC reference",
+    "PCA reference",
+    "Aircraft example",
+    "Exam importance",
+    "Notes",
+]
+
 SECTIONS = [
     ("2", "Pilot's fitness and qualifications", [
         ("2.1", "Pilot medical fitness for IFR flight", [
@@ -261,6 +276,13 @@ def write_objective_data(objs):
         writer.writerows({field: obj[field] for field in fields} for obj in objs)
 
 
+def load_reference_map():
+    path = ROOT / "data/pifr-reference-map.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def syllabus():
     lines = [
         "# CASA PIFR Syllabus - MOS Master Reference",
@@ -317,7 +339,7 @@ def syllabus():
     write(ROOT / "docs/01-mos/syllabus.md", "\n".join(lines))
 
 
-def cross_reference(objs):
+def cross_reference(objs, reference_map):
     headers = [
         "ID", "MOS reference", "Learning objective", "CAR", "Part 61", "Part 91",
         "Part 91 MOS", "AIP reference", "ERSA reference", "ERC LOW reference",
@@ -332,11 +354,12 @@ def cross_reference(objs):
         "|" + "|".join(["---"] * len(headers)) + "|",
     ]
     for obj in objs:
+        mapped = reference_map.get(obj["id"], {})
         row = [
             obj["id"],
             f"MOS Schedule 3 Section 2.2 Unit 2.2.1 {obj['mos_ref']}",
             obj["objective"],
-            "TODO", "TODO", "TODO", "TODO", "TODO", "TODO", "TODO", "TODO", "TODO", "TODO", "TODO", "TODO",
+            *[mapped.get(field, "TODO") for field in CROSS_REFERENCE_FIELDS],
         ]
         lines.append("|" + "|".join(cell.replace("|", "\\|") for cell in row) + "|")
     write(ROOT / "docs/08-cross-reference/master-cross-reference.md", "\n".join(lines))
@@ -468,6 +491,28 @@ def project_docs():
 - Source PDF used locally: `tmp/source/part61-mos-vol3.pdf`.
 - Source text extraction used locally: `tmp/source/part61-mos-vol3.txt`.
 - `tmp/` is ignored and should be treated as a working cache, not project source.
+
+## Current Regulation Sources Verified
+
+### Civil Aviation Safety Regulations 1998
+
+- Title ID: F1998B00220
+- Register ID: F2026C00286
+- Compilation: Compilation No. 101
+- Effective: 2026-04-01
+- Registered: 2026-04-02
+- URL: https://www.legislation.gov.au/F1998B00220/latest
+- Local cache: `tmp/source/regulations/casr-current-vol1.pdf` through `tmp/source/regulations/casr-current-vol5.pdf`
+
+### Part 91 (General Operating and Flight Rules) Manual of Standards 2020
+
+- Title ID: F2020L01514
+- Register ID: F2026C00214
+- Compilation: Compilation No. 7
+- Effective: 2026-03-14
+- Registered: 2026-03-18
+- URL: https://www.legislation.gov.au/F2020L01514/latest
+- Local cache: `tmp/source/regulations/part91-mos-current.pdf`
 """)
     write(ROOT / "docs/00-project/data-model.md", """# Data Model
 
@@ -482,6 +527,7 @@ The MOS objective list is maintained in `scripts/generate_pifr_phase1.py` and em
 - `data/pifr-objectives.json` is the structured objective dataset for future website, retrieval, flashcard and exam-index generation.
 - `data/pifr-objectives.csv` is a spreadsheet-friendly export of the same objective dataset.
 - `data/pifr-objectives-count.txt` records the current objective count.
+- `data/pifr-reference-map.json` is the canonical data file for verified non-MOS cross-reference mappings.
 
 ## Validation
 
@@ -494,16 +540,18 @@ The validation checks that:
 - the cross-reference contains every objective once;
 - every per-objective study file exists and contains the correct MOS objective;
 - the learning roadmap references every objective once;
-- structured JSON and CSV exports match the generator objective list.
+- structured JSON and CSV exports match the generator objective list;
+- reference-map entries use known objective IDs and approved cross-reference fields.
 """)
 
 
 def main():
     objs = list(iter_objectives())
+    reference_map = load_reference_map()
     project_docs()
     write_objective_data(objs)
     syllabus()
-    cross_reference(objs)
+    cross_reference(objs, reference_map)
     roadmap(objs)
     study_files(objs)
     write(ROOT / "data/pifr-objectives-count.txt", str(len(objs)))

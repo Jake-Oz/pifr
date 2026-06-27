@@ -17,3 +17,25 @@
 - Source PDF used locally: `tmp/source/part61-mos-vol3.pdf`.
 - Source text extraction used locally: `tmp/source/part61-mos-vol3.txt`.
 - `tmp/` is ignored and should be treated as a working cache, not project source.
+
+## Current Regulation Sources Verified
+
+### Civil Aviation Safety Regulations 1998
+
+- Title ID: F1998B00220
+- Register ID: F2026C00286
+- Compilation: Compilation No. 101
+- Effective: 2026-04-01
+- Registered: 2026-04-02
+- URL: https://www.legislation.gov.au/F1998B00220/latest
+- Local cache: `tmp/source/regulations/casr-current-vol1.pdf` through `tmp/source/regulations/casr-current-vol5.pdf`
+
+### Part 91 (General Operating and Flight Rules) Manual of Standards 2020
+
+- Title ID: F2020L01514
+- Register ID: F2026C00214
+- Compilation: Compilation No. 7
+- Effective: 2026-03-14
+- Registered: 2026-03-18
+- URL: https://www.legislation.gov.au/F2020L01514/latest
+- Local cache: `tmp/source/regulations/part91-mos-current.pdf`

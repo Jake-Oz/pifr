@@ -11,6 +11,7 @@ The MOS objective list is maintained in `scripts/generate_pifr_phase1.py` and em
 - `data/pifr-objectives.json` is the structured objective dataset for future website, retrieval, flashcard and exam-index generation.
 - `data/pifr-objectives.csv` is a spreadsheet-friendly export of the same objective dataset.
 - `data/pifr-objectives-count.txt` records the current objective count.
+- `data/pifr-reference-map.json` is the canonical data file for verified non-MOS cross-reference mappings.
 
 ## Validation
 
@@ -23,4 +24,5 @@ The validation checks that:
 - the cross-reference contains every objective once;
 - every per-objective study file exists and contains the correct MOS objective;
 - the learning roadmap references every objective once;
-- structured JSON and CSV exports match the generator objective list.
+- structured JSON and CSV exports match the generator objective list;
+- reference-map entries use known objective IDs and approved cross-reference fields.
