@@ -42,6 +42,37 @@ def source_gaps():
     return rows
 
 
+def section_text(markdown, heading):
+    pattern = re.compile(
+        rf"^## {re.escape(heading)}\n\n(?P<body>.*?)(?=\n## |\Z)",
+        re.MULTILINE | re.DOTALL,
+    )
+    match = pattern.search(markdown)
+    if not match:
+        return ""
+    return match.group("body").strip()
+
+
+def list_items(text):
+    items = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("- "):
+            items.append(stripped[2:].strip())
+    return items
+
+
+def study_content(study_file):
+    markdown = read(ROOT / study_file)
+    return {
+        "why": section_text(markdown, "Why it matters"),
+        "study_notes": list_items(section_text(markdown, "Study notes")),
+        "common_traps": list_items(section_text(markdown, "Common CASA traps")),
+        "worked_examples": section_text(markdown, "Worked examples"),
+        "exam_use": list_items(section_text(markdown, "Exam use")),
+    }
+
+
 def build_payload():
     modules = json.loads(read(ROOT / "data/pifr-modules.json"))
     flat_objectives = []
@@ -64,6 +95,7 @@ def build_payload():
                 "notes": objective["notes"],
                 "study_file": objective["study_file"],
             }
+            item["study"] = study_content(objective["study_file"])
             flat_objectives.append(item)
 
     status_counts = {}

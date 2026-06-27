@@ -7,61 +7,70 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="app-header">
-      <div>
+    <header class="topbar">
+      <div class="brand">
         <p class="eyebrow">CASA Private IFR Companion</p>
-        <h1>PIFR exam reference workspace</h1>
+        <h1>PIFR study cockpit</h1>
       </div>
-      <div class="header-stats" aria-label="Coverage summary">
-        <div><span id="stat-objectives">93</span><small>Objectives</small></div>
-        <div><span id="stat-mapped">0</span><small>Mapped</small></div>
-        <div><span id="stat-partial">0</span><small>Partial</small></div>
-        <div><span id="stat-mos">0</span><small>MOS only</small></div>
+      <div class="topbar-actions" aria-label="Study controls">
+        <button id="prev-objective" type="button" title="Previous objective">Prev</button>
+        <button id="next-objective" type="button" title="Next objective">Next</button>
+      </div>
+      <div class="stat-strip" aria-label="Coverage summary">
+        <div><strong id="stat-objectives">93</strong><span>Objectives</span></div>
+        <div><strong id="stat-mapped">0</strong><span>Mapped</span></div>
+        <div><strong id="stat-partial">0</strong><span>Partial</span></div>
+        <div><strong id="stat-mos">0</strong><span>MOS only</span></div>
       </div>
     </header>
 
-    <main class="app-shell">
-      <aside class="sidebar" aria-label="Filters">
-        <label class="search-label" for="search">Search</label>
-        <input id="search" type="search" placeholder="Objective, reference, topic">
-
-        <label for="module-filter">Module</label>
-        <select id="module-filter"></select>
-
-        <label for="status-filter">Source status</label>
-        <select id="status-filter">
-          <option value="">All statuses</option>
-          <option value="Mapped">Mapped</option>
-          <option value="Partial">Partial</option>
-          <option value="MOS only">MOS only</option>
-        </select>
-
-        <label for="importance-filter">Exam importance</label>
-        <select id="importance-filter">
-          <option value="">All importance</option>
-          <option value="High">High</option>
-          <option value="Medium">Medium</option>
-          <option value="TODO">TODO</option>
-        </select>
-
-        <section class="source-gaps">
-          <h2>Source Gaps</h2>
-          <ul id="gap-list"></ul>
-        </section>
+    <main class="study-shell">
+      <aside class="module-rail" aria-label="Study modules">
+        <div class="rail-head">
+          <h2>Modules</h2>
+          <button id="reset-progress" type="button">Reset</button>
+        </div>
+        <nav id="module-list" class="module-list"></nav>
       </aside>
 
-      <section class="results-pane" aria-live="polite">
-        <div class="results-toolbar">
-          <h2 id="result-count">0 objectives</h2>
-          <button id="clear-filters" type="button">Clear</button>
+      <section class="study-deck" aria-label="Study workspace">
+        <div class="deck-toolbar">
+          <div class="mode-tabs" role="tablist" aria-label="Study mode">
+            <button type="button" class="mode-tab" data-mode="learn">Learn</button>
+            <button type="button" class="mode-tab" data-mode="locate">Locate</button>
+            <button type="button" class="mode-tab" data-mode="drill">Drill</button>
+            <button type="button" class="mode-tab" data-mode="gaps">Gaps</button>
+          </div>
+          <div class="filters">
+            <input id="search" type="search" placeholder="Search objective, topic, reference">
+            <select id="status-filter" aria-label="Source status">
+              <option value="">All statuses</option>
+              <option value="Mapped">Mapped</option>
+              <option value="Partial">Partial</option>
+              <option value="MOS only">MOS only</option>
+            </select>
+          </div>
         </div>
-        <div id="results" class="results"></div>
+
+        <section id="module-dashboard" class="module-dashboard"></section>
+        <section id="objective-workspace" class="objective-workspace"></section>
       </section>
 
-      <section class="detail-pane" aria-label="Objective detail">
-        <div id="detail-empty" class="empty-state">Select an objective to view MOS traceability and official reference locators.</div>
-        <article id="detail" class="detail" hidden></article>
-      </section>
+      <aside class="source-panel" aria-label="Hard copy source practice">
+        <section class="panel-section">
+          <h2>Hard-copy lookup drill</h2>
+          <div id="lookup-card" class="lookup-card"></div>
+          <div class="lookup-actions">
+            <button id="lookup-random" type="button">Random</button>
+            <button id="lookup-reveal" type="button">Reveal</button>
+          </div>
+        </section>
+
+        <section class="panel-section">
+          <h2>Objective queue</h2>
+          <div id="objective-list" class="objective-list"></div>
+        </section>
+      </aside>
     </main>
 
     <script src="app-data.js"></script>
