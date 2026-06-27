@@ -291,6 +291,32 @@
     "Exam importance": "High",
     "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. This objective combines alternate nomination/suitability, holding substitution and required usable fuel at departure, replanning, continuation, diversion, minimum fuel and emergency fuel decision points."
   },
+  "PIFR-044": {
+    "Exam importance": "Medium",
+    "Notes": "Source gap: the current verified CASA/Airservices source cache contains references to airborne weather radar equipment but not the MOS-listed ground-operation safety precautions themselves. Leave non-MOS references as TODO until a current public CASA or Airservices source is verified."
+  },
+  "PIFR-045": {
+    "Part 91": "CASR 91.245, 91.810",
+    "Part 91 MOS": "Part 91 MOS sections 10.02(i), 10.03-10.06; Chapter 26 pressure-altitude display requirements in sections 26.08 and 26.12",
+    "AIP reference": "AIP ENR 1.7 sections 1.1-1.4",
+    "Exam importance": "High",
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers the pre-takeoff pressure-altitude system accuracy check when the aircraft is at a known elevation and accurate QNH is available, IFR 60 ft/75 ft tolerances, accurate QNH sources, and site-elevation source requirements."
+  },
+  "PIFR-046": {
+    "Part 91": "CASR 91.245, 91.287, 91.305",
+    "Part 91 MOS": "Part 91 MOS sections 10.03-10.06, 11.02 and 14.03",
+    "AIP reference": "AIP ENR 1.7 sections 1.1-2.2; AIP ENR 1.5 section 5.3; AIP GEN 3.4 section 5.11.3",
+    "PCA reference": "Part 91 MOS section 1.07 definition of area QNH notes QNH areas are on Planning Chart Australia",
+    "Exam importance": "High",
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers preflight altimeter checks, accurate/local/area QNH, transition altitude and transition level, prohibition on cruising in the transition layer, 1013.2 hPa above transition altitude, QNH below transition altitude, climb/descent setting changes, and QNH sources/minima adjustments for instrument approaches."
+  },
+  "PIFR-047": {
+    "Part 91": "CASR 91.810",
+    "Part 91 MOS": "Part 91 MOS Division 26.16, sections 26.67-26.70, especially 26.68, 26.69 and Tables 26.69(7)-26.69(7A)",
+    "AIP reference": "AIP ENR 1.6 sections 6.4-6.5 and 7.1; AIP GEN 3.4 section 6.17.6",
+    "Exam importance": "High",
+    "Notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers approved surveillance equipment, continuous transponder/surveillance operation when required, assigned and standard Mode A codes, emergency codes 7500/7600/7700, altitude reporting, Mode S/ADS-B concepts, operating transponders in Australian airspace, IDENT restrictions, standby/code-change procedures and standard SSR/ADS-B phraseology."
+  },
   "PIFR-084": {
     "Part 61": "CASR 61.935 table 61.935 item 10",
     "Part 91 MOS": "Part 91 MOS section 1.07 definitions of approved GNSS, FDE, GNSS, navigation database, RNAV specification, RNP specification, requisite GNSS satellites and SBAS; sections 14.01-14.07; Chapter 26 GNSS/GPS surveillance definitions including GPS, HPL and SA",
