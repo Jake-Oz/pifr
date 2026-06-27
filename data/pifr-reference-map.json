@@ -569,5 +569,45 @@
     "AIP reference": "AIP GEN 2.2 sections 3.11-3.12; AIP GEN 3.5 section 4.13; AIP ENR 1.1 sections 4.8 and 6.3; AIP ENR 4.3",
     "Exam importance": "High",
     "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official references cover the operational handling of GNSS error/integrity conditions and selected defined terms, but do not enumerate every MOS-listed error source; leave detailed ephemeris, clock, receiver, multipath and DOP explanations for later explanatory study notes with official source separation."
+  },
+  "PIFR-087": {
+    "Part 91 MOS": "Part 91 MOS sections 26.08 and 26.12, including heading display requirements and direct-reading or remote-indicating magnetic compass requirements",
+    "Exam importance": "Medium",
+    "Notes": "Verified equipment references only against current Part 91 MOS compilation 7 (F2026C00214). Official sources require heading information and magnetic compass capability, but the current verified CASA/Airservices source cache does not explain compass turning, acceleration or deceleration errors. Leave detailed compass-error explanation as TODO until a verified public official source is identified."
+  },
+  "PIFR-088": {
+    "Part 91 MOS": "Part 91 MOS sections 26.08 and 26.12, including attitude, standby attitude/turn indication and gyroscopic power-supply requirements",
+    "Exam importance": "Medium",
+    "Notes": "Verified equipment references only against current Part 91 MOS compilation 7 (F2026C00214). Official sources require attitude information, independent standby attitude/turn sources where applicable and adequate gyroscopic-instrument power supply, but the current verified CASA/Airservices source cache does not explain attitude-indicator acceleration/deceleration errors or pitch/bank limits. Leave detailed instrument-error explanation as TODO until a verified public official source is identified."
+  },
+  "PIFR-089": {
+    "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31-2.34",
+    "Part 91": "CASR 91.520",
+    "Exam importance": "High",
+    "Notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). CASR Part 67 recognises nervous-system, vestibular-apparatus and visual-function relevance, and CASR 91.520 covers crew fitness for duty. It does not explain the functional role of semicircular canals and otoliths in orientation; leave that theory as TODO until a verified public official source is identified."
+  },
+  "PIFR-090": {
+    "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.1-2.4, 2.7, 2.26 and 2.31-2.34",
+    "Part 91": "CASR 91.520",
+    "Exam importance": "High",
+    "Notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of functional incapacity, medication side effects, mental fitness, nervous-system issues, vestibular disturbance and visual function. Circumstances aggravating vestibular disorientation and recovery techniques remain TODO for a verified public official source."
+  },
+  "PIFR-091": {
+    "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31-2.34",
+    "Part 91": "CASR 91.520",
+    "Exam importance": "High",
+    "Notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of nervous-system, vestibular and visual function, but do not explain somatogravic illusions, somatogyral illusions, graveyard spiral, coriolis effect or leans. Leave detailed illusion theory as TODO until a verified public official source is identified."
+  },
+  "PIFR-092": {
+    "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.31-2.39",
+    "Part 91": "CASR 91.520",
+    "Exam importance": "High",
+    "Notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of visual function, fields of vision, binocular vision, acuity and colour perception. Visual-illusion theory for false horizons, visual-cue illusions, relative motion, flicker effect, black-hole illusion and autokinesis remains TODO for a verified public official source."
+  },
+  "PIFR-093": {
+    "Part 91 MOS": "Part 91 MOS section 1.07 definitions of approved GNSS and navigation database; sections 14.02, 14.05-14.07",
+    "AIP reference": "AIP GEN 1.5 section 2; AIP ENR 1.1 sections 4.4, 4.8 and 6.3; AIP ENR 4.3",
+    "Exam importance": "High",
+    "Notes": "Verified operational GNSS references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover approved GNSS, navigation database use, single-pilot data checking, procedure loading by name, waypoint alteration limits, GNSS substitution limits, RAIM/integrity handling and distance-reporting constraints. Human-factors theory for mode errors, data-entry errors, automation complacency, receiver non-standardisation, information processing and situational awareness remains TODO for a verified public official source."
   }
 }
