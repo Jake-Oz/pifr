@@ -211,19 +211,6 @@ SECTIONS = [
     ]),
 ]
 
-ROADMAP = [
-    ("IFR Legislation", ["2.1.3", "4.1.1", "4.1.2", "4.1.3", "4.1.4", "4.1.5", "5.1.1"]),
-    ("Human Factors", ["2.1.1", "2.1.2", "17.1.1", "17.1.2", "17.1.3", "17.1.4", "17.1.5"]),
-    ("Aircraft IFR Equipment", ["3.1.1", "3.1.2", "3.1.3", "3.1.4", "3.1.5", "10.1.1", "10.1.2", "10.1.3", "10.1.4"]),
-    ("Flight Planning And Documentation", ["5.1.2", "5.1.3", "5.1.4", "5.1.5", "5.1.6", "7.1.1", "1.1.1", "7.1.2"]),
-    ("Navigation And LSALT", ["6.1.1", "6.1.2", "6.1.3", "6.1.4", "6.1.5", "6.1.6", "6.1.7", "6.1.8", "8.1.1", "8.1.2", "8.1.3", "8.1.4", "8.1.5", "8.2.1", "8.3.1", "8.3.2"]),
-    ("Alternate Requirements And Fuel", ["9.1.1", "9.1.2", "9.1.3", "9.1.4", "9.1.5"]),
-    ("Airspace And Radio Procedures", ["11.1.1", "11.1.2", "11.1.3", "11.1.4", "11.1.5", "11.2.1", "11.2.2", "11.3.1", "11.3.2", "11.3.3", "12.1.1", "12.1.2", "12.1.3", "12.1.4", "13.1.1", "13.2.1", "13.3.1", "13.3.2", "13.3.3"]),
-    ("Meteorology", ["14.1.1", "14.1.2", "14.1.3"]),
-    ("Radio Navigation", ["15.1.1", "15.1.2", "15.1.3", "15.1.4", "15.1.5", "15.1.6", "15.2.1", "15.2.2", "15.2.3", "15.2.4", "15.2.5", "15.2.6", "15.2.7", "15.2.8"]),
-    ("GNSS And Instrument Errors", ["15.3.1", "15.3.2", "15.3.3", "16.1.1", "16.1.2"]),
-]
-
 STUDY_CONTENT = {
     "PIFR-001": {
         "why": "IFR fitness is a legal go/no-go item: the pilot must meet medical and crew-fitness requirements before acting as pilot in command.",
@@ -1998,47 +1985,31 @@ def reference_summary(mapped):
     return {field: mapped.get(field, "TODO") for field in official_fields}
 
 
-def module_payload(objs, reference_map):
-    by_ref = {obj["mos_ref"]: obj for obj in objs}
-    modules = []
-    used_refs = set()
-    for title, refs in ROADMAP:
-        module_objectives = []
-        for ref in refs:
-            obj = by_ref[ref]
-            used_refs.add(ref)
-            mapped = reference_map.get(obj["id"], {})
-            module_objectives.append({
-                **obj,
-                "mos_reference": mos_reference(obj),
-                "references": reference_summary(mapped),
-                "exam_importance": mapped.get("Exam importance", "TODO"),
-                "notes": mapped.get("Notes", "TODO"),
-                "study_file": f"docs/09-study-guide/{obj['id']}.md",
-            })
-        modules.append({
-            "title": title,
-            "slug": slugify(title),
-            "objective_count": len(module_objectives),
-            "objectives": module_objectives,
-        })
+def enriched_objective(obj, reference_map):
+    mapped = reference_map.get(obj["id"], {})
+    return {
+        **obj,
+        "mos_reference": mos_reference(obj),
+        "references": reference_summary(mapped),
+        "exam_importance": mapped.get("Exam importance", "TODO"),
+        "notes": mapped.get("Notes", "TODO"),
+        "study_file": f"docs/09-study-guide/{obj['id']}.md",
+    }
 
-    remaining = [obj for obj in objs if obj["mos_ref"] not in used_refs]
-    if remaining:
-        module_objectives = []
-        for obj in remaining:
-            mapped = reference_map.get(obj["id"], {})
-            module_objectives.append({
-                **obj,
-                "mos_reference": mos_reference(obj),
-                "references": reference_summary(mapped),
-                "exam_importance": mapped.get("Exam importance", "TODO"),
-                "notes": mapped.get("Notes", "TODO"),
-                "study_file": f"docs/09-study-guide/{obj['id']}.md",
-            })
+
+def module_payload(objs, reference_map):
+    by_section = {}
+    for obj in objs:
+        by_section.setdefault(obj["section_no"], []).append(enriched_objective(obj, reference_map))
+
+    modules = []
+    for section_no, section_title, _elements in SECTIONS:
+        module_objectives = by_section.get(section_no, [])
         modules.append({
-            "title": "Practical IFR Operations",
-            "slug": "practical-ifr-operations",
+            "title": f"{section_no}. {section_title}",
+            "slug": slugify(f"{section_no} {section_title}"),
+            "section_no": section_no,
+            "section_title": section_title,
             "objective_count": len(module_objectives),
             "objectives": module_objectives,
         })
@@ -2171,25 +2142,18 @@ def cross_reference(objs, reference_map):
 
 
 def roadmap(objs):
-    by_ref = {obj["mos_ref"]: obj for obj in objs}
     lines = [
         "# PIFR Learning Roadmap",
         "",
-        "> Study modules are an editorial organisation layer. The official objectives remain the MOS objectives in `docs/01-mos/syllabus.md`.",
+        "> Study modules follow the CASA Part 61 MOS Section 2.2 knowledge-area sequence. The official objectives remain the MOS objectives in `docs/01-mos/syllabus.md`.",
         "",
     ]
-    used = set()
-    for title, refs in ROADMAP:
-        lines += [f"## {title}", ""]
-        for ref in refs:
-            obj = by_ref[ref]
-            used.add(ref)
-            lines.append(f"- {obj['id']} - {ref}: {obj['objective']}")
-        lines.append("")
-    remaining = [obj for obj in objs if obj["mos_ref"] not in used]
-    if remaining:
-        lines += ["## Practical IFR Operations", ""]
-        for obj in remaining:
+    by_section = {}
+    for obj in objs:
+        by_section.setdefault(obj["section_no"], []).append(obj)
+    for section_no, section_title, _elements in SECTIONS:
+        lines += [f"## {section_no}. {section_title}", ""]
+        for obj in by_section.get(section_no, []):
             lines.append(f"- {obj['id']} - {obj['mos_ref']}: {obj['objective']}")
         lines.append("")
     write(ROOT / "docs/09-study-guide/learning-roadmap.md", "\n".join(lines))
@@ -2205,7 +2169,7 @@ def study_modules(objs, reference_map):
     overview = [
         "# PIFR Study Modules",
         "",
-        "> Generated module index. The MOS objective list remains authoritative; modules are an editorial study order.",
+        "> Generated module index. Modules follow the CASA Part 61 MOS Section 2.2 knowledge-area sequence.",
         "",
         "|Module|Objectives|Purpose|",
         "|---|---:|---|",
@@ -2216,7 +2180,7 @@ def study_modules(objs, reference_map):
             "|" + "|".join([
                 link(module_file, module["title"]),
                 str(module["objective_count"]),
-                "Locate MOS objectives, verified official references, and source gaps for this study block.",
+                "Work through this MOS knowledge area, locate verified official references, and track source gaps.",
             ]) + "|"
         )
     overview += [
@@ -2233,7 +2197,7 @@ def study_modules(objs, reference_map):
         lines = [
             f"# {module['title']}",
             "",
-            "> Generated study module. Do not treat module grouping as MOS scope; every objective remains traceable to the MOS row shown below.",
+            "> Generated study module. This grouping follows the CASA Part 61 MOS Section 2.2 knowledge-area sequence; every objective remains traceable to the MOS row shown below.",
             "",
             "## Objective Checklist",
             "",
@@ -2591,14 +2555,14 @@ The MOS objective list is maintained in `scripts/generate_pifr_phase1.py` and em
 - `docs/01-mos/syllabus.md` is the MOS master reference.
 - `docs/08-cross-reference/master-cross-reference.md` is the MOS-indexed reference matrix.
 - `docs/09-study-guide/PIFR-001.md` through `docs/09-study-guide/PIFR-093.md` are per-objective study placeholders.
-- `docs/09-study-guide/learning-roadmap.md` is an editorial grouping of MOS objectives.
+- `docs/09-study-guide/learning-roadmap.md` follows the CASA Part 61 MOS Section 2.2 knowledge-area sequence.
 - `docs/09-study-guide/modules.md` and `docs/09-study-guide/modules/*.md` are generated study-module indexes.
 - `docs/14-exam-index/exam-index.md` is a generated quick-reference exam locator.
 - `data/pifr-objectives.json` is the structured objective dataset for future website, retrieval, flashcard and exam-index generation.
 - `data/pifr-objectives.csv` is a spreadsheet-friendly export of the same objective dataset.
 - `data/pifr-objectives-count.txt` records the current objective count.
 - `data/pifr-reference-map.json` is the canonical data file for verified non-MOS cross-reference mappings.
-- `data/pifr-modules.json` is the structured module dataset generated from the objective list and reference map.
+- `data/pifr-modules.json` is the structured MOS syllabus module dataset generated from the objective list and reference map.
 
 ## Validation
 

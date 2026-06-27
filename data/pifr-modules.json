@@ -13,188 +13,15 @@
     "unit": "Unit 2.2.1 PIFR: Private IFR rating",
     "url": "https://www.legislation.gov.au/F2014L01102/latest"
   },
-  "module_count": 10,
+  "module_count": 16,
   "objective_count": 93,
   "modules": [
     {
-      "title": "IFR Legislation",
-      "slug": "ifr-legislation",
-      "objective_count": 7,
-      "objectives": [
-        {
-          "id": "PIFR-003",
-          "section_no": "2",
-          "section_title": "Pilot's fitness and qualifications",
-          "element_no": "2.1",
-          "element_title": "Pilot medical fitness for IFR flight",
-          "mos_ref": "2.1.3",
-          "objective": "State what qualifications a pilot must have to be authorised to conduct an IFR flight.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 2.1.3",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "CASR 61.910, 61.915, 61.920, 61.925, 61.930, 61.935, 61.940, 61.950",
-            "Part 91": "TODO",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "TODO",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers PIFR privileges, limitations, recency, flight review, grant requirements and endorsements.",
-          "study_file": "docs/09-study-guide/PIFR-003.md"
-        },
-        {
-          "id": "PIFR-009",
-          "section_no": "4",
-          "section_title": "IFR operations - general",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "4.1.1",
-          "objective": "State the IFR operations a single-engine aircraft is limited to.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.1",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "CASR 61.915, 61.935 table 61.935 items 1, 3 and 11, 61.940, 61.942",
-            "Part 91": "TODO",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "TODO",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Do not infer operational limits beyond the PIFR endorsement privileges and limitations.",
-          "study_file": "docs/09-study-guide/PIFR-009.md"
-        },
-        {
-          "id": "PIFR-010",
-          "section_no": "4",
-          "section_title": "IFR operations - general",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "4.1.2",
-          "objective": "State the requirements for submission of flight notification and SARWATCH for conducting an IFR operation.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.2",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.240",
-            "Part 91 MOS": "Part 91 MOS Chapter 9, sections 9.01-9.05",
-            "AIP reference": "AIP ENR 1.10 sections 2.1-2.22, 3.1-3.5; AIP ENR 1.1 section 10.2",
-            "ERSA reference": "ERSA GEN FPR - Flight Plan Requirements (19 MAR 2026)",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified legal requirement chain: CASR 91.240 authorises Part 91 MOS flight notification requirements; MOS 9.02 requires IFR flight plan submission and MOS 9.03-9.05 covers changes, SARTIME and responsible persons. AIP Book Amendment 126 current 19 MAR 2026 confirms IFR flight notification, SARWATCH basis, SARTIME and PIFR notification procedures. ERSA GEN FPR current 19 MAR 2026 provides route and flight-plan requirement detail.",
-          "study_file": "docs/09-study-guide/PIFR-010.md"
-        },
-        {
-          "id": "PIFR-011",
-          "section_no": "4",
-          "section_title": "IFR operations - general",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "4.1.3",
-          "objective": "State the speed restrictions an IFR flight must operate to.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.3",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.090",
-            "Part 91 MOS": "Part 91 MOS Chapter 4, sections 4.01-4.02 and Table 4.02(1)",
-            "AIP reference": "AIP ENR 1.4 section 4.1",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214). Applies to all flights; table includes IFR/VFR limits in Class D and Class G/E. AIP ENR 1.4 summarises Australian airspace speed limitations.",
-          "study_file": "docs/09-study-guide/PIFR-011.md"
-        },
-        {
-          "id": "PIFR-012",
-          "section_no": "4",
-          "section_title": "IFR operations - general",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "4.1.4",
-          "objective": "State the requirements for inflight progress reports for IFR flights.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.4",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "TODO",
-            "Part 91 MOS": "Part 91 MOS Chapter 21, sections 21.05-21.06 and Tables 21.05(1), 21.06(1)",
-            "AIP reference": "AIP ENR 1.1 sections 5.1.4-5.1.5, 6.1, 9.7-9.10, 10.2; AIP ENR 1.10 section 2.2",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified Part 91 MOS controlled/Class E and Class G IFR prescribed reports, including position reports and SARWATCH cancellation reporting exceptions. AIP Book Amendment 126 current 19 MAR 2026 confirms route reporting point guidance and IFR in-flight progress/position reporting.",
-          "study_file": "docs/09-study-guide/PIFR-012.md"
-        },
-        {
-          "id": "PIFR-013",
-          "section_no": "4",
-          "section_title": "IFR operations - general",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "4.1.5",
-          "objective": "State the requirements and procedures for flight plan amendments and advising revised estimates.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.5",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "TODO",
-            "Part 91 MOS": "Part 91 MOS sections 9.03, 21.05 Table 21.05(1) items 5-6, 21.06 Table 21.06(1) item 5",
-            "AIP reference": "AIP ENR 1.1 sections 9.7.1, 9.8; AIP ENR 1.10 section 4",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified Part 91 MOS change-notification requirements and prescribed reporting triggers for corrected position estimates and speed variation. AIP Book Amendment 126 current 19 MAR 2026 confirms route/track/level amendment advice, revised estimates greater than 2 minutes, and flight notification amendment phraseology.",
-          "study_file": "docs/09-study-guide/PIFR-013.md"
-        },
-        {
-          "id": "PIFR-014",
-          "section_no": "5",
-          "section_title": "Documentation for IFR flight",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "5.1.1",
-          "objective": "State the documents required to be carried on an IFR flight.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.1",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.100, 91.105, 91.110",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "AIP ENR 1.10 section 5; Airservices AIP copyright notice statutory obligations",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers electronic documents, flight crew/aircraft documents, authorised aeronautical information and maintenance release/log carriage. AIP ENR 1.10 explains carriage of relevant latest editions of aeronautical maps, charts and information.",
-          "study_file": "docs/09-study-guide/PIFR-014.md"
-        }
-      ]
-    },
-    {
-      "title": "Human Factors",
-      "slug": "human-factors",
-      "objective_count": 7,
+      "title": "2. Pilot's fitness and qualifications",
+      "slug": "2-pilot-s-fitness-and-qualifications",
+      "section_no": "2",
+      "section_title": "Pilot's fitness and qualifications",
+      "objective_count": 3,
       "objectives": [
         {
           "id": "PIFR-001",
@@ -245,131 +72,37 @@
           "study_file": "docs/09-study-guide/PIFR-002.md"
         },
         {
-          "id": "PIFR-089",
-          "section_no": "17",
-          "section_title": "Human factors relevant to IFR operations",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "17.1.1",
-          "objective": "State the part played by the vestibular systems, namely the semicircular canals and otiliths, in helping the pilot maintain orientation.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.1",
+          "id": "PIFR-003",
+          "section_no": "2",
+          "section_title": "Pilot's fitness and qualifications",
+          "element_no": "2.1",
+          "element_title": "Pilot medical fitness for IFR flight",
+          "mos_ref": "2.1.3",
+          "objective": "State what qualifications a pilot must have to be authorised to conduct an IFR flight.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 2.1.3",
           "references": {
             "CAR": "TODO",
-            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31-2.34",
-            "Part 91": "CASR 91.520",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "TODO",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). CASR Part 67 recognises nervous-system, vestibular-apparatus and visual-function relevance, and CASR 91.520 covers crew fitness for duty. It does not explain the functional role of semicircular canals and otoliths in orientation; leave that theory as TODO until a verified public official source is identified.",
-          "study_file": "docs/09-study-guide/PIFR-089.md"
-        },
-        {
-          "id": "PIFR-090",
-          "section_no": "17",
-          "section_title": "Human factors relevant to IFR operations",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "17.1.2",
-          "objective": "State what circumstances aggravate vestibular disorientation, and how to overcome this problem.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.2",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.1-2.4, 2.7, 2.26 and 2.31-2.34",
-            "Part 91": "CASR 91.520",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "TODO",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of functional incapacity, medication side effects, mental fitness, nervous-system issues, vestibular disturbance and visual function. Circumstances aggravating vestibular disorientation and recovery techniques remain TODO for a verified public official source.",
-          "study_file": "docs/09-study-guide/PIFR-090.md"
-        },
-        {
-          "id": "PIFR-091",
-          "section_no": "17",
-          "section_title": "Human factors relevant to IFR operations",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "17.1.3",
-          "objective": "State what causes, and may aggravate, vestibular disorientation such as somatogravic illusions, somatogyral illusions and 'graveyard spiral', coriolis effect, and 'leans'.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.3",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31-2.34",
-            "Part 91": "CASR 91.520",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "TODO",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of nervous-system, vestibular and visual function, but do not explain somatogravic illusions, somatogyral illusions, graveyard spiral, coriolis effect or leans. Leave detailed illusion theory as TODO until a verified public official source is identified.",
-          "study_file": "docs/09-study-guide/PIFR-091.md"
-        },
-        {
-          "id": "PIFR-092",
-          "section_no": "17",
-          "section_title": "Human factors relevant to IFR operations",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "17.1.4",
-          "objective": "State conditions and causes under which visual illusions, such as 'false horizons', visual-cue illusions, relative motion illusions, 'flicker' effect', black hole' illusion, and autokinesis may occur.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.4",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.31-2.39",
-            "Part 91": "CASR 91.520",
-            "Part 91 MOS": "TODO",
-            "AIP reference": "TODO",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of visual function, fields of vision, binocular vision, acuity and colour perception. Visual-illusion theory for false horizons, visual-cue illusions, relative motion, flicker effect, black-hole illusion and autokinesis remains TODO for a verified public official source.",
-          "study_file": "docs/09-study-guide/PIFR-092.md"
-        },
-        {
-          "id": "PIFR-093",
-          "section_no": "17",
-          "section_title": "Human factors relevant to IFR operations",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "17.1.5",
-          "objective": "Be aware of the human factors limitations associated with the use of GNSS equipment to provide safeguards against navigational errors and loss of situational awareness because of the following: (a) mode errors; (b) data entry errors; (c) data validation and checking, including independent cross-checking procedures; (d) automation induced complacency; (e) non-standardisation of the GNSS receiver units; (f) human information processing and situational awareness.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.5",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
+            "Part 61": "CASR 61.910, 61.915, 61.920, 61.925, 61.930, 61.935, 61.940, 61.950",
             "Part 91": "TODO",
-            "Part 91 MOS": "Part 91 MOS section 1.07 definitions of approved GNSS and navigation database; sections 14.02, 14.05-14.07",
-            "AIP reference": "AIP GEN 1.5 section 2; AIP ENR 1.1 sections 4.4, 4.8 and 6.3; AIP ENR 4.3",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "TODO",
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
             "PCA reference": "TODO"
           },
           "exam_importance": "High",
-          "notes": "Verified operational GNSS references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover approved GNSS, navigation database use, single-pilot data checking, procedure loading by name, waypoint alteration limits, GNSS substitution limits, RAIM/integrity handling and distance-reporting constraints. Human-factors theory for mode errors, data-entry errors, automation complacency, receiver non-standardisation, information processing and situational awareness remains TODO for a verified public official source.",
-          "study_file": "docs/09-study-guide/PIFR-093.md"
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers PIFR privileges, limitations, recency, flight review, grant requirements and endorsements.",
+          "study_file": "docs/09-study-guide/PIFR-003.md"
         }
       ]
     },
     {
-      "title": "Aircraft IFR Equipment",
-      "slug": "aircraft-ifr-equipment",
-      "objective_count": 9,
+      "title": "3. Aircraft instruments, radios and equipment",
+      "slug": "3-aircraft-instruments-radios-and-equipment",
+      "section_no": "3",
+      "section_title": "Aircraft instruments, radios and equipment",
+      "objective_count": 5,
       "objectives": [
         {
           "id": "PIFR-004",
@@ -490,19 +223,28 @@
           "exam_importance": "Medium",
           "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286) and current Part 91 MOS compilation 7 (F2026C00214). Covers compliance with aircraft flight manual instructions, carriage of aircraft flight manual instructions, approval/serviceability of required equipment, and MEL limits where AFM conditions, limitations or emergency procedures apply.",
           "study_file": "docs/09-study-guide/PIFR-008.md"
-        },
+        }
+      ]
+    },
+    {
+      "title": "4. IFR operations - general",
+      "slug": "4-ifr-operations-general",
+      "section_no": "4",
+      "section_title": "IFR operations - general",
+      "objective_count": 5,
+      "objectives": [
         {
-          "id": "PIFR-044",
-          "section_no": "10",
-          "section_title": "Operation of aircraft equipment",
+          "id": "PIFR-009",
+          "section_no": "4",
+          "section_title": "IFR operations - general",
           "element_no": null,
           "element_title": null,
-          "mos_ref": "10.1.1",
-          "objective": "State the safety precautions that must be observed when operating aircraft radar equipment on the ground.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.1",
+          "mos_ref": "4.1.1",
+          "objective": "State the IFR operations a single-engine aircraft is limited to.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.1",
           "references": {
             "CAR": "TODO",
-            "Part 61": "TODO",
+            "Part 61": "CASR 61.915, 61.935 table 61.935 items 1, 3 and 11, 61.940, 61.942",
             "Part 91": "TODO",
             "Part 91 MOS": "TODO",
             "AIP reference": "TODO",
@@ -511,89 +253,139 @@
             "TAC reference": "TODO",
             "PCA reference": "TODO"
           },
-          "exam_importance": "Medium",
-          "notes": "Source gap: the current verified CASA/Airservices source cache contains references to airborne weather radar equipment but not the MOS-listed ground-operation safety precautions themselves. Leave non-MOS references as TODO until a current public CASA or Airservices source is verified.",
-          "study_file": "docs/09-study-guide/PIFR-044.md"
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Do not infer operational limits beyond the PIFR endorsement privileges and limitations.",
+          "study_file": "docs/09-study-guide/PIFR-009.md"
         },
         {
-          "id": "PIFR-045",
-          "section_no": "10",
-          "section_title": "Operation of aircraft equipment",
+          "id": "PIFR-010",
+          "section_no": "4",
+          "section_title": "IFR operations - general",
           "element_no": null,
           "element_title": null,
-          "mos_ref": "10.1.2",
-          "objective": "State the pre-flight altimeter accuracy check for an IFR flight.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.2",
+          "mos_ref": "4.1.2",
+          "objective": "State the requirements for submission of flight notification and SARWATCH for conducting an IFR operation.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.2",
           "references": {
             "CAR": "TODO",
             "Part 61": "TODO",
-            "Part 91": "CASR 91.245, 91.810",
-            "Part 91 MOS": "Part 91 MOS sections 10.02(i), 10.03-10.06; Chapter 26 pressure-altitude display requirements in sections 26.08 and 26.12",
-            "AIP reference": "AIP ENR 1.7 sections 1.1-1.4",
+            "Part 91": "CASR 91.240",
+            "Part 91 MOS": "Part 91 MOS Chapter 9, sections 9.01-9.05",
+            "AIP reference": "AIP ENR 1.10 sections 2.1-2.22, 3.1-3.5; AIP ENR 1.1 section 10.2",
+            "ERSA reference": "ERSA GEN FPR - Flight Plan Requirements (19 MAR 2026)",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified legal requirement chain: CASR 91.240 authorises Part 91 MOS flight notification requirements; MOS 9.02 requires IFR flight plan submission and MOS 9.03-9.05 covers changes, SARTIME and responsible persons. AIP Book Amendment 126 current 19 MAR 2026 confirms IFR flight notification, SARWATCH basis, SARTIME and PIFR notification procedures. ERSA GEN FPR current 19 MAR 2026 provides route and flight-plan requirement detail.",
+          "study_file": "docs/09-study-guide/PIFR-010.md"
+        },
+        {
+          "id": "PIFR-011",
+          "section_no": "4",
+          "section_title": "IFR operations - general",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "4.1.3",
+          "objective": "State the speed restrictions an IFR flight must operate to.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.3",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.090",
+            "Part 91 MOS": "Part 91 MOS Chapter 4, sections 4.01-4.02 and Table 4.02(1)",
+            "AIP reference": "AIP ENR 1.4 section 4.1",
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
             "PCA reference": "TODO"
           },
           "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers the pre-takeoff pressure-altitude system accuracy check when the aircraft is at a known elevation and accurate QNH is available, IFR 60 ft/75 ft tolerances, accurate QNH sources, and site-elevation source requirements.",
-          "study_file": "docs/09-study-guide/PIFR-045.md"
+          "notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214). Applies to all flights; table includes IFR/VFR limits in Class D and Class G/E. AIP ENR 1.4 summarises Australian airspace speed limitations.",
+          "study_file": "docs/09-study-guide/PIFR-011.md"
         },
         {
-          "id": "PIFR-046",
-          "section_no": "10",
-          "section_title": "Operation of aircraft equipment",
+          "id": "PIFR-012",
+          "section_no": "4",
+          "section_title": "IFR operations - general",
           "element_no": null,
           "element_title": null,
-          "mos_ref": "10.1.3",
-          "objective": "Apply altimetry procedures to all stages of an IFR flight.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.3",
+          "mos_ref": "4.1.4",
+          "objective": "State the requirements for inflight progress reports for IFR flights.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.4",
           "references": {
             "CAR": "TODO",
             "Part 61": "TODO",
-            "Part 91": "CASR 91.245, 91.287, 91.305",
-            "Part 91 MOS": "Part 91 MOS sections 10.03-10.06, 11.02 and 14.03",
-            "AIP reference": "AIP ENR 1.7 sections 1.1-2.2; AIP ENR 1.5 section 5.3; AIP GEN 3.4 section 5.11.3",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "Part 91 MOS section 1.07 definition of area QNH notes QNH areas are on Planning Chart Australia"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers preflight altimeter checks, accurate/local/area QNH, transition altitude and transition level, prohibition on cruising in the transition layer, 1013.2 hPa above transition altitude, QNH below transition altitude, climb/descent setting changes, and QNH sources/minima adjustments for instrument approaches.",
-          "study_file": "docs/09-study-guide/PIFR-046.md"
-        },
-        {
-          "id": "PIFR-047",
-          "section_no": "10",
-          "section_title": "Operation of aircraft equipment",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "10.1.4",
-          "objective": "Describe the correct use of a transponder, and the associated radio phraseology, in all classes of airspace.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.4",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.810",
-            "Part 91 MOS": "Part 91 MOS Division 26.16, sections 26.67-26.70, especially 26.68, 26.69 and Tables 26.69(7)-26.69(7A)",
-            "AIP reference": "AIP ENR 1.6 sections 6.4-6.5 and 7.1; AIP GEN 3.4 section 6.17.6",
+            "Part 91": "TODO",
+            "Part 91 MOS": "Part 91 MOS Chapter 21, sections 21.05-21.06 and Tables 21.05(1), 21.06(1)",
+            "AIP reference": "AIP ENR 1.1 sections 5.1.4-5.1.5, 6.1, 9.7-9.10, 10.2; AIP ENR 1.10 section 2.2",
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
             "PCA reference": "TODO"
           },
           "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers approved surveillance equipment, continuous transponder/surveillance operation when required, assigned and standard Mode A codes, emergency codes 7500/7600/7700, altitude reporting, Mode S/ADS-B concepts, operating transponders in Australian airspace, IDENT restrictions, standby/code-change procedures and standard SSR/ADS-B phraseology.",
-          "study_file": "docs/09-study-guide/PIFR-047.md"
+          "notes": "Verified Part 91 MOS controlled/Class E and Class G IFR prescribed reports, including position reports and SARWATCH cancellation reporting exceptions. AIP Book Amendment 126 current 19 MAR 2026 confirms route reporting point guidance and IFR in-flight progress/position reporting.",
+          "study_file": "docs/09-study-guide/PIFR-012.md"
+        },
+        {
+          "id": "PIFR-013",
+          "section_no": "4",
+          "section_title": "IFR operations - general",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "4.1.5",
+          "objective": "State the requirements and procedures for flight plan amendments and advising revised estimates.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 4.1.5",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "TODO",
+            "Part 91 MOS": "Part 91 MOS sections 9.03, 21.05 Table 21.05(1) items 5-6, 21.06 Table 21.06(1) item 5",
+            "AIP reference": "AIP ENR 1.1 sections 9.7.1, 9.8; AIP ENR 1.10 section 4",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified Part 91 MOS change-notification requirements and prescribed reporting triggers for corrected position estimates and speed variation. AIP Book Amendment 126 current 19 MAR 2026 confirms route/track/level amendment advice, revised estimates greater than 2 minutes, and flight notification amendment phraseology.",
+          "study_file": "docs/09-study-guide/PIFR-013.md"
         }
       ]
     },
     {
-      "title": "Flight Planning And Documentation",
-      "slug": "flight-planning-and-documentation",
-      "objective_count": 8,
+      "title": "5. Documentation for IFR flight",
+      "slug": "5-documentation-for-ifr-flight",
+      "section_no": "5",
+      "section_title": "Documentation for IFR flight",
+      "objective_count": 6,
       "objectives": [
+        {
+          "id": "PIFR-014",
+          "section_no": "5",
+          "section_title": "Documentation for IFR flight",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "5.1.1",
+          "objective": "State the documents required to be carried on an IFR flight.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 5.1.1",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.100, 91.105, 91.110",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "AIP ENR 1.10 section 5; Airservices AIP copyright notice statutory obligations",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286). Covers electronic documents, flight crew/aircraft documents, authorised aeronautical information and maintenance release/log carriage. AIP ENR 1.10 explains carriage of relevant latest editions of aeronautical maps, charts and information.",
+          "study_file": "docs/09-study-guide/PIFR-014.md"
+        },
         {
           "id": "PIFR-015",
           "section_no": "5",
@@ -713,85 +505,15 @@
           "exam_importance": "Medium",
           "notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, and ERSA current 19 MAR 2026. Covers AAIS/CA-GRS, UNICOM weather-report limits, ATIS, VOLMET, AWIS/WATIR, QNH-source context, FIS request/availability guidance, AWIS locations not listed in ERSA-FAC and NAV/COMM frequency lookup.",
           "study_file": "docs/09-study-guide/PIFR-019.md"
-        },
-        {
-          "id": "PIFR-028",
-          "section_no": "7",
-          "section_title": "Selection of IFR routes",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "7.1.1",
-          "objective": "Select a route for IFR flight with respect to the following: (a) forecast weather; (b) controlled airspace; (c) PRDs; (d) engine out performance for multi-engine aircraft; (e) specified route limitations; (f) airways operational requirements; (g) the availability of the following: (i) published routes; (ii) en route alternate aerodromes; (iii) navigation aids; (iv) rated coverage of navigation aids; (v) radio communication.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 7.1.1",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.230, 91.235, 91.240, 91.245, 91.255, 91.260, 91.287, 91.810",
-            "Part 91 MOS": "Part 91 MOS sections 7.02-7.03, 8.04-8.08, 9.02-9.03, 10.02, 11.19-11.23, 14.02, 21.05-21.06, 26.02-26.04, 26.08, 26.12 and 26.18-26.19",
-            "AIP reference": "AIP ENR 1.1 sections 4.1, 5.1-5.1.5 and 6.1; AIP ENR 1.10 sections 1.1-1.3, 2.1-2.22 and 3.5; AIP ENR 5.1 sections 1.1-1.5 and 2.1-2.6; AIP GEN 1.5 sections 1-2; AIP GEN 3.2 sections 4.1-4.2",
-            "ERSA reference": "ERSA GEN FPR - Flight Plan Requirements (19 MAR 2026); ERSA SUA (19 MAR 2026); ERSA IFR Waypoints (19 MAR 2026); ERSA NAV/COMM - Navigation and Communication (19 MAR 2026)",
-            "ERC LOW reference": "Airservices AIP Charts ERC Low 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(e)",
-            "TAC reference": "Airservices AIP Charts TAC 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(g)",
-            "PCA reference": "Airservices AIP Charts PCA Front and PCA Back (27 NOV 2025); AIP GEN 3.2 section 4.2(a)"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, ERSA current 19 MAR 2026, and AIP Charts current 27 NOV 2025. Covers route weather, controlled and special-use airspace, PRD/MOA planning, published routes, route specifications, reporting point spacing, alternate availability, navigation requirements, radio communication capability, chart products and equipment/serviceability checks.",
-          "study_file": "docs/09-study-guide/PIFR-028.md"
-        },
-        {
-          "id": "PIFR-029",
-          "section_no": "7",
-          "section_title": "Selection of IFR routes",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "1.1.1",
-          "objective": "Determine the compulsory reporting points for a route selected.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 1.1.1",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.240",
-            "Part 91 MOS": "Part 91 MOS sections 9.02-9.03 and 21.05-21.06",
-            "AIP reference": "AIP ENR 1.1 section 5.1.4 and Appendix 1 section 3; AIP ENR 1.10 sections 2.2 and 3.5.2",
-            "ERSA reference": "TODO",
-            "ERC LOW reference": "TODO",
-            "TAC reference": "TODO",
-            "PCA reference": "TODO"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers IFR flight notification, route reporting requirements in authorised aeronautical information, position reports when required by ATC or route reporting requirements, and off-ATS-route reporting points approximately 30 minutes or 200 NM apart.",
-          "study_file": "docs/09-study-guide/PIFR-029.md"
-        },
-        {
-          "id": "PIFR-030",
-          "section_no": "7",
-          "section_title": "Selection of IFR routes",
-          "element_no": null,
-          "element_title": null,
-          "mos_ref": "7.1.2",
-          "objective": "Determine whether the flight may proceed based on route, aircraft equipment and IFR navigation requirements.",
-          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 7.1.2",
-          "references": {
-            "CAR": "TODO",
-            "Part 61": "TODO",
-            "Part 91": "CASR 91.230, 91.235, 91.240, 91.245, 91.255, 91.260, 91.287, 91.810",
-            "Part 91 MOS": "Part 91 MOS sections 7.02-7.03, 8.04-8.08, 9.02-9.03, 10.02, 11.19-11.23, 14.02, 21.05-21.06, 26.02-26.04, 26.08, 26.12 and 26.18-26.19",
-            "AIP reference": "AIP ENR 1.1 sections 4.1, 5.1-5.1.5 and 6.1; AIP ENR 1.10 sections 1.1-1.3, 2.1-2.22 and 3.5; AIP ENR 5.1 sections 1.1-1.5 and 2.1-2.6; AIP GEN 1.5 sections 1-2; AIP GEN 3.2 sections 4.1-4.2",
-            "ERSA reference": "ERSA GEN FPR - Flight Plan Requirements (19 MAR 2026); ERSA SUA (19 MAR 2026); ERSA IFR Waypoints (19 MAR 2026); ERSA NAV/COMM - Navigation and Communication (19 MAR 2026)",
-            "ERC LOW reference": "Airservices AIP Charts ERC Low 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(e)",
-            "TAC reference": "Airservices AIP Charts TAC 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(g)",
-            "PCA reference": "Airservices AIP Charts PCA Front and PCA Back (27 NOV 2025); AIP GEN 3.2 section 4.2(a)"
-          },
-          "exam_importance": "High",
-          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, ERSA current 19 MAR 2026, and AIP Charts current 27 NOV 2025. Use as the proceed/no-proceed chain for route, equipment and IFR navigation: current forecasts and updates, alternate triggers, IFR flight plan and route changes, pre-takeoff availability/suitability/NOTAM/equipment/GNSS-integrity checks, PRD/MOA conditions, IFR navigation method, reporting obligations and required IFR communication/navigation equipment.",
-          "study_file": "docs/09-study-guide/PIFR-030.md"
         }
       ]
     },
     {
-      "title": "Navigation And LSALT",
-      "slug": "navigation-and-lsalt",
-      "objective_count": 16,
+      "title": "6. IFR navigation requirements",
+      "slug": "6-ifr-navigation-requirements",
+      "section_no": "6",
+      "section_title": "IFR navigation requirements",
+      "objective_count": 8,
       "objectives": [
         {
           "id": "PIFR-020",
@@ -984,7 +706,97 @@
           "exam_importance": "High",
           "notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Covers action after navigation-system inaccuracy/unreliability/failure, ATC notification of deviations, GNSS integrity loss actions, long over-water route regaining and weather-deviation procedures.",
           "study_file": "docs/09-study-guide/PIFR-027.md"
+        }
+      ]
+    },
+    {
+      "title": "7. Selection of IFR routes",
+      "slug": "7-selection-of-ifr-routes",
+      "section_no": "7",
+      "section_title": "Selection of IFR routes",
+      "objective_count": 3,
+      "objectives": [
+        {
+          "id": "PIFR-028",
+          "section_no": "7",
+          "section_title": "Selection of IFR routes",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "7.1.1",
+          "objective": "Select a route for IFR flight with respect to the following: (a) forecast weather; (b) controlled airspace; (c) PRDs; (d) engine out performance for multi-engine aircraft; (e) specified route limitations; (f) airways operational requirements; (g) the availability of the following: (i) published routes; (ii) en route alternate aerodromes; (iii) navigation aids; (iv) rated coverage of navigation aids; (v) radio communication.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 7.1.1",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.230, 91.235, 91.240, 91.245, 91.255, 91.260, 91.287, 91.810",
+            "Part 91 MOS": "Part 91 MOS sections 7.02-7.03, 8.04-8.08, 9.02-9.03, 10.02, 11.19-11.23, 14.02, 21.05-21.06, 26.02-26.04, 26.08, 26.12 and 26.18-26.19",
+            "AIP reference": "AIP ENR 1.1 sections 4.1, 5.1-5.1.5 and 6.1; AIP ENR 1.10 sections 1.1-1.3, 2.1-2.22 and 3.5; AIP ENR 5.1 sections 1.1-1.5 and 2.1-2.6; AIP GEN 1.5 sections 1-2; AIP GEN 3.2 sections 4.1-4.2",
+            "ERSA reference": "ERSA GEN FPR - Flight Plan Requirements (19 MAR 2026); ERSA SUA (19 MAR 2026); ERSA IFR Waypoints (19 MAR 2026); ERSA NAV/COMM - Navigation and Communication (19 MAR 2026)",
+            "ERC LOW reference": "Airservices AIP Charts ERC Low 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(e)",
+            "TAC reference": "Airservices AIP Charts TAC 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(g)",
+            "PCA reference": "Airservices AIP Charts PCA Front and PCA Back (27 NOV 2025); AIP GEN 3.2 section 4.2(a)"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, ERSA current 19 MAR 2026, and AIP Charts current 27 NOV 2025. Covers route weather, controlled and special-use airspace, PRD/MOA planning, published routes, route specifications, reporting point spacing, alternate availability, navigation requirements, radio communication capability, chart products and equipment/serviceability checks.",
+          "study_file": "docs/09-study-guide/PIFR-028.md"
         },
+        {
+          "id": "PIFR-029",
+          "section_no": "7",
+          "section_title": "Selection of IFR routes",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "1.1.1",
+          "objective": "Determine the compulsory reporting points for a route selected.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 1.1.1",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.240",
+            "Part 91 MOS": "Part 91 MOS sections 9.02-9.03 and 21.05-21.06",
+            "AIP reference": "AIP ENR 1.1 section 5.1.4 and Appendix 1 section 3; AIP ENR 1.10 sections 2.2 and 3.5.2",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers IFR flight notification, route reporting requirements in authorised aeronautical information, position reports when required by ATC or route reporting requirements, and off-ATS-route reporting points approximately 30 minutes or 200 NM apart.",
+          "study_file": "docs/09-study-guide/PIFR-029.md"
+        },
+        {
+          "id": "PIFR-030",
+          "section_no": "7",
+          "section_title": "Selection of IFR routes",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "7.1.2",
+          "objective": "Determine whether the flight may proceed based on route, aircraft equipment and IFR navigation requirements.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 7.1.2",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.230, 91.235, 91.240, 91.245, 91.255, 91.260, 91.287, 91.810",
+            "Part 91 MOS": "Part 91 MOS sections 7.02-7.03, 8.04-8.08, 9.02-9.03, 10.02, 11.19-11.23, 14.02, 21.05-21.06, 26.02-26.04, 26.08, 26.12 and 26.18-26.19",
+            "AIP reference": "AIP ENR 1.1 sections 4.1, 5.1-5.1.5 and 6.1; AIP ENR 1.10 sections 1.1-1.3, 2.1-2.22 and 3.5; AIP ENR 5.1 sections 1.1-1.5 and 2.1-2.6; AIP GEN 1.5 sections 1-2; AIP GEN 3.2 sections 4.1-4.2",
+            "ERSA reference": "ERSA GEN FPR - Flight Plan Requirements (19 MAR 2026); ERSA SUA (19 MAR 2026); ERSA IFR Waypoints (19 MAR 2026); ERSA NAV/COMM - Navigation and Communication (19 MAR 2026)",
+            "ERC LOW reference": "Airservices AIP Charts ERC Low 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(e)",
+            "TAC reference": "Airservices AIP Charts TAC 1-8 (27 NOV 2025); AIP GEN 3.2 section 4.2(g)",
+            "PCA reference": "Airservices AIP Charts PCA Front and PCA Back (27 NOV 2025); AIP GEN 3.2 section 4.2(a)"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, ERSA current 19 MAR 2026, and AIP Charts current 27 NOV 2025. Use as the proceed/no-proceed chain for route, equipment and IFR navigation: current forecasts and updates, alternate triggers, IFR flight plan and route changes, pre-takeoff availability/suitability/NOTAM/equipment/GNSS-integrity checks, PRD/MOA conditions, IFR navigation method, reporting obligations and required IFR communication/navigation equipment.",
+          "study_file": "docs/09-study-guide/PIFR-030.md"
+        }
+      ]
+    },
+    {
+      "title": "8. LSALT and selection of IFR altitudes and levels",
+      "slug": "8-lsalt-and-selection-of-ifr-altitudes-and-levels",
+      "section_no": "8",
+      "section_title": "LSALT and selection of IFR altitudes and levels",
+      "objective_count": 8,
+      "objectives": [
         {
           "id": "PIFR-031",
           "section_no": "8",
@@ -1180,8 +992,10 @@
       ]
     },
     {
-      "title": "Alternate Requirements And Fuel",
-      "slug": "alternate-requirements-and-fuel",
+      "title": "9. IFR alternate aerodrome requirements",
+      "slug": "9-ifr-alternate-aerodrome-requirements",
+      "section_no": "9",
+      "section_title": "IFR alternate aerodrome requirements",
       "objective_count": 5,
       "objectives": [
         {
@@ -1307,9 +1121,116 @@
       ]
     },
     {
-      "title": "Airspace And Radio Procedures",
-      "slug": "airspace-and-radio-procedures",
-      "objective_count": 19,
+      "title": "10. Operation of aircraft equipment",
+      "slug": "10-operation-of-aircraft-equipment",
+      "section_no": "10",
+      "section_title": "Operation of aircraft equipment",
+      "objective_count": 4,
+      "objectives": [
+        {
+          "id": "PIFR-044",
+          "section_no": "10",
+          "section_title": "Operation of aircraft equipment",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "10.1.1",
+          "objective": "State the safety precautions that must be observed when operating aircraft radar equipment on the ground.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.1",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "TODO",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "TODO",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "Medium",
+          "notes": "Source gap: the current verified CASA/Airservices source cache contains references to airborne weather radar equipment but not the MOS-listed ground-operation safety precautions themselves. Leave non-MOS references as TODO until a current public CASA or Airservices source is verified.",
+          "study_file": "docs/09-study-guide/PIFR-044.md"
+        },
+        {
+          "id": "PIFR-045",
+          "section_no": "10",
+          "section_title": "Operation of aircraft equipment",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "10.1.2",
+          "objective": "State the pre-flight altimeter accuracy check for an IFR flight.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.2",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.245, 91.810",
+            "Part 91 MOS": "Part 91 MOS sections 10.02(i), 10.03-10.06; Chapter 26 pressure-altitude display requirements in sections 26.08 and 26.12",
+            "AIP reference": "AIP ENR 1.7 sections 1.1-1.4",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers the pre-takeoff pressure-altitude system accuracy check when the aircraft is at a known elevation and accurate QNH is available, IFR 60 ft/75 ft tolerances, accurate QNH sources, and site-elevation source requirements.",
+          "study_file": "docs/09-study-guide/PIFR-045.md"
+        },
+        {
+          "id": "PIFR-046",
+          "section_no": "10",
+          "section_title": "Operation of aircraft equipment",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "10.1.3",
+          "objective": "Apply altimetry procedures to all stages of an IFR flight.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.3",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.245, 91.287, 91.305",
+            "Part 91 MOS": "Part 91 MOS sections 10.03-10.06, 11.02 and 14.03",
+            "AIP reference": "AIP ENR 1.7 sections 1.1-2.2; AIP ENR 1.5 section 5.3; AIP GEN 3.4 section 5.11.3",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "Part 91 MOS section 1.07 definition of area QNH notes QNH areas are on Planning Chart Australia"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers preflight altimeter checks, accurate/local/area QNH, transition altitude and transition level, prohibition on cruising in the transition layer, 1013.2 hPa above transition altitude, QNH below transition altitude, climb/descent setting changes, and QNH sources/minima adjustments for instrument approaches.",
+          "study_file": "docs/09-study-guide/PIFR-046.md"
+        },
+        {
+          "id": "PIFR-047",
+          "section_no": "10",
+          "section_title": "Operation of aircraft equipment",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "10.1.4",
+          "objective": "Describe the correct use of a transponder, and the associated radio phraseology, in all classes of airspace.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.4",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "CASR 91.810",
+            "Part 91 MOS": "Part 91 MOS Division 26.16, sections 26.67-26.70, especially 26.68, 26.69 and Tables 26.69(7)-26.69(7A)",
+            "AIP reference": "AIP ENR 1.6 sections 6.4-6.5 and 7.1; AIP GEN 3.4 section 6.17.6",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers approved surveillance equipment, continuous transponder/surveillance operation when required, assigned and standard Mode A codes, emergency codes 7500/7600/7700, altitude reporting, Mode S/ADS-B concepts, operating transponders in Australian airspace, IDENT restrictions, standby/code-change procedures and standard SSR/ADS-B phraseology.",
+          "study_file": "docs/09-study-guide/PIFR-047.md"
+        }
+      ]
+    },
+    {
+      "title": "11. CTA operations",
+      "slug": "11-cta-operations",
+      "section_no": "11",
+      "section_title": "CTA operations",
+      "objective_count": 10,
       "objectives": [
         {
           "id": "PIFR-048",
@@ -1550,7 +1471,16 @@
           "exam_importance": "High",
           "notes": "Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers inability to comply with ATC clearance, safety-driven deviation without clearance, urgency/emergency broadcasts, ACAS RA priority, minimum/emergency fuel declarations, RVSM equipment or turbulence contingencies where applicable, and emergency transponder codes 7500/7600/7700.",
           "study_file": "docs/09-study-guide/PIFR-057.md"
-        },
+        }
+      ]
+    },
+    {
+      "title": "12. Radar services",
+      "slug": "12-radar-services",
+      "section_no": "12",
+      "section_title": "Radar services",
+      "objective_count": 4,
+      "objectives": [
         {
           "id": "PIFR-058",
           "section_no": "12",
@@ -1646,7 +1576,16 @@
           "exam_importance": "High",
           "notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Covers radar/vectoring emergency assistance, two-way communication failure while receiving ATS surveillance service, alternative frequency procedure, standard radio failure procedure, ATS surveillance system failure/loss of identification instructions, emergency SSR codes 7500/7600/7700 and receive-only IDENT acknowledgment.",
           "study_file": "docs/09-study-guide/PIFR-061.md"
-        },
+        }
+      ]
+    },
+    {
+      "title": "13. OCTA operations",
+      "slug": "13-octa-operations",
+      "section_no": "13",
+      "section_title": "OCTA operations",
+      "objective_count": 5,
+      "objectives": [
         {
           "id": "PIFR-062",
           "section_no": "13",
@@ -1770,8 +1709,10 @@
       ]
     },
     {
-      "title": "Meteorology",
-      "slug": "meteorology",
+      "title": "14. Meteorology relevant to IFR operations:",
+      "slug": "14-meteorology-relevant-to-ifr-operations",
+      "section_no": "14",
+      "section_title": "Meteorology relevant to IFR operations:",
       "objective_count": 3,
       "objectives": [
         {
@@ -1849,9 +1790,11 @@
       ]
     },
     {
-      "title": "Radio Navigation",
-      "slug": "radio-navigation",
-      "objective_count": 14,
+      "title": "15. Navigation systems",
+      "slug": "15-navigation-systems",
+      "section_no": "15",
+      "section_title": "Navigation systems",
+      "objective_count": 17,
       "objectives": [
         {
           "id": "PIFR-070",
@@ -2188,14 +2131,7 @@
           "exam_importance": "High",
           "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 supports positive fixing from intersections of NDB position lines and limits NDB-only position lines to 30 NM from each NDB. Fix construction from two ADF relative bearings remains TODO for a verified public official technique source.",
           "study_file": "docs/09-study-guide/PIFR-083.md"
-        }
-      ]
-    },
-    {
-      "title": "GNSS And Instrument Errors",
-      "slug": "gnss-and-instrument-errors",
-      "objective_count": 5,
-      "objectives": [
+        },
         {
           "id": "PIFR-084",
           "section_no": "15",
@@ -2267,7 +2203,16 @@
           "exam_importance": "High",
           "notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official references cover the operational handling of GNSS error/integrity conditions and selected defined terms, but do not enumerate every MOS-listed error source; leave detailed ephemeris, clock, receiver, multipath and DOP explanations for later explanatory study notes with official source separation.",
           "study_file": "docs/09-study-guide/PIFR-086.md"
-        },
+        }
+      ]
+    },
+    {
+      "title": "16. Flight instrument errors",
+      "slug": "16-flight-instrument-errors",
+      "section_no": "16",
+      "section_title": "Flight instrument errors",
+      "objective_count": 2,
+      "objectives": [
         {
           "id": "PIFR-087",
           "section_no": "16",
@@ -2315,6 +2260,135 @@
           "exam_importance": "Medium",
           "notes": "Verified equipment references only against current Part 91 MOS compilation 7 (F2026C00214). Official sources require attitude information, independent standby attitude/turn sources where applicable and adequate gyroscopic-instrument power supply, but the current verified CASA/Airservices source cache does not explain attitude-indicator acceleration/deceleration errors or pitch/bank limits. Leave detailed instrument-error explanation as TODO until a verified public official source is identified.",
           "study_file": "docs/09-study-guide/PIFR-088.md"
+        }
+      ]
+    },
+    {
+      "title": "17. Human factors relevant to IFR operations",
+      "slug": "17-human-factors-relevant-to-ifr-operations",
+      "section_no": "17",
+      "section_title": "Human factors relevant to IFR operations",
+      "objective_count": 5,
+      "objectives": [
+        {
+          "id": "PIFR-089",
+          "section_no": "17",
+          "section_title": "Human factors relevant to IFR operations",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "17.1.1",
+          "objective": "State the part played by the vestibular systems, namely the semicircular canals and otiliths, in helping the pilot maintain orientation.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.1",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31-2.34",
+            "Part 91": "CASR 91.520",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "TODO",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). CASR Part 67 recognises nervous-system, vestibular-apparatus and visual-function relevance, and CASR 91.520 covers crew fitness for duty. It does not explain the functional role of semicircular canals and otoliths in orientation; leave that theory as TODO until a verified public official source is identified.",
+          "study_file": "docs/09-study-guide/PIFR-089.md"
+        },
+        {
+          "id": "PIFR-090",
+          "section_no": "17",
+          "section_title": "Human factors relevant to IFR operations",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "17.1.2",
+          "objective": "State what circumstances aggravate vestibular disorientation, and how to overcome this problem.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.2",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.1-2.4, 2.7, 2.26 and 2.31-2.34",
+            "Part 91": "CASR 91.520",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "TODO",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of functional incapacity, medication side effects, mental fitness, nervous-system issues, vestibular disturbance and visual function. Circumstances aggravating vestibular disorientation and recovery techniques remain TODO for a verified public official source.",
+          "study_file": "docs/09-study-guide/PIFR-090.md"
+        },
+        {
+          "id": "PIFR-091",
+          "section_no": "17",
+          "section_title": "Human factors relevant to IFR operations",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "17.1.3",
+          "objective": "State what causes, and may aggravate, vestibular disorientation such as somatogravic illusions, somatogyral illusions and 'graveyard spiral', coriolis effect, and 'leans'.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.3",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.7, 2.26 and 2.31-2.34",
+            "Part 91": "CASR 91.520",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "TODO",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of nervous-system, vestibular and visual function, but do not explain somatogravic illusions, somatogyral illusions, graveyard spiral, coriolis effect or leans. Leave detailed illusion theory as TODO until a verified public official source is identified.",
+          "study_file": "docs/09-study-guide/PIFR-091.md"
+        },
+        {
+          "id": "PIFR-092",
+          "section_no": "17",
+          "section_title": "Human factors relevant to IFR operations",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "17.1.4",
+          "objective": "State conditions and causes under which visual illusions, such as 'false horizons', visual-cue illusions, relative motion illusions, 'flicker' effect', black hole' illusion, and autokinesis may occur.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.4",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "CASR Part 67 medical standard 2 criteria, including regulation 67.155 table items 2.31-2.39",
+            "Part 91": "CASR 91.520",
+            "Part 91 MOS": "TODO",
+            "AIP reference": "TODO",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified medical/fitness hooks only against current CASR 1998 compilation 101 (F2026C00286). Official sources support the safety relevance of visual function, fields of vision, binocular vision, acuity and colour perception. Visual-illusion theory for false horizons, visual-cue illusions, relative motion, flicker effect, black-hole illusion and autokinesis remains TODO for a verified public official source.",
+          "study_file": "docs/09-study-guide/PIFR-092.md"
+        },
+        {
+          "id": "PIFR-093",
+          "section_no": "17",
+          "section_title": "Human factors relevant to IFR operations",
+          "element_no": null,
+          "element_title": null,
+          "mos_ref": "17.1.5",
+          "objective": "Be aware of the human factors limitations associated with the use of GNSS equipment to provide safeguards against navigational errors and loss of situational awareness because of the following: (a) mode errors; (b) data entry errors; (c) data validation and checking, including independent cross-checking procedures; (d) automation induced complacency; (e) non-standardisation of the GNSS receiver units; (f) human information processing and situational awareness.",
+          "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 17.1.5",
+          "references": {
+            "CAR": "TODO",
+            "Part 61": "TODO",
+            "Part 91": "TODO",
+            "Part 91 MOS": "Part 91 MOS section 1.07 definitions of approved GNSS and navigation database; sections 14.02, 14.05-14.07",
+            "AIP reference": "AIP GEN 1.5 section 2; AIP ENR 1.1 sections 4.4, 4.8 and 6.3; AIP ENR 4.3",
+            "ERSA reference": "TODO",
+            "ERC LOW reference": "TODO",
+            "TAC reference": "TODO",
+            "PCA reference": "TODO"
+          },
+          "exam_importance": "High",
+          "notes": "Verified operational GNSS references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover approved GNSS, navigation database use, single-pilot data checking, procedure loading by name, waypoint alteration limits, GNSS substitution limits, RAIM/integrity handling and distance-reporting constraints. Human-factors theory for mode errors, data-entry errors, automation complacency, receiver non-standardisation, information processing and situational awareness remains TODO for a verified public official source.",
+          "study_file": "docs/09-study-guide/PIFR-093.md"
         }
       ]
     }

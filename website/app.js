@@ -161,7 +161,7 @@ function renderDashboard() {
   const located = completeCount(objectives, "located");
   els.moduleDashboard.innerHTML = `
     <div>
-      <p class="eyebrow">Current module</p>
+      <p class="eyebrow">Current MOS syllabus module</p>
       <h2>${escapeHtml(module.title)}</h2>
       <p>${objectives.length} objectives · ${mapped} mapped · ${partial} partial · ${learned} learned · ${located} source-located</p>
     </div>
