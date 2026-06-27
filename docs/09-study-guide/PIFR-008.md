@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 3.1.5: Extract from an aircraft flight man
 
 ## Why it matters
 
-TODO
+AFM limitations can override a generic assumption about what the aircraft may do under IFR.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.095 supports compliance with aircraft flight manual instructions.
+- Part 91 MOS 26.02 and 26.04 support approval and serviceability of required equipment.
+- Part 91 MOS 28.06 is relevant where MEL conditions, limitations or procedures apply.
+- The objective requires extracting information from the aircraft flight manual, so aircraft-specific examples must come from AFM/POH source material.
 
 ## Common CASA traps
 
-TODO
+- Do not treat a general IFR rule as permission if the aircraft flight manual is more restrictive.
+- Do not add aircraft-specific limitations without a cited AFM/POH source.
 
 ## Worked examples
 
-TODO
+TODO: Add AFM/POH limitation examples after selecting aircraft source material.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use CASR 91.095 for the instruction-compliance hook.
+- Use the AFM/POH limitation section for the aircraft-specific answer.

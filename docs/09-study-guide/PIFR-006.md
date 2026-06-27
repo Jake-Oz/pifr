@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 3.1.3: List the mandatory aircraft radio c
 
 ## Why it matters
 
-TODO
+IFR communication equipment is tested because it drives whether the aircraft can comply with reporting, broadcast and listening-watch requirements.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 26 sections 26.18 and 26.19 are the key communication equipment references.
+- The equipment must support required reporting, broadcast and listening-watch frequencies.
+- The mapped AIP references provide operational frequency and communication context for the equipment rules.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse radio carriage/serviceability with phraseology procedure.
+- Check 121.5 MHz and required operational frequencies where the question asks about capability.
 
 ## Worked examples
 
-TODO
+TODO: Add communication-equipment serviceability scenarios.
 
 ## Cross references
 
@@ -61,4 +64,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 26.18 and 26.19 for the equipment answer.
+- Use AIP/ERSA references for frequency and procedure context.

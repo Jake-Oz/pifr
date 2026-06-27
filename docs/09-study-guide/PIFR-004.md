@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 3.1.1: List the mandatory flight instrumen
 
 ## Why it matters
 
-TODO
+Mandatory IFR flight instruments are direct exam material and are also the baseline for deciding whether an IFR flight may proceed.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.810 is the legal hook for required equipment.
+- Part 91 MOS Chapter 26 contains the detailed IFR flight instrument requirements.
+- Use the aeroplane provisions in Part 91 MOS 26.08 or rotorcraft provisions in 26.12 as applicable.
+- The requirement is not just carriage; the equipment must meet the approval, visibility, accessibility and serviceability rules in the MOS.
 
 ## Common CASA traps
 
-TODO
+- Do not mix aeroplane and rotorcraft tables.
+- Check serviceability and approval requirements, not just whether the instrument is installed.
 
 ## Worked examples
 
-TODO
+TODO: Add aircraft panel examples after selecting the aircraft type.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Start with CASR 91.810, then go to Part 91 MOS Chapter 26.
+- Use 26.08 for aeroplanes and 26.12 for rotorcraft.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 3.1.4: List the mandatory radio navigation
 
 ## Why it matters
 
-TODO
+Navigation equipment requirements determine whether the aircraft can legally conduct the planned IFR route or procedure.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 26 contains mandatory IFR navigation equipment requirements.
+- For aeroplanes, use Part 91 MOS 26.08(1) to 26.08(2).
+- For rotorcraft, use Part 91 MOS 26.12(1) to 26.12(2).
+- The mapped references include approved GNSS fitment and legacy equipment cases; do not infer equipment approval from capability alone.
 
 ## Common CASA traps
 
-TODO
+- Do not assume a portable or uncertified receiver satisfies an approved IFR navigation equipment requirement.
+- Check the aircraft category before using the MOS equipment table.
 
 ## Worked examples
 
-TODO
+TODO: Add aircraft equipment-fit examples after selecting avionics examples.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS Chapter 26 first.
+- Cross-check GNSS-related equipment questions against AIP GEN 1.5 and the Part 91 MOS GNSS definitions.

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.2: State the pre-flight altimeter acc
 
 ## Why it matters
 
-TODO
+The pre-flight altimeter accuracy check is a precise procedural item and is easy to answer quickly when the MOS section is located.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS section 10.06 is the primary locator for accurate QNH and altimeter accuracy checks.
+- AIP ENR 1.7 provides operational altimetry context.
+- The mapped references also connect QNH source rules for instrument approaches where relevant.
 
 ## Common CASA traps
 
-TODO
+- Do not use forecast QNH where the rule requires an actual or accurate QNH source.
+- Do not mix pre-flight altimeter check requirements with transition altitude/level procedures.
 
 ## Worked examples
 
-TODO
+TODO: Add altimeter accuracy check examples.
 
 ## Cross references
 
@@ -61,4 +64,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go to Part 91 MOS 10.06 for the check requirement.
+- Use AIP ENR 1.7 for broader altimetry procedure context.

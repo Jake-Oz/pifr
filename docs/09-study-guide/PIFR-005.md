@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 3.1.2: List the mandatory electrical light
 
 ## Why it matters
 
-TODO
+Lighting equipment questions often look operational, but the enforceable IFR equipment list sits in the Part 91 MOS.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 26 provides the mandatory lighting equipment rules.
+- Division 26.7 and sections 26.21 to 26.24 are the key lighting locators.
+- AIP lighting references provide operational context, but do not replace the MOS equipment requirement.
 
 ## Common CASA traps
 
-TODO
+- Do not answer an equipment-fit question from aerodrome lighting procedures.
+- Check whether the question is asking about installed/serviceable aircraft lighting or aerodrome lighting.
 
 ## Worked examples
 
-TODO
+TODO: Add day/night IFR lighting examples.
 
 ## Cross references
 
@@ -61,4 +64,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS Division 26.7 for the equipment list.
+- Use AIP only when the question is operational rather than equipment-fit focused.

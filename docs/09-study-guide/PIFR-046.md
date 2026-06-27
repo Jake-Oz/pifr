@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.3: Apply altimetry procedures to all 
 
 ## Why it matters
 
-TODO
+Altimetry applies throughout the IFR flight, so exam questions may move between QNH, transition layer, cruising levels and instrument approach settings.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- Part 91 MOS Chapter 10 contains the altimetry rules.
+- AIP ENR 1.7 is the operational locator for altimeter setting procedures and cruising level context.
+- Part 91 MOS 14.03 is relevant before passing the IAF because it identifies QNH sources for instrument approaches.
 
 ## Common CASA traps
 
-TODO
+- Do not answer an approach-QNH question from a cruise-level rule.
+- Check whether the question is pre-flight, climb, cruise, descent, approach or missed approach.
 
 ## Worked examples
 
-TODO
+TODO: Add staged-flight altimetry examples.
 
 ## Cross references
 
@@ -61,4 +64,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS Chapter 10 for legal rules.
+- Use AIP ENR 1.7 for operational procedure lookup.
+- Use Part 91 MOS 14.03 for instrument approach QNH source questions.

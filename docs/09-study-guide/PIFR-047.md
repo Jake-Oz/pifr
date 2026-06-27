@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.4: Describe the correct use of a tran
 
 ## Why it matters
 
-TODO
+Transponder questions combine equipment operation, assigned codes, emergencies and readback/phraseology.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.810 is the legal hook for required equipment.
+- Part 91 MOS Division 26.16, especially sections 26.68 and 26.69, contains the transponder and surveillance equipment requirements and code tables.
+- AIP ENR 1.6 provides ATS surveillance and transponder operating context.
+- AIP GEN 3.4 section 6.17.6 provides standard SSR/ADS-B phraseology context.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse conspicuity/transponder carriage with the code or mode ATC wants selected.
+- Emergency codes and radio failure codes need exact lookup, not approximation.
 
 ## Worked examples
 
-TODO
+TODO: Add code-selection and phraseology examples.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use Part 91 MOS 26.69 for transponder code tables.
+- Use AIP ENR 1.6 and AIP GEN 3.4 for surveillance operational context and phraseology.

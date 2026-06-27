@@ -495,6 +495,164 @@ STUDY_CONTENT = {
             "Use the reference locator to jump to the first failed condition in that chain.",
         ],
     },
+    "PIFR-004": {
+        "why": "Mandatory IFR flight instruments are direct exam material and are also the baseline for deciding whether an IFR flight may proceed.",
+        "notes": [
+            "CASR 91.810 is the legal hook for required equipment.",
+            "Part 91 MOS Chapter 26 contains the detailed IFR flight instrument requirements.",
+            "Use the aeroplane provisions in Part 91 MOS 26.08 or rotorcraft provisions in 26.12 as applicable.",
+            "The requirement is not just carriage; the equipment must meet the approval, visibility, accessibility and serviceability rules in the MOS.",
+        ],
+        "traps": [
+            "Do not mix aeroplane and rotorcraft tables.",
+            "Check serviceability and approval requirements, not just whether the instrument is installed.",
+        ],
+        "examples": "TODO: Add aircraft panel examples after selecting the aircraft type.",
+        "exam_use": [
+            "Start with CASR 91.810, then go to Part 91 MOS Chapter 26.",
+            "Use 26.08 for aeroplanes and 26.12 for rotorcraft.",
+        ],
+    },
+    "PIFR-005": {
+        "why": "Lighting equipment questions often look operational, but the enforceable IFR equipment list sits in the Part 91 MOS.",
+        "notes": [
+            "Part 91 MOS Chapter 26 provides the mandatory lighting equipment rules.",
+            "Division 26.7 and sections 26.21 to 26.24 are the key lighting locators.",
+            "AIP lighting references provide operational context, but do not replace the MOS equipment requirement.",
+        ],
+        "traps": [
+            "Do not answer an equipment-fit question from aerodrome lighting procedures.",
+            "Check whether the question is asking about installed/serviceable aircraft lighting or aerodrome lighting.",
+        ],
+        "examples": "TODO: Add day/night IFR lighting examples.",
+        "exam_use": [
+            "Use Part 91 MOS Division 26.7 for the equipment list.",
+            "Use AIP only when the question is operational rather than equipment-fit focused.",
+        ],
+    },
+    "PIFR-006": {
+        "why": "IFR communication equipment is tested because it drives whether the aircraft can comply with reporting, broadcast and listening-watch requirements.",
+        "notes": [
+            "Part 91 MOS Chapter 26 sections 26.18 and 26.19 are the key communication equipment references.",
+            "The equipment must support required reporting, broadcast and listening-watch frequencies.",
+            "The mapped AIP references provide operational frequency and communication context for the equipment rules.",
+        ],
+        "traps": [
+            "Do not confuse radio carriage/serviceability with phraseology procedure.",
+            "Check 121.5 MHz and required operational frequencies where the question asks about capability.",
+        ],
+        "examples": "TODO: Add communication-equipment serviceability scenarios.",
+        "exam_use": [
+            "Use Part 91 MOS 26.18 and 26.19 for the equipment answer.",
+            "Use AIP/ERSA references for frequency and procedure context.",
+        ],
+    },
+    "PIFR-007": {
+        "why": "Navigation equipment requirements determine whether the aircraft can legally conduct the planned IFR route or procedure.",
+        "notes": [
+            "Part 91 MOS Chapter 26 contains mandatory IFR navigation equipment requirements.",
+            "For aeroplanes, use Part 91 MOS 26.08(1) to 26.08(2).",
+            "For rotorcraft, use Part 91 MOS 26.12(1) to 26.12(2).",
+            "The mapped references include approved GNSS fitment and legacy equipment cases; do not infer equipment approval from capability alone.",
+        ],
+        "traps": [
+            "Do not assume a portable or uncertified receiver satisfies an approved IFR navigation equipment requirement.",
+            "Check the aircraft category before using the MOS equipment table.",
+        ],
+        "examples": "TODO: Add aircraft equipment-fit examples after selecting avionics examples.",
+        "exam_use": [
+            "Use Part 91 MOS Chapter 26 first.",
+            "Cross-check GNSS-related equipment questions against AIP GEN 1.5 and the Part 91 MOS GNSS definitions.",
+        ],
+    },
+    "PIFR-008": {
+        "why": "AFM limitations can override a generic assumption about what the aircraft may do under IFR.",
+        "notes": [
+            "CASR 91.095 supports compliance with aircraft flight manual instructions.",
+            "Part 91 MOS 26.02 and 26.04 support approval and serviceability of required equipment.",
+            "Part 91 MOS 28.06 is relevant where MEL conditions, limitations or procedures apply.",
+            "The objective requires extracting information from the aircraft flight manual, so aircraft-specific examples must come from AFM/POH source material.",
+        ],
+        "traps": [
+            "Do not treat a general IFR rule as permission if the aircraft flight manual is more restrictive.",
+            "Do not add aircraft-specific limitations without a cited AFM/POH source.",
+        ],
+        "examples": "TODO: Add AFM/POH limitation examples after selecting aircraft source material.",
+        "exam_use": [
+            "Use CASR 91.095 for the instruction-compliance hook.",
+            "Use the AFM/POH limitation section for the aircraft-specific answer.",
+        ],
+    },
+    "PIFR-044": {
+        "why": "This is a MOS objective, but the current verified CASA/Airservices cache does not yet contain the ground radar safety precautions themselves.",
+        "notes": [
+            "The MOS objective remains in scope and traceable.",
+            "Do not fill this from memory or commercial training material.",
+            "The source gap is recorded in the cross-reference gap register until a current public CASA or Airservices source is verified.",
+        ],
+        "traps": [
+            "Do not confuse airborne weather radar equipment carriage references with ground-operation safety precautions.",
+            "Do not invent distance or exposure limits without a verified source.",
+        ],
+        "examples": "TODO: Add examples only after verifying an official source for radar ground safety precautions.",
+        "exam_use": [
+            "Treat this as a source-gap item for now.",
+            "Use the MOS objective wording as the master scope until a verified public source is found.",
+        ],
+    },
+    "PIFR-045": {
+        "why": "The pre-flight altimeter accuracy check is a precise procedural item and is easy to answer quickly when the MOS section is located.",
+        "notes": [
+            "Part 91 MOS section 10.06 is the primary locator for accurate QNH and altimeter accuracy checks.",
+            "AIP ENR 1.7 provides operational altimetry context.",
+            "The mapped references also connect QNH source rules for instrument approaches where relevant.",
+        ],
+        "traps": [
+            "Do not use forecast QNH where the rule requires an actual or accurate QNH source.",
+            "Do not mix pre-flight altimeter check requirements with transition altitude/level procedures.",
+        ],
+        "examples": "TODO: Add altimeter accuracy check examples.",
+        "exam_use": [
+            "Go to Part 91 MOS 10.06 for the check requirement.",
+            "Use AIP ENR 1.7 for broader altimetry procedure context.",
+        ],
+    },
+    "PIFR-046": {
+        "why": "Altimetry applies throughout the IFR flight, so exam questions may move between QNH, transition layer, cruising levels and instrument approach settings.",
+        "notes": [
+            "Part 91 MOS Chapter 10 contains the altimetry rules.",
+            "AIP ENR 1.7 is the operational locator for altimeter setting procedures and cruising level context.",
+            "Part 91 MOS 14.03 is relevant before passing the IAF because it identifies QNH sources for instrument approaches.",
+        ],
+        "traps": [
+            "Do not answer an approach-QNH question from a cruise-level rule.",
+            "Check whether the question is pre-flight, climb, cruise, descent, approach or missed approach.",
+        ],
+        "examples": "TODO: Add staged-flight altimetry examples.",
+        "exam_use": [
+            "Use Part 91 MOS Chapter 10 for legal rules.",
+            "Use AIP ENR 1.7 for operational procedure lookup.",
+            "Use Part 91 MOS 14.03 for instrument approach QNH source questions.",
+        ],
+    },
+    "PIFR-047": {
+        "why": "Transponder questions combine equipment operation, assigned codes, emergencies and readback/phraseology.",
+        "notes": [
+            "CASR 91.810 is the legal hook for required equipment.",
+            "Part 91 MOS Division 26.16, especially sections 26.68 and 26.69, contains the transponder and surveillance equipment requirements and code tables.",
+            "AIP ENR 1.6 provides ATS surveillance and transponder operating context.",
+            "AIP GEN 3.4 section 6.17.6 provides standard SSR/ADS-B phraseology context.",
+        ],
+        "traps": [
+            "Do not confuse conspicuity/transponder carriage with the code or mode ATC wants selected.",
+            "Emergency codes and radio failure codes need exact lookup, not approximation.",
+        ],
+        "examples": "TODO: Add code-selection and phraseology examples.",
+        "exam_use": [
+            "Use Part 91 MOS 26.69 for transponder code tables.",
+            "Use AIP ENR 1.6 and AIP GEN 3.4 for surveillance operational context and phraseology.",
+        ],
+    },
 }
 
 

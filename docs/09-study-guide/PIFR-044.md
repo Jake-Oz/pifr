@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.1: State the safety precautions that 
 
 ## Why it matters
 
-TODO
+This is a MOS objective, but the current verified CASA/Airservices cache does not yet contain the ground radar safety precautions themselves.
 
 ## Official references
 
@@ -30,15 +30,18 @@ TODO
 
 ## Study notes
 
-TODO
+- The MOS objective remains in scope and traceable.
+- Do not fill this from memory or commercial training material.
+- The source gap is recorded in the cross-reference gap register until a current public CASA or Airservices source is verified.
 
 ## Common CASA traps
 
-TODO
+- Do not confuse airborne weather radar equipment carriage references with ground-operation safety precautions.
+- Do not invent distance or exposure limits without a verified source.
 
 ## Worked examples
 
-TODO
+TODO: Add examples only after verifying an official source for radar ground safety precautions.
 
 ## Cross references
 
@@ -61,4 +64,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Treat this as a source-gap item for now.
+- Use the MOS objective wording as the master scope until a verified public source is found.
