@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 13.1.1: State the procedures for the follo
 
 ## Why it matters
 
-TODO
+Class G and non-controlled aerodrome IFR procedures rely heavily on broadcast, report, see-and-avoid and SARWATCH logic rather than ATC clearances.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.325, 91.370, 91.385, 91.390, 91.395, 91.400, 91.410 and 91.630 provide the operating-rule context.
+- Part 91 MOS 21.03 to 21.04, 21.06 and 21.09 are the MOS locators for Class G/non-controlled aerodrome reporting and broadcasts.
+- AIP ENR 1.1 sections 9.1 to 9.17 and 10.1 to 10.3 are the main operational locators.
+- AIP ENR 1.4 section 3.1 provides Class G service context.
 
 ## Common CASA traps
 
-TODO
+- Do not apply controlled-aerodrome clearance logic to a non-controlled aerodrome.
+- Do not omit taxi, departure, level-change, frequency-change, CTAF and arrival reports where required.
+- See-and-avoid and runway separation responsibilities remain important even for IFR aircraft.
 
 ## Worked examples
 
-TODO
+TODO: Add Class G/non-controlled flight-profile examples after selecting a sample aerodrome and route.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 9 for non-controlled aerodrome procedures.
+- Use Part 91 MOS 21.06 for IFR Class G prescribed reports.

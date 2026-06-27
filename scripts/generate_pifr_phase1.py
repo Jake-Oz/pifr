@@ -1239,6 +1239,178 @@ STUDY_CONTENT = {
             "Use Part 91 MOS Table 26.69(7A) for transponder codes.",
         ],
     },
+    "PIFR-058": {
+        "why": "ATS surveillance services are central to controlled IFR operations, but the exam may use older `radar` wording while the current AIP uses broader surveillance terminology.",
+        "notes": [
+            "AIP ENR 1.6 is the primary verified locator for ATS surveillance services.",
+            "AIP ENR 1.4 sections 2.1 to 2.4 provide airspace service context.",
+            "AIP GEN 3.4 sections 6.8 and 6.17 support surveillance-related communications and phraseology.",
+            "The verified source status covers identification, vectoring, position information, traffic information, avoiding action where available, speed control, separation context and emergency assistance.",
+        ],
+        "traps": [
+            "Do not assume a surveillance service is available everywhere.",
+            "Do not use `radar` wording to ignore ADS-B/SSR surveillance context in the current AIP.",
+            "Separate surveillance identification, vectoring, traffic information and separation services.",
+        ],
+        "examples": "TODO: Add ATS surveillance service examples after selecting controlled airspace and surveillance-coverage scenarios.",
+        "exam_use": [
+            "Use AIP ENR 1.6 as the main lookup for surveillance services.",
+            "Use AIP ENR 1.4 to cross-check service provision by airspace class.",
+        ],
+    },
+    "PIFR-059": {
+        "why": "Radar/vectoring questions require exact compliance and readback because the aircraft may be off a published route while ATC provides surveillance guidance.",
+        "notes": [
+            "CASR 91.257 provides the clearance/instruction compliance hook.",
+            "Part 91 MOS 11.12 and Table 21.05(1) items 8 to 9 provide the MOS clearance and level-report context.",
+            "AIP ENR 1.6 sections 1 to 3 and 6.2 are the primary vectoring and surveillance procedure locators.",
+            "AIP GEN 3.4 sections 5.4, 6.8, 6.11, 6.12 and 6.17 support readback and phraseology.",
+        ],
+        "traps": [
+            "Do not assume terrain clearance responsibility is unchanged during every vectoring situation; check the AIP vectoring context.",
+            "Do not ignore heading/vector instructions because they take the aircraft off planned track.",
+            "Read back headings, levels and other required instructions exactly where required.",
+        ],
+        "examples": "TODO: Add radar-vectoring phraseology examples after selecting approach/vectoring scenarios.",
+        "exam_use": [
+            "Use AIP ENR 1.6 sections 1 to 3 for vectoring procedure.",
+            "Use AIP GEN 3.4 for phraseology and readback.",
+        ],
+    },
+    "PIFR-060": {
+        "why": "ATC transmission interval during vectoring is a precise AIP value and should be treated as a direct lookup item.",
+        "notes": [
+            "AIP ENR 1.6 section 3.8 is the verified source for transmission intervals during vectoring.",
+            "The verified source status identifies a maximum interval of 30 seconds when aircraft are on headings that could infringe terrain clearance or separation standards.",
+            "This objective currently has AIP-only support in the reference map, so do not add extra MOS or regulation references without verification.",
+        ],
+        "traps": [
+            "Do not apply the 30-second interval to every ATC transmission context; it is tied to the vectoring condition in AIP ENR 1.6.",
+            "Do not invent a different timing value from memory.",
+            "Check whether the question is about vectoring specifically or general radio communication.",
+        ],
+        "examples": "TODO: Add vectoring interval examples after selecting surveillance-vectoring scenarios.",
+        "exam_use": [
+            "Go directly to AIP ENR 1.6 section 3.8.",
+            "Confirm whether the vector heading could infringe terrain clearance or separation standards.",
+        ],
+    },
+    "PIFR-061": {
+        "why": "Surveillance emergency procedures combine radio failure, surveillance failure, emergency codes and aircraft emergency assistance.",
+        "notes": [
+            "CASR 91.257 and 91.810 provide the clearance/instruction and equipment hooks.",
+            "Part 91 MOS 11.06, 11.10 and Table 26.69(7A) are the MOS locators for emergency deviation, radio failure and transponder codes.",
+            "AIP ENR 1.6 section 6 is the primary surveillance emergency locator.",
+            "AIP ENR 1.1 sections 2.2.4 and 6.2 and AIP GEN 3.4 section 6.17.6 support radio-failure and IDENT/SSR phraseology context.",
+        ],
+        "traps": [
+            "Do not use the normal vectoring procedure after surveillance identification or system service is lost without checking ATC instructions.",
+            "Do not confuse 7500, 7600 and 7700.",
+            "Do not treat receive-only or IDENT acknowledgment as restored two-way communication.",
+        ],
+        "examples": "TODO: Add surveillance emergency examples after selecting radio failure, surveillance failure and aircraft emergency cases.",
+        "exam_use": [
+            "Use AIP ENR 1.6 section 6 for surveillance emergency procedure.",
+            "Use Part 91 MOS Table 26.69(7A) for emergency transponder codes.",
+        ],
+    },
+    "PIFR-062": {
+        "why": "Class G and non-controlled aerodrome IFR procedures rely heavily on broadcast, report, see-and-avoid and SARWATCH logic rather than ATC clearances.",
+        "notes": [
+            "CASR 91.325, 91.370, 91.385, 91.390, 91.395, 91.400, 91.410 and 91.630 provide the operating-rule context.",
+            "Part 91 MOS 21.03 to 21.04, 21.06 and 21.09 are the MOS locators for Class G/non-controlled aerodrome reporting and broadcasts.",
+            "AIP ENR 1.1 sections 9.1 to 9.17 and 10.1 to 10.3 are the main operational locators.",
+            "AIP ENR 1.4 section 3.1 provides Class G service context.",
+        ],
+        "traps": [
+            "Do not apply controlled-aerodrome clearance logic to a non-controlled aerodrome.",
+            "Do not omit taxi, departure, level-change, frequency-change, CTAF and arrival reports where required.",
+            "See-and-avoid and runway separation responsibilities remain important even for IFR aircraft.",
+        ],
+        "examples": "TODO: Add Class G/non-controlled flight-profile examples after selecting a sample aerodrome and route.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 9 for non-controlled aerodrome procedures.",
+            "Use Part 91 MOS 21.06 for IFR Class G prescribed reports.",
+        ],
+    },
+    "PIFR-063": {
+        "why": "Visual approach and arrival at non-controlled aerodromes combine landing manoeuvres, SARWATCH cancellation and PAL/night lighting decisions.",
+        "notes": [
+            "CASR 91.325, 91.385, 91.390, 91.395, 91.400, 91.410 and 91.630 provide the operating-rule context.",
+            "Part 91 MOS 8.06, 21.04, Table 21.06(1) item 10 and 21.09 are the MOS locators for alternate, reporting and broadcast context.",
+            "AIP ENR 1.1 sections 9.11 to 9.16, 10.2 and 10.7.4.3 to 10.8.1 provide visual arrival, SARWATCH and lighting context.",
+            "AIP GEN 3.4 section 6.5 supports PAL communications context.",
+        ],
+        "traps": [
+            "Do not cancel SARWATCH too early; check the AIP cancellation timing and method.",
+            "Do not assume PAL availability or serviceability without checking the relevant information.",
+            "Do not treat straight-in, base join and circuit procedures as interchangeable.",
+        ],
+        "examples": "TODO: Add non-controlled visual approach examples after selecting aerodrome, daylight/night and SARWATCH assumptions.",
+        "exam_use": [
+            "Use AIP ENR 1.1 sections 9.11 to 9.16 for landing manoeuvres.",
+            "Use AIP ENR 1.1 section 10 for SARWATCH and PAL/night lighting context.",
+        ],
+    },
+    "PIFR-064": {
+        "why": "Class G and non-controlled aerodrome radio procedures are exam-heavy because the pilot must select frequencies, broadcast at the right times and use standard formats without ATC prompting.",
+        "notes": [
+            "CASR 91.400, 91.630 and 91.810 provide the broadcast, radio and equipment regulation context.",
+            "Part 91 MOS 21.03 to 21.04, 21.06, 21.09 and 26.18 to 26.19 are the MOS locators for radio reports and equipment.",
+            "AIP ENR 1.1 sections 9.1, 9.5 to 9.17, 10.2 to 10.3 and 12.1 to 12.3 provide Class G, non-controlled aerodrome and mandatory broadcast area context.",
+            "AIP GEN 3.4 sections 5.1 to 5.7 and 6.5 provide radio procedure, standard format and PAL communication context.",
+        ],
+        "traps": [
+            "Do not use Area VHF when CTAF is required for the aerodrome stage, or vice versa.",
+            "Do not omit mandatory broadcast area requirements.",
+            "Use standard broadcast format rather than informal position calls.",
+        ],
+        "examples": "TODO: Add Class G and CTAF broadcast examples after selecting route, aerodrome and frequency-change scenarios.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 9 for non-controlled aerodrome broadcasts.",
+            "Use AIP ENR 1.1 section 12 for mandatory broadcast areas.",
+            "Use AIP GEN 3.4 section 5 for standard radiotelephony format.",
+        ],
+    },
+    "PIFR-065": {
+        "why": "Radio failure in Class G/non-controlled contexts changes the risk picture because there is no normal ATC clearance service at the aerodrome.",
+        "notes": [
+            "CASR 91.400, 91.630 and 91.810 provide broadcast, radio and equipment context.",
+            "Part 91 MOS 11.10, 21.04, 21.06, 26.18 to 26.19 and Table 26.69(7A) are the MOS locators for radio failure, reports, equipment and transponder code.",
+            "AIP ENR 1.1 sections 6.2 and 9.2.7 provide radio-failure and non-controlled aerodrome context.",
+            "AIP ENR 1.6 sections 6.2 and 6.4.3 to 6.4.4 support surveillance/radio-failure and SSR handling.",
+        ],
+        "traps": [
+            "Do not assume non-controlled aerodrome arrival is permitted without checking the no-radio/inoperative-radio limitations.",
+            "Do not forget 7600 and continued transponder operation where applicable.",
+            "Do not use CTA/CTR clearance-loss logic where the AIP provides a Class G/non-controlled procedure.",
+        ],
+        "examples": "TODO: Add Class G/non-controlled radio-failure examples after selecting VMC/IMC and aerodrome scenarios.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 6.2 for general radio-failure procedure.",
+            "Use AIP ENR 1.1 section 9.2.7 for non-controlled aerodrome no-radio context.",
+        ],
+    },
+    "PIFR-066": {
+        "why": "Abnormal and emergency operations in Class G/non-controlled aerodrome contexts require the pilot to combine see-and-avoid, broadcasts, fuel declarations, radio failure and emergency code procedures.",
+        "notes": [
+            "CASR 91.325, 91.330, 91.370, 91.400, 91.455, 91.630 and 91.810 provide the operating, fuel and equipment regulation hooks.",
+            "Part 91 MOS 11.06, 11.10, 19.05 to 19.06, 21.04, 21.06, 21.09 and Table 26.69(7A) are the MOS locators.",
+            "AIP ENR 1.1 sections 6.2, 9.1 to 9.17, 10.9.2 to 10.9.3 and 10.10.8 provide operational radio failure, aerodrome, fuel and laser-illumination context.",
+            "AIP ENR 1.6 section 6 and AIP GEN 3.4 sections 6.8 and 6.17.6 support surveillance emergency and phraseology lookup.",
+        ],
+        "traps": [
+            "Do not assume ATC will resolve traffic conflicts at a non-controlled aerodrome.",
+            "Do not confuse minimum fuel, emergency fuel and other urgency/emergency broadcasts.",
+            "Do not omit explicit collision-avoidance broadcasts where the AIP requires them.",
+        ],
+        "examples": "TODO: Add Class G/non-controlled abnormal and emergency scenarios after selecting traffic, fuel, radio and aerodrome assumptions.",
+        "exam_use": [
+            "Use AIP ENR 1.1 section 9 for non-controlled aerodrome procedures.",
+            "Use AIP ENR 1.1 section 10.9 for fuel-state declarations.",
+            "Use Part 91 MOS Table 26.69(7A) for transponder emergency codes.",
+        ],
+    },
 }
 
 

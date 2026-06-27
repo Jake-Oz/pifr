@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 12.1.2: Demonstrate knowledge of radar vec
 
 ## Why it matters
 
-TODO
+Radar/vectoring questions require exact compliance and readback because the aircraft may be off a published route while ATC provides surveillance guidance.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.257 provides the clearance/instruction compliance hook.
+- Part 91 MOS 11.12 and Table 21.05(1) items 8 to 9 provide the MOS clearance and level-report context.
+- AIP ENR 1.6 sections 1 to 3 and 6.2 are the primary vectoring and surveillance procedure locators.
+- AIP GEN 3.4 sections 5.4, 6.8, 6.11, 6.12 and 6.17 support readback and phraseology.
 
 ## Common CASA traps
 
-TODO
+- Do not assume terrain clearance responsibility is unchanged during every vectoring situation; check the AIP vectoring context.
+- Do not ignore heading/vector instructions because they take the aircraft off planned track.
+- Read back headings, levels and other required instructions exactly where required.
 
 ## Worked examples
 
-TODO
+TODO: Add radar-vectoring phraseology examples after selecting approach/vectoring scenarios.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.6 sections 1 to 3 for vectoring procedure.
+- Use AIP GEN 3.4 for phraseology and readback.

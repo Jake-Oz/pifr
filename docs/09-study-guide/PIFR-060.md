@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 12.1.3: State the permissible intervals be
 
 ## Why it matters
 
-TODO
+ATC transmission interval during vectoring is a precise AIP value and should be treated as a direct lookup item.
 
 ## Official references
 
@@ -30,15 +30,19 @@ TODO
 
 ## Study notes
 
-TODO
+- AIP ENR 1.6 section 3.8 is the verified source for transmission intervals during vectoring.
+- The verified source status identifies a maximum interval of 30 seconds when aircraft are on headings that could infringe terrain clearance or separation standards.
+- This objective currently has AIP-only support in the reference map, so do not add extra MOS or regulation references without verification.
 
 ## Common CASA traps
 
-TODO
+- Do not apply the 30-second interval to every ATC transmission context; it is tied to the vectoring condition in AIP ENR 1.6.
+- Do not invent a different timing value from memory.
+- Check whether the question is about vectoring specifically or general radio communication.
 
 ## Worked examples
 
-TODO
+TODO: Add vectoring interval examples after selecting surveillance-vectoring scenarios.
 
 ## Cross references
 
@@ -61,4 +65,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Go directly to AIP ENR 1.6 section 3.8.
+- Confirm whether the vector heading could infringe terrain clearance or separation standards.

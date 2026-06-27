@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 12.1.4: Demonstrate knowledge of radar eme
 
 ## Why it matters
 
-TODO
+Surveillance emergency procedures combine radio failure, surveillance failure, emergency codes and aircraft emergency assistance.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.257 and 91.810 provide the clearance/instruction and equipment hooks.
+- Part 91 MOS 11.06, 11.10 and Table 26.69(7A) are the MOS locators for emergency deviation, radio failure and transponder codes.
+- AIP ENR 1.6 section 6 is the primary surveillance emergency locator.
+- AIP ENR 1.1 sections 2.2.4 and 6.2 and AIP GEN 3.4 section 6.17.6 support radio-failure and IDENT/SSR phraseology context.
 
 ## Common CASA traps
 
-TODO
+- Do not use the normal vectoring procedure after surveillance identification or system service is lost without checking ATC instructions.
+- Do not confuse 7500, 7600 and 7700.
+- Do not treat receive-only or IDENT acknowledgment as restored two-way communication.
 
 ## Worked examples
 
-TODO
+TODO: Add surveillance emergency examples after selecting radio failure, surveillance failure and aircraft emergency cases.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.6 section 6 for surveillance emergency procedure.
+- Use Part 91 MOS Table 26.69(7A) for emergency transponder codes.

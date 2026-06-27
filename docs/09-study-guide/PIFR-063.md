@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 13.2.1: State visual approach procedures, 
 
 ## Why it matters
 
-TODO
+Visual approach and arrival at non-controlled aerodromes combine landing manoeuvres, SARWATCH cancellation and PAL/night lighting decisions.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.325, 91.385, 91.390, 91.395, 91.400, 91.410 and 91.630 provide the operating-rule context.
+- Part 91 MOS 8.06, 21.04, Table 21.06(1) item 10 and 21.09 are the MOS locators for alternate, reporting and broadcast context.
+- AIP ENR 1.1 sections 9.11 to 9.16, 10.2 and 10.7.4.3 to 10.8.1 provide visual arrival, SARWATCH and lighting context.
+- AIP GEN 3.4 section 6.5 supports PAL communications context.
 
 ## Common CASA traps
 
-TODO
+- Do not cancel SARWATCH too early; check the AIP cancellation timing and method.
+- Do not assume PAL availability or serviceability without checking the relevant information.
+- Do not treat straight-in, base join and circuit procedures as interchangeable.
 
 ## Worked examples
 
-TODO
+TODO: Add non-controlled visual approach examples after selecting aerodrome, daylight/night and SARWATCH assumptions.
 
 ## Cross references
 
@@ -61,4 +66,5 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 sections 9.11 to 9.16 for landing manoeuvres.
+- Use AIP ENR 1.1 section 10 for SARWATCH and PAL/night lighting context.

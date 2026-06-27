@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 13.3.3: Determine procedures for abnormal 
 
 ## Why it matters
 
-TODO
+Abnormal and emergency operations in Class G/non-controlled aerodrome contexts require the pilot to combine see-and-avoid, broadcasts, fuel declarations, radio failure and emergency code procedures.
 
 ## Official references
 
@@ -30,15 +30,20 @@ TODO
 
 ## Study notes
 
-TODO
+- CASR 91.325, 91.330, 91.370, 91.400, 91.455, 91.630 and 91.810 provide the operating, fuel and equipment regulation hooks.
+- Part 91 MOS 11.06, 11.10, 19.05 to 19.06, 21.04, 21.06, 21.09 and Table 26.69(7A) are the MOS locators.
+- AIP ENR 1.1 sections 6.2, 9.1 to 9.17, 10.9.2 to 10.9.3 and 10.10.8 provide operational radio failure, aerodrome, fuel and laser-illumination context.
+- AIP ENR 1.6 section 6 and AIP GEN 3.4 sections 6.8 and 6.17.6 support surveillance emergency and phraseology lookup.
 
 ## Common CASA traps
 
-TODO
+- Do not assume ATC will resolve traffic conflicts at a non-controlled aerodrome.
+- Do not confuse minimum fuel, emergency fuel and other urgency/emergency broadcasts.
+- Do not omit explicit collision-avoidance broadcasts where the AIP requires them.
 
 ## Worked examples
 
-TODO
+TODO: Add Class G/non-controlled abnormal and emergency scenarios after selecting traffic, fuel, radio and aerodrome assumptions.
 
 ## Cross references
 
@@ -61,4 +66,6 @@ TODO
 
 ## Exam use
 
-TODO
+- Use AIP ENR 1.1 section 9 for non-controlled aerodrome procedures.
+- Use AIP ENR 1.1 section 10.9 for fuel-state declarations.
+- Use Part 91 MOS Table 26.69(7A) for transponder emergency codes.
