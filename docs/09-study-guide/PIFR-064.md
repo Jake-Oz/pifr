@@ -47,7 +47,7 @@ TODO: Add Class G and CTAF broadcast examples after selecting route, aerodrome a
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/airspace-and-radio-procedures.md](modules/airspace-and-radio-procedures.md)
+- Module: [docs/09-study-guide/modules/13-octa-operations.md](modules/13-octa-operations.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

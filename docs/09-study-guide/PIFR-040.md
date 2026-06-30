@@ -47,7 +47,7 @@ TODO: Add alternate suitability examples after selecting aerodrome forecasts, NO
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/alternate-requirements-and-fuel.md](modules/alternate-requirements-and-fuel.md)
+- Module: [docs/09-study-guide/modules/9-ifr-alternate-aerodrome-requirements.md](modules/9-ifr-alternate-aerodrome-requirements.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

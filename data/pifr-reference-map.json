@@ -300,8 +300,9 @@
     "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. This objective combines alternate nomination/suitability, holding substitution and required usable fuel at departure, replanning, continuation, diversion, minimum fuel and emergency fuel decision points."
   },
   "PIFR-044": {
+    "CAR": "CAO 20.9",
     "Exam importance": "Medium",
-    "Notes": "Source gap: the current verified CASA/Airservices source cache contains references to airborne weather radar equipment but not the MOS-listed ground-operation safety precautions themselves. Leave non-MOS references as TODO until a current public CASA or Airservices source is verified."
+    "Notes": "Partial source locator added from user-identified CAO 20.9 for aircraft radar equipment ground-operation safety precautions. TODO: independently verify the current official Federal Register compilation and exact provision before adding safety-distance details or worked examples."
   },
   "PIFR-045": {
     "Part 91": "CASR 91.245, 91.810",

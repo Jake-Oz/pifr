@@ -45,7 +45,7 @@ TODO: Add pre-flight weather-source workflow using NAIPS/AIP/BoM references.
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/flight-planning-and-documentation.md](modules/flight-planning-and-documentation.md)
+- Module: [docs/09-study-guide/modules/5-documentation-for-ifr-flight.md](modules/5-documentation-for-ifr-flight.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

@@ -46,7 +46,7 @@ TODO: Add attitude-indicator error examples only after verifying a public offici
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/gnss-and-instrument-errors.md](modules/gnss-and-instrument-errors.md)
+- Module: [docs/09-study-guide/modules/16-flight-instrument-errors.md](modules/16-flight-instrument-errors.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

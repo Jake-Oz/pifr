@@ -17,8 +17,7 @@ window.PIFR_DATA = {
   "objective_count": 93,
   "status_counts": {
     "Mapped": 67,
-    "MOS only": 1,
-    "Partial": 25
+    "Partial": 26
   },
   "modules": [
     {
@@ -2068,9 +2067,9 @@ window.PIFR_DATA = {
       "module": "10. Operation of aircraft equipment",
       "module_slug": "10-operation-of-aircraft-equipment",
       "exam_importance": "Medium",
-      "status": "MOS only",
+      "status": "Partial",
       "references": {
-        "CAR": "TODO",
+        "CAR": "CAO 20.9",
         "Part 61": "TODO",
         "Part 91": "TODO",
         "Part 91 MOS": "TODO",
@@ -2080,23 +2079,23 @@ window.PIFR_DATA = {
         "TAC reference": "TODO",
         "PCA reference": "TODO"
       },
-      "notes": "Source gap: the current verified CASA/Airservices source cache contains references to airborne weather radar equipment but not the MOS-listed ground-operation safety precautions themselves. Leave non-MOS references as TODO until a current public CASA or Airservices source is verified.",
+      "notes": "Partial source locator added from user-identified CAO 20.9 for aircraft radar equipment ground-operation safety precautions. TODO: independently verify the current official Federal Register compilation and exact provision before adding safety-distance details or worked examples.",
       "study_file": "docs/09-study-guide/PIFR-044.md",
       "study": {
-        "why": "This is a MOS objective, but the current verified CASA/Airservices cache does not yet contain the ground radar safety precautions themselves.",
+        "why": "This is a MOS objective with CAO 20.9 now identified as the likely official locator for aircraft radar equipment ground-operation safety precautions.",
         "study_notes": [
           "The MOS objective remains in scope and traceable.",
-          "Do not fill this from memory or commercial training material.",
-          "The source gap is recorded in the cross-reference gap register until a current public CASA or Airservices source is verified."
+          "Use CAO 20.9 as the first hard-copy/source lookup point for ground radar operation precautions.",
+          "Do not add safety-distance details until the current official Federal Register compilation and exact provision have been independently verified."
         ],
         "common_traps": [
           "Do not confuse airborne weather radar equipment carriage references with ground-operation safety precautions.",
           "Do not invent distance or exposure limits without a verified source."
         ],
-        "worked_examples": "TODO: Add examples only after verifying an official source for radar ground safety precautions.",
+        "worked_examples": "TODO: Add examples only after verifying the exact current CAO 20.9 provision and any stated radar ground-operation safety distances.",
         "exam_use": [
-          "Treat this as a source-gap item for now.",
-          "Use the MOS objective wording as the master scope until a verified public source is found."
+          "For the exam index, start with CAO 20.9 when the question asks about operating aircraft radar equipment on the ground.",
+          "Use the MOS objective wording as the master scope until the exact current CAO 20.9 provision is verified."
         ]
       }
     },
@@ -4348,8 +4347,8 @@ window.PIFR_DATA = {
     },
     {
       "objective": "PIFR-044",
-      "gap": "The current verified CASA/Airservices source cache contains references to airborne weather radar equipment, but not the MOS-listed safety precautions for operating aircraft radar equipment on the ground.",
-      "current_action": "Leave non-MOS references as TODO. Verify a current public CASA or Airservices source before adding ground-radar safety precautions."
+      "gap": "CAO 20.9 has been identified as the likely locator for aircraft radar equipment ground-operation safety precautions, but the current authorised text and exact provision have not yet been independently verified in this repository.",
+      "current_action": "Keep CAO 20.9 as the exam lookup pointer. Verify the current authorised CAO 20.9 document before adding safety-distance details, examples, or answer text."
     },
     {
       "objective": "PIFR-050",

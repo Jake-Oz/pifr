@@ -1005,20 +1005,20 @@ STUDY_CONTENT = {
         ],
     },
     "PIFR-044": {
-        "why": "This is a MOS objective, but the current verified CASA/Airservices cache does not yet contain the ground radar safety precautions themselves.",
+        "why": "This is a MOS objective with CAO 20.9 now identified as the likely official locator for aircraft radar equipment ground-operation safety precautions.",
         "notes": [
             "The MOS objective remains in scope and traceable.",
-            "Do not fill this from memory or commercial training material.",
-            "The source gap is recorded in the cross-reference gap register until a current public CASA or Airservices source is verified.",
+            "Use CAO 20.9 as the first hard-copy/source lookup point for ground radar operation precautions.",
+            "Do not add safety-distance details until the current official Federal Register compilation and exact provision have been independently verified.",
         ],
         "traps": [
             "Do not confuse airborne weather radar equipment carriage references with ground-operation safety precautions.",
             "Do not invent distance or exposure limits without a verified source.",
         ],
-        "examples": "TODO: Add examples only after verifying an official source for radar ground safety precautions.",
+        "examples": "TODO: Add examples only after verifying the exact current CAO 20.9 provision and any stated radar ground-operation safety distances.",
         "exam_use": [
-            "Treat this as a source-gap item for now.",
-            "Use the MOS objective wording as the master scope until a verified public source is found.",
+            "For the exam index, start with CAO 20.9 when the question asks about operating aircraft radar equipment on the ground.",
+            "Use the MOS objective wording as the master scope until the exact current CAO 20.9 provision is verified.",
         ],
     },
     "PIFR-045": {

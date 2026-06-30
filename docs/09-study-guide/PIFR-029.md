@@ -46,7 +46,7 @@ TODO: Add route reporting point example after selecting a sample route.
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/flight-planning-and-documentation.md](modules/flight-planning-and-documentation.md)
+- Module: [docs/09-study-guide/modules/7-selection-of-ifr-routes.md](modules/7-selection-of-ifr-routes.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

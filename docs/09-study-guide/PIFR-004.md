@@ -46,7 +46,7 @@ TODO: Add aircraft panel examples after selecting the aircraft type.
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/aircraft-ifr-equipment.md](modules/aircraft-ifr-equipment.md)
+- Module: [docs/09-study-guide/modules/3-aircraft-instruments-radios-and-equipment.md](modules/3-aircraft-instruments-radios-and-equipment.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

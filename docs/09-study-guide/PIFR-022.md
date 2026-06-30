@@ -47,7 +47,7 @@ TODO: Add day/VMC visual-reference navigation examples after selecting route con
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/navigation-and-lsalt.md](modules/navigation-and-lsalt.md)
+- Module: [docs/09-study-guide/modules/6-ifr-navigation-requirements.md](modules/6-ifr-navigation-requirements.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

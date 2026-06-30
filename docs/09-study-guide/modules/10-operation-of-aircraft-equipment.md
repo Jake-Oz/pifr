@@ -11,15 +11,26 @@
 |PIFR-046|MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.3|Apply altimetry procedures to all stages of an IFR flight.|High|[PIFR-046](../PIFR-046.md)|
 |PIFR-047|MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.4|Describe the correct use of a transponder, and the associated radio phraseology, in all classes of airspace.|High|[PIFR-047](../PIFR-047.md)|
 
-## Official Reference Status
+## Official Reference Locator
 
-|ID|CAR|Part 61|Part 91|Part 91 MOS|AIP|ERSA|Charts|
-|---|---|---|---|---|---|---|---|
-|PIFR-044|TODO|TODO|TODO|TODO|TODO|TODO|TODO; TODO; TODO|
-|PIFR-045|TODO|TODO|CASR 91.245, 91.810|Part 91 MOS sections 10.02(i), 10.03-10.06; Chapter 26 pressure-altitude display requirements in sections 26.08 and 26.12|AIP ENR 1.7 sections 1.1-1.4|TODO|TODO; TODO; TODO|
-|PIFR-046|TODO|TODO|CASR 91.245, 91.287, 91.305|Part 91 MOS sections 10.03-10.06, 11.02 and 14.03|AIP ENR 1.7 sections 1.1-2.2; AIP ENR 1.5 section 5.3; AIP GEN 3.4 section 5.11.3|TODO|TODO; TODO; Part 91 MOS section 1.07 definition of area QNH notes QNH areas are on Planning Chart Australia|
-|PIFR-047|TODO|TODO|CASR 91.810|Part 91 MOS Division 26.16, sections 26.67-26.70, especially 26.68, 26.69 and Tables 26.69(7)-26.69(7A)|AIP ENR 1.6 sections 6.4-6.5 and 7.1; AIP GEN 3.4 section 6.17.6|TODO|TODO; TODO; TODO|
+|ID|CAR|Part 61|Part 91|Part 91 MOS|AIP|ERSA|ERC LOW|TAC|PCA|
+|---|---|---|---|---|---|---|---|---|---|
+|PIFR-044|CAO 20.9|TODO|TODO|TODO|TODO|TODO|TODO|TODO|TODO|
+|PIFR-045|TODO|TODO|CASR 91.245, 91.810|Part 91 MOS sections 10.02(i), 10.03-10.06; Chapter 26 pressure-altitude display requirements in sections 26.08 and 26.12|AIP ENR 1.7 sections 1.1-1.4|TODO|TODO|TODO|TODO|
+|PIFR-046|TODO|TODO|CASR 91.245, 91.287, 91.305|Part 91 MOS sections 10.03-10.06, 11.02 and 14.03|AIP ENR 1.7 sections 1.1-2.2; AIP ENR 1.5 section 5.3; AIP GEN 3.4 section 5.11.3|TODO|TODO|TODO|Part 91 MOS section 1.07 definition of area QNH notes QNH areas are on Planning Chart Australia|
+|PIFR-047|TODO|TODO|CASR 91.810|Part 91 MOS Division 26.16, sections 26.67-26.70, especially 26.68, 26.69 and Tables 26.69(7)-26.69(7A)|AIP ENR 1.6 sections 6.4-6.5 and 7.1; AIP GEN 3.4 section 6.17.6|TODO|TODO|TODO|TODO|
 
-## Source Gaps
+## Source Status Notes
 
-- TODO: Check `docs/08-cross-reference/source-gaps.md` for source limitations before adding explanations or examples.
+- **PIFR-044**: Partial source locator added from user-identified CAO 20.9 for aircraft radar equipment ground-operation safety precautions. TODO: independently verify the current official Federal Register compilation and exact provision before adding safety-distance details or worked examples.
+- **PIFR-045**: Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers the pre-takeoff pressure-altitude system accuracy check when the aircraft is at a known elevation and accurate QNH is available, IFR 60 ft/75 ft tolerances, accurate QNH sources, and site-elevation source requirements.
+- **PIFR-046**: Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers preflight altimeter checks, accurate/local/area QNH, transition altitude and transition level, prohibition on cruising in the transition layer, 1013.2 hPa above transition altitude, QNH below transition altitude, climb/descent setting changes, and QNH sources/minima adjustments for instrument approaches.
+- **PIFR-047**: Verified against current CASR 1998 compilation 101 (F2026C00286), current Part 91 MOS compilation 7 (F2026C00214), and AIP Book Amendment 126 current 19 MAR 2026. Covers approved surveillance equipment, continuous transponder/surveillance operation when required, assigned and standard Mode A codes, emergency codes 7500/7600/7700, altitude reporting, Mode S/ADS-B concepts, operating transponders in Australian airspace, IDENT restrictions, standby/code-change procedures and standard SSR/ADS-B phraseology.
+
+## Study Notes
+
+TODO: Add explanatory notes only after verifying source status and keeping official references separate.
+
+## Exam Use
+
+TODO: Add permitted-reference lookup tactics after the reference source has been verified for each TODO column.

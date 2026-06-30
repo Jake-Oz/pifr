@@ -1137,7 +1137,7 @@
           "objective": "State the safety precautions that must be observed when operating aircraft radar equipment on the ground.",
           "mos_reference": "MOS Schedule 3 Section 2.2 Unit 2.2.1 10.1.1",
           "references": {
-            "CAR": "TODO",
+            "CAR": "CAO 20.9",
             "Part 61": "TODO",
             "Part 91": "TODO",
             "Part 91 MOS": "TODO",
@@ -1148,7 +1148,7 @@
             "PCA reference": "TODO"
           },
           "exam_importance": "Medium",
-          "notes": "Source gap: the current verified CASA/Airservices source cache contains references to airborne weather radar equipment but not the MOS-listed ground-operation safety precautions themselves. Leave non-MOS references as TODO until a current public CASA or Airservices source is verified.",
+          "notes": "Partial source locator added from user-identified CAO 20.9 for aircraft radar equipment ground-operation safety precautions. TODO: independently verify the current official Federal Register compilation and exact provision before adding safety-distance details or worked examples.",
           "study_file": "docs/09-study-guide/PIFR-044.md"
         },
         {

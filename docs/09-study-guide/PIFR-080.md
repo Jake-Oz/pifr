@@ -46,7 +46,7 @@ TODO: Add NDB intercept-heading examples only after verifying a public official 
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/radio-navigation.md](modules/radio-navigation.md)
+- Module: [docs/09-study-guide/modules/15-navigation-systems.md](modules/15-navigation-systems.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

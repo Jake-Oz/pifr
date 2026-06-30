@@ -47,7 +47,7 @@ TODO: Add climatology and seasonal hazard examples only after verifying the allo
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/meteorology.md](modules/meteorology.md)
+- Module: [docs/09-study-guide/modules/14-meteorology-relevant-to-ifr-operations.md](modules/14-meteorology-relevant-to-ifr-operations.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

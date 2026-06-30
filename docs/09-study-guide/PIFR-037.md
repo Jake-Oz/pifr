@@ -47,7 +47,7 @@ TODO: Add proceed/no-proceed uncertain-position examples after selecting exact n
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/navigation-and-lsalt.md](modules/navigation-and-lsalt.md)
+- Module: [docs/09-study-guide/modules/8-lsalt-and-selection-of-ifr-altitudes-and-levels.md](modules/8-lsalt-and-selection-of-ifr-altitudes-and-levels.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

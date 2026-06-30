@@ -45,7 +45,7 @@ TODO: Add staged-flight altimetry examples.
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/aircraft-ifr-equipment.md](modules/aircraft-ifr-equipment.md)
+- Module: [docs/09-study-guide/modules/10-operation-of-aircraft-equipment.md](modules/10-operation-of-aircraft-equipment.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)

@@ -45,7 +45,7 @@ TODO: Add aircraft and endorsement examples after the aircraft example set is se
 
 ## Cross references
 
-- Module: [docs/09-study-guide/modules/ifr-legislation.md](modules/ifr-legislation.md)
+- Module: [docs/09-study-guide/modules/4-ifr-operations-general.md](modules/4-ifr-operations-general.md)
 - Master cross-reference: [docs/08-cross-reference/master-cross-reference.md](../08-cross-reference/master-cross-reference.md)
 - Exam index: [docs/14-exam-index/exam-index.md](../14-exam-index/exam-index.md)
 - Source gaps: [docs/08-cross-reference/source-gaps.md](../08-cross-reference/source-gaps.md)
