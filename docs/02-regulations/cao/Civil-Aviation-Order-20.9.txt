@@ -1,0 +1,767 @@
+Appendix 8 – Civil Aviation Order 20.9
+
+Civil Aviation Order 20.9 (as amended)
+made under subregulation 235 (7) of the Civil Aviation Regulations 1988.
+This compilation was prepared on 11 November 2011 taking into account
+amendments up to Civil Aviation Order 20.9 Amendment Instrument 2011 (No. 2).
+Prepared by the Legislative Drafting Branch, Legal Services Division, Civil Aviation
+Safety Authority, Canberra.
+
+Contents
+Section 20.9 (Air service operations — precautions in refuelling,
+engine and ground radar operations)
+Page
+2 ....... Application ....................................................................................................................... 1
+3 ....... Fuel and oils ..................................................................................................................... 2
+4 ....... Fuelling of aircraft ............................................................................................................ 2
+5 ....... Starting and ground operations of engines ...................................................................... 7
+6 ....... Ground operation of aircraft radar equipment ................................................................. 8
+Appendix I ...................................................................................................................... 10
+Notes to Civil Aviation Order 20.9 .................................................................................. 13
+
+Section 20.9
+Air service operations — precautions in refuelling, engine and ground
+radar operations
+2
+2.1
+
+2.2
+
+Application
+Subject to paragraph 2.2, this section applies to:
+(a) all Australian aircraft operating on aerodromes in Australian territory;
+and
+(b) as far as practicable — all Australian aircraft operating outside Australian
+territory.
+This section does not apply to an aircraft that is being refuelled in accordance
+with:
+(a) section 20.10, except as set out in subparagraph 1A.1 (a) of section 20.10;
+and
+(b) section 20.10.1, except as set out in subparagraph 2.2 (a) of section
+20.10.1.
+
+1
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+
+3
+
+Fuel and oils
+3.1
+
+The pilot in command of an aircraft shall ensure that the aircraft is not flown
+unless the aviation fuel, aircraft engine lubricating oil, aircraft engine power
+augmentation fluid and aircraft hydraulic system fluid used in connection with
+the servicing or operation of the aircraft complies with the specification and
+grade required or approved for the purpose by CASA.
+Note 1 In respect of aircraft engine power augmentation fluid and aircraft hydraulic system
+fluid the specification and grade specified for a particular purpose in a manual or manuals
+promulgated by the aircraft or aircraft engine manufacturer may be considered as having been
+approved by CASA.
+Note 2 The pilot in command may assume that:
+(a) aviation fuel; and
+(b) aircraft engine lubricating oil; and
+(c) aircraft engine power augmentation fluid; and
+(d) aircraft hydraulic system fluid in the aircraft, other than that which he has caused to be
+delivered into the aircraft, complies with the required specification and grade.
+
+3.3
+
+All ground fuel stock shall be carefully checked for the presence of
+undissolved water before the fuelling operation is commenced.
+Note 1 This precaution is particularly important when handling fuel from drum stocks.
+Note 2 Attention is drawn to the necessity of using a positive method, such as suitable
+water-detecting paste or paper, in testing for the presence of free water since sensory
+perceptions of colour and smell, if used alone, can be quite misleading.
+Note 3 In the case of turbine fuels, attention is also drawn to the necessity of watching for
+signs of cloudiness or other indication of the presence of suspended water droplets which will
+not necessarily be detected by the means mentioned in Note 2.
+
+3.4
+
+All fuel shall be strained or filtered for the removal of free or suspended water
+and other contaminating matter before entering the aircraft tanks.
+Note Attention is drawn to the special standards of filtration which may be specified by the
+manufacturers of certain types of engines. e.g. turbine engines and direct-injection piston
+engines.
+
+4
+4.1
+4.1.1
+
+Fuelling of aircraft
+Location of aircraft
+During fuelling operations, the aircraft and ground fuelling equipment shall be
+so located that no fuel tank filling points or vent outlets lie:
+(a) within 5 metres (17 ft) of any sealed building; and
+(b) within 6 metres (20 ft) of other stationary aircraft; and
+(c) within 15 metres (50 ft) of any exposed public area; and
+(d) within 15 metres (50 ft) of any unsealed building in the case of aircraft
+with a maximum take-off weight in excess of 5 700 kg (12 566 lb) and
+(e) within 9 metres (30 ft) of any unsealed building in the case of aircraft
+with a maximum take-off weight not exceeding 5 700 kg (12 566 lb).
+
+2
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+4.1.1.1
+
+4.1.1.2
+
+4.1.2
+
+Notwithstanding the contents of paragraph 4.1.1 limited fuelling operations
+for maintenance purposes may be carried out in certain hangars under the
+following conditions:
+(a) refuelling or defuelling of gasoline or wide-cut gasoline type turbine fuel
+is not permitted;
+(b) overwing fuelling is not permitted;
+(c) these operations shall not be permitted in hangars occupied by 2 or more
+tenants;
+(d) the operator shall obtain approval from CASA for the detailed procedures
+under which these operations may be performed. These procedures shall
+be described in the maintenance manual and shall include the
+circumstances under which refuelling or defuelling in hangars or
+maintenance area is permitted, and the maximum volume of fuel
+involved.
+For the purpose of this Order, a sealed building is one which all the external
+part within 15 metres (50 ft) of an aircraft‟s fuel tank filling points or vent
+outlets or ground fuelling equipment is of non-flammable materials and has no
+openings or all openings are closed.
+Where the fuelling equipment is not mobile, the aircraft shall be so placed that
+it can be rapidly moved to a place of safety, and a means of ensuring that this
+can be done shall be readily available.
+Note The following operations are not deemed to constitute fuelling operations:
+(a) the drainage of a small quantity of fuel from a fuel system drain point;
+(b) the transfer of fuel from tank to tank within an aircraft making use exclusively of lines
+and equipment permanently installed in the aircraft.
+
+4.2
+4.2.1
+4.2.2
+
+Fuelling with passengers on board
+The operator of an aircraft must ensure that avgas is not loaded onto an
+aircraft while passengers are on board, or entering or leaving, the aircraft.
+The operator of an aircraft that has an underwing fuelling system must ensure
+that fuel is not loaded onto the aircraft using this system while passengers are
+on board, or entering or leaving, the aircraft unless the fuel is aviation grade
+turbine fuel that contains anti-static additive or is loaded in the USA and
+meets the ASTM D 1655 standard and the following conditions are satisfied:
+(a) before the fuel is loaded, all persons who may be on board, or entering or
+leaving, the aircraft while the fuel is loaded are told that:
+(i) fuel is to be loaded; and
+(ii) their seat-belts must not be fastened while the fuel is loaded; and
+(iii) they must not smoke, use any electrical equipment (other than
+medical equipment used for treating a patient, the operation of which
+will not affect the safety of any person on board the aircraft) or do
+anything else that might cause fuel vapours to ignite during the
+loading;
+(b) all persons on board, or entering or leaving, the aircraft obey the
+instructions given under sub-subparagraphs (a) (ii) and (iii);
+
+3
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+(c) a cabin crew or flight crew member is appointed to perform the following
+tasks while the fuel is loaded:
+(i) ensure the safety of the passengers;
+(ii) maintain discipline inside the aircraft;
+(iii) supervise any necessary evacuation of the aircraft;
+(d) while the fuel is loaded:
+(i) the aircraft‟s “fasten seat belt” signs are turned off; and
+(ii) the aircraft‟s “no smoking” signs are turned on; and
+(iii) the aircraft‟s emergency lights (if any) are armed;
+(e) while the fuel is loaded, there is at least 1 cabin crew or flight crew
+member on duty in the aircraft:
+(i) for every 72 passengers on board the aircraft; or
+(ii) for every passenger zone in the aircraft in which there are passengers;
+whichever is more;
+(f) while the fuel is loaded, there is at least 1 cabin crew or flight crew
+member on duty by at least 1 exit door of each of the aircraft‟s passenger
+zones in which there are passengers;
+(g) all cabin crew or flight crew members who are on duty in the aircraft
+while the fuel is loaded:
+(i) are prepared for an immediate evacuation; and
+(ii) supervise the passengers during the loading; and
+(iii) ensure that the aisles and exits are unobstructed during the loading;
+(h) the areas outside the aircraft that would be used if the aircraft were
+evacuated are kept clear while the fuel is loaded;
+(k) if the aircraft‟s engine is running — a member of the aircraft‟s flight crew
+is on duty on its flight deck;
+(l) the operator‟s operations manual sets out:
+(i) the responsibilities of members of the operating crew who are on duty
+in the aircraft while fuel is loaded; and
+(ii) procedures for complying with the requirements of this paragraph.
+Note An underwing fuelling system is any system that forms part of the aircraft and that
+allows delivery of fuel to the aircraft without exposing the fuel to the atmosphere during
+delivery.
+
+4.2.3
+
+4.2.4
+
+Subject to paragraph 4.2.4, the operator of an aircraft without an underwing
+fuelling system must ensure that fuel is not loaded on to the aircraft while
+passengers are on board, or entering or leaving, the aircraft.
+The operator of an aircraft that cannot be underwing fuelled may allow fuel to
+be loaded onto the aircraft while a passenger is on board if:
+(a) the passenger‟s medical condition is such that he or she cannot leave the
+aircraft without assistance; and
+(b) the aircraft‟s cabin door is open; and
+(c) the equipment used for loading or unloading passengers (if any) is in
+position at the door; and
+(d) the requirements and conditions set out in paragraph 4.2.2 are satisfied.
+
+4
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+4.2.5
+
+If:
+(a) fuel is being loaded onto an aircraft in accordance with paragraph 4.2.2 or
+4.2.4; and
+(b) either:
+(i) fuel vapour is found inside the aircraft; or
+(ii) for any other reason it is not safe to continue loading the fuel;
+the aircraft‟s operator must ensure that the loading of the fuel stops
+immediately.
+
+4.3
+4.3.1
+
+Aircraft safety precautions during fuelling operations
+All engines in the aircraft, including any auxiliary power units, must be shut
+down, except where CASA is satisfied that the operation of such an engine or
+auxiliary power unit will not present a hazard and where a statement to that
+effect, together with any special conditions for operation, is included in the
+operator‟s operations manual if such a manual is required.
+Note For this paragraph, CASA is satisfied if the aircraft flight manual permits operation of such an
+engine or auxiliary power unit.
+
+4.3.2
+
+4.3.3
+
+4.3.4
+
+When an external electrical supply is used, the connections between that
+supply and the aircraft electrical system shall be made and securely locked
+before the fuelling operation is connected and shall not be disconnected until
+the operation has been completed, except that connectors, which provide
+control to ensure effective engagement before external power can be supplied
+to the aircraft, need not be locked.
+A person shall not, and the pilot in command and the operator shall take
+reasonable steps to ensure that a person does not, during fuelling operations:
+(a) operate or perform maintenance work on the aircraft‟s radar equipment
+except that where the fuel is kerosene, operation or maintenance may be
+carried out provided the radar transmitter is de-activated; or
+(b) except where the fuel involved is kerosene, carry out maintenance on any
+electrical, electronic or radio systems within the aircraft or operate such
+equipment other than the aircraft‟s interior lighting or electrical apparatus
+necessary for the fuelling process.
+For fuelling an aircraft, the following requirements apply:
+(a) before a fuel tank cap is removed, the aircraft and all fuelling equipment
+must be bonded;
+(b) if bonding is lost, fuel transfer must be stopped immediately and not
+resumed until the bond is restored.
+Note Care must be taken before reconnecting the bonding wire to allow for dissipation of
+static electricity that may have built up.
+
+4.3.4A
+
+For paragraph 4.3.4:
+bonded means the aircraft and the fuelling equipment have the same electrical
+potential.
+fuelling includes refuelling and defuelling.
+fuelling equipment includes mobile fuel tankers, in-ground refuel ports, fuel
+bowsers, hand pumps, drums, funnels and other loose items of equipment if
+these are used in the fuelling operation.
+
+5
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+4.3.5
+
+4.3.6
+
+4.3.7
+
+4.3.8
+
+4.4
+4.4.1
+
+4.4.2
+4.4.3
+
+4.4.4
+
+4.4.5
+
+4.4.6
+
+All footwear worn by aircraft servicing personnel and persons operating
+fuelling equipment shall be of a non-sparking type and such persons shall not
+carry any matches, cigarette lighters or other objects which could represent an
+ignition hazard.
+Except where automatic shut-off devices limit the capacity of an aircraft fuel
+tank, the operator and the pilot in command shall ensure that sufficient
+airspace remains in each fuel tank to allow for anticipated fuel expansion.
+When a fuelling operation on an aircraft has been completed, the pilot in
+command and the operator of the aircraft shall ensure that all fuel and oil tank
+caps are securely refitted.
+Aircraft oil tanks shall not be drained or filled when the aircraft is inside a
+hangar or other building unless the oiling equipment used complies with the
+provisions of Appendix I to this Order.
+Safety precautions external to an aircraft during fuelling operations
+The area in which fuelling operations are carried out shall be clearly placarded
+as a „No Smoking‟ area and the limits of this area shall be a sealed building or
+at least 15 metres (50 ft) from the aircraft or ground fuelling equipment.
+Where mobile fuelling equipment is used, the equipment shall be so placed
+that it can be rapidly moved in the event of fire.
+A person shall not, and the pilot in command and the operator shall take
+reasonable steps to ensure that a person does not, during fuelling operations:
+(a) smoke or use a naked flame within 15 metres (50 ft) of the aircraft and
+ground fuelling equipment; or
+(b) except in the case of aircraft, operate an internal combustion engine or
+any electrical switch, battery, generator, motor or other electrical
+apparatus within 15 metres (50 ft) of the aircraft‟s fuel tank filling points
+or vent outlets, and ground fuelling equipment unless the engine, switch,
+generator, motor or apparatus complies with the provisions of Appendix I
+to this Order and has been inspected.
+At least 2 fire extinguishers of approved type and capacity must be positioned:
+(a) within 15 metres, but not less than 6 metres, from the aircraft and the
+fuelling equipment; or
+(b) carried on the fuelling equipment.
+If the fire extinguishers are carried on the fuelling equipment, they must:
+(a) be fitted with quick release brackets; and
+(b) be readily available from either side of the equipment; and
+(c) be located as far as practicable from the vehicle fuel tanks and fuelling
+points.
+For paragraph 4.4.4 and 4.4.5, the fire extinguishers may be:
+(a) 60B dry powder fire extinguishers; or
+(b) an 80B dry powder fire extinguisher and a 20B foam extinguisher; or
+(c) other fire extinguishers approved by CASA.
+Note The use of 2 carbon dioxide extinguishers, each with a minimum capacity of 4.5 kg
+(10 lb), is acceptable for this purpose. Extinguishers of other types and capacities may be
+approved on application to CASA.
+
+6
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+4.5
+4.5.1
+
+4.5.2
+4.5.3
+
+4.7
+
+5
+
+Action in the event of a fire hazard
+A fuelling operation shall be suspended and the Airport Fire Service notified
+when any fuel of a quantity likely to create a fire hazard is spilled on or within
+15 metres (50 feet) of the aircraft or ground fuelling equipment, including the
+bilge of a fuelling barge, and the operation shall not recommence until the fire
+hazard is removed.
+A fuelling operation shall be stopped as soon as it becomes apparent that an
+infringement exists of any of the relevant requirements of this Order.
+When any fuel of a quantity likely to create a fire hazard is spilled on or
+within 15 metres (50 ft) of the aircraft or ground fuelling equipment, the pilot
+in command or, in his absence, the operator shall ensure that:
+(a) passengers remaining on board or in the process of embarking or
+disembarking are removed to a point at least 15 metres (50 ft) from the
+spilled fuel; and
+(b) mobile power units, vehicles and power operated loading devices
+operating within 15 metres (50 ft) of the spilled fuel are shut down; and
+(c) maintenance work of any nature on or within the aircraft is suspended and
+not recommenced until the spilled fuel has been removed.
+In this subsection:
+cabin crew member means a person who:
+(a) is a member of the operating crew, but not the flight crew, of an aircraft;
+and
+(b) may be assigned to emergency duties in the aircraft under subsection 12
+of section 20.11 of the Civil Aviation Orders.
+passenger zone in relation to an aircraft, means an area within the aircraft
+which has:
+(a) seats for 72 or less passengers; and
+(b) an exit.
+
+Starting and ground operations of engines
+5.1
+
+5.1.1
+
+5.1.2
+
+5.1.3
+
+5.1.4
+
+The pilot in command or in his absence any other person responsible for
+starting or ground operation of an aircraft shall ensure that:
+In the case of land aircraft, passenger loading equipment to permit rapid
+evacuation of passengers and crew is kept immediately available during the
+starting of engines.
+In the case of seaplanes, water transport of a capacity sufficient to enable rapid
+evacuation of passengers and crew is immediately available during the starting
+of engines.
+Where any fuel or other flammable material is spilled within 15 metres (50 ft)
+of an aircraft, the aircraft engines shall not be started or operated until the fire
+hazard has been removed.
+An aircraft engine shall not be started or operated:
+(a) within 5 metres (17 ft) of any sealed building; or
+(b) within 8 metres (25 ft) of other aircraft; or
+
+7
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+(c) within 15 metres (50 ft) of any exposed public area; or
+(d) within 15 metres (50 ft) of any unsealed building in the case of an aircraft
+with a maximum take-off weight exceeding 5 700 kg (12 566 lb); or
+(e) within 8 metres (25 ft) of any unsealed building in the case of an aircraft
+with a maximum take-off weight not exceeding 5 700 kg (12 566 lb);
+and turbine engines, in addition, shall not be operated within the appropriate
+distance specified below of any other aircraft, fuelling equipment or exposed
+public areas which lie to the rear of and within a 15 degree arc either side of
+the exhaust outlet axis of that engine:
+Engine type
+
+Power condition
+
+Minimum distance
+metres
+
+Turbo-prop
+
+At or below normal slow taxiing
+power
+At power used to initiate
+movement of a stationary aircraft
+At or below normal slow taxiing
+thrust
+At thrust used to initiate
+movement of a stationary aircraft
+
+15 (50 ft)
+
+Turbo-jet
+
+23 (75 ft)
+30 (100 ft)
+46 (150 ft)
+
+Note Fuelling equipment does not include equipment and outlet points of an installation
+located below ground level when the equipment is stowed and covering hatches are in place.
+
+5.2
+
+5.3
+
+6
+
+The operator of an aircraft shall ensure that all persons who may be required
+to start the engine of the aircraft are familiar with the method of operation of
+any installed engine nacelle fire extinguishing equipment.
+The pilot in command and the operator shall ensure that passengers do not
+embark or disembark or that freight is not loaded or unloaded from the aircraft
+whilst an engine of the aircraft is operating unless the passengers and/or the
+loading personnel have been given instruction and guidance to protect them
+from injury as a consequence of engine operation.
+
+Ground operation of aircraft radar equipment
+6.1
+6.2
+
+6.2.1
+
+The requirement of this subsection shall apply to all radar equipment with a
+nominal peak power output rating in excess of 25 kW.
+During all ground operation, including testing and maintenance of aircraft
+radar equipment, the operator and person in charge of such equipment shall
+ensure that:
+The equipment is not energised in its normal mode (antenna rotating) unless
+the sector area scanned by the radar beam is clear of the following objects to a
+distance of 37 metres (120 ft) from the antenna:
+(a) aircraft being refuelled or defuelled;
+(b) fuel tankers, fuel tanks or fuel storage areas;
+(c) persons or cargo;
+(d) any other aircraft or aircraft hangar.
+
+8
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+Note For each radar installation the sector area should be defined in terms of readily
+distinguishable dimensions preferably related to some feature of the aircraft and should appear
+in the Aircraft Maintenance Manual.
+
+6.2.2
+
+6.2.3
+
+6.2.4
+
+6.2.5
+
+The equipment is not energised with the antenna stationary and the beam
+directed towards any of the objects specified in paragraph 6.2.1 unless the
+distance separating them from the antenna is in excess of 60 metres (200 ft).
+The distance specified in paragraphs 6.2.1 and 6.2.2 may be reduced by
+75 per cent when an approved beam attenuating device is used between the
+antenna and any object specified in paragraph 6.2.1.
+The equipment is not energised in any radiating mode of operation when the
+aircraft in which the equipment is fitted is in a hangar or other enclosure
+unless a suitable microwave energy absorbing shield is fitted over the antenna.
+The equipment is not to be operated in any aircraft which is being refuelled or
+defuelled.
+Note During all testing of aircraft radar equipment the beam should, whenever possible, be
+directed with maximum upward tilt toward a clear area.
+
+9
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+Appendix I
+Fire safety requirements to be met by mechanical and electrical
+equipment within 15 metres (50 ft) of an aircraft's fuel tank filling points
+and vent outlets during fuelling operations
+1
+1.1
+
+1.2
+2
+
+Application
+The requirements of this Appendix are applicable to all mechanical and
+electrical equipment used within 15 metres (50 ft) of an aircraft‟s fuel tank
+filling points and vent outlets during fuelling operations.
+Compliance with these requirements is the responsibility of the operator of the
+equipment.
+Vehicles and plant
+Note Because a higher standard of safety can be more readily achieved on diesel engines
+than petrol engines, it is recommended that diesel engines be used on all vehicles, pumping
+plants, etc., used within 15 metres (50 ft) of an aircraft‟s fuel tank filling points and outlet
+vents during fuelling operations.
+
+2.1
+
+2.2
+
+All equipment shall be of good automotive design, and shall receive proper
+maintenance to ensure that it is kept in good state of repair. All reasonable
+means shall be taken to limit the hazard from fire. Particular attention shall be
+given to possible sources of ignition such as:
+(a) incandescent carbon or naked flame which could be emitted from the
+engine or associated equipment; and
+(b) arcing between metallic parts of electrical circuits and components
+caused by:
+(i) operation of switch contacts; and
+(ii) faulty cable terminations; and
+(iii) breakdown of electrical insulation; and
+(iv) moving contacts or rotary electrical equipment; and
+(v) accidental short circuiting or open circuiting; and
+(c) exposure of hot parts to combustible matter; and
+(d) overheating of working parts to the ignition temperature of any
+combustible matter in the vicinity of the engines.
+Parts of the equipment requiring attention are:
+(a) fuel system; and
+(b) exhaust system; and
+(c) electrical system.
+
+2.2.1 Fuel system
+The carburettor air intake shall be fitted with a flame arrestor, such as a
+backfire non-return valve, or an efficient baffled and screened air cleaner.
+The fuel tank shall be securely mounted, and the tank and its filler shall be
+positioned so that fuel cannot be inadvertently spilled on the engine, its
+exhaust, electrical and ignition system.
+Fuel tank filling openings shall be fitted with well fitting caps.
+
+10
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+Liquefied petroleum gas systems shall comply with Australian Standard 1425
+and Australian Standard CB20, but excess flow valves and non-return valves
+shall be fitted irrespective of size of tank.
+2.2.2 Exhaust System
+The exhaust system shall be provided with means to prevent hazardous
+emission of incandescent carbon or naked flame. Baffled standard vehicle
+mufflers, of good automotive design, and in good condition are acceptable.
+2.2.3 Electrical System
+Standard vehicle wiring shall be maintained in good condition. All additional
+equipment such as obstruction lights, shall have wires and cables well
+supported, with insulating grommets fitted wherever they pass through metal
+panels. Equipment shall be suitably insulated and mechanically protected to
+prevent breakdown during use.
+Batteries shall be suitably covered to prevent accidental shorting of cells and
+shall be provided with adequate means of natural ventilation.
+3
+
+Fuelling vehicles and plant
+Aircraft fuelling vehicles and plant shall comply with the following:
+(a) be fitted with an isolation switch between the battery and electrical
+services;
+(b) the engine exhaust outlet to be remote from the fuelling equipment;
+(c) all electrical wiring to the rear of the vehicle cab shall be mechanically
+protected;
+(d) exposed electrical terminals shall be protected by insulating boots or
+covers;
+(e) generators, motors, switches and relays shall be of a type which will
+prevent emission of hazardous sparks.
+
+4
+
+Electrical equipment
+4.1 Equipment above ground level
+All fixed and portable electrical equipment (other than vehicular) shall be of
+the same requirements as the SAA requirements as for equipment operated in
+Class 1, Division 2 locations, as specified in the SAA Wiring Rules, Part 1,
+except that arc-producing devices such as switches, contactors, etc., which are
+not operated during fuelling or defuelling operations need not to conform to
+the requirements for this class of equipment. The controls of all arc-producing
+devices which do not meet the requirements for Class 1, Division 2 locations
+shall be clearly labelled so that there is no doubt that they are not to be
+operated during fuelling operations.
+4.2 Equipment below ground level
+Electrical equipment located below the general ground level of the apron
+(such as apron power outlets, pump control switches, etc.) shall comply with
+the SAA requirements for equipment operated in Class 1, Division 1 locations.
+
+11
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+4.3 Cables
+(a) All cables carrying electrical current at potentials up to 250 volts with
+respect to earth shall be required to have 250 volt grade insulation and
+shall be protected by a plastic sheath resistant to attack by fuel and oil.
+(b) All cables situated in areas traversed by vehicles, hand-carts and the like
+shall be suitably protected against mechanical damage. In no case shall
+this protection be of a lower standard than that provided by hardwood
+troughing with the dimensions by 2W and 3D where W and D are
+respectively width and depth of the cable space where W is not less than
+D.
+(c) Where the use of trailing cables is permitted as a temporary measure, The
+appropriate placement of wooden or other suitable portable barriers may
+be used as an alternative to wooden troughing described in paragraph
+4.3 (b) to guard against damage by vehicles and to ensure the safety of
+pedestrians.
+4.4 Protective devices
+All fuses and overload protective devices shall be hermetically sealed and
+protected by a general purpose enclosure.
+4.5 Batteries
+All batteries shall be suitably covered to prevent accidental shorting of cells
+and shall be provided with adequate means of natural ventilation.
+4.6 Protection from breakdown in service
+(a) All electrical equipment shall be suitably insulated and mechanically
+protected to prevent breakdown whilst in use.
+(b) All connections shall be secured with spring or lock washers to prevent
+accidental loosening of connections whilst in use.
+
+12
+Federal Register of Legislative Instruments F2011C00881
+
+Civil Aviation Order 20.9
+
+Notes to Civil Aviation Order 20.9
+Note 1
+The Civil Aviation Order (in force under the Civil Aviation Regulations 1988) as shown in this
+compilation comprises Civil Aviation Order 20.9 amended as indicated in the Tables below.
+Table of Orders
+Year and
+number
+
+Date of notification
+in Gazette/
+registration on FRLI
+
+Date of
+commencement
+
+CAO 2004 No.
+R10
+CAO 20.9 2005
+No. 1
+
+8 December 2004 (see
+F2005B00787)
+FRLI 6 January 2006 (see
+F2006L00094)
+
+8 December 2004
+(see s. 2)
+7 January 2006 (see
+s. 2)
+
+CAO 20.9 2010
+No. 1
+
+FRLI 2 March 2010 (see
+F2010L00542)
+
+3 March 2010 (see
+s. 2)
+
+CAO 20.9 2011
+No. 1
+
+FRLI 15 July 2011 (see
+F2011L01503)
+
+16 July 2011 (see
+s. 2)
+
+CAO 20.9 2011
+No. 2
+
+FRLI 9 November 2011 (see
+F2011L02289)
+
+10 November 2011
+(see s. 2)
+
+Application,
+saving or
+transitional
+provisions
+
+Table of Amendments
+ad. = added or inserted
+
+am. = amended
+
+rep.= repealed
+
+rs. = repealed and substituted
+
+Provision affected
+
+How affected
+
+s. 20.9
+
+rs. 2004 No. R10
+
+subs. 3
+
+am. CAO 20.9 2011 No. 2
+
+subs. 4
+
+am. CAO 20.09 2005 No. 1; CAO 20.9 2010 No. 1;
+CAO 20.9 2011 No. 1
+
+13
+Federal Register of Legislative Instruments F2011C00881
+
+

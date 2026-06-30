@@ -300,9 +300,9 @@
     "Notes": "Verified against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. This objective combines alternate nomination/suitability, holding substitution and required usable fuel at departure, replanning, continuation, diversion, minimum fuel and emergency fuel decision points."
   },
   "PIFR-044": {
-    "CAR": "CAO 20.9",
+    "CAR": "CAO 20.9 section 6, especially 6.2.1-6.2.5 (Federal Register compilation F2011C00881, prepared 11 Nov 2011)",
     "Exam importance": "Medium",
-    "Notes": "Partial source locator added from user-identified CAO 20.9 for aircraft radar equipment ground-operation safety precautions. TODO: independently verify the current official Federal Register compilation and exact provision before adding safety-distance details or worked examples."
+    "Notes": "Verified against supplied Civil Aviation Order 20.9 compilation F2011C00881, section 6 Ground operation of aircraft radar equipment. Section 6.2 applies to radar equipment with nominal peak power output above 25 kW and covers 37 m rotating-antenna clearance, 60 m stationary-beam clearance, 75% reduction with approved beam attenuating device, hangar/enclosure shielding, and prohibition on operation in aircraft being refuelled or defuelled. TODO: independently verify whether F2011C00881 remains the current authorised compilation before marking currency complete."
   },
   "PIFR-045": {
     "Part 91": "CASR 91.245, 91.810",
