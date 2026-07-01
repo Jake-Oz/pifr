@@ -21,6 +21,7 @@ NDB range and indication errors are directly examinable, and CASA's NDB/ADF oper
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on Non-Directional Beacons (NDB) and Associated Automatic Direction Finding (ADF), sections 4.1-4.7|
 
 ## Official reference status
 

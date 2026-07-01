@@ -21,6 +21,7 @@ Fixing position from two NDB relative bearings links the official positive-fix r
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, sections 5.1 and 5.3|
 
 ## Official reference status
 

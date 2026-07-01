@@ -21,6 +21,7 @@ Intercepting the desired inbound track before reaching an NDB is a specific tech
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, section 5.5|
 
 ## Official reference status
 

@@ -1814,10 +1814,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on VHF Omni Range (VOR), sections 3, 4, 5.2, 5.3 and 6"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover VOR as a ground-based navigation aid, VOR/DME distance reporting, track-keeping precision, position fixing and VOR CDI deviation reporting. Specific VOR cockpit indications for scalloping, station passage, abeam indication, radial identification, track error and drift remain TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA VOR operational notes, last updated 24 Aug 2005 and published by CASA as reference material, support VOR cockpit indications for radial identification, TO/FROM use, station passage, track error/drift, scalloping and abnormal deviation-indicator movement. CASA warns the notes are old and unedited; use as CASA guidance, not current regulation.",
           "study_file": "docs/09-study-guide/PIFR-070.md"
         },
         {
@@ -1862,10 +1863,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on VHF Omni Range (VOR), sections 3, 4 and 6"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover VOR tracking, VOR precision order and CDI deviation thresholds. OBS command-indication settings for tracks to and from a VOR remain TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, and CASA VOR operational notes. CASA VOR notes support OBS-centred indications, TO/FROM ambiguity resolution and inbound/outbound track use. CASA warns the notes are old and unedited; use as CASA guidance, not current regulation.",
           "study_file": "docs/09-study-guide/PIFR-072.md"
         },
         {
@@ -1886,10 +1888,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on VHF Omni Range (VOR), section 4"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources require positive action to regain track and identify VOR as a permitted ground-based navigation aid. Heading-to-steer and VOR intercept calculation method remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, and CASA VOR operational notes. CASA VOR notes support inbound and outbound VOR track interception, including OBS selection, TO/FROM expectation, deviation-indicator closure and intercept-heading selection by position visualisation. CASA warns the notes are old and unedited; use as CASA guidance, not current regulation.",
           "study_file": "docs/09-study-guide/PIFR-073.md"
         },
         {
@@ -1910,10 +1913,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on VHF Omni Range (VOR), sections 1, 3, 4 and 6"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 states that a positive fix may be determined by the intersection of two or more position lines from VOR, localiser, NDB or DME in combination. Cockpit-indication plotting method using 2 VORs remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, and CASA VOR operational notes. AIP ENR 1.1 section 4.5 supports positive fixes by intersecting position lines. CASA VOR notes support VOR radial/position-line interpretation, but complete two-VOR plotting worked examples remain TODO until exact chart/aids and geometry are selected.",
           "study_file": "docs/09-study-guide/PIFR-074.md"
         },
         {
@@ -1934,10 +1938,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on VHF Omni Range (VOR), sections 1, 3, 4 and 6; CASA Operational Notes on NDB and ADF, sections 3 and 5"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, with NDB range limits for NDB-only fixes. Detailed cockpit-indication fixing methods remain TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, CASA VOR operational notes and CASA NDB/ADF operational notes. AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, with NDB range limits for NDB-only fixes. Mixed-aid worked examples remain TODO until exact chart/aids and geometry are selected.",
           "study_file": "docs/09-study-guide/PIFR-075.md"
         },
         {

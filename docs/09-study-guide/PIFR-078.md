@@ -21,6 +21,7 @@ ADF relative-bearing interpretation is core cockpit technique for recognising be
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, sections 3, 5.1, 5.3 and 5.4|
 
 ## Official reference status
 

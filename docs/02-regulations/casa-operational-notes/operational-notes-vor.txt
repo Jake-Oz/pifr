@@ -1,0 +1,574 @@
+Operational Notes on VHF Omni Range (VOR)
+Contents
+
+Disclaimer
+These notes are a reproduction of a booklet originally published by the Civil
+Aviation Authority. Although these notes are no longer in print, they continue to
+provide a valuable resource and are made available as reference material for
+students, pilots and instructors. The notes have not been edited, and as they
+were written 20 or more years ago, may contain information relating to systems
+that are no longer in production or have been modernised.
+
+1.
+2.
+3.
+4.
+5.
+
+Introduction .................................................................................................1-1
+Principle of Operation .................................................................................2-1
+Airborne Equipment ....................................................................................3-1
+Operational Use..........................................................................................4-1
+VOR Errors .................................................................................................5-1
+5.1
+Ground Station Error ...........................................................................5-2
+5.2
+Site Effect Error ...................................................................................5-3
+5.3
+Vertical Polarisation (Attitude Effects)..................................................5-4
+5.4
+Airborne Equipment Error ....................................................................5-5
+5.5
+Aggregate Error ...................................................................................5-6
+6. Summary ....................................................................................................6-1
+
+i
+
+Operational Notes on VHF Omni Range (VOR)
+1. Introduction
+1.
+
+Introduction
+
+The VHF Omni-directional Radio Range, the abbreviations for which
+are ‘VOR’ and ‘Omni’, enables a pilot to determine the direction of his
+aircraft from any position to or from a VOR beacon, and, if necessary,
+track to or from the beacon on a selected bearing. VOR is a Very High
+Frequency (VHF) navigation aid which operates, in Australia, in the
+112.1 to 117.9 megacycles (mcs) frequency band. Because it is a VHF
+aid, its ground to air range is limited to ‘line of sight’ reception which is
+typical of VHF transmission. The range achieved is dependent,
+therefore, on the siting of the VOR beacon with relation to surrounding
+terrain, and on the height at which the aircraft is flying. (See Figure 1).
+
+Figure 1. The VHF Omni-directional Radio Range
+As a VHF navigation aid, the VOR is static-free, and the information
+given by it is displayed visually on easily read and interpreted cockpit
+instruments. An infinite number of bearings can be obtained and they
+may be visualized as radiating from the beacon like spokes from the
+hub of a wheel. However, for practical purposes the number of
+bearings can be considered to be limited to 360, one degree apart,
+and these 360 bearings are known as radials. A Radial is identified by
+its magnetic bearing outbound from the VOR beacon.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+1-1
+
+Operational Notes on VHF Omni Range (VOR)
+2. Principle of Operation
+2.
+
+Principle of Operation
+
+The basic principle on which a VOR operates can be understood from
+a study of a simple analogous optical system which is illustrated at
+Figure 2. Assume that there are two lights located at the same
+position, one of which is a rotating green light which is only seen when
+the beam is directed at an observer, and the other a white light which
+is visible from all directions. The green light rotates at 10 degrees per
+second, that is, it completes a revolution in 36 seconds, and, when it is
+directed to magnetic north, it trips a switch to cause the white light to
+flash momentarily. An observer with a stop watch can note the time
+interval between a white flash and the next green flash, and, knowing
+the angular rate of the rotating green light, can determine his bearing
+from the lights. For example, if the observer sees the green light 10
+seconds after a white flash, then the observer is on a bearing of 100°
+magnetic from the lights, that is, the 100° radial. The observer’s
+bearing to the lights is, of course, the reciprocal of 100°, viz., 280°.
+
+Figure 2. Analogous Optical System
+
+Ø
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+2-1
+
+Operational Notes on VHF Omni Range (VOR)
+2. Principle of Operation
+Instead of light signals, the VOR beacon transmits two VHF radio
+signals from the same facility. One of these signals, analogous to the
+white light, called the reference phase, is omni-directional and radiates
+from the station in a circular pattern. The phase of this signal is
+constant through 360° of azimuth. The other signal, analogous to the
+green light, is transmitted as a rotating field. This signal pattern rotates
+uniformly at 1800 r.p.m., varies in phase with azimuth, and is called
+the variable phase. Therefore, there is a different phase of this signal
+at each separate point around the station.
+Magnetic north is used as the baseline for measuring the phase
+relationship between the reference and variable signals. The two
+signals are aligned so that at magnetic north they are exactly in phase.
+As can be seen in Figure 3, a phase difference, which is analogous to
+the time difference between the white flash and sighting the green
+light, exists at any other point of azimuth around the beacon. This
+phase difference is measured electronically and converted to degrees
+of angle by the aircraft airborne equipment thus identifying the aircraft
+position in azimuth around the beacon. The information is presented
+visually by an indicator on the instrument panel.
+An identification signal of two or three Morse Code letters is
+transmitted by the VOR beacon every ten seconds. It is also possible
+to transmit voice identification or other information, that is,
+meteorological information.
+
+Ø
+
+2-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+2. Principle of Operation
+
+Figure 3. VOR Phase Angle Relationships
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+2-3
+
+Operational Notes on VHF Omni Range (VOR)
+3. Airborne Equipment
+3.
+
+Airborne Equipment
+
+There are many different types of airborne equipment of different
+degrees of complexity available. However, all equipments have the
+following component parts, viz., an Antenna, a Control Box, a
+Receiver, and Navigation Circuits, (including Visual Indicator). In this
+section it is intended to deal with the airborne equipment in a general
+manner to describe basic principles of function and operation. Pilots
+should study the manuals applicable to the particular equipment they
+may be required to use. More detailed general information on the
+operation of airborne equipment is contained in Appendix 2.
+The Antenna is a V-type dipole antenna.
+The Control Box contains an ON-OFF switch, a frequency selector or
+tuner, and an aural volume control. The volume control regulates only
+the intensity of the signals going into the headset or the loudspeaker.
+The Receiver is a conventional superheterodyne receiver.
+The Navigation Circuits take the signals from the receiver, and
+measure the phase angle difference between the reference signal and
+the variable signal. As the phase angle difference is a definite fixed
+amount for each radial, it is therefore possible to determine the
+bearing of the aircraft from the VOR beacon, and this information can
+be presented visually. Similarly, if the equipment can be adjusted to a
+desired bearing (or phase angle difference) and indicate the
+relationship of the aircraft to the bearing and when the aircraft has
+reached the bearing, it is possible to preset tracks and then fly to and
+continue along them. The visual indicators comprise a manually
+operated Omni Bearing Selector, a Deviation Indicator, and a
+TO/FROM Indicator, and these are normally combined in one
+instrument known as an Omni Bearing Indicator. The information
+available from the navigation circuits is presented on the Deviation
+Indicator and the TO/FROM Indicator with relation to the setting of the
+Omni Bearing Selector. Information derived from the VOR may also be
+presented on a Radio Magnetic Indicator.
+A block diagram of the airborne equipment is shown at Figure 4 and
+an Omni Bearing Indicator is illustrated at Figure 5.
+
+Ø
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+3-1
+
+Operational Notes on VHF Omni Range (VOR)
+3. Airborne Equipment
+
+Figure 4. Block diagram of VHF omnirange receiver
+
+Figure 5. Omni Bearing Indicator
+
+
+
+3-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+4. Operational Use
+4.
+
+Operational Use
+
+The VOR enables a pilot to select, identify, and locate a line of
+position from a particular VOR beacon. The following information can
+be obtained:
+z
+
+The magnetic bearing of the aircraft from the VOR beacon
+
+z
+
+The magnetic bearing from the aircraft to the VOR beacon
+
+z
+
+z
+
+z
+
+The position of the aircraft, that is, port or starboard, of a selected
+radial
+When the aircraft is closing and when it is flying along a selected
+radial
+When the aircraft passes over the VOR beacon.
+
+All the procedures detailed in this section are applicable to aircraft
+fitted with an Omni Bearing Indicator.
+Tuning and Orientation
+To tune the VOR equipment, turn on the power switch, select the
+required frequency, and adjust the volume until the VOR beacon aural
+identification signal can be clearly heard and identified as the
+required beacon. Ensure that the OFF alarm flag has disappeared as
+this indicates that the visual indicators are serviceable. Now turn the
+Omni Bearing Selector (OBS) until the Deviation Indicator is centred
+and TO is shown by the TO/FROM indicator. The bearing then shown
+in the Bearing Selector Window is the magnetic bearing to the VOR
+beacon.
+Homing Directly to the VOR Beacon
+After orienting the aircraft as detailed above, turn the aircraft onto the
+magnetic heading shown in the Bearing Selector Window and then,
+changing heading as necessary, maintain the Deviation Indicator in
+the central position. With the TO/FROM Indicator showing TO, the
+aircraft heading should be changed toward the Deviation Indicator to
+re-centre it if it deviates from the central position as the Deviation
+Indicator shows the position of the Radial relative to the aircraft
+position. If a cross-wind component exists, this will be indicated by the
+
+Ø
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-1
+
+Operational Notes on VHF Omni Range (VOR)
+4. Operational Use
+Deviation Indicator’s moving to the side from which the wind is
+blowing. The drift angle is the difference between the aircraft heading
+necessary to maintain the Deviation Indicator in the central position,
+and the bearing being maintained.
+Note: The Radial is the reciprocal of the bearing being
+maintained (see Figure 6).
+Continue flying with the Deviation Indicator central along the bearing
+towards the VOR beacon until the Deviation Indicator swings from side
+to side. The aircraft is now over the VOR beacon, and, if flight is
+continued on the same heading the Deviation Indicator will return to
+the central position and the TO/FROM indicator will show FROM.
+
+Figure 6. Homing Directly to the Beacon
+
+Ø
+
+4-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+4. Operational Use
+
+Interception of an Inbound Track
+Tune and identify the required VOR beacon and orient the aircraft to
+ascertain the magnetic bearing of the aircraft to the beacon. Then
+rotate the OBS until the required inbound track is shown in the Bearing
+Selector Window. The TO indicator should then be visible (If FROM
+appears, either the wrong track has been set or the aircraft is on the
+other side of, or has passed the beacon—see Interception of an
+Outbound Track). The aircraft should then be turned in the direction of
+the Deviation Indicator on to a suitable intercept heading, which is
+determined from the position of the aircraft as visualised from the
+information available from the orientation. Closure of the required track
+is shown by the Deviation Indicator moving towards the central
+position, and when this occurs, the aircraft should be turned onto the
+same heading as the required inbound track (see Figure 7). The track
+should be maintained as described in Homing Directly to the VOR
+Beacon.
+
+Figure 7. Intercepting a Track Inbound
+
+Ø
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-3
+
+Operational Notes on VHF Omni Range (VOR)
+4. Operational Use
+
+Interception of an Outbound Track
+The procedure for intercepting an outbound track differs from the
+procedure for intercepting an inbound track only in that FROM rather
+than TO appears in the TO/FROM Window (see Figure 8).
+
+Figure 8. Intercepting a Track Outbound
+
+Ø
+
+4-4
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+4. Operational Use
+
+Figure 9. Orienting the Aircraft to Intercept a Track
+NOTE: If, when orienting the aircraft to intercept an inbound or
+an outbound track it is found that the aircraft is on a
+bearing which is 90 degrees or more removed from the
+required track, then the TO/FROM indications as specified
+in the paragraphs Interception of an Inbound Track and
+Interception of an Outbound Track, will not apply until the
+aircraft is within a sector 90 degrees on either side of the
+required track (see Figure 9).
+
+Holding
+When holding in the conventional racetrack pattern, it must be
+appreciated that the outbound leg of the pattern is not via a radial, but
+parallel to and on the reciprocal track to the inbound leg which is
+
+Ø
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-5
+
+Operational Notes on VHF Omni Range (VOR)
+4. Operational Use
+almost invariably on a designated radial. Therefore on reaching the
+holding point to commence the pattern, the inbound track is set by the
+OBS, and this setting is retained while flying in the holding pattern.
+This setting will provide information to intercept the inbound track
+when turning inbound at the end of the outbound leg.
+Instrument Descent Procedure
+After passing over the station, set the OBS to the published outbound
+track and fly this track outbound, descending if necessary, until the
+commencement of the procedure turn. During the procedure turn, set
+the OBS to the published inbound track. Intercept this track and
+continue descent to the minimum altitude, maintaining the inbound
+track by reference to the Deviation Indicator. If a missed approach is
+necessary, carry out the missed approach in the manner specified in
+the missed approach procedure, and if a change of track is prescribed,
+re-set the OBS to the required track at the point specified for change
+of track in the procedure.
+
+
+
+4-6
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+5. VOR Errors
+5.
+
+VOR Errors
+
+Errors are likely to exist in any VOR system due to a number of
+causes. These include ground station error, site effect error, error due
+to vertical polarisation effects and airborne equipment error. The
+algebraic sum of all these errors is known as the aggregate error.
+Each of these errors will be explained individually to give a better
+understanding of the limitations of the system, although, from an
+operational view point, the pilot is concerned primarily with the
+aggregate error.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-1
+
+Operational Notes on VHF Omni Range (VOR)
+5. VOR Errors
+5.1 Ground Station Error
+5.1
+
+Ground Station Error
+
+This is a systematic error associated with the transmitter, aerial and
+earth systems and power supply that is with the actual ground
+equipment. Error on a particular bearing is very small, and is plotted
+accurately on commissioning. It is similar to quadrantal error in an
+airborne ADF system. Ground station error, in practice, is usually less
+than ± 2°.
+
+
+
+5-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+5. VOR Errors
+5.2 Site Effect Error
+5.2
+
+Site Effect Error
+
+There are, superimposed on the ground station error, site effects
+which are due to topographical features near the ground station.
+These site effects modify the ground station errors. The combined
+effect of these errors are determined at various altitudes at the time of
+commissioning and the overall error must be less than ± 3°.
+Terrain effects caused by the VOR radials being distorted by signals
+reflected from rough terrain may be experienced under certain
+circumstances. These effects are evidenced in the form of slow or
+quick oscillations of the deviation indicator. The VOR track is said to
+band or scallop depending on the rate of oscillation. Bends on VOR
+radials normally do not exceed 2° from the average alignment of the
+track and the scalloping amplitude must be less than ± 2°.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-3
+
+Operational Notes on VHF Omni Range (VOR)
+5. VOR Errors
+5.3 Vertical Polarisation (Attitude Effects)
+5.3
+
+Vertical Polarisation (Attitude Effects)
+
+If vertical polarisation effects are presented they are detected in
+manoeuvres which tilt the aircraft aerial, that is in a turn by an aircraft.
+When in a banked attitude, the receiving antenna on the aircraft,
+instead of sampling only the horizontally polarised VOR signals, may
+pick up large sloping obstructions. Under these circumstances, the
+deviation indicator is seen to move abnormally in either direction, thus
+giving rise to incorrect guidance information.
+In the type of VOR ground equipment installed in Australia, the vertical
+component actually radiated by the beacon is very small, hence this
+form of interference will be rarely encountered in practice.
+
+
+
+5-4
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+5. VOR Errors
+5.4 Airborne Equipment Error
+5.4
+
+Airborne Equipment Error
+
+As the name implies, airborne equipment error is the error attributable
+to the various components of the VOR equipment in the aircraft. In
+well designed and built equipment it is generally less than ± 2°.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-5
+
+Operational Notes on VHF Omni Range (VOR)
+5. VOR Errors
+5.5 Aggregate Error
+5.5
+
+Aggregate Error
+
+The algebraic sum of all the errors mentioned above is known as the
+aggregate error. It should be appreciated that procurement of precise
+figures on aggregate error, even on a probability basis, is extremely
+difficult if not impossible. However, the purpose in explaining the
+presence of these errors is to illustrate that the VOR is not a
+precision aid. It will be found that, in practice, aggregate errors
+greater than ± 5° are seldom encountered. It should be appreciated,
+too, that factors for aggregate error and for pilot error are used in the
+determination of standards used for aircraft separation purposes.
+
+
+
+5-6
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on VHF Omni Range (VOR)
+6. Summary
+6.
+
+Summary
+
+It is essential to remember the following points concerning the VOR
+and its operation:
+z
+
+z
+
+z
+
+z
+
+z
+
+z
+
+z
+
+z
+
+A radial is a magnetic bearing from the VOR beacon
+The Deviation Indicator can be centred on either of two bearings
+by the OBS. These bearings will be 180° apart with the ambiguity
+automatically resolved by the TO/FROM indicator
+The VOR system, in practice, should be considered to be accurate
+only to the order of ± 5°
+As the VOR propagation is ‘line of sight’, the distance at which a
+VOR beacon can be received increases with aircraft elevation
+above the beacon
+The VOR beacon must be identified aurally before information
+derived from the beacon is used
+The Omni Bearing Indicator always indicates magnetic bearings
+TO or FROM the VOR beacon—never relative bearings
+Heading of the aircraft at any instant does not affect VOR
+bearings. The bearing obtained depends on the aircraft location
+with relation to the VOR beacon
+Bearing selection by the OBS is by 1 degree intervals. When a
+bearing is selected, full travel of the Deviation Indicator from one
+side to the other represents 20° of azimuth, that is 10° either side
+of the selected bearing.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+6-1
+
+

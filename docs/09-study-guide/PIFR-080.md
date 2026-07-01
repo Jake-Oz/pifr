@@ -21,6 +21,7 @@ NDB intercept heading calculation is a cockpit technique objective, and CASA's N
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, sections 5.4-5.5|
 
 ## Official reference status
 

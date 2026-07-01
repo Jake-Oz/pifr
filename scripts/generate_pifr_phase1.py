@@ -1503,21 +1503,23 @@ STUDY_CONTENT = {
         ],
     },
     "PIFR-070": {
-        "why": "VOR indications are high-value exam material, but the current verified sources support only operational use and deviation reporting, not the detailed cockpit indication theory.",
+        "why": "VOR indications are high-value exam material because they connect the cockpit display to radial selection, station passage, track keeping and navigation-aid errors.",
         "notes": [
             "Part 91 MOS 1.07 defines VOR, DME and navigational tolerance; sections 14.02, 14.04 and 14.05 support IFR navigation and GNSS/DME distance reporting context.",
             "AIP ENR 1.1 sections 4.4 to 4.6 and 6.3 are the verified AIP locators for track keeping, position fixing, deviation reporting and related procedures.",
-            "Specific cockpit indications for scalloping, VOR station passage, abeam position, radial identification, track error and drift remain a source gap.",
+            "CASA VOR operational notes section 4 explains VOR orientation, TO/FROM indications, station passage, radial interpretation and drift shown by deviation-indicator displacement.",
+            "CASA VOR operational notes sections 5.2 and 5.3 explain scalloping, bends and abnormal deviation-indicator movement from site effect and attitude effects.",
+            "Source caution: CASA states these notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.",
         ],
         "traps": [
-            "Do not fill VOR cockpit indication theory from unsupported memory.",
             "Do not treat operational deviation reporting as a complete explanation of VOR instrument indications.",
-            "Keep VOR technique notes separate from official CASA/Airservices references until an official technique source is verified.",
+            "Do not confuse the selected bearing in the OBS with the aircraft heading; the VOR indication depends on position relative to the VOR.",
+            "Keep the CASA operational-note caution visible whenever using the VOR theory source.",
         ],
-        "examples": "TODO: Add VOR indication examples only after verifying a public official technique source.",
+        "examples": "TODO: Add VOR indication drills using selected VORs and chart examples.",
         "exam_use": [
             "Use AIP ENR 1.1 sections 4.4 to 4.6 for operational track keeping and position-fixing rules.",
-            "Use the source-gap register before adding detailed VOR indication theory.",
+            "Use CASA VOR operational notes sections 4, 5.2, 5.3 and 6 for exam technique refreshers on indications and errors.",
         ],
     },
     "PIFR-071": {
@@ -1539,47 +1541,54 @@ STUDY_CONTENT = {
         ],
     },
     "PIFR-072": {
-        "why": "OBS command indications are practical VOR technique material, but the current verified sources do not explain the to/from setting method.",
+        "why": "OBS command indications are practical VOR technique material because the same selected bearing can produce different command sense depending on TO/FROM ambiguity and aircraft position.",
         "notes": [
             "Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 provide operational navigation context.",
             "AIP ENR 1.1 sections 4.4 to 4.6 verify VOR track guidance, precision order and CDI deviation thresholds.",
-            "OBS settings required for command indications to and from a VOR remain a source gap.",
+            "CASA VOR operational notes section 3 identifies the OBS, Deviation Indicator and TO/FROM Indicator as the key cockpit components.",
+            "CASA VOR operational notes section 4 explains centring the Deviation Indicator with TO for bearing to the VOR and setting required inbound or outbound tracks.",
+            "CASA VOR operational notes section 6 states that the OBS can centre the Deviation Indicator on either of two bearings 180 degrees apart, with ambiguity resolved by TO/FROM.",
+            "Source caution: CASA states these notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.",
         ],
         "traps": [
-            "Do not add OBS setting rules from memory.",
             "Do not conflate VOR operational legality with cockpit technique.",
             "Do not merge this objective with intercept-heading objectives; the MOS keeps them separate.",
+            "Do not ignore the TO/FROM flag when checking command sense.",
         ],
-        "examples": "TODO: Add OBS command-indication examples only after verifying a public official technique source.",
+        "examples": "TODO: Add OBS command-indication drills using selected inbound and outbound tracks.",
         "exam_use": [
             "Use mapped AIP/MOS references for VOR operational use.",
-            "Use the source-gap register for OBS technique before adding examples.",
+            "Use CASA VOR operational notes sections 3, 4 and 6 for OBS/TO-FROM technique.",
         ],
     },
     "PIFR-073": {
-        "why": "VOR intercept heading calculation is exam-relevant, but the current verified public sources only support the requirement to regain track and the use of VOR as a navigation aid.",
+        "why": "VOR intercept heading calculation is exam-relevant because the pilot must convert the desired track, current bearing and CDI movement into a practical intercept.",
         "notes": [
             "Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.",
             "AIP ENR 1.1 sections 4.4 to 4.6 provide verified track-keeping and positive-action-to-regain-track context.",
-            "The heading-to-steer and intercept calculation method remains a source gap until a public official technique source is verified.",
+            "CASA VOR operational notes section 4 explains inbound and outbound VOR track interception, including selecting the required track in the OBS, checking TO/FROM, turning toward the Deviation Indicator onto a suitable intercept heading and recognising closure as the Deviation Indicator moves toward centre.",
+            "The notes describe selecting a suitable intercept heading by visualising aircraft position from orientation information; worked arithmetic examples still need to be added as explanatory material or from another verified official source.",
+            "Source caution: CASA states these notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.",
         ],
         "traps": [
-            "Do not invent intercept arithmetic or rules of thumb.",
             "Do not treat `positive action to regain track` as a worked intercept method.",
-            "Keep calculations out of official-reference sections unless sourced.",
+            "Do not use inbound TO/FROM expectations for a position that is 90 degrees or more from the required track without checking the CASA VOR note caution.",
+            "Keep any later arithmetic shortcuts clearly separated from official-reference material unless sourced.",
         ],
-        "examples": "TODO: Add VOR intercept-heading calculations only after verifying a public official technique source.",
+        "examples": "TODO: Add VOR intercept-heading calculations as clearly separated worked examples after selecting suitable scenarios.",
         "exam_use": [
             "Use AIP ENR 1.1 section 4 for the operational duty to maintain/regain track.",
-            "Treat the specific intercept arithmetic as unresolved source material.",
+            "Use CASA VOR operational notes section 4 for the cockpit technique sequence for inbound and outbound intercepts.",
         ],
     },
     "PIFR-074": {
-        "why": "Two-VOR position fixing connects the official positive-fix rule with cockpit plotting technique; only the positive-fix rule is currently verified.",
+        "why": "Two-VOR position fixing connects the official positive-fix rule with cockpit plotting technique by turning two VOR indications into intersecting position lines.",
         "notes": [
             "Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support IFR navigation context.",
             "AIP ENR 1.1 section 4.5 verifies that a positive fix may be determined by intersecting two or more position lines from VOR, localiser, NDB or DME in combination.",
-            "The cockpit-indication plotting method using two VORs remains a source gap.",
+            "CASA VOR operational notes sections 1, 3, 4 and 6 support interpreting VOR radials, TO/FROM bearings and magnetic bearing information as VOR-derived position-line foundations.",
+            "Complete two-VOR plotting examples remain a scenario gap until exact VORs, chart panels and geometry are selected.",
+            "Source caution: CASA states these notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.",
         ],
         "traps": [
             "Do not confuse the legal positive-fix allowance with an explained plotting method.",
@@ -1593,11 +1602,13 @@ STUDY_CONTENT = {
         ],
     },
     "PIFR-075": {
-        "why": "Mixed VOR/NDB/DME fixing is operationally important because positive fixes can use multiple position-line types, but cockpit construction details still need a verified technique source.",
+        "why": "Mixed VOR/NDB/DME fixing is operationally important because positive fixes can use multiple position-line types when each aid is interpreted correctly.",
         "notes": [
             "Part 91 MOS 1.07 defines ADF, DME, NDB, VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.",
             "AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, including NDB range limits for NDB-only fixes.",
-            "Detailed cockpit-indication fixing methods remain a source gap.",
+            "CASA VOR operational notes support VOR radial and bearing interpretation; CASA NDB/ADF operational notes support ADF-derived bearing and position-line foundations.",
+            "Detailed mixed-aid worked examples remain a scenario gap until exact aids, DME distances, chart panels and geometry are selected.",
+            "Source caution: CASA states these operational notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.",
         ],
         "traps": [
             "Do not ignore NDB-only positive-fix limits.",
@@ -2316,9 +2327,10 @@ def exam_index(objs, reference_map):
         mapped = reference_map.get(obj["id"], {})
         refs = reference_summary(mapped)
         locator = "TODO"
-        for field in ["Part 91 MOS", "Part 61", "Part 91", "AIP reference", "CAR", "ERSA reference", "ERC LOW reference", "TAC reference", "PCA reference"]:
-            if refs[field] != "TODO":
-                locator = f"{field}: {refs[field]}"
+        for field in ["Part 91 MOS", "Part 61", "Part 91", "AIP reference", "CAR", "ERSA reference", "ERC LOW reference", "TAC reference", "PCA reference", "CASA guidance"]:
+            value = refs.get(field, "TODO")
+            if value != "TODO":
+                locator = f"{field}: {value}"
                 break
         row = [
             obj["id"],
@@ -2375,11 +2387,10 @@ def study_files(objs, reference_map):
         mapped = reference_map.get(obj["id"], {})
         module = module_by_objective[obj["id"]]
         content = STUDY_CONTENT.get(obj["id"], {})
-        official_rows = []
-        for field in CROSS_REFERENCE_FIELDS:
-            if field in ["Exam importance", "Notes", "Aircraft example"]:
-                continue
-            official_rows.append(f"|{field}|{mapped.get(field, 'TODO')}|")
+        official_rows = [
+            f"|{field}|{value}|"
+            for field, value in reference_summary(mapped).items()
+        ]
 
         source_note = mapped.get("Notes", "TODO")
         exam_importance = mapped.get("Exam importance", "TODO")

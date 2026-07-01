@@ -21,6 +21,7 @@ Track and bearing calculation from heading and relative bearing is a specific AD
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, section 5.3|
 
 ## Official reference status
 

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.6: Fix position, given instrument ind
 
 ## Why it matters
 
-Mixed VOR/NDB/DME fixing is operationally important because positive fixes can use multiple position-line types, but cockpit construction details still need a verified technique source.
+Mixed VOR/NDB/DME fixing is operationally important because positive fixes can use multiple position-line types when each aid is interpreted correctly.
 
 ## Official references
 
@@ -21,18 +21,21 @@ Mixed VOR/NDB/DME fixing is operationally important because positive fixes can u
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on VHF Omni Range (VOR), sections 1, 3, 4 and 6; CASA Operational Notes on NDB and ADF, sections 3 and 5|
 
 ## Official reference status
 
 - Status: Partial
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, with NDB range limits for NDB-only fixes. Detailed cockpit-indication fixing methods remain TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, CASA VOR operational notes and CASA NDB/ADF operational notes. AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, with NDB range limits for NDB-only fixes. Mixed-aid worked examples remain TODO until exact chart/aids and geometry are selected.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, DME, NDB, VOR and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.
 - AIP ENR 1.1 section 4.5 supports positive fixes from NDB, VOR, localiser or DME position lines in combination, including NDB range limits for NDB-only fixes.
-- Detailed cockpit-indication fixing methods remain a source gap.
+- CASA VOR operational notes support VOR radial and bearing interpretation; CASA NDB/ADF operational notes support ADF-derived bearing and position-line foundations.
+- Detailed mixed-aid worked examples remain a scenario gap until exact aids, DME distances, chart panels and geometry are selected.
+- Source caution: CASA states these operational notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.
 
 ## Common CASA traps
 

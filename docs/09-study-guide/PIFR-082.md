@@ -21,6 +21,7 @@ Relative bearing at NDB track interception is a calculation objective, and CASA'
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, section 5.5|
 
 ## Official reference status
 

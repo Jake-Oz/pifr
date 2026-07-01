@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.1.5: Fix position, given cockpit instru
 
 ## Why it matters
 
-Two-VOR position fixing connects the official positive-fix rule with cockpit plotting technique; only the positive-fix rule is currently verified.
+Two-VOR position fixing connects the official positive-fix rule with cockpit plotting technique by turning two VOR indications into intersecting position lines.
 
 ## Official references
 
@@ -21,18 +21,21 @@ Two-VOR position fixing connects the official positive-fix rule with cockpit plo
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on VHF Omni Range (VOR), sections 1, 3, 4 and 6|
 
 ## Official reference status
 
 - Status: Partial
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 states that a positive fix may be determined by the intersection of two or more position lines from VOR, localiser, NDB or DME in combination. Cockpit-indication plotting method using 2 VORs remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214), AIP Book Amendment 126 current 19 MAR 2026, and CASA VOR operational notes. AIP ENR 1.1 section 4.5 supports positive fixes by intersecting position lines. CASA VOR notes support VOR radial/position-line interpretation, but complete two-VOR plotting worked examples remain TODO until exact chart/aids and geometry are selected.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines VOR and navigational tolerance; sections 14.02 and 14.05 support IFR navigation context.
 - AIP ENR 1.1 section 4.5 verifies that a positive fix may be determined by intersecting two or more position lines from VOR, localiser, NDB or DME in combination.
-- The cockpit-indication plotting method using two VORs remains a source gap.
+- CASA VOR operational notes sections 1, 3, 4 and 6 support interpreting VOR radials, TO/FROM bearings and magnetic bearing information as VOR-derived position-line foundations.
+- Complete two-VOR plotting examples remain a scenario gap until exact VORs, chart panels and geometry are selected.
+- Source caution: CASA states these notes are old, unedited reference material; use them as CASA guidance for theory, not current operational rule text.
 
 ## Common CASA traps
 

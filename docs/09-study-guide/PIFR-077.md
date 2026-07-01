@@ -21,6 +21,7 @@ Choosing the appropriate NDB is a route-tracking decision: CASA guidance ties it
 |ERC LOW reference|TODO|
 |TAC reference|TODO|
 |PCA reference|TODO|
+|CASA guidance|CASA Operational Notes on NDB and ADF, section 4.7|
 
 ## Official reference status
 
