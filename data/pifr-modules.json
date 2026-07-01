@@ -1958,10 +1958,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on Non-Directional Beacons (NDB) and Associated Automatic Direction Finding (ADF), sections 4.1-4.7"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB as a ground-based navigation aid, NDB tracking precision and NDB position-line use. Effects of coastal refraction, night error, thunderstorms, mountainous terrain, terrain type and altitude on NDB indications or range remain TODO for a verified public official technique/source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes, last updated 24 Aug 2005 and published by CASA as reference material, support NDB/ADF limitations including night effect, co-channel/adjacent interference, mountain effect, thunderstorms, terrain/coastline range variation, height effects and most appropriate NDB selection. CASA warns the notes are old and unedited; use as CASA guidance, not current regulation.",
           "study_file": "docs/09-study-guide/PIFR-076.md"
         },
         {
@@ -1982,10 +1983,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, section 4.7"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources identify NDB as a ground-based aid, rank NDB below localiser, GNSS and VOR for track guidance, and constrain NDB-only position lines to 30 NM for positive fixing. Selection method for the most appropriate NDB for tracking remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 4.7 supports most-appropriate-NDB selection, including backtracking over an NDB, using the closest NDB for route tolerance, selecting the ahead NDB approximately halfway, and selecting a terminal NDB in accordance with the flight-planned route.",
           "study_file": "docs/09-study-guide/PIFR-077.md"
         },
         {
@@ -2006,10 +2008,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, sections 3, 5.1, 5.3 and 5.4"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB tracking, NDB deviation threshold and positive fixing by NDB passage or position lines. Determining station passage, abeam position, bearing, track error and drift from ADF relative bearing remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes support ADF presentation, relative bearing, RMI bearing, aural-null position lines, NDB passage using aural null, compass-bearing conversion, and homing/tracking effects of drift. Exact abeam/station-passage cockpit examples remain TODO for worked examples.",
           "study_file": "docs/09-study-guide/PIFR-078.md"
         },
         {
@@ -2030,10 +2033,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, section 5.3"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB track guidance and NDB-based position lines. Calculating track to or from an NDB from heading and relative bearing remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 5.3 supports compass-bearing calculation by adding aircraft compass heading to relative bearing, with RMI bearing read directly from the slaved card.",
           "study_file": "docs/09-study-guide/PIFR-079.md"
         },
         {
@@ -2054,10 +2058,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, sections 5.4-5.5"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources require positive action to regain track and identify NDB as a permitted ground-based navigation aid. Heading-to-steer and NDB intercept calculation method remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes sections 5.4-5.5 support homing, tracking to/from an NDB, drift allowance, backtracking, and intercepting a given track toward or away from an NDB.",
           "study_file": "docs/09-study-guide/PIFR-080.md"
         },
         {
@@ -2078,10 +2083,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, section 5.5"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB track guidance, positive fixing and deviation reporting. Intercept-heading calculation before reaching the NDB remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 5.5 supports the procedure for intercepting a given track toward an NDB before reaching the station, including forming a mental picture, flying the track bearing initially, choosing an interception heading and allowing for drift once established.",
           "study_file": "docs/09-study-guide/PIFR-081.md"
         },
         {
@@ -2102,10 +2108,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, section 5.5"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB track guidance and the ±5° NDB navigational/deviation threshold. Relative-bearing calculation indicating desired NDB track interception remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 5.5 supports the relative-bearing indication used to recognise interception: fly the interception heading until the ADF shows a bearing on the appropriate side of the nose datum equal to the difference between heading and desired track.",
           "study_file": "docs/09-study-guide/PIFR-082.md"
         },
         {
@@ -2126,10 +2133,11 @@
             "ERSA reference": "TODO",
             "ERC LOW reference": "TODO",
             "TAC reference": "TODO",
-            "PCA reference": "TODO"
+            "PCA reference": "TODO",
+            "CASA guidance": "CASA Operational Notes on NDB and ADF, sections 5.1 and 5.3"
           },
           "exam_importance": "High",
-          "notes": "Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 supports positive fixing from intersections of NDB position lines and limits NDB-only position lines to 30 NM from each NDB. Fix construction from two ADF relative bearings remains TODO for a verified public official technique source.",
+          "notes": "Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. AIP ENR 1.1 section 4.5 supports positive fixing from intersections of NDB position lines and limits NDB-only position lines to 30 NM from each NDB. CASA NDB/ADF operational notes support ADF-derived position lines and compass-bearing conversion; full two-NDB plotting examples still require selected chart/aids.",
           "study_file": "docs/09-study-guide/PIFR-083.md"
         },
         {

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.5: Calculate heading to steer to inte
 
 ## Why it matters
 
-NDB intercept heading calculation is a cockpit technique objective; verified sources currently support the operational duty to regain track and the use of NDB as a permitted aid.
+NDB intercept heading calculation is a cockpit technique objective, and CASA's NDB/ADF notes describe the intercept logic for tracks to and from the NDB.
 
 ## Official references
 
@@ -24,25 +24,27 @@ NDB intercept heading calculation is a cockpit technique objective; verified sou
 
 ## Official reference status
 
-- Status: Partial
+- Status: Mapped
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources require positive action to regain track and identify NDB as a permitted ground-based navigation aid. Heading-to-steer and NDB intercept calculation method remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes sections 5.4-5.5 support homing, tracking to/from an NDB, drift allowance, backtracking, and intercepting a given track toward or away from an NDB.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 support operational navigation context.
 - AIP ENR 1.1 sections 4.4 to 4.6 provide verified track-keeping and NDB operational context.
-- Heading-to-steer and NDB intercept calculation method remains a source gap.
+- CASA NDB/ADF operational notes section 5.4 distinguishes homing from drift-corrected tracking and backtracking.
+- Section 5.5 explains intercepting a given track by first forming a mental picture, flying a heading the same as the track bearing, noting relative bearing, then turning to an interception heading.
+- For tracks away from the NDB, CASA says the same principles apply with calculations relative to the tail of the aircraft.
 
 ## Common CASA traps
 
-- Do not add intercept-angle rules from memory.
+- Do not home to the NDB when the question asks for tracking or intercepting a specified track.
 - Do not imply NDB intercept technique is covered by general track-keeping text.
-- Do not reuse VOR technique as if it directly applies to ADF/NDB without a source.
+- Do not forget to allow for drift after track is established.
 
 ## Worked examples
 
-TODO: Add NDB intercept-heading examples only after verifying a public official technique source.
+TODO: Add NDB intercept-heading examples after selecting desired track, heading, relative bearing and drift facts.
 
 ## Cross references
 
@@ -66,4 +68,4 @@ TODO
 ## Exam use
 
 - Use AIP ENR 1.1 section 4 for operational track-keeping context.
-- Treat NDB intercept arithmetic as a source-gap item.
+- Use CASA NDB/ADF operational notes sections 5.4 and 5.5 for NDB intercept technique.

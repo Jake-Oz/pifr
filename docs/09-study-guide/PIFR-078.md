@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.3: Describe how the following are det
 
 ## Why it matters
 
-ADF relative-bearing interpretation is examinable cockpit technique, but current verified references only support NDB operational use and positive fixing.
+ADF relative-bearing interpretation is core cockpit technique for recognising bearings, position lines, station passage and tracking/drift behaviour.
 
 ## Official references
 
@@ -26,23 +26,26 @@ ADF relative-bearing interpretation is examinable cockpit technique, but current
 
 - Status: Partial
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB tracking, NDB deviation threshold and positive fixing by NDB passage or position lines. Determining station passage, abeam position, bearing, track error and drift from ADF relative bearing remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes support ADF presentation, relative bearing, RMI bearing, aural-null position lines, NDB passage using aural null, compass-bearing conversion, and homing/tracking effects of drift. Exact abeam/station-passage cockpit examples remain TODO for worked examples.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational navigation context.
 - AIP ENR 1.1 sections 4.4 to 4.6 verify NDB tracking, NDB deviation thresholds and positive fixing by NDB passage or position lines.
-- Determining station passage, abeam position, bearing, track error and drift from ADF relative bearing remains a source gap.
+- CASA NDB/ADF operational notes section 3 explains fixed-card relative bearing and RMI direct bearing presentation.
+- Section 5.1 explains aural-null position lines and station passage using maximum signal followed by a cone of silence.
+- Section 5.3 supports bearing conversion: aircraft heading plus relative bearing gives compass bearing; RMI reads directly.
+- Section 5.4 explains homing, tracking, drift effects and backtracking from an NDB.
 
 ## Common CASA traps
 
-- Do not add relative-bearing interpretation rules without a verified source.
-- Do not treat NDB station passage as equivalent to every ADF indication change.
+- Do not confuse fixed-card relative bearing with magnetic bearing.
+- Do not treat homing as drift-corrected tracking.
 - Do not merge this objective with NDB intercept or track-calculation objectives.
 
 ## Worked examples
 
-TODO: Add ADF relative-bearing interpretation examples only after verifying a public official technique source.
+TODO: Add station-passage, abeam and drift examples after selecting concise ADF indications.
 
 ## Cross references
 
@@ -66,4 +69,4 @@ TODO
 ## Exam use
 
 - Use mapped references for operational NDB use and position fixing.
-- Treat cockpit relative-bearing interpretation as unresolved source material.
+- Use CASA NDB/ADF operational notes sections 3 and 5.1 to 5.4 for ADF relative-bearing technique.

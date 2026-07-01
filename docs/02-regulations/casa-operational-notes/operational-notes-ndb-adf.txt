@@ -1,0 +1,672 @@
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+Contents
+
+Disclaimer
+These notes are a reproduction of a booklet originally published by the Civil Aviation Authority.
+Although these notes are no longer in print, they continue to provide a valuable resource and are
+made available as reference material for students, pilots and instructors. The notes have not been
+edited, and as they were written 20 or more years ago, may contain information relating to systems
+that are no longer in production or have been modernised.
+1.
+2.
+
+Introduction ................................................................................................................................ 1-1
+NDB (Ground Station) ................................................................................................................ 2-1
+2.1
+Transmitter.......................................................................................................................... 2-1
+2.2
+Monitoring ........................................................................................................................... 2-2
+3. Radio Compass Receiver .......................................................................................................... 3-1
+4. Limitations of the NDB/ADF ....................................................................................................... 4-1
+4.1
+Night Effect ......................................................................................................................... 4-1
+4.2
+Co-Channel and Adjacent Interference from Other NDBs .................................................. 4-3
+4.3
+Mountain Effect ................................................................................................................... 4-4
+4.4
+Thunderstorms.................................................................................................................... 4-5
+4.5
+The Effect of Terrain ........................................................................................................... 4-6
+4.6
+Height Effects...................................................................................................................... 4-7
+4.7
+Most Appropriate NDB ........................................................................................................ 4-8
+5. Operational Use of the Radio Compass..................................................................................... 5-1
+5.1
+Aural Null ............................................................................................................................ 5-1
+5.2
+Time and Distance .............................................................................................................. 5-2
+5.3
+Compass Bearings.............................................................................................................. 5-3
+5.4
+‘Homing’ and Tracking Towards or Away from an NDB ...................................................... 5-4
+5.5
+Intercepting a Given Track .................................................................................................. 5-7
+
+i
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+1. Introduction
+1.
+
+Introduction
+
+The non-directional beacon and its associated automatic direction finding equipment is
+primarily a short distance navigational aid. The ground station (NDB) radiates a signal in
+all directions around the transmitter, and the aircraft receiver (ADF), when tuned to this
+signal determines the direction from which the signal is being radiated. By following the
+direction indicated by the ADF instrument the aircraft will fly over the NDB.
+The system operates in the medium frequency band, that is, 200 to 400 Kcs., however,
+most aircraft equipments are sufficiently flexible to enable one or two additional bands to
+be selected so as to extend the use of this facility to cover bands utilised by broadcasting
+stations. In isolated cases NDBs are operated in the higher frequency band (1666 Kcs.) to
+lessen the reflecting influence of mountainous country.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+1-1
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+2. NDB (Ground Station)
+2.1 Transmitter
+2.
+
+NDB (Ground Station)
+
+2.1
+
+Transmitter
+
+The NDB is basically a simple transmitter radiating an omnidirectional signal which is
+modulated at intervals with the identification code. The basic signal is known as a carrier
+and is radiated at the frequency specified for the particular aid. The identification code is a
+400 or 1020 cycle note superimposed on the carrier. Some installations include voice
+modulation to provide landing information and some others, for remote monitoring
+purposes, have one or two pips between idents.
+NDBs may be sited in association with ILS, or in some cases two NDBs are sited to
+provide an instrument approach to landing. NDBs so used are known as locator beacons.
+There is no fundamental difference between an NDB and a locator beacon but, generally
+speaking, a locator beacon operates on a lower power. In this publication, the term NDB
+includes locator beacon.
+Most NDBs are installed in pairs, that is, main and standby. Of recent date low power
+transistorised NDBs are being installed to provide navigational assistance over limited
+distances. These installations are single equipments.
+Except for transistorised NDBs, which have a transmitter power of 15 watts, the power of
+NDBs range from 100 watts to 3 kilowatts. Locator beacons are usually in the 100 watt
+class while the 3 k.w. beacons are sited to provide assistance to major overwater
+crossings, that is, Darwin, Sydney, Perth. The majority of other NDBs are in the
+100–500 watt category.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+2-1
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+2. NDB (Ground Station)
+2.2 Monitoring
+2.2
+
+Monitoring
+
+NDBs have automatic monitoring of certain parameters which cause the NDB to be turned
+off if outside tolerance and the standby activated. If the same out-of-tolerance condition is
+also present on the standby transmitter, the complete installation is deactivated until the
+fault is rectified. Faults which are automatically monitored include:
+z
+
+Excessive hum level
+
+z
+
+Reduction of carrier power
+
+z
+
+Failure or reduction in level of identification code.
+
+Further monitoring is arranged to ensure the installation is radiating either by a monitoring
+post at a manned aerodrome within range of the NDB or by pilot monitoring where NDBs
+are sited in remote areas. In the latter case pilots should report the failure of an NDB to the
+appropriate communications station so that action may be taken to rectify the fault.
+
+
+
+2-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+3. Radio Compass Receiver
+3.
+
+Radio Compass Receiver
+
+The basis for operation of all radio compasses is that the maximum signal will be received
+when a loop antenna is aligned in the direction of the radiated signal. The corollary is that
+a minimum signal, or null, occurs when the loop antenna is at right angles to the direction
+of the radiated signal. In practice, however, the position of minimum signal is used
+because it can be more accurately determined than a maximum. Appropriate
+compensation is made to the indicator drive to allow for this 90 degree shift.
+Early model radio compasses used this principle to advantage by manually rotating the
+loop to determine an ‘aural null’. The bearing was then determined from a simple indicator
+and bearing card, ambiguity having been solved by procedural means. (See Operational
+Use of the Radio Compass.) Later equipments introduced the automatic phase but also
+retained the aural null facility as a standby in the event of failure of the automatic circuitry.
+Some manufacturers of present day equipment are dispensing entirely with the aural null
+facility.
+The principal components of the Automatic Direction Finding (ADF) equipment consist of
+the receiver, loop antenna, loop drive motor, fixed antenna, control box and indicator.
+
+Figure 1. Automatic Direction Finding (ADF) Equipment
+When a station is tuned the signal is received at both the fixed and loop antennae. The
+signals received from the loop antenna are fed from the ADF receiver into the loop drive
+motor, and this aligns in the direction of the received signal, that is, it points to the signal
+null.
+
+Ø
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+3-1
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+3. Radio Compass Receiver
+
+Because of its physical shape and, consequently, directional properties, a loop can
+assume two positions and receive two signal nulls, one 180 degrees removed from the
+other. To resolve this ambiguity the signal received from the sense antenna (a signal
+independent of direction) is mixed with signals from the loop antenna and combines in
+such a way so as to orientate the loop in the correct direction. The rotation of the loop is
+electrically coupled to the pointer of the indicator, thus when the loop is receiving a null the
+indicator always shows the pilot the direction of the transmitting station to which he has
+tuned.
+Some later ADF equipments do not have a rotatable loop; the loop aerial is fixed, and a
+goniometer is made to rotate within the receiver. The end result is, however, the same.
+The method of presenting ADF information to the pilot takes many forms—from a simple
+card and needle indicator, to the latest types of sophisticated integrated flight systems.
+The most common types in use however are the fixed card (0 to 360 degrees) with
+centrally pivoted needle, and the Radio Magnetic Indicator (RMI). The needle in the fixed
+card type indicates the direction of the signal relative to the heading of the aircraft
+(0 degrees on the fixed card is the aircraft longitudinal axis) and the received signal
+direction must be relative to this axis, or aircraft heading. The actual bearing of the signal
+can only be assessed by adding the relative bearing to the aircraft heading. The RMI was
+developed to remove the necessity of adding the relative bearing to the aircraft heading.
+This was accomplished by simply slaving the indicator card to a magnetic compass by
+electrical means, hence both the card and the needle are free to rotate in an RMI. The
+card will rotate in sympathy with any changes in aircraft heading and the needle will
+always point in the direction of the radiated signal. The actual bearing of the NDB is
+directly available from the compass card below the ADF needle.
+Because of the variety of equipments available it is not practical to specify here any one
+tuning technique. However, it is vitally important when using the radio compass receiver
+that it be correctly tuned to the frequency of the required station in accordance with the
+techniques specified either in the manufacturer’s instruction book or the operator’s
+operations manual, and especially with newer types of compasses which require precise
+tuning to be effected by aural means instead of the previously used visual tuning meter
+method. Tuning techniques cannot be given in this publication as the methods to be used
+differ, not only from one type of receiver to another, but also in relation to a particular
+receiver owing to variations in ancillary equipment in different installations. Examples of
+this are the 1020 cycles per second range filter which usually forms part of the selector
+box and the mechanical or crystal filters which may be fitted within the receiver for sharp
+tuning purposes.
+Note: Receivers fitted with ‘voice’ and ‘ident’ filters must have ‘voice’ selected to
+receive 400 cps idents.
+
+Ø
+3-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+3. Radio Compass Receiver
+
+If a radio compass receiver is not tuned in accordance with the manufacturer’s prescribed
+method its efficiency will be affected. Faulty tuning may result in:
+z
+
+Incorrect bearing indication (produced electrically)
+
+z
+
+Increased adjoining channel interference
+
+z
+
+Incorrect bearings when the atmospheric interference level is high
+
+z
+
+Reversed sense indications
+
+z
+
+Restricted service range.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+3-3
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.1 Night Effect
+4.
+4.1
+
+Limitations of the NDB/ADF
+Night Effect
+
+Radio waves take two paths to the radio compass receiver. The first and normal path is
+along the earth’s surface. If only these waves were received, the compass would point
+directly to the NDB. The second path is via one or more wave refracting layers above the
+earth (the ionosphere) returning to earth to mix with direct waves. Complete changes in
+the nature of the waves take place on this path and produce errors in direction.
+
+Figure 2. The night effect
+The ratio of the intensity of indirect to direct waves in the total received signal determines
+the liability of error of the radio compass. As the strength of the indirect waves is far
+greater at night, errors then are more common and of greater magnitude: this is called
+‘night effect’. Often this effect is more pronounced within an hour of sunrise or sunset,
+when the changes in the state of ionisation of the upper atmosphere are particularly
+violent.
+The night time range of an NDB is only dependable over distances where the ground wave
+transmission predominates, which is approximately 60 miles over land and 100 miles over
+sea under reasonable propagating conditions. As the distance increases the ratio of
+indirect to direct waves will increase and bearing indications will become erratic. Treat with
+caution NDB reception beyond these ranges.
+With the exception of the very low-powered beacons the useful range is virtually
+independent of the power of the transmitter: increased power increases the strength of the
+ground and sky waves by the same amount. The ratio of indirect to direct waves therefore
+remains the same.
+In the case of the locator beacons the low power restricts transmission to ground wave
+only and the range therefore seldom exceeds 30 miles day or night. Consequently these
+beacons are virtually unaffected by night effect.
+
+Ø
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-1
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.1 Night Effect
+It is essential to know when night effect is present and to thoroughly understand its effect
+upon the performance of the equipment because these errors are not only common but
+are impossible to correct.
+
+
+
+4-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.2 Co-Channel and Adjacent Interference from Other NDBs
+4.2
+
+Co-Channel and Adjacent Interference from Other NDBs
+
+If the signal from another NDB operating on the same or an adjacent frequency is received
+with sufficient strength, the automatic bearing determination circuits of the compass
+receiver will be influenced and a bearing error will result. Generally NDBs are spaced
+geographically, and frequencies allocated to minimise these effects. At night, however,
+when the sky wave component of an NDB extends to a far greater distance than that of its
+ground wave, it may cause interference. This may be serious if the ADF receiver is tuned
+to an NDB beyond its rated coverage, when the signal strength will be low and therefore
+susceptible to interference from extraneous transmissions.
+It is important to appreciate that the audible perception of another NDB identification code
+heard on the same frequency as the selected NDB does not necessarily mean that the
+indicated bearing is in error. Although its identification code can be heard, the interfering
+signal may not be strong enough to influence the directional properties of the ADF
+receiver. Under these circumstances, however, the indicated bearing should be
+considered suspect and checked by other means.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-3
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.3 Mountain Effect
+4.3
+
+Mountain Effect
+
+Sometimes an effect similar to night effect is obtained in mountainous areas where the
+energy received from an NDB consists of two or more waves, one of them direct and
+others by reflection from the mountains. Bearing indications are found to change rapidly
+until the affected area is passed.
+
+
+
+4-4
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.4 Thunderstorms
+4.4
+
+Thunderstorms
+
+A thunderstorm generates a tremendous amount of radio frequency energy and when the
+aircraft is near to a storm centre the radio compass may indicate the direction of the storm
+and not that of the NDB to which it is tuned. Therefore, when flying in the vicinity of a
+thunderstorm, the accuracy of the bearing indications should be checked by other means
+whenever possible.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-5
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.5 The Effect of Terrain
+4.5
+
+The Effect of Terrain
+
+The useful range of an NDB is influenced by the type of terrain over which the radio wave
+travels. It is greatest over the sea and least over sandy or mountainous country, and an
+NDB with a daylight range of 600 miles over the sea may only have a range of little more
+than 100 miles over unfavourable types of land. Therefore, when an NDB is located on the
+coastline, its range in different directions can be expected to vary considerably.
+
+
+
+4-6
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.6 Height Effects
+4.6
+
+Height Effects
+
+The range of an NDB over the sea is relatively independent of aircraft height. Over
+unfavourable terrain it increases considerably with height.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+4-7
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+4. Limitations of the NDB/ADF
+4.7 Most Appropriate NDB
+4.7
+
+Most Appropriate NDB
+
+When overflying an NDB make use of backtracking procedures. A back bearing is far
+superior to one obtained by tuning a more distant NDB. The navigational tolerance for the
+route is based on assistance from the closest NDB, therefore, select the NDB ahead when
+approximately half way.
+When selecting an NDB at a terminal for either an arrival or departure this NDB must be in
+accordance with the flight planned route. Although the airport NDB will give greatest
+coverage, in some cases the flight planned route may be predicated on a locator beacon,
+due to separation requirements and must be selected accordingly.
+
+
+
+4-8
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.1 Aural Null
+5.
+5.1
+
+Operational Use of the Radio Compass
+Aural Null
+
+In order to determine a bearing by using only the aural null facility the desired NDB is
+accurately tuned as specified by the manufacturer and the tone produced is most receptive
+to the human ear, usually about 1000 cycles. The loop is then rotated until a null is
+determined and the associated indicated bearing will provide a position line relative to the
+heading of the aircraft. If the loop is made to rotate a further 180 degrees, a second null
+would be evident: either indicated bearing of these two nulls would determine the same
+position line. In order to sense the direction the NDB bears from the aircraft, a procedure
+must be flown.
+The aircraft is turned until the null shifts to a position in line with the wing tips, that is, at
+right angles to the aircraft heading. The aircraft is then maintained on this heading and the
+null continually checked until the bearing has changed some ten degrees.
+Whenever an aircraft is flown on a heading at right angles to the bearing of an NDB the
+NDB recedes behind the aircraft; therefore an indicated bearing which shifts towards the
+tail of the aircraft is the correct bearing, and a bearing which shifts towards the nose of the
+aircraft is the reciprocal. If the indicator is a simple fixed card type the bearing indicated is
+a relative bearing (relative to the aircraft’s heading).
+
+Figure 3: Resolving Ambiguity Using Aural Null Procedure
+Having resolved ambiguity, the aural null may be used to track towards or away from the
+NDB, or to intercept a given track. Procedures for these manoeuvres are precisely the
+same as those detailed for use when the ADF is operative, with the exception of the
+following additional procedure to determine the passage over an NDB:
+When using the aural null, approximately three minutes before ETA. rotate the loop
+90 degrees to receive a maximum signal, then reduce the receiver volume. If the
+correct heading is maintained, passage over the NDB will be detected by an increase
+in volume, immediately followed by a ‘cone of silence’ prior to a second increase: the
+‘cone of silence’ is directly above the NDB.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-1
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.2 Time and Distance
+5.2
+
+Time and Distance
+
+When resolving ambiguity of direction by the aural null procedure, outlined above, the time
+taken for the null to change through any number of degrees may be noted and used to
+ascertain the distance from the NDB and the time to fly to the NDB. The following simple
+formula may apply equally well to a change in bearing determined by the ADF:
+
+(i)
+
+(ii)
+
+Minutes flown x ground speed
+Degrees of bearing change
+Minutes flown x 60
+Degrees of bearing change
+
+= Miles to NDB
+
+= Minutes to fly to NDB
+
+A convenient means of mentally applying formula (ii) is to time 10 degree change; then:
+
+Time in seconds
+10
+
+= Time in minutes to NDB
+
+This formula is only an approximation in conditions other than zero wind.
+
+
+
+5-2
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.3 Compass Bearings
+5.3
+
+Compass Bearings
+
+To calculate a compass bearing the aircraft compass heading must be added to the
+relative bearing. With an RMI this compass bearing is read directly from the slaved card.
+Conversion of a compass bearing to a magnetic bearing is achieved by applying the
+compass deviation applicable to the particular heading. If it is desired to plot the position
+line on a map a true bearing must be calculated by applying the appropriate magnetic
+variation.
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-3
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.4 ‘Homing’ and Tracking Towards or Away from an NDB
+5.4
+
+‘Homing’ and Tracking Towards or Away from an NDB
+
+An aircraft may be flown to an NDB (‘homed’) by simply selecting a heading whereby the
+ADF indicator shows the NDB to be directly ahead. By maintaining the ADF needle on
+0 degrees, or in the case of an RMI on the heading datum, the aircraft will fly over the NDB
+to which the radio compass has been tuned. A constant heading or track will, however,
+only be possible in conditions of zero wind, or a direct head wind or tail wind. If drift is
+present and has not been allowed for, it will be necessary to constantly change the aircraft
+heading in order to maintain the ADF on 0 degrees, and consequently the final track
+towards the NDB will be upwind. To avoid this, and maintain a constant track, allowance
+must be made for drift and applied to the initial heading before commencing tracking to the
+station.
+
+Figure 4: ‘Homing’
+
+Figure 5: Tracking (that is, Allowance for Drift)
+When departing from an NDB, three procedures are possible. Each of these is described
+and illustrated below.
+
+Ø
+
+5-4
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.4 ‘Homing’ and Tracking Towards or Away from an NDB
+One procedure is to maintain the relative indicator bearing on 180°. However, if drift is
+present, maintaining 180° on the ADF results in increasing deviation from the desired
+track, as shown in the diagram.
+
+Figure 6: Departing (Maintaining 180° on ADF)
+Another procedure is for the aircraft to maintain the same heading as the desired track.
+Again, however, if drift is present, the aircraft will deviate from the desired track, the ADF
+relative bearing indicator remaining constant on a reading consistent with the amount of
+drift.
+
+Figure 7: Departing (Maintaining Heading on Aircraft Magnetic Compass)
+
+Ø
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-5
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.4 ‘Homing’ and Tracking Towards or Away from an NDB
+The correct procedure is to backtrack, applying drift to the aircraft heading. In this case the
+ADF relative bearing indicator will show a constant reading (assuming drift remains
+constant) varying from 180° by the difference between the aircraft heading and the desired
+track.
+
+Figure 8: Backtracking (that is, Allowance for Drift)
+
+
+
+5-6
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+Operational Notes on Non-Directional Beacons (NDB) and Associated
+Automatic Direction Finding (ADF)
+5. Operational Use of the Radio Compass
+5.5 Intercepting a Given Track
+5.5
+
+Intercepting a Given Track
+
+When it is required to track towards an NDB on a given track it will first be necessary to
+establish the aircraft on this track. Before adopting any procedure to accomplish this, it is
+most important that the pilot establish a mental picture of his present position in relation to
+the NDB and this track. An initial step which is most helpful is to turn the aircraft onto a
+heading which is the same bearing as that of the given track. The relative bearing of the
+NDB is then noted and the aircraft turned towards the given track on a heading to intercept
+it at a predetermined angle. When the interception heading has been decided, this heading
+should be flown until the ADF indicator shows a bearing on the appropriate side of the
+nose datum, which is to the difference between the aircraft heading and the given track.
+When track is established due allowance must be made for drift in order to maintain a
+constant track.
+The same principles apply when intercepting a track away from an NDB. In this case
+calculations are relative to the tail of the aircraft, or 180 degrees on the ADF indicator.
+
+Figure 9: Intercepting and Tracking on a Given Track
+
+
+
+These notes are a reproduction of a booklet originally
+published by the Civil Aviation Authority
+
+5-7
+
+

@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.4: Calculate track to and from the ND
 
 ## Why it matters
 
-Track calculation from heading and relative bearing is a specific ADF arithmetic task; the current verified sources do not supply the calculation method.
+Track and bearing calculation from heading and relative bearing is a specific ADF arithmetic task that CASA's NDB/ADF notes state directly.
 
 ## Official references
 
@@ -24,25 +24,27 @@ Track calculation from heading and relative bearing is a specific ADF arithmetic
 
 ## Official reference status
 
-- Status: Partial
+- Status: Mapped
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB track guidance and NDB-based position lines. Calculating track to or from an NDB from heading and relative bearing remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 5.3 supports compass-bearing calculation by adding aircraft compass heading to relative bearing, with RMI bearing read directly from the slaved card.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
 - AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance and NDB-based position lines.
-- Calculating track to or from an NDB from heading and relative bearing remains a source gap.
+- CASA NDB/ADF operational notes section 5.3 says aircraft compass heading must be added to relative bearing to calculate a compass bearing.
+- The same section says an RMI gives the compass bearing directly from the slaved card.
+- For plotting, CASA notes that compass bearing is converted to magnetic bearing by applying deviation, then to true bearing by applying variation.
 
 ## Common CASA traps
 
-- Do not invent bearing arithmetic examples without a verified source.
-- Do not confuse aircraft heading, relative bearing, magnetic bearing and track in unsupported notes.
-- Keep arithmetic examples out until the source strategy is settled.
+- Do not add relative bearing to true heading if the source question gives compass heading.
+- Do not skip deviation/variation if the task asks for map plotting rather than cockpit bearing.
+- Do not treat an RMI the same as a fixed-card ADF.
 
 ## Worked examples
 
-TODO: Add NDB track calculations only after verifying a public official technique source.
+TODO: Add NDB track calculations using selected heading/RB/deviation/variation values.
 
 ## Cross references
 
@@ -66,4 +68,4 @@ TODO
 ## Exam use
 
 - Use mapped references for NDB operational context.
-- Use the source-gap register before adding ADF bearing arithmetic.
+- Use CASA NDB/ADF operational notes section 5.3 for bearing arithmetic.

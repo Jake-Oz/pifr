@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.6: Calculate heading to steer to inte
 
 ## Why it matters
 
-Intercepting the desired inbound track before reaching an NDB is a specific technique task that is not explained in the verified operational references.
+Intercepting the desired inbound track before reaching an NDB is a specific technique task covered by CASA's NDB/ADF intercept guidance.
 
 ## Official references
 
@@ -24,25 +24,27 @@ Intercepting the desired inbound track before reaching an NDB is a specific tech
 
 ## Official reference status
 
-- Status: Partial
+- Status: Mapped
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB track guidance, positive fixing and deviation reporting. Intercept-heading calculation before reaching the NDB remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 5.5 supports the procedure for intercepting a given track toward an NDB before reaching the station, including forming a mental picture, flying the track bearing initially, choosing an interception heading and allowing for drift once established.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
 - AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance, positive fixing and deviation reporting context.
-- Intercept-heading calculation before reaching the NDB remains a source gap.
+- CASA NDB/ADF operational notes section 5.5 says to establish the aircraft on the required track by first understanding present position relative to the NDB and track.
+- CASA suggests initially turning onto a heading the same bearing as the given track, noting the NDB relative bearing, and then turning toward the track on a selected interception heading.
+- After track is established, CASA says due allowance must be made for drift.
 
 ## Common CASA traps
 
-- Do not add timing or intercept methods without a verified source.
+- Do not choose an intercept heading without first deciding which side of the required track the aircraft is on.
 - Do not treat this as the same objective as general NDB tracking.
-- Do not create worked examples until exact technique source and route assumptions are selected.
+- Do not ignore drift once established inbound.
 
 ## Worked examples
 
-TODO: Add inbound NDB intercept examples only after verifying a public official technique source.
+TODO: Add inbound NDB intercept examples after selecting simple track/heading/RB fact patterns.
 
 ## Cross references
 
@@ -66,4 +68,4 @@ TODO
 ## Exam use
 
 - Use mapped references for operational NDB use.
-- Use the source-gap register before adding intercept-heading calculations.
+- Use CASA NDB/ADF operational notes section 5.5 for inbound intercept procedure.

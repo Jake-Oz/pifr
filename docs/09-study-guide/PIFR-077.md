@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.2: State the method of using the most
 
 ## Why it matters
 
-Choosing the appropriate NDB for tracking is an operational decision, but the verified sources only provide aid hierarchy, NDB identity and positive-fix limits.
+Choosing the appropriate NDB is a route-tracking decision: CASA guidance ties it to closest-aid use, backtracking, route tolerance and the planned route.
 
 ## Official references
 
@@ -24,25 +24,27 @@ Choosing the appropriate NDB for tracking is an operational decision, but the ve
 
 ## Official reference status
 
-- Status: Partial
+- Status: Mapped
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources identify NDB as a ground-based aid, rank NDB below localiser, GNSS and VOR for track guidance, and constrain NDB-only position lines to 30 NM for positive fixing. Selection method for the most appropriate NDB for tracking remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 4.7 supports most-appropriate-NDB selection, including backtracking over an NDB, using the closest NDB for route tolerance, selecting the ahead NDB approximately halfway, and selecting a terminal NDB in accordance with the flight-planned route.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 support IFR navigation use.
 - AIP ENR 1.1 sections 4.4 to 4.6 verify that NDB sits below localiser, GNSS and VOR in track-guidance precision and is subject to NDB position-line limitations.
-- The method for selecting the most appropriate NDB for tracking remains a source gap.
+- CASA NDB/ADF operational notes section 4.7 says to use backtracking when overflying an NDB, because a back bearing is superior to one from a more distant NDB.
+- The same section says route navigational tolerance is based on assistance from the closest NDB, and to select the NDB ahead when approximately halfway.
+- For terminal arrival or departure, CASA says the selected NDB must accord with the flight-planned route.
 
 ## Common CASA traps
 
 - Do not assume an NDB is the best source merely because it is available.
 - Do not ignore the more precise track-guidance hierarchy.
-- Do not add NDB selection heuristics without a verified source.
+- Do not choose the airport NDB automatically if the planned route is predicated on a locator beacon.
 
 ## Worked examples
 
-TODO: Add NDB selection examples only after verifying a public official technique source and selecting route/aids.
+TODO: Add NDB selection examples after selecting route/aids and chart context.
 
 ## Cross references
 
@@ -67,3 +69,4 @@ TODO
 
 - Use AIP ENR 1.1 section 4.4.3 for track-guidance precision order.
 - Use AIP ENR 1.1 section 4.5 for NDB positive-fix limits.
+- Use CASA NDB/ADF operational notes section 4.7 for most-appropriate-NDB selection guidance.

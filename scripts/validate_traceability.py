@@ -55,7 +55,7 @@ def main():
     reference_map = load_reference_map()
     if not isinstance(reference_map, dict):
         return fail("reference map must be a JSON object")
-    allowed_fields = set(CROSS_REFERENCE_FIELDS)
+    allowed_fields = set(CROSS_REFERENCE_FIELDS) | {"CASA guidance"}
     for objective_id, fields in reference_map.items():
         if objective_id not in id_set:
             return fail(f"reference map uses unknown objective ID {objective_id}")

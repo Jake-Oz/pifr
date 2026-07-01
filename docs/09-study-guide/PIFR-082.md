@@ -6,7 +6,7 @@ MOS Schedule 3 Section 2.2 Unit 2.2.1 15.2.7: Calculate relative bearing which w
 
 ## Why it matters
 
-Relative bearing at NDB track interception is a calculation objective, but the verified references only cover NDB guidance and deviation threshold context.
+Relative bearing at NDB track interception is a calculation objective, and CASA's NDB/ADF notes give the recognition rule.
 
 ## Official references
 
@@ -24,25 +24,27 @@ Relative bearing at NDB track interception is a calculation objective, but the v
 
 ## Official reference status
 
-- Status: Partial
+- Status: Mapped
 - Exam importance: High
-- Source status notes: Verified operational references only against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. Official sources cover NDB track guidance and the ±5° NDB navigational/deviation threshold. Relative-bearing calculation indicating desired NDB track interception remains TODO for a verified public official technique source.
+- Source status notes: Verified operational references against current Part 91 MOS compilation 7 (F2026C00214) and AIP Book Amendment 126 current 19 MAR 2026. CASA NDB/ADF operational notes section 5.5 supports the relative-bearing indication used to recognise interception: fly the interception heading until the ADF shows a bearing on the appropriate side of the nose datum equal to the difference between heading and desired track.
 
 ## Study notes
 
 - Part 91 MOS 1.07 defines ADF, NDB and navigational tolerance; sections 14.02 and 14.05 provide operational context.
 - AIP ENR 1.1 sections 4.4 to 4.6 verify NDB track guidance and the NDB navigational/deviation threshold context.
-- The relative-bearing calculation that indicates desired NDB track interception remains a source gap.
+- CASA NDB/ADF operational notes section 5.5 says the interception heading should be flown until the ADF indicator shows a bearing on the appropriate side of the nose datum.
+- That bearing is equal to the difference between the aircraft heading and the given/desired track.
+- For tracks away from the NDB, CASA says calculations are relative to the tail of the aircraft, or 180 degrees on the ADF indicator.
 
 ## Common CASA traps
 
-- Do not add relative-bearing formulas from unsupported memory.
+- Do not use the wrong datum: inbound uses the nose datum; outbound uses the tail/180-degree datum.
 - Do not confuse deviation threshold with an interception indication.
 - Do not merge this with the inbound intercept-heading objective.
 
 ## Worked examples
 
-TODO: Add relative-bearing interception calculations only after verifying a public official technique source.
+TODO: Add relative-bearing interception calculations after selecting heading and desired-track values.
 
 ## Cross references
 
@@ -66,4 +68,4 @@ TODO
 ## Exam use
 
 - Use mapped references for NDB operational limits and tolerance.
-- Treat the relative-bearing calculation as unresolved until sourced.
+- Use CASA NDB/ADF operational notes section 5.5 for the interception relative-bearing rule.
